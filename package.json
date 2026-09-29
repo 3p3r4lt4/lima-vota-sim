@@ -1,0 +1,25 @@
+{
+  "name": "lima-vota-informado",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "dev:web": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test netlify/lib/busqueda.test.mjs",
+    "datos:simular": "python3 scripts/generar_simulacion.py"
+  },
+  "dependencies": {
+    "pg": "^8.13.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^2.8.0",
+    "@types/pg": "^8.11.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^5.4.0"
+  }
+}

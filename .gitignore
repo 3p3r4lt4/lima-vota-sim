@@ -1,0 +1,7 @@
+node_modules
+dist
+.env
+.netlify
+__pycache__
+ingest/candidatos.csv
+ingest/pdfs
