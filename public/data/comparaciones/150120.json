@@ -1,1 +1,90 @@
-{"ubigeo": "150120", "ambito": "Magdalena del Mar", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 77, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone plan de obras con priorización por presupuesto participativo.", "propuestas": [{"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 2}]}, "transporte": {"sin_informacion": false, "resumen": "Propone construir ciclovías conectadas con los distritos vecinos y instalar semáforos adaptativos en los cruces con mayor congestión.", "propuestas": [{"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "17 km de ciclovías", "pagina": 3}, {"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "21 intersecciones", "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone publicar en datos abiertos el gasto, contrataciones y avance de obras y rendición de cuentas vecinal presencial dos veces al año.", "propuestas": [{"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 4}, {"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 4}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 4}]}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques y renovar la flota de compactadoras y ampliar el recojo nocturno.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "234 toneladas al mes", "pagina": 5}, {"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "16 unidades nuevas", "pagina": 5}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone incorporar serenos adicionales y reorganizar el patrullaje por sectores en Magdalena del Mar.", "propuestas": [{"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Magdalena del Mar", "meta": "189 serenos nuevos al 2028", "pagina": 6}]}, "social": {"sin_informacion": false, "resumen": "Propone ampliar el programa del adulto mayor con talleres y atención en casa y campañas de salud preventiva y anemia en coordinación con el MINSA.", "propuestas": [{"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": null, "pagina": 7}, {"texto": "Campañas de salud preventiva y anemia en coordinación con el MINSA", "meta": null, "pagina": 7}, {"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "1 079 jóvenes capacitados", "pagina": 7}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone arborización de avenidas y bermas centrales.", "propuestas": [{"texto": "Arborización de avenidas y bermas centrales", "meta": null, "pagina": 8}]}}}, {"id": 78, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"seguridad": {"sin_informacion": false, "resumen": "Propone implementar un botón de alerta vecinal en una aplicación móvil municipal y patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva.", "propuestas": [{"texto": "Implementar un botón de alerta vecinal en una aplicación móvil municipal", "meta": "Operativa en el primer año", "pagina": 2}, {"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 2}, {"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Magdalena del Mar", "meta": "211 serenos nuevos al 2028", "pagina": 2}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone recuperar parques abandonados con participación vecinal y monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Recuperar parques abandonados con participación vecinal", "meta": "34 parques recuperados", "pagina": 3}, {"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 3}]}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno y erradicar puntos críticos de acumulación de basura con vigilancia y multas.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "13 unidades nuevas", "pagina": 4}, {"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": null, "pagina": 4}]}, "transporte": {"sin_informacion": false, "resumen": "Propone ordenar paraderos y retirar paraderos informales en las avenidas principales.", "propuestas": [{"texto": "Ordenar paraderos y retirar paraderos informales en las avenidas principales", "meta": "71 paraderos formalizados", "pagina": 5}]}, "social": {"sin_informacion": false, "resumen": "Propone becas y talleres para jóvenes en oficios y habilidades digitales y transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "2 782 jóvenes capacitados", "pagina": 6}, {"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 6}, {"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "4 centros nuevos", "pagina": 6}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "20 obras ejecutadas", "pagina": 7}]}, "gestion": {"sin_informacion": false, "resumen": "Propone trámites en línea con seguimiento por expediente.", "propuestas": [{"texto": "Trámites en línea con seguimiento por expediente", "meta": "64% de trámites digitales", "pagina": 8}]}, "economia": {"sin_informacion": false, "resumen": "Propone promover el turismo local con rutas culturales y gastronómicas y reordenar el comercio ambulatorio con zonas autorizadas y reubicación.", "propuestas": [{"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 9}, {"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 9}, {"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": "1 375 negocios formalizados", "pagina": 9}]}}}, {"id": 79, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"seguridad": {"sin_informacion": false, "resumen": "Propone fortalecer las juntas vecinales con capacitación y radios de comunicación.", "propuestas": [{"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": null, "pagina": 2}]}, "transporte": {"sin_informacion": false, "resumen": "Propone ordenar paraderos y retirar paraderos informales en las avenidas principales y programa de mantenimiento y parchado de pistas con cronograma público.", "propuestas": [{"texto": "Ordenar paraderos y retirar paraderos informales en las avenidas principales", "meta": "56 paraderos formalizados", "pagina": 3}, {"texto": "Programa de mantenimiento y parchado de pistas con cronograma público", "meta": null, "pagina": 3}, {"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "16 km de ciclovías", "pagina": 3}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone proteger lomas, ribera o zonas naturales del distrito frente a invasiones y recuperar parques abandonados con participación vecinal.", "propuestas": [{"texto": "Proteger lomas, ribera o zonas naturales del distrito frente a invasiones", "meta": null, "pagina": 4}, {"texto": "Recuperar parques abandonados con participación vecinal", "meta": null, "pagina": 4}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone plan de obras con priorización por presupuesto participativo y revisar la zonificación para ordenar el crecimiento vertical.", "propuestas": [{"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 5}, {"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 5}]}, "economia": {"sin_informacion": false, "resumen": "Propone promover el turismo local con rutas culturales y gastronómicas y ventanilla única para emprendedores y formalización de negocios.", "propuestas": [{"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 6}, {"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": "838 negocios formalizados", "pagina": 6}, {"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 6}]}, "residuos": {"sin_informacion": true, "resumen": "", "propuestas": []}, "gestion": {"sin_informacion": false, "resumen": "Propone trámites en línea con seguimiento por expediente.", "propuestas": [{"texto": "Trámites en línea con seguimiento por expediente", "meta": null, "pagina": 7}]}, "social": {"sin_informacion": false, "resumen": "Propone cunas y centros de cuidado infantil para madres trabajadoras.", "propuestas": [{"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": null, "pagina": 8}]}}}]}
+{
+ "ubigeo": "150120",
+ "ambito": "Magdalena del Mar",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 247,
+   "nombre": "Carla Robbiano Montes de Allison",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 248,
+   "nombre": "Eduardo Roselló Montero",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 249,
+   "nombre": "Franz Teseo Mario Neyra Barreda",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 250,
+   "nombre": "Jesús Adolfo Quispichuco Taico",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 251,
+   "nombre": "Johan Fritz Chávez Sifuentes",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 252,
+   "nombre": "José Rafael Haro Zolezzi",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 253,
+   "nombre": "Juan José Segura Santisteban",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 254,
+   "nombre": "Mercedes Victoria Morocho Arias",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 255,
+   "nombre": "Raúl Madueño Ortiz",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 256,
+   "nombre": "Víctor Raúl Paulini Sánchez",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}

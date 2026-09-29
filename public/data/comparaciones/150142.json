@@ -1,1 +1,132 @@
-{"ubigeo": "150142", "ambito": "Villa El Salvador", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 157, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone revisar la zonificación para ordenar el crecimiento vertical y plan de obras con priorización por presupuesto participativo.", "propuestas": [{"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 2}, {"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 2}]}, "transporte": {"sin_informacion": false, "resumen": "Propone instalar semáforos adaptativos en los cruces con mayor congestión y ordenar paraderos y retirar paraderos informales en las avenidas principales.", "propuestas": [{"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "31 intersecciones", "pagina": 3}, {"texto": "Ordenar paraderos y retirar paraderos informales en las avenidas principales", "meta": "99 paraderos formalizados", "pagina": 3}, {"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone presupuesto participativo con votación vecinal en línea.", "propuestas": [{"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 4}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone riego de parques con agua tratada en lugar de agua potable y monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Riego de parques con agua tratada en lugar de agua potable", "meta": "27% del riego con agua tratada", "pagina": 5}, {"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 5}]}, "residuos": {"sin_informacion": true, "resumen": "", "propuestas": []}, "seguridad": {"sin_informacion": false, "resumen": "Propone incorporar serenos adicionales y reorganizar el patrullaje por sectores en Villa El Salvador y crear una central de videovigilancia integrada con las comisarías de la PNP.", "propuestas": [{"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Villa El Salvador", "meta": "54 serenos nuevos al 2028", "pagina": 6}, {"texto": "Crear una central de videovigilancia integrada con las comisarías de la PNP", "meta": "396 cámaras operativas", "pagina": 6}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": "105 juntas vecinales activas", "pagina": 6}]}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}, "social": {"sin_informacion": false, "resumen": "Propone cunas y centros de cuidado infantil para madres trabajadoras y campañas de salud preventiva y anemia en coordinación con el MINSA.", "propuestas": [{"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "6 centros nuevos", "pagina": 7}, {"texto": "Campañas de salud preventiva y anemia en coordinación con el MINSA", "meta": "38 campañas al año", "pagina": 7}]}}}, {"id": 158, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"social": {"sin_informacion": false, "resumen": "Propone transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 2}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone crear una central de videovigilancia integrada con las comisarías de la PNP y patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva.", "propuestas": [{"texto": "Crear una central de videovigilancia integrada con las comisarías de la PNP", "meta": null, "pagina": 3}, {"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 3}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": "83 juntas vecinales activas", "pagina": 3}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 4}]}, "residuos": {"sin_informacion": false, "resumen": "Propone incorporar recicladores formalizados al sistema municipal.", "propuestas": [{"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 5}]}, "economia": {"sin_informacion": false, "resumen": "Propone bolsa de empleo municipal con empresas del distrito y ventanilla única para emprendedores y formalización de negocios.", "propuestas": [{"texto": "Bolsa de empleo municipal con empresas del distrito", "meta": "2 526 personas colocadas", "pagina": 6}, {"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": null, "pagina": 6}, {"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 6}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera y licencias de edificación y funcionamiento 100% digitales.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "60 obras ejecutadas", "pagina": 7}, {"texto": "Licencias de edificación y funcionamiento 100% digitales", "meta": "Plazo máximo de 8 días hábiles", "pagina": 7}]}, "transporte": {"sin_informacion": false, "resumen": "Propone programa de mantenimiento y parchado de pistas con cronograma público y construir ciclovías conectadas con los distritos vecinos.", "propuestas": [{"texto": "Programa de mantenimiento y parchado de pistas con cronograma público", "meta": "45 km rehabilitados", "pagina": 8}, {"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "8 km de ciclovías", "pagina": 8}, {"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 8}]}, "gestion": {"sin_informacion": true, "resumen": "", "propuestas": []}}}, {"id": 159, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"transporte": {"sin_informacion": false, "resumen": "Propone ordenar paraderos y retirar paraderos informales en las avenidas principales.", "propuestas": [{"texto": "Ordenar paraderos y retirar paraderos informales en las avenidas principales", "meta": "35 paraderos formalizados", "pagina": 2}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "39 obras ejecutadas", "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone trámites en línea con seguimiento por expediente y rendición de cuentas vecinal presencial dos veces al año.", "propuestas": [{"texto": "Trámites en línea con seguimiento por expediente", "meta": "95% de trámites digitales", "pagina": 4}, {"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 4}, {"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 4}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone incorporar serenos adicionales y reorganizar el patrullaje por sectores en Villa El Salvador.", "propuestas": [{"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Villa El Salvador", "meta": "79 serenos nuevos al 2028", "pagina": 5}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone proteger lomas, ribera o zonas naturales del distrito frente a invasiones y arborización de avenidas y bermas centrales.", "propuestas": [{"texto": "Proteger lomas, ribera o zonas naturales del distrito frente a invasiones", "meta": null, "pagina": 6}, {"texto": "Arborización de avenidas y bermas centrales", "meta": "10 058 árboles plantados", "pagina": 6}]}, "social": {"sin_informacion": false, "resumen": "Propone ampliar el programa del adulto mayor con talleres y atención en casa y becas y talleres para jóvenes en oficios y habilidades digitales.", "propuestas": [{"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": "3 149 adultos mayores atendidos", "pagina": 7}, {"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "2 075 jóvenes capacitados", "pagina": 7}]}, "residuos": {"sin_informacion": false, "resumen": "Propone erradicar puntos críticos de acumulación de basura con vigilancia y multas.", "propuestas": [{"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "60 puntos críticos eliminados", "pagina": 8}]}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}}}, {"id": 160, "nombre": "Candidatura Delta", "organizacion": "Organización simulada Delta", "temas": {"areas_verdes": {"sin_informacion": false, "resumen": "Propone monitoreo público de calidad del aire y ruido y arborización de avenidas y bermas centrales.", "propuestas": [{"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 2}, {"texto": "Arborización de avenidas y bermas centrales", "meta": null, "pagina": 2}, {"texto": "Recuperar parques abandonados con participación vecinal", "meta": "6 parques recuperados", "pagina": 2}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva y fortalecer las juntas vecinales con capacitación y radios de comunicación.", "propuestas": [{"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 3}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": null, "pagina": 3}, {"texto": "Crear una central de videovigilancia integrada con las comisarías de la PNP", "meta": null, "pagina": 3}]}, "economia": {"sin_informacion": false, "resumen": "Propone ferias municipales para productores y emprendedores del distrito y promover el turismo local con rutas culturales y gastronómicas.", "propuestas": [{"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "5 ferias al año", "pagina": 4}, {"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 4}, {"texto": "Bolsa de empleo municipal con empresas del distrito", "meta": "1 704 personas colocadas", "pagina": 4}]}, "gestion": {"sin_informacion": false, "resumen": "Propone presupuesto participativo con votación vecinal en línea y trámites en línea con seguimiento por expediente.", "propuestas": [{"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 5}, {"texto": "Trámites en línea con seguimiento por expediente", "meta": "97% de trámites digitales", "pagina": 5}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone actualizar el catastro urbano con tecnología de drones y GIS.", "propuestas": [{"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": "Catastro actualizado al 2028", "pagina": 6}]}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno y planta municipal de compostaje para residuos orgánicos y de parques.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "20 unidades nuevas", "pagina": 7}, {"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": null, "pagina": 7}, {"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 7}]}, "transporte": {"sin_informacion": false, "resumen": "Propone instalar semáforos adaptativos en los cruces con mayor congestión y mejorar veredas y rampas para peatones y personas con discapacidad.", "propuestas": [{"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "47 intersecciones", "pagina": 8}, {"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 8}, {"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 8}]}, "social": {"sin_informacion": true, "resumen": "", "propuestas": []}}}]}
+{
+ "ubigeo": "150142",
+ "ambito": "Villa El Salvador",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 459,
+   "nombre": "Alberto Luis Peralta Huatuco",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 460,
+   "nombre": "Clodoaldo Kevin Yñigo Peralta",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 461,
+   "nombre": "Edgard Asunción Cordero Marichini",
+   "organizacion": "APRA",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 462,
+   "nombre": "Genaro Soto Mendoza",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 463,
+   "nombre": "José Elías Marín Reque",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 464,
+   "nombre": "José Luis Flores Llauca",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 465,
+   "nombre": "Juan José Díaz Ayquipa",
+   "organizacion": "FREPAP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 466,
+   "nombre": "Lucero Echevarría Quispe",
+   "organizacion": "Partido Patriótico del Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 467,
+   "nombre": "Marcelino Huamán Cano",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 468,
+   "nombre": "Migman Pinchi Caro",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 469,
+   "nombre": "Milton Tomás Lluque Sosa",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 470,
+   "nombre": "Nils René Antonio Siccos",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 471,
+   "nombre": "Paul Dino Carrasco Salazar",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 472,
+   "nombre": "Sugey Tatiana Bernuy Cueva",
+   "organizacion": "PRIN",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 473,
+   "nombre": "Walter Quispe Vilcas",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 474,
+   "nombre": "William Dwight Vargas Matos",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}

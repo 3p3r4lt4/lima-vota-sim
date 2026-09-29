@@ -1,1 +1,104 @@
-{"ubigeo": "150110", "ambito": "Comas", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 38, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"transporte": {"sin_informacion": false, "resumen": "Propone construir ciclovías conectadas con los distritos vecinos y coordinar con la ATU rutas alimentadoras hacia corredores y estaciones.", "propuestas": [{"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "14 km de ciclovías", "pagina": 2}, {"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 2}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone actualizar el catastro urbano con tecnología de drones y GIS y plan de obras con priorización por presupuesto participativo.", "propuestas": [{"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": "Catastro actualizado al 2028", "pagina": 3}, {"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 3}, {"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "17 obras ejecutadas", "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone rendición de cuentas vecinal presencial dos veces al año y trámites en línea con seguimiento por expediente.", "propuestas": [{"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 4}, {"texto": "Trámites en línea con seguimiento por expediente", "meta": "100% de trámites digitales", "pagina": 4}]}, "economia": {"sin_informacion": false, "resumen": "Propone promover el turismo local con rutas culturales y gastronómicas.", "propuestas": [{"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 5}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone recuperar parques abandonados con participación vecinal.", "propuestas": [{"texto": "Recuperar parques abandonados con participación vecinal", "meta": "33 parques recuperados", "pagina": 6}]}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": null, "pagina": 7}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva y fortalecer las juntas vecinales con capacitación y radios de comunicación.", "propuestas": [{"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 8}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": null, "pagina": 8}]}, "social": {"sin_informacion": false, "resumen": "Propone becas y talleres para jóvenes en oficios y habilidades digitales y cunas y centros de cuidado infantil para madres trabajadoras.", "propuestas": [{"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "2 301 jóvenes capacitados", "pagina": 9}, {"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "7 centros nuevos", "pagina": 9}]}}}, {"id": 39, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"residuos": {"sin_informacion": false, "resumen": "Propone erradicar puntos críticos de acumulación de basura con vigilancia y multas.", "propuestas": [{"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "24 puntos críticos eliminados", "pagina": 2}]}, "transporte": {"sin_informacion": false, "resumen": "Propone construir ciclovías conectadas con los distritos vecinos.", "propuestas": [{"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "4 km de ciclovías", "pagina": 3}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone recuperar espacios públicos con iluminación LED en parques y paraderos y implementar un botón de alerta vecinal en una aplicación móvil municipal.", "propuestas": [{"texto": "Recuperar espacios públicos con iluminación LED en parques y paraderos", "meta": "138 puntos iluminados", "pagina": 4}, {"texto": "Implementar un botón de alerta vecinal en una aplicación móvil municipal", "meta": null, "pagina": 4}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": "120 juntas vecinales activas", "pagina": 4}]}, "economia": {"sin_informacion": false, "resumen": "Propone reordenar el comercio ambulatorio con zonas autorizadas y reubicación y promover el turismo local con rutas culturales y gastronómicas.", "propuestas": [{"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 5}, {"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 5}, {"texto": "Bolsa de empleo municipal con empresas del distrito", "meta": "4 930 personas colocadas", "pagina": 5}]}, "gestion": {"sin_informacion": false, "resumen": "Propone presupuesto participativo con votación vecinal en línea y publicar en datos abiertos el gasto, contrataciones y avance de obras.", "propuestas": [{"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 6}, {"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 6}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone riego de parques con agua tratada en lugar de agua potable y monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Riego de parques con agua tratada en lugar de agua potable", "meta": "74% del riego con agua tratada", "pagina": 7}, {"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 7}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera y actualizar el catastro urbano con tecnología de drones y GIS.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "23 obras ejecutadas", "pagina": 8}, {"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": "Catastro actualizado al 2028", "pagina": 8}]}, "social": {"sin_informacion": false, "resumen": "Propone cunas y centros de cuidado infantil para madres trabajadoras y becas y talleres para jóvenes en oficios y habilidades digitales.", "propuestas": [{"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "7 centros nuevos", "pagina": 9}, {"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "317 jóvenes capacitados", "pagina": 9}]}}}, {"id": 40, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"social": {"sin_informacion": false, "resumen": "Propone ampliar el programa del adulto mayor con talleres y atención en casa y transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": null, "pagina": 2}, {"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 2}]}, "economia": {"sin_informacion": false, "resumen": "Propone bolsa de empleo municipal con empresas del distrito.", "propuestas": [{"texto": "Bolsa de empleo municipal con empresas del distrito", "meta": "1 798 personas colocadas", "pagina": 3}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone incorporar serenos adicionales y reorganizar el patrullaje por sectores en Comas.", "propuestas": [{"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Comas", "meta": "106 serenos nuevos al 2028", "pagina": 4}]}, "desarrollo_urbano": {"sin_informacion": true, "resumen": "", "propuestas": []}, "transporte": {"sin_informacion": true, "resumen": "", "propuestas": []}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone arborización de avenidas y bermas centrales.", "propuestas": [{"texto": "Arborización de avenidas y bermas centrales", "meta": null, "pagina": 5}]}, "residuos": {"sin_informacion": false, "resumen": "Propone erradicar puntos críticos de acumulación de basura con vigilancia y multas y renovar la flota de compactadoras y ampliar el recojo nocturno.", "propuestas": [{"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": null, "pagina": 6}, {"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": null, "pagina": 6}, {"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 6}]}, "gestion": {"sin_informacion": false, "resumen": "Propone publicar en datos abiertos el gasto, contrataciones y avance de obras y oficina de integridad y canal de denuncias anónimas.", "propuestas": [{"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 7}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 7}]}}}, {"id": 41, "nombre": "Candidatura Delta", "organizacion": "Organización simulada Delta", "temas": {"transporte": {"sin_informacion": false, "resumen": "Propone programa de mantenimiento y parchado de pistas con cronograma público y construir ciclovías conectadas con los distritos vecinos.", "propuestas": [{"texto": "Programa de mantenimiento y parchado de pistas con cronograma público", "meta": "43 km rehabilitados", "pagina": 2}, {"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "23 km de ciclovías", "pagina": 2}, {"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "43 intersecciones", "pagina": 2}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone riego de parques con agua tratada en lugar de agua potable y monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Riego de parques con agua tratada en lugar de agua potable", "meta": "67% del riego con agua tratada", "pagina": 3}, {"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 3}, {"texto": "Recuperar parques abandonados con participación vecinal", "meta": null, "pagina": 3}]}, "economia": {"sin_informacion": false, "resumen": "Propone ventanilla única para emprendedores y formalización de negocios y ferias municipales para productores y emprendedores del distrito.", "propuestas": [{"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": "1 972 negocios formalizados", "pagina": 4}, {"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "21 ferias al año", "pagina": 4}, {"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 4}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone actualizar el catastro urbano con tecnología de drones y GIS y licencias de edificación y funcionamiento 100% digitales.", "propuestas": [{"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": null, "pagina": 5}, {"texto": "Licencias de edificación y funcionamiento 100% digitales", "meta": "Plazo máximo de 11 días hábiles", "pagina": 5}, {"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "22 obras ejecutadas", "pagina": 5}]}, "residuos": {"sin_informacion": true, "resumen": "", "propuestas": []}, "social": {"sin_informacion": false, "resumen": "Propone becas y talleres para jóvenes en oficios y habilidades digitales y transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "1 384 jóvenes capacitados", "pagina": 6}, {"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 6}, {"texto": "Campañas de salud preventiva y anemia en coordinación con el MINSA", "meta": null, "pagina": 6}]}, "gestion": {"sin_informacion": false, "resumen": "Propone publicar en datos abiertos el gasto, contrataciones y avance de obras y oficina de integridad y canal de denuncias anónimas.", "propuestas": [{"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 7}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 7}, {"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 7}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone recuperar espacios públicos con iluminación LED en parques y paraderos y incorporar serenos adicionales y reorganizar el patrullaje por sectores en Comas.", "propuestas": [{"texto": "Recuperar espacios públicos con iluminación LED en parques y paraderos", "meta": "590 puntos iluminados", "pagina": 8}, {"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Comas", "meta": null, "pagina": 8}]}}}, {"id": 42, "nombre": "Candidatura Épsilon", "organizacion": "Organización simulada Épsilon", "temas": {"transporte": {"sin_informacion": true, "resumen": "", "propuestas": []}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone proteger lomas, ribera o zonas naturales del distrito frente a invasiones y riego de parques con agua tratada en lugar de agua potable.", "propuestas": [{"texto": "Proteger lomas, ribera o zonas naturales del distrito frente a invasiones", "meta": null, "pagina": 2}, {"texto": "Riego de parques con agua tratada en lugar de agua potable", "meta": "21% del riego con agua tratada", "pagina": 2}]}, "residuos": {"sin_informacion": true, "resumen": "", "propuestas": []}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}, "social": {"sin_informacion": false, "resumen": "Propone campañas de salud preventiva y anemia en coordinación con el MINSA y transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Campañas de salud preventiva y anemia en coordinación con el MINSA", "meta": "14 campañas al año", "pagina": 3}, {"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone presupuesto participativo con votación vecinal en línea y trámites en línea con seguimiento por expediente.", "propuestas": [{"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 4}, {"texto": "Trámites en línea con seguimiento por expediente", "meta": "57% de trámites digitales", "pagina": 4}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 4}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone crear una central de videovigilancia integrada con las comisarías de la PNP.", "propuestas": [{"texto": "Crear una central de videovigilancia integrada con las comisarías de la PNP", "meta": "521 cámaras operativas", "pagina": 5}]}, "desarrollo_urbano": {"sin_informacion": true, "resumen": "", "propuestas": []}}}]}
+{
+ "ubigeo": "150110",
+ "ambito": "Comas",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 122,
+   "nombre": "Ana Yuriko Niño de Guzmán",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 123,
+   "nombre": "Carmen Mónica Acuña Jara",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 124,
+   "nombre": "César Augusto Cosiche Tenorio",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 125,
+   "nombre": "Jean Pool Granados Lazo",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 126,
+   "nombre": "Jorge Luis Molina Salazar",
+   "organizacion": "Alianza Regional por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 127,
+   "nombre": "Juan Carlos Condori Chávez",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 128,
+   "nombre": "Nerio Wilson Sánchez Quiroz",
+   "organizacion": "Perú Moderno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 129,
+   "nombre": "Nicolás Octavio Kusunoki Fuero",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 130,
+   "nombre": "Pierre Orlando Apian Castillo",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 131,
+   "nombre": "Raúl Díaz Pérez",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 132,
+   "nombre": "Rosa Lidia Corzo Saldarriaga",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 133,
+   "nombre": "Roxana Marylia Ari Acuña",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}

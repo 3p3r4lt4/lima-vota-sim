@@ -1,1 +1,76 @@
-{"ubigeo": "150122", "ambito": "Miraflores", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 83, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"seguridad": {"sin_informacion": false, "resumen": "Propone implementar un botón de alerta vecinal en una aplicación móvil municipal.", "propuestas": [{"texto": "Implementar un botón de alerta vecinal en una aplicación móvil municipal", "meta": null, "pagina": 2}]}, "economia": {"sin_informacion": false, "resumen": "Propone bolsa de empleo municipal con empresas del distrito y ferias municipales para productores y emprendedores del distrito.", "propuestas": [{"texto": "Bolsa de empleo municipal con empresas del distrito", "meta": null, "pagina": 3}, {"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "18 ferias al año", "pagina": 3}, {"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 3}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": null, "pagina": 4}]}, "transporte": {"sin_informacion": false, "resumen": "Propone coordinar con la ATU rutas alimentadoras hacia corredores y estaciones y mejorar veredas y rampas para peatones y personas con discapacidad.", "propuestas": [{"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 5}, {"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 5}]}, "social": {"sin_informacion": false, "resumen": "Propone transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 6}]}, "gestion": {"sin_informacion": false, "resumen": "Propone trámites en línea con seguimiento por expediente y oficina de integridad y canal de denuncias anónimas.", "propuestas": [{"texto": "Trámites en línea con seguimiento por expediente", "meta": "54% de trámites digitales", "pagina": 7}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 7}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone recuperar parques abandonados con participación vecinal.", "propuestas": [{"texto": "Recuperar parques abandonados con participación vecinal", "meta": "5 parques recuperados", "pagina": 8}]}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "295 toneladas al mes", "pagina": 9}]}}}, {"id": 84, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"areas_verdes": {"sin_informacion": false, "resumen": "Propone monitoreo público de calidad del aire y ruido y recuperar parques abandonados con participación vecinal.", "propuestas": [{"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 2}, {"texto": "Recuperar parques abandonados con participación vecinal", "meta": null, "pagina": 2}, {"texto": "Riego de parques con agua tratada en lugar de agua potable", "meta": "61% del riego con agua tratada", "pagina": 2}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone fortalecer las juntas vecinales con capacitación y radios de comunicación.", "propuestas": [{"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": "26 juntas vecinales activas", "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone oficina de integridad y canal de denuncias anónimas y rendición de cuentas vecinal presencial dos veces al año.", "propuestas": [{"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 4}, {"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 4}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone actualizar el catastro urbano con tecnología de drones y GIS y muros de contención, escaleras y accesos en zonas de ladera.", "propuestas": [{"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": null, "pagina": 5}, {"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": null, "pagina": 5}, {"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 5}]}, "transporte": {"sin_informacion": false, "resumen": "Propone programa de mantenimiento y parchado de pistas con cronograma público y mejorar veredas y rampas para peatones y personas con discapacidad.", "propuestas": [{"texto": "Programa de mantenimiento y parchado de pistas con cronograma público", "meta": "54 km rehabilitados", "pagina": 6}, {"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 6}, {"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "4 km de ciclovías", "pagina": 6}]}, "economia": {"sin_informacion": false, "resumen": "Propone promover el turismo local con rutas culturales y gastronómicas y ventanilla única para emprendedores y formalización de negocios.", "propuestas": [{"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 7}, {"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": "1 710 negocios formalizados", "pagina": 7}]}, "social": {"sin_informacion": false, "resumen": "Propone campañas de salud preventiva y anemia en coordinación con el MINSA.", "propuestas": [{"texto": "Campañas de salud preventiva y anemia en coordinación con el MINSA", "meta": "19 campañas al año", "pagina": 8}]}, "residuos": {"sin_informacion": false, "resumen": "Propone erradicar puntos críticos de acumulación de basura con vigilancia y multas.", "propuestas": [{"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "64 puntos críticos eliminados", "pagina": 9}]}}}, {"id": 85, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"economia": {"sin_informacion": false, "resumen": "Propone bolsa de empleo municipal con empresas del distrito.", "propuestas": [{"texto": "Bolsa de empleo municipal con empresas del distrito", "meta": "1 751 personas colocadas", "pagina": 2}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone revisar la zonificación para ordenar el crecimiento vertical y actualizar el catastro urbano con tecnología de drones y GIS.", "propuestas": [{"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 3}, {"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": "Catastro actualizado al 2028", "pagina": 3}, {"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 3}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone recuperar espacios públicos con iluminación LED en parques y paraderos.", "propuestas": [{"texto": "Recuperar espacios públicos con iluminación LED en parques y paraderos", "meta": "742 puntos iluminados", "pagina": 4}]}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": null, "pagina": 5}]}, "social": {"sin_informacion": false, "resumen": "Propone becas y talleres para jóvenes en oficios y habilidades digitales y ampliar el programa del adulto mayor con talleres y atención en casa.", "propuestas": [{"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "2 246 jóvenes capacitados", "pagina": 6}, {"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": "1 470 adultos mayores atendidos", "pagina": 6}]}, "transporte": {"sin_informacion": false, "resumen": "Propone construir ciclovías conectadas con los distritos vecinos.", "propuestas": [{"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "11 km de ciclovías", "pagina": 7}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 8}]}, "gestion": {"sin_informacion": false, "resumen": "Propone trámites en línea con seguimiento por expediente y presupuesto participativo con votación vecinal en línea.", "propuestas": [{"texto": "Trámites en línea con seguimiento por expediente", "meta": "71% de trámites digitales", "pagina": 9}, {"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 9}, {"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 9}]}}}]}
+{
+ "ubigeo": "150122",
+ "ambito": "Miraflores",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 257,
+   "nombre": "Alexander Enrique Von Ehren Campos",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 258,
+   "nombre": "Amílcar Alessio Cantella Vega",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 259,
+   "nombre": "Carlos Alcides Zúñiga Arce",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 260,
+   "nombre": "Daniel Rodríguez Zanabria",
+   "organizacion": "Libertad Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 261,
+   "nombre": "Jorge Vicente Martín Muñoz Wells",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 262,
+   "nombre": "María Soledad Ferreyros Castañeda",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 263,
+   "nombre": "Mario Renato Otiniano Buquich",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 264,
+   "nombre": "Ricardo Enrique Giesecke Sara Lafosse",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}

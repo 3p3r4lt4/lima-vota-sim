@@ -1,1 +1,111 @@
-{"ubigeo": "150121", "ambito": "Pueblo Libre", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 80, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"social": {"sin_informacion": false, "resumen": "Propone cunas y centros de cuidado infantil para madres trabajadoras.", "propuestas": [{"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "3 centros nuevos", "pagina": 2}]}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "7 unidades nuevas", "pagina": 3}]}, "transporte": {"sin_informacion": false, "resumen": "Propone mejorar veredas y rampas para peatones y personas con discapacidad y ordenar paraderos y retirar paraderos informales en las avenidas principales.", "propuestas": [{"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 4}, {"texto": "Ordenar paraderos y retirar paraderos informales en las avenidas principales", "meta": "89 paraderos formalizados", "pagina": 4}, {"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "39 intersecciones", "pagina": 4}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 5}]}, "economia": {"sin_informacion": false, "resumen": "Propone promover el turismo local con rutas culturales y gastronómicas.", "propuestas": [{"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 6}]}, "gestion": {"sin_informacion": false, "resumen": "Propone oficina de integridad y canal de denuncias anónimas y rendición de cuentas vecinal presencial dos veces al año.", "propuestas": [{"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 7}, {"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 7}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone plan de obras con priorización por presupuesto participativo y revisar la zonificación para ordenar el crecimiento vertical.", "propuestas": [{"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 8}, {"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 8}, {"texto": "Licencias de edificación y funcionamiento 100% digitales", "meta": "Plazo máximo de 5 días hábiles", "pagina": 8}]}, "seguridad": {"sin_informacion": true, "resumen": "", "propuestas": []}}}, {"id": 81, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"social": {"sin_informacion": false, "resumen": "Propone transparentar el padrón del Vaso de Leche y focalizar beneficiarios y ampliar el programa del adulto mayor con talleres y atención en casa.", "propuestas": [{"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 2}, {"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": "3 623 adultos mayores atendidos", "pagina": 2}]}, "gestion": {"sin_informacion": false, "resumen": "Propone trámites en línea con seguimiento por expediente y oficina de integridad y canal de denuncias anónimas.", "propuestas": [{"texto": "Trámites en línea con seguimiento por expediente", "meta": "81% de trámites digitales", "pagina": 3}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 3}, {"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 3}]}, "economia": {"sin_informacion": false, "resumen": "Propone reordenar el comercio ambulatorio con zonas autorizadas y reubicación y ferias municipales para productores y emprendedores del distrito.", "propuestas": [{"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 4}, {"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "18 ferias al año", "pagina": 4}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 5}]}, "residuos": {"sin_informacion": false, "resumen": "Propone erradicar puntos críticos de acumulación de basura con vigilancia y multas y planta municipal de compostaje para residuos orgánicos y de parques.", "propuestas": [{"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "40 puntos críticos eliminados", "pagina": 6}, {"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": null, "pagina": 6}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone plan de obras con priorización por presupuesto participativo y revisar la zonificación para ordenar el crecimiento vertical.", "propuestas": [{"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 7}, {"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 7}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone fortalecer las juntas vecinales con capacitación y radios de comunicación y incorporar serenos adicionales y reorganizar el patrullaje por sectores en Pueblo Libre.", "propuestas": [{"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": "84 juntas vecinales activas", "pagina": 8}, {"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Pueblo Libre", "meta": "120 serenos nuevos al 2028", "pagina": 8}]}, "transporte": {"sin_informacion": false, "resumen": "Propone coordinar con la ATU rutas alimentadoras hacia corredores y estaciones y mejorar veredas y rampas para peatones y personas con discapacidad.", "propuestas": [{"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 9}, {"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 9}, {"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "12 km de ciclovías", "pagina": 9}]}}}, {"id": 82, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"transporte": {"sin_informacion": false, "resumen": "Propone instalar semáforos adaptativos en los cruces con mayor congestión.", "propuestas": [{"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "15 intersecciones", "pagina": 2}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone plan de obras con priorización por presupuesto participativo y revisar la zonificación para ordenar el crecimiento vertical.", "propuestas": [{"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 3}, {"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 3}]}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno y incorporar recicladores formalizados al sistema municipal.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "17 unidades nuevas", "pagina": 4}, {"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 4}, {"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "46 puntos críticos eliminados", "pagina": 4}]}, "areas_verdes": {"sin_informacion": true, "resumen": "", "propuestas": []}, "gestion": {"sin_informacion": false, "resumen": "Propone rendición de cuentas vecinal presencial dos veces al año y oficina de integridad y canal de denuncias anónimas.", "propuestas": [{"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 5}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 5}]}, "economia": {"sin_informacion": false, "resumen": "Propone bolsa de empleo municipal con empresas del distrito.", "propuestas": [{"texto": "Bolsa de empleo municipal con empresas del distrito", "meta": "4 227 personas colocadas", "pagina": 6}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva y crear una central de videovigilancia integrada con las comisarías de la PNP.", "propuestas": [{"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 7}, {"texto": "Crear una central de videovigilancia integrada con las comisarías de la PNP", "meta": null, "pagina": 7}]}, "social": {"sin_informacion": false, "resumen": "Propone cunas y centros de cuidado infantil para madres trabajadoras y ampliar el programa del adulto mayor con talleres y atención en casa.", "propuestas": [{"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "4 centros nuevos", "pagina": 8}, {"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": "3 969 adultos mayores atendidos", "pagina": 8}]}}}]}
+{
+ "ubigeo": "150121",
+ "ambito": "Pueblo Libre",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 281,
+   "nombre": "Carlos Enrique Arana Urteaga",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 282,
+   "nombre": "Cecilia Acosta Cajaleón",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 283,
+   "nombre": "Daniel Martín Amaya Carranza",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 284,
+   "nombre": "Fabiola Lucero Silva Montero",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 285,
+   "nombre": "Fidel Bratzo García Durante",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 286,
+   "nombre": "Hilgo Antonio Manchego Ormeño",
+   "organizacion": "Alianza Regional por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 287,
+   "nombre": "Jhonel Jorge Leguía Jamis",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 288,
+   "nombre": "José Luis Casas Carrión",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 289,
+   "nombre": "Josmell Absalón Muñoz Barranzuela",
+   "organizacion": "APRA",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 290,
+   "nombre": "Manuel Augusto Landerer Loli",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 291,
+   "nombre": "Miguel Stefano Ruiz Gutiérrez",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 292,
+   "nombre": "Oscar Raúl Cabello Acosta",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 293,
+   "nombre": "Walter Alfonso Cavero Villanes",
+   "organizacion": "Visión Perú",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}

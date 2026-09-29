@@ -1,1 +1,90 @@
-{"ubigeo": "150118", "ambito": "Lurigancho", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 71, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone revisar la zonificación para ordenar el crecimiento vertical y muros de contención, escaleras y accesos en zonas de ladera.", "propuestas": [{"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 2}, {"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "38 obras ejecutadas", "pagina": 2}]}, "transporte": {"sin_informacion": false, "resumen": "Propone programa de mantenimiento y parchado de pistas con cronograma público y coordinar con la ATU rutas alimentadoras hacia corredores y estaciones.", "propuestas": [{"texto": "Programa de mantenimiento y parchado de pistas con cronograma público", "meta": "46 km rehabilitados", "pagina": 3}, {"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 3}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone implementar un botón de alerta vecinal en una aplicación móvil municipal y fortalecer las juntas vecinales con capacitación y radios de comunicación.", "propuestas": [{"texto": "Implementar un botón de alerta vecinal en una aplicación móvil municipal", "meta": null, "pagina": 4}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": "100 juntas vecinales activas", "pagina": 4}]}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "260 toneladas al mes", "pagina": 5}]}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}, "gestion": {"sin_informacion": false, "resumen": "Propone oficina de integridad y canal de denuncias anónimas y presupuesto participativo con votación vecinal en línea.", "propuestas": [{"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 6}, {"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 6}, {"texto": "Trámites en línea con seguimiento por expediente", "meta": "83% de trámites digitales", "pagina": 6}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone riego de parques con agua tratada en lugar de agua potable.", "propuestas": [{"texto": "Riego de parques con agua tratada en lugar de agua potable", "meta": "71% del riego con agua tratada", "pagina": 7}]}, "social": {"sin_informacion": true, "resumen": "", "propuestas": []}}}, {"id": 72, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"transporte": {"sin_informacion": true, "resumen": "", "propuestas": []}, "economia": {"sin_informacion": false, "resumen": "Propone reordenar el comercio ambulatorio con zonas autorizadas y reubicación y ferias municipales para productores y emprendedores del distrito.", "propuestas": [{"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 2}, {"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "17 ferias al año", "pagina": 2}]}, "areas_verdes": {"sin_informacion": true, "resumen": "", "propuestas": []}, "seguridad": {"sin_informacion": false, "resumen": "Propone patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva y recuperar espacios públicos con iluminación LED en parques y paraderos.", "propuestas": [{"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 3}, {"texto": "Recuperar espacios públicos con iluminación LED en parques y paraderos", "meta": "676 puntos iluminados", "pagina": 3}, {"texto": "Crear una central de videovigilancia integrada con las comisarías de la PNP", "meta": "117 cámaras operativas", "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone publicar en datos abiertos el gasto, contrataciones y avance de obras.", "propuestas": [{"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 4}]}, "social": {"sin_informacion": false, "resumen": "Propone transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 5}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera y plan de obras con priorización por presupuesto participativo.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "22 obras ejecutadas", "pagina": 6}, {"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 6}]}, "residuos": {"sin_informacion": false, "resumen": "Propone incorporar recicladores formalizados al sistema municipal.", "propuestas": [{"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 7}]}}}, {"id": 73, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"transporte": {"sin_informacion": false, "resumen": "Propone coordinar con la ATU rutas alimentadoras hacia corredores y estaciones.", "propuestas": [{"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 2}]}, "residuos": {"sin_informacion": false, "resumen": "Propone erradicar puntos críticos de acumulación de basura con vigilancia y multas y programa de segregación en la fuente casa por casa.", "propuestas": [{"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": null, "pagina": 3}, {"texto": "Programa de segregación en la fuente casa por casa", "meta": "46% de viviendas participando", "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone publicar en datos abiertos el gasto, contrataciones y avance de obras y presupuesto participativo con votación vecinal en línea.", "propuestas": [{"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 4}, {"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 4}]}, "economia": {"sin_informacion": false, "resumen": "Propone ventanilla única para emprendedores y formalización de negocios.", "propuestas": [{"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": "2 065 negocios formalizados", "pagina": 5}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera y licencias de edificación y funcionamiento 100% digitales.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "21 obras ejecutadas", "pagina": 6}, {"texto": "Licencias de edificación y funcionamiento 100% digitales", "meta": "Plazo máximo de 7 días hábiles", "pagina": 6}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone crear una central de videovigilancia integrada con las comisarías de la PNP y incorporar serenos adicionales y reorganizar el patrullaje por sectores en Lurigancho.", "propuestas": [{"texto": "Crear una central de videovigilancia integrada con las comisarías de la PNP", "meta": null, "pagina": 7}, {"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Lurigancho", "meta": "84 serenos nuevos al 2028", "pagina": 7}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone recuperar parques abandonados con participación vecinal.", "propuestas": [{"texto": "Recuperar parques abandonados con participación vecinal", "meta": "20 parques recuperados", "pagina": 8}]}, "social": {"sin_informacion": true, "resumen": "", "propuestas": []}}}]}
+{
+ "ubigeo": "150118",
+ "ambito": "Lurigancho-Chosica",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 227,
+   "nombre": "Alfredo Javier Mujica Pastrana",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 228,
+   "nombre": "Carlos Alberto Jesús Paucarchuco",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 229,
+   "nombre": "Ilich Iván Pumacayo Palomino",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 230,
+   "nombre": "Luis Fernando Bueno Quino",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 231,
+   "nombre": "María Marisol Quinto Rojas",
+   "organizacion": "Perú Moderno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 232,
+   "nombre": "Olimpio López Mañuico",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 233,
+   "nombre": "Rafael David Huaringa Saavedra",
+   "organizacion": "Cooperación, Verdad y Honradez",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 234,
+   "nombre": "Ramón Tinta Soriano",
+   "organizacion": "Partido del Buen Gobierno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 235,
+   "nombre": "Timoteo Francisco Nishijima Villavicencio",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 236,
+   "nombre": "Víctor Arturo Castillo Sánchez",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}

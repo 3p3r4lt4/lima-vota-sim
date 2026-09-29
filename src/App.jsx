@@ -3,8 +3,9 @@ import Cedula from "./components/Cedula.jsx";
 import LadoALado from "./components/LadoALado.jsx";
 import Fichas from "./components/Fichas.jsx";
 import Preguntar from "./components/Preguntar.jsx";
-import VisorPlan from "./components/VisorPlan.jsx";
+import VisorFuente from "./components/VisorFuente.jsx";
 import GuiaVoto from "./components/GuiaVoto.jsx";
+import ListaDistrital from "./components/ListaDistrital.jsx";
 
 const GRUPOS = { provincial: "Lima Metropolitana", distrital: "Distritos de Lima" };
 const VISTAS = { comparar: "Comparar lado a lado", fichas: "Ficha de cada candidatura" };
@@ -26,7 +27,7 @@ const params = new URLSearchParams(location.search);
 
 export default function App() {
   const [ambitos, setAmbitos] = useState([]);
-  const [ubigeo, setUbigeo] = useState(params.get("ambito") ?? "");
+  const [ubigeo, setUbigeo] = useState(params.get("ambito") ?? "1501");
   const [vista, setVista] = useState(VISTAS[params.get("vista")] ? params.get("vista") : "comparar");
   const [datos, setDatos] = useState(null);
   const [planes, setPlanes] = useState(null);
@@ -37,48 +38,42 @@ export default function App() {
   useEffect(() => {
     fetch("/data/ambitos.json").then((r) => r.json()).then((a) => {
       setAmbitos(a);
-      if (!a.some((x) => x.ubigeo === ubigeo)) setUbigeo(a[0]?.ubigeo ?? "");
+      if (!a.some((x) => x.ubigeo === ubigeo)) setUbigeo("1501");
     }).catch(() => setError("No se pudo cargar la lista de distritos. Revisa tu conexión y recarga la página."));
   }, []);
 
   useEffect(() => {
     if (!ubigeo) return;
-    setDatos(null); setPlanes(null); setError("");
+    setDatos(null); setPlanes(null); setError(""); setVisor(null);
     fetch(`/data/comparaciones/${ubigeo}.json`)
       .then((r) => { if (!r.ok) throw new Error(); return r.json(); })
       .then((d) => { setDatos(d); setMarcados(new Set(d.candidatos.map((c) => c.id))); })
-      .catch(() => setError("Este distrito todavía no tiene comparación publicada."));
+      .catch(() => setError("No hay datos publicados para este distrito."));
+    history.replaceState(null, "", `?ambito=${ubigeo}&vista=${vista}`);
   }, [ubigeo]);
 
-  useEffect(() => {
-    if (ubigeo) history.replaceState(null, "", `?ambito=${ubigeo}&vista=${vista}`);
-  }, [ubigeo, vista]);
+  useEffect(() => { history.replaceState(null, "", `?ambito=${ubigeo}&vista=${vista}`); }, [vista]);
 
   const candidatos = useMemo(() => (datos ? barajar(datos.candidatos) : []), [datos]);
   const visibles = candidatos.filter((c) => marcados.has(c.id));
 
-  async function abrirPlan(candidatoId, pagina) {
+  async function abrirFuente(candidatoId, seccion) {
     let p = planes;
     if (!p) {
       p = await fetch(`/data/planes/${ubigeo}.json`).then((r) => r.json()).catch(() => null);
       setPlanes(p);
     }
-    if (p) setVisor({ candidato: p.candidatos.find((c) => c.id === candidatoId), pagina });
+    const candidato = p?.candidatos.find((c) => c.id === candidatoId);
+    if (candidato) setVisor({ candidato, seccion, fuentes: p.fuentes });
   }
 
   return (
     <div className="pagina">
-      {datos?.simulado && (
-        <p className="franja" role="note">
-          Demostración con datos simulados: las candidaturas y propuestas son ficticias y no corresponden a personas ni organizaciones reales.
-        </p>
-      )}
-
       <header className="cabecera">
         <h1 className="titular">
           Voto en{" "}
           <label className="selector">
-            <span className="sr">Elige tu distrito</span>
+            <span className="sr">Elige Lima Metropolitana o tu distrito</span>
             <select value={ubigeo} onChange={(e) => setUbigeo(e.target.value)}>
               {Object.entries(GRUPOS).map(([nivel, etiqueta]) => (
                 <optgroup key={nivel} label={etiqueta}>
@@ -92,50 +87,64 @@ export default function App() {
           <br />¿qué propone cada candidatura?
         </h1>
         <p className="bajada">
-          Compara las propuestas de los planes de gobierno de tu distrito, tema por tema, con la página exacta donde
-          aparece cada una. Elecciones Regionales y Municipales, domingo 4 de octubre de 2026.
+          Compara lo que proponen quienes postulan a la alcaldía, tema por tema y con la fuente de cada propuesta.
+          Elecciones Regionales y Municipales, domingo 4 de octubre de 2026.
         </p>
       </header>
 
       {error && <p className="aviso" role="alert">{error}</p>}
-      {!datos && !error && <p className="cargando" aria-live="polite">Cargando propuestas…</p>}
+      {!datos && !error && <p className="cargando" aria-live="polite">Cargando…</p>}
 
       {datos && (
         <main>
-          <section aria-labelledby="t-cand">
-            <h2 id="t-cand" className="seccion">
-              {candidatos.length} candidaturas a la {datos.cargo.toLowerCase()}
-            </h2>
-            <p className="nota">Marca o desmarca para elegir a quiénes comparar. El orden es aleatorio en cada visita.</p>
-            <Cedula candidatos={candidatos} marcados={marcados} setMarcados={setMarcados} />
-          </section>
+          <p className="franja" role="note">
+            {datos.nota_fuente} Datos al {datos.corte}.
+          </p>
 
-          <div className="vistas" role="tablist" aria-label="Forma de ver las propuestas">
-            {Object.entries(VISTAS).map(([k, v]) => (
-              <button key={k} role="tab" aria-selected={vista === k} onClick={() => setVista(k)}>{v}</button>
-            ))}
-          </div>
+          {datos.con_propuestas ? (
+            <>
+              <section aria-labelledby="t-cand">
+                <h2 id="t-cand" className="seccion">
+                  {candidatos.length} listas a la alcaldía de {datos.ambito}
+                </h2>
+                <p className="nota">Marca o desmarca para elegir a quiénes comparar. El orden es aleatorio en cada visita.
+                  Consejo: pulsa «Desmarcar todas» y marca de 2 a 4 para leer la tabla con comodidad.</p>
+                <Cedula candidatos={candidatos} marcados={marcados} setMarcados={setMarcados} />
+              </section>
 
-          {visibles.length === 0 ? (
-            <p className="vacio">Marca al menos una candidatura para ver sus propuestas.</p>
-          ) : vista === "comparar" ? (
-            <LadoALado temas={datos.temas} candidatos={visibles} onCita={abrirPlan} />
+              <div className="vistas" role="tablist" aria-label="Forma de ver las propuestas">
+                {Object.entries(VISTAS).map(([k, v]) => (
+                  <button key={k} role="tab" aria-selected={vista === k} onClick={() => setVista(k)}>{v}</button>
+                ))}
+              </div>
+
+              {visibles.length === 0 ? (
+                <p className="vacio">Marca al menos una candidatura para ver sus propuestas.</p>
+              ) : vista === "comparar" ? (
+                <LadoALado datos={datos} candidatos={visibles} onCita={abrirFuente} />
+              ) : (
+                <Fichas datos={datos} candidatos={visibles} onCita={abrirFuente} />
+              )}
+
+              <Preguntar ubigeo={ubigeo} ambito={datos.ambito} candidatos={visibles}
+                onCita={abrirFuente} onCambiarAmbito={setUbigeo} />
+            </>
           ) : (
-            <Fichas temas={datos.temas} candidatos={visibles} onCita={abrirPlan} />
+            <ListaDistrital datos={datos} candidatos={candidatos} onVerLima={() => setUbigeo("1501")} />
           )}
 
-          <Preguntar ubigeo={ubigeo} ambito={datos.ambito} candidatos={visibles} onCita={abrirPlan} />
           <GuiaVoto />
         </main>
       )}
 
-      {visor && <VisorPlan {...visor} simulado={datos?.simulado} onClose={() => setVisor(null)}
-        onPagina={(pagina) => setVisor({ ...visor, pagina })} />}
+      {visor && <VisorFuente {...visor} onClose={() => setVisor(null)} />}
 
       <footer className="pie">
         <p>
           Proyecto personal, independiente y sin afiliación política. No recomienda candidaturas ni asigna puntajes.
-          Los resúmenes pueden contener errores: verifica siempre en la página citada del plan de gobierno oficial.
+          Las propuestas están redactadas con palabras propias a partir de las fuentes citadas y pueden contener errores:
+          verifica siempre en la fuente y en los planes de gobierno oficiales de{" "}
+          <a href="https://votoinformado.jne.gob.pe" target="_blank" rel="noreferrer">Voto Informado del JNE</a>.
         </p>
       </footer>
     </div>

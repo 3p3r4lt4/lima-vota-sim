@@ -8,7 +8,7 @@ export default function Respuesta({ texto, candidatos, onCita }) {
         if (negrita) return <strong key={j}>{negrita[1]}</strong>;
         const cita = parte.match(/^\[(.+?), p\.(\d+)\]$/);
         if (cita && porNombre.has(cita[1]))
-          return <button key={j} className="cita" onClick={() => onCita(porNombre.get(cita[1]), Number(cita[2]))}>p. {cita[2]}</button>;
+          return <button key={j} className="cita" onClick={() => onCita(porNombre.get(cita[1]), Number(cita[2]))}>fuente</button>;
         return parte;
       })}
     </p>

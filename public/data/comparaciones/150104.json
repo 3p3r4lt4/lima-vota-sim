@@ -1,1 +1,76 @@
-{"ubigeo": "150104", "ambito": "Barranco", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 13, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"social": {"sin_informacion": false, "resumen": "Propone becas y talleres para jóvenes en oficios y habilidades digitales y campañas de salud preventiva y anemia en coordinación con el MINSA.", "propuestas": [{"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "2 233 jóvenes capacitados", "pagina": 2}, {"texto": "Campañas de salud preventiva y anemia en coordinación con el MINSA", "meta": null, "pagina": 2}]}, "transporte": {"sin_informacion": true, "resumen": "", "propuestas": []}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone plan de obras con priorización por presupuesto participativo y revisar la zonificación para ordenar el crecimiento vertical.", "propuestas": [{"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 3}, {"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 3}, {"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": null, "pagina": 3}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 4}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone implementar un botón de alerta vecinal en una aplicación móvil municipal.", "propuestas": [{"texto": "Implementar un botón de alerta vecinal en una aplicación móvil municipal", "meta": "Operativa en el primer año", "pagina": 5}]}, "gestion": {"sin_informacion": true, "resumen": "", "propuestas": []}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno y programa de segregación en la fuente casa por casa.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "19 unidades nuevas", "pagina": 6}, {"texto": "Programa de segregación en la fuente casa por casa", "meta": "23% de viviendas participando", "pagina": 6}]}}}, {"id": 14, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"economia": {"sin_informacion": false, "resumen": "Propone reordenar el comercio ambulatorio con zonas autorizadas y reubicación y ferias municipales para productores y emprendedores del distrito.", "propuestas": [{"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 2}, {"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "6 ferias al año", "pagina": 2}, {"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 2}]}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques y incorporar recicladores formalizados al sistema municipal.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "284 toneladas al mes", "pagina": 3}, {"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 3}, {"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "27 unidades nuevas", "pagina": 3}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone crear una central de videovigilancia integrada con las comisarías de la PNP y patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva.", "propuestas": [{"texto": "Crear una central de videovigilancia integrada con las comisarías de la PNP", "meta": "448 cámaras operativas", "pagina": 4}, {"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 4}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone arborización de avenidas y bermas centrales.", "propuestas": [{"texto": "Arborización de avenidas y bermas centrales", "meta": "9 424 árboles plantados", "pagina": 5}]}, "social": {"sin_informacion": false, "resumen": "Propone transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 6}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone actualizar el catastro urbano con tecnología de drones y GIS y revisar la zonificación para ordenar el crecimiento vertical.", "propuestas": [{"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": null, "pagina": 7}, {"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 7}]}, "transporte": {"sin_informacion": false, "resumen": "Propone construir ciclovías conectadas con los distritos vecinos y instalar semáforos adaptativos en los cruces con mayor congestión.", "propuestas": [{"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": null, "pagina": 8}, {"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "49 intersecciones", "pagina": 8}, {"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 8}]}, "gestion": {"sin_informacion": false, "resumen": "Propone trámites en línea con seguimiento por expediente y presupuesto participativo con votación vecinal en línea.", "propuestas": [{"texto": "Trámites en línea con seguimiento por expediente", "meta": null, "pagina": 9}, {"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 9}, {"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 9}]}}}, {"id": 15, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"areas_verdes": {"sin_informacion": false, "resumen": "Propone recuperar parques abandonados con participación vecinal.", "propuestas": [{"texto": "Recuperar parques abandonados con participación vecinal", "meta": "34 parques recuperados", "pagina": 2}]}, "economia": {"sin_informacion": false, "resumen": "Propone promover el turismo local con rutas culturales y gastronómicas.", "propuestas": [{"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 3}]}, "social": {"sin_informacion": false, "resumen": "Propone ampliar el programa del adulto mayor con talleres y atención en casa y transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": "5 594 adultos mayores atendidos", "pagina": 4}, {"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 4}, {"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "7 centros nuevos", "pagina": 4}]}, "residuos": {"sin_informacion": false, "resumen": "Propone programa de segregación en la fuente casa por casa y planta municipal de compostaje para residuos orgánicos y de parques.", "propuestas": [{"texto": "Programa de segregación en la fuente casa por casa", "meta": "24% de viviendas participando", "pagina": 5}, {"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": null, "pagina": 5}, {"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "17 unidades nuevas", "pagina": 5}]}, "gestion": {"sin_informacion": false, "resumen": "Propone publicar en datos abiertos el gasto, contrataciones y avance de obras.", "propuestas": [{"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 6}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone licencias de edificación y funcionamiento 100% digitales y plan de obras con priorización por presupuesto participativo.", "propuestas": [{"texto": "Licencias de edificación y funcionamiento 100% digitales", "meta": "Plazo máximo de 11 días hábiles", "pagina": 7}, {"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 7}]}, "transporte": {"sin_informacion": false, "resumen": "Propone construir ciclovías conectadas con los distritos vecinos y coordinar con la ATU rutas alimentadoras hacia corredores y estaciones.", "propuestas": [{"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "18 km de ciclovías", "pagina": 8}, {"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 8}]}, "seguridad": {"sin_informacion": true, "resumen": "", "propuestas": []}}}, {"id": 16, "nombre": "Candidatura Delta", "organizacion": "Organización simulada Delta", "temas": {"areas_verdes": {"sin_informacion": false, "resumen": "Propone proteger lomas, ribera o zonas naturales del distrito frente a invasiones y monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Proteger lomas, ribera o zonas naturales del distrito frente a invasiones", "meta": null, "pagina": 2}, {"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 2}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera y plan de obras con priorización por presupuesto participativo.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "54 obras ejecutadas", "pagina": 3}, {"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 3}, {"texto": "Licencias de edificación y funcionamiento 100% digitales", "meta": "Plazo máximo de 7 días hábiles", "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone publicar en datos abiertos el gasto, contrataciones y avance de obras y presupuesto participativo con votación vecinal en línea.", "propuestas": [{"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 4}, {"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 4}, {"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 4}]}, "social": {"sin_informacion": false, "resumen": "Propone becas y talleres para jóvenes en oficios y habilidades digitales y ampliar el programa del adulto mayor con talleres y atención en casa.", "propuestas": [{"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": null, "pagina": 5}, {"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": "2 972 adultos mayores atendidos", "pagina": 5}]}, "transporte": {"sin_informacion": false, "resumen": "Propone programa de mantenimiento y parchado de pistas con cronograma público.", "propuestas": [{"texto": "Programa de mantenimiento y parchado de pistas con cronograma público", "meta": null, "pagina": 6}]}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}, "seguridad": {"sin_informacion": true, "resumen": "", "propuestas": []}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques y incorporar recicladores formalizados al sistema municipal.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "173 toneladas al mes", "pagina": 7}, {"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 7}, {"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": null, "pagina": 7}]}}}]}
+{
+ "ubigeo": "150104",
+ "ambito": "Barranco",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 51,
+   "nombre": "Angélica María Noguerol Sueldo",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 52,
+   "nombre": "Enrique Fernando Delucchi Chueca",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 53,
+   "nombre": "Felipe Antonio Mezarina Tong",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 54,
+   "nombre": "Jorge Antonio Ruiz de Somocurcio Hidalgo",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 55,
+   "nombre": "José Juan Rodríguez Cárdenas",
+   "organizacion": "Libertad Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 56,
+   "nombre": "Manuel Milenco Espinoza Loarte",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 57,
+   "nombre": "María Luisa Cardoso Serra",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 58,
+   "nombre": "Nicole Fiorella Muñoz Zevallos",
+   "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}

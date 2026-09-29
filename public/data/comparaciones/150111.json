@@ -1,1 +1,97 @@
-{"ubigeo": "150111", "ambito": "El Agustino", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 43, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"seguridad": {"sin_informacion": false, "resumen": "Propone patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva y incorporar serenos adicionales y reorganizar el patrullaje por sectores en El Agustino.", "propuestas": [{"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 2}, {"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en El Agustino", "meta": "91 serenos nuevos al 2028", "pagina": 2}]}, "desarrollo_urbano": {"sin_informacion": true, "resumen": "", "propuestas": []}, "social": {"sin_informacion": false, "resumen": "Propone ampliar el programa del adulto mayor con talleres y atención en casa y cunas y centros de cuidado infantil para madres trabajadoras.", "propuestas": [{"texto": "Ampliar el programa del adulto mayor con talleres y atención en casa", "meta": "4 484 adultos mayores atendidos", "pagina": 3}, {"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "5 centros nuevos", "pagina": 3}]}, "gestion": {"sin_informacion": false, "resumen": "Propone rendición de cuentas vecinal presencial dos veces al año y oficina de integridad y canal de denuncias anónimas.", "propuestas": [{"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 4}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 4}]}, "transporte": {"sin_informacion": false, "resumen": "Propone coordinar con la ATU rutas alimentadoras hacia corredores y estaciones y mejorar veredas y rampas para peatones y personas con discapacidad.", "propuestas": [{"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 5}, {"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 5}, {"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "9 km de ciclovías", "pagina": 5}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone riego de parques con agua tratada en lugar de agua potable.", "propuestas": [{"texto": "Riego de parques con agua tratada en lugar de agua potable", "meta": null, "pagina": 6}]}, "residuos": {"sin_informacion": false, "resumen": "Propone incorporar recicladores formalizados al sistema municipal y programa de segregación en la fuente casa por casa.", "propuestas": [{"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 7}, {"texto": "Programa de segregación en la fuente casa por casa", "meta": null, "pagina": 7}]}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}}}, {"id": 44, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"gestion": {"sin_informacion": true, "resumen": "", "propuestas": []}, "seguridad": {"sin_informacion": false, "resumen": "Propone patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva y incorporar serenos adicionales y reorganizar el patrullaje por sectores en El Agustino.", "propuestas": [{"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 2}, {"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en El Agustino", "meta": "145 serenos nuevos al 2028", "pagina": 2}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": null, "pagina": 2}]}, "social": {"sin_informacion": false, "resumen": "Propone campañas de salud preventiva y anemia en coordinación con el MINSA.", "propuestas": [{"texto": "Campañas de salud preventiva y anemia en coordinación con el MINSA", "meta": "29 campañas al año", "pagina": 3}]}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "16 unidades nuevas", "pagina": 4}]}, "economia": {"sin_informacion": false, "resumen": "Propone ferias municipales para productores y emprendedores del distrito y reordenar el comercio ambulatorio con zonas autorizadas y reubicación.", "propuestas": [{"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "16 ferias al año", "pagina": 5}, {"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 5}]}, "transporte": {"sin_informacion": false, "resumen": "Propone mejorar veredas y rampas para peatones y personas con discapacidad.", "propuestas": [{"texto": "Mejorar veredas y rampas para peatones y personas con discapacidad", "meta": null, "pagina": 6}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone licencias de edificación y funcionamiento 100% digitales.", "propuestas": [{"texto": "Licencias de edificación y funcionamiento 100% digitales", "meta": "Plazo máximo de 7 días hábiles", "pagina": 7}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone arborización de avenidas y bermas centrales y recuperar parques abandonados con participación vecinal.", "propuestas": [{"texto": "Arborización de avenidas y bermas centrales", "meta": "8 651 árboles plantados", "pagina": 8}, {"texto": "Recuperar parques abandonados con participación vecinal", "meta": "7 parques recuperados", "pagina": 8}]}}}, {"id": 45, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"social": {"sin_informacion": false, "resumen": "Propone cunas y centros de cuidado infantil para madres trabajadoras y transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "4 centros nuevos", "pagina": 2}, {"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 2}, {"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": null, "pagina": 2}]}, "residuos": {"sin_informacion": false, "resumen": "Propone erradicar puntos críticos de acumulación de basura con vigilancia y multas y renovar la flota de compactadoras y ampliar el recojo nocturno.", "propuestas": [{"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "69 puntos críticos eliminados", "pagina": 3}, {"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "25 unidades nuevas", "pagina": 3}, {"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "275 toneladas al mes", "pagina": 3}]}, "areas_verdes": {"sin_informacion": true, "resumen": "", "propuestas": []}, "economia": {"sin_informacion": false, "resumen": "Propone ferias municipales para productores y emprendedores del distrito.", "propuestas": [{"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "21 ferias al año", "pagina": 4}]}, "transporte": {"sin_informacion": false, "resumen": "Propone construir ciclovías conectadas con los distritos vecinos.", "propuestas": [{"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "9 km de ciclovías", "pagina": 5}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone incorporar serenos adicionales y reorganizar el patrullaje por sectores en El Agustino y fortalecer las juntas vecinales con capacitación y radios de comunicación.", "propuestas": [{"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en El Agustino", "meta": "157 serenos nuevos al 2028", "pagina": 6}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": null, "pagina": 6}, {"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 6}]}, "gestion": {"sin_informacion": false, "resumen": "Propone presupuesto participativo con votación vecinal en línea y publicar en datos abiertos el gasto, contrataciones y avance de obras.", "propuestas": [{"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 7}, {"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 7}]}, "desarrollo_urbano": {"sin_informacion": true, "resumen": "", "propuestas": []}}}, {"id": 46, "nombre": "Candidatura Delta", "organizacion": "Organización simulada Delta", "temas": {"transporte": {"sin_informacion": false, "resumen": "Propone construir ciclovías conectadas con los distritos vecinos.", "propuestas": [{"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "15 km de ciclovías", "pagina": 2}]}, "gestion": {"sin_informacion": false, "resumen": "Propone publicar en datos abiertos el gasto, contrataciones y avance de obras y presupuesto participativo con votación vecinal en línea.", "propuestas": [{"texto": "Publicar en datos abiertos el gasto, contrataciones y avance de obras", "meta": null, "pagina": 3}, {"texto": "Presupuesto participativo con votación vecinal en línea", "meta": null, "pagina": 3}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone fortalecer las juntas vecinales con capacitación y radios de comunicación.", "propuestas": [{"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": "49 juntas vecinales activas", "pagina": 4}]}, "residuos": {"sin_informacion": false, "resumen": "Propone renovar la flota de compactadoras y ampliar el recojo nocturno y programa de segregación en la fuente casa por casa.", "propuestas": [{"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "8 unidades nuevas", "pagina": 5}, {"texto": "Programa de segregación en la fuente casa por casa", "meta": null, "pagina": 5}]}, "economia": {"sin_informacion": false, "resumen": "Propone promover el turismo local con rutas culturales y gastronómicas.", "propuestas": [{"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 6}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone actualizar el catastro urbano con tecnología de drones y GIS.", "propuestas": [{"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": "Catastro actualizado al 2028", "pagina": 7}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone proteger lomas, ribera o zonas naturales del distrito frente a invasiones y recuperar parques abandonados con participación vecinal.", "propuestas": [{"texto": "Proteger lomas, ribera o zonas naturales del distrito frente a invasiones", "meta": null, "pagina": 8}, {"texto": "Recuperar parques abandonados con participación vecinal", "meta": "16 parques recuperados", "pagina": 8}]}, "social": {"sin_informacion": false, "resumen": "Propone transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 9}]}}}, {"id": 47, "nombre": "Candidatura Épsilon", "organizacion": "Organización simulada Épsilon", "temas": {"areas_verdes": {"sin_informacion": false, "resumen": "Propone monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 2}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone muros de contención, escaleras y accesos en zonas de ladera y actualizar el catastro urbano con tecnología de drones y GIS.", "propuestas": [{"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": null, "pagina": 3}, {"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": "Catastro actualizado al 2028", "pagina": 3}]}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques y incorporar recicladores formalizados al sistema municipal.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "125 toneladas al mes", "pagina": 4}, {"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 4}, {"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "21 puntos críticos eliminados", "pagina": 4}]}, "gestion": {"sin_informacion": false, "resumen": "Propone trámites en línea con seguimiento por expediente y oficina de integridad y canal de denuncias anónimas.", "propuestas": [{"texto": "Trámites en línea con seguimiento por expediente", "meta": "65% de trámites digitales", "pagina": 5}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 5}]}, "social": {"sin_informacion": false, "resumen": "Propone cunas y centros de cuidado infantil para madres trabajadoras y becas y talleres para jóvenes en oficios y habilidades digitales.", "propuestas": [{"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": null, "pagina": 6}, {"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "1 076 jóvenes capacitados", "pagina": 6}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone recuperar espacios públicos con iluminación LED en parques y paraderos y fortalecer las juntas vecinales con capacitación y radios de comunicación.", "propuestas": [{"texto": "Recuperar espacios públicos con iluminación LED en parques y paraderos", "meta": "507 puntos iluminados", "pagina": 7}, {"texto": "Fortalecer las juntas vecinales con capacitación y radios de comunicación", "meta": "64 juntas vecinales activas", "pagina": 7}, {"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 7}]}, "economia": {"sin_informacion": false, "resumen": "Propone reordenar el comercio ambulatorio con zonas autorizadas y reubicación.", "propuestas": [{"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 8}]}, "transporte": {"sin_informacion": false, "resumen": "Propone ordenar paraderos y retirar paraderos informales en las avenidas principales y instalar semáforos adaptativos en los cruces con mayor congestión.", "propuestas": [{"texto": "Ordenar paraderos y retirar paraderos informales en las avenidas principales", "meta": null, "pagina": 9}, {"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "25 intersecciones", "pagina": 9}]}}}]}
+{
+ "ubigeo": "150111",
+ "ambito": "El Agustino",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 134,
+   "nombre": "Ana Cecilia Buleje Castillo",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 135,
+   "nombre": "Carlos Alexander Ramos Amante",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 136,
+   "nombre": "Carlos Manuel Juscamayta Cosme",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 137,
+   "nombre": "Carmen Carolina Castillo Yataco",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 138,
+   "nombre": "Ernesto Mikhajil Colqui Bedregal",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 139,
+   "nombre": "Irellis Lisbbet Muchaypiña Barriales",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 140,
+   "nombre": "Jackeline Stephany Muñoz Calderón",
+   "organizacion": "FREPAP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 141,
+   "nombre": "Juan David Barrientos Arce",
+   "organizacion": "Alianza Regional por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 142,
+   "nombre": "Liborio Soria Álvarez",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 143,
+   "nombre": "Miguel Hernán García Arias",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 144,
+   "nombre": "Víctor Modesto Salcedo Ríos",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}

@@ -13,7 +13,7 @@ export default function Cedula({ candidatos, marcados, setMarcados }) {
             <span className="marca" aria-hidden="true" />
             <span className="casilla-texto">
               <strong>{c.nombre}</strong>
-              <span>{c.organizacion}</span>
+              <span>{c.organizacion}{c.cargo_nota ? " · primer regidor" : ""}</span>
             </span>
           </button>
         ))}

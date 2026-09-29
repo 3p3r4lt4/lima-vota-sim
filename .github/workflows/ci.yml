@@ -13,8 +13,8 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: npm ci
-      - name: Los datos simulados son reproducibles
-        run: npm run datos:simular && git diff --exit-code public/data
+      - name: Los datos publicados coinciden con scripts/datos_reales.py
+        run: npm run datos && git diff --exit-code public/data
       - name: JSON válidos
         run: for f in public/data/*.json public/data/*/*.json; do node -e "JSON.parse(require('fs').readFileSync('$f'))" || exit 1; done
       - run: npm test

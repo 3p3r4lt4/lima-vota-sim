@@ -3,7 +3,7 @@
 
 const STOP = new Set(("que para con por los las del una uno unos unas como mas pero sus este esta estos estas " +
   "hay son ser fue era muy sin sobre entre cual cuales quien donde cuando tiene tienen proponen propone " +
-  "propuesta propuestas candidato candidatos candidatura candidaturas plan planes distrito lima dice hace").split(" "));
+  "propuesta propuestas candidato candidatos candidatura candidaturas plan planes distrito lima dice hace debate").split(" "));
 
 export const normalizar = (t) => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
@@ -49,16 +49,28 @@ export function buscar(planes, pregunta, ids, porCandidato = 2) {
   return [...porId.values()].flat().map(({ tf, largo, ...r }) => r);
 }
 
-// Respuesta sin IA generativa: oraciones textuales del plan, con cita, mismo formato para todos
+// Respuesta sin IA generativa: frases textuales de las fuentes, con cita, mismo formato para todos.
+// Quienes no mencionaron el tema se agrupan en una sola línea al final.
 export function respuestaExtractiva(pregunta, fragmentos, candidatos) {
   const q = new Set(terminos(pregunta));
-  return candidatos.map((c) => {
+  const lineas = [], sinTema = [];
+  for (const c of candidatos) {
     const frs = fragmentos.filter((f) => f.candidatoId === c.id);
-    if (frs.length === 0) return `**${c.nombre}:** su plan no menciona este tema.`;
-    const oraciones = frs.flatMap((f) => f.texto.split(/(?<=[.:])\s+/).filter((o) => !o.endsWith(":")).map((o) => ({ o, p: f.pagina,
+    if (frs.length === 0) { sinTema.push(c.nombre); continue; }
+    const oraciones = frs.flatMap((f) => f.texto.split(/(?<=\.)\s+/).map((o) => ({ o, p: f.pagina,
       s: terminos(o).filter((t) => q.has(t)).length })));
     const top = oraciones.filter((x) => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 2);
     const usar = top.length ? top : oraciones.slice(0, 1);
-    return `**${c.nombre}:** ` + usar.map((x) => `${x.o.replace(/\.$/, "")} [${c.nombre}, p.${x.p}]`).join(". ") + ".";
-  }).join("\n");
+    lineas.push(`**${c.nombre}:** ` + usar.map((x) => `${x.o.replace(/\.$/, "")} [${c.nombre}, p.${x.p}]`).join(". ") + ".");
+  }
+  if (sinTema.length) lineas.push(`**No mencionaron este tema en las fuentes revisadas:** ${sinTema.join(", ")}.`);
+  return lineas.join("\n");
+}
+
+// Preguntas sobre quiénes postulan: se responden con la lista oficial, sin buscar en propuestas
+export function esPreguntaDeLista(pregunta) {
+  const t = normalizar(pregunta);
+  return /(quien|quienes|lista|listame|listar|cuantos|cuales son|nombres?)/.test(t) &&
+    /(candidat|postul|listas|partidos|organizaciones)/.test(t) &&
+    !/(propon|propuesta|plantea|haran|hara|promete)/.test(t);
 }

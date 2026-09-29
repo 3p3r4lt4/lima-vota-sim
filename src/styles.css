@@ -135,3 +135,19 @@ button { font: inherit; color: inherit; }
   .vistas button { flex: 1; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* v2: fuentes reales y distritos */
+.th-org { display: block; font-weight: 400; font-size: 0.85rem; color: var(--tenue); font-stretch: 100%; }
+.nota-cargo { font-size: 0.88rem; color: var(--tenue); border-left: 3px solid var(--linea); padding-left: 0.6rem; margin: 0 0 0.8rem; }
+.lista-distrital { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.lista-distrital .casilla { cursor: default; }
+.lista-distrital .marca { opacity: 0.35; }
+.aviso-distrito { max-width: 70ch; border-left: 4px solid var(--sello); padding: 0.4rem 1rem; background: var(--hoja); }
+.aviso-distrito p { margin: 0.5rem 0; }
+.aviso-distrito a, .pie a { color: var(--sello); }
+.aviso-distrito .enlace { padding: 0; display: inline; text-align: left; font-size: inherit; }
+.fuentes { padding-left: 1.1rem; }
+.fuentes a { color: var(--sello); }
+.fuentes span { color: var(--tenue); font-size: 0.9rem; }
+.chip-azar { border-style: dashed; font-weight: 600; }
+.franja { margin: 0 0 2rem; }

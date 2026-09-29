@@ -1,1 +1,139 @@
-{"ubigeo": "150143", "ambito": "Villa María del Triunfo", "nivel": "distrital", "cargo": "Alcaldía distrital", "simulado": true, "temas": ["seguridad", "transporte", "residuos", "areas_verdes", "desarrollo_urbano", "social", "economia", "gestion"], "candidatos": [{"id": 161, "nombre": "Candidatura Alfa", "organizacion": "Organización simulada Alfa", "temas": {"areas_verdes": {"sin_informacion": false, "resumen": "Propone proteger lomas, ribera o zonas naturales del distrito frente a invasiones.", "propuestas": [{"texto": "Proteger lomas, ribera o zonas naturales del distrito frente a invasiones", "meta": null, "pagina": 2}]}, "gestion": {"sin_informacion": true, "resumen": "", "propuestas": []}, "economia": {"sin_informacion": false, "resumen": "Propone ventanilla única para emprendedores y formalización de negocios y ferias municipales para productores y emprendedores del distrito.", "propuestas": [{"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": "937 negocios formalizados", "pagina": 3}, {"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "18 ferias al año", "pagina": 3}, {"texto": "Promover el turismo local con rutas culturales y gastronómicas", "meta": null, "pagina": 3}]}, "transporte": {"sin_informacion": true, "resumen": "", "propuestas": []}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques y incorporar recicladores formalizados al sistema municipal.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": null, "pagina": 4}, {"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 4}, {"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "40 puntos críticos eliminados", "pagina": 4}]}, "social": {"sin_informacion": false, "resumen": "Propone transparentar el padrón del Vaso de Leche y focalizar beneficiarios.", "propuestas": [{"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 5}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva y implementar un botón de alerta vecinal en una aplicación móvil municipal.", "propuestas": [{"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 6}, {"texto": "Implementar un botón de alerta vecinal en una aplicación móvil municipal", "meta": "Operativa en el primer año", "pagina": 6}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone actualizar el catastro urbano con tecnología de drones y GIS.", "propuestas": [{"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": "Catastro actualizado al 2028", "pagina": 7}]}}}, {"id": 162, "nombre": "Candidatura Beta", "organizacion": "Organización simulada Beta", "temas": {"residuos": {"sin_informacion": false, "resumen": "Propone incorporar recicladores formalizados al sistema municipal y erradicar puntos críticos de acumulación de basura con vigilancia y multas.", "propuestas": [{"texto": "Incorporar recicladores formalizados al sistema municipal", "meta": null, "pagina": 2}, {"texto": "Erradicar puntos críticos de acumulación de basura con vigilancia y multas", "meta": "77 puntos críticos eliminados", "pagina": 2}]}, "economia": {"sin_informacion": false, "resumen": "Propone reordenar el comercio ambulatorio con zonas autorizadas y reubicación y bolsa de empleo municipal con empresas del distrito.", "propuestas": [{"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 3}, {"texto": "Bolsa de empleo municipal con empresas del distrito", "meta": null, "pagina": 3}, {"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": null, "pagina": 3}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone recuperar espacios públicos con iluminación LED en parques y paraderos.", "propuestas": [{"texto": "Recuperar espacios públicos con iluminación LED en parques y paraderos", "meta": "179 puntos iluminados", "pagina": 4}]}, "social": {"sin_informacion": false, "resumen": "Propone cunas y centros de cuidado infantil para madres trabajadoras y campañas de salud preventiva y anemia en coordinación con el MINSA.", "propuestas": [{"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "1 centros nuevos", "pagina": 5}, {"texto": "Campañas de salud preventiva y anemia en coordinación con el MINSA", "meta": "8 campañas al año", "pagina": 5}]}, "transporte": {"sin_informacion": false, "resumen": "Propone instalar semáforos adaptativos en los cruces con mayor congestión y coordinar con la ATU rutas alimentadoras hacia corredores y estaciones.", "propuestas": [{"texto": "Instalar semáforos adaptativos en los cruces con mayor congestión", "meta": "40 intersecciones", "pagina": 6}, {"texto": "Coordinar con la ATU rutas alimentadoras hacia corredores y estaciones", "meta": null, "pagina": 6}]}, "gestion": {"sin_informacion": false, "resumen": "Propone rendición de cuentas vecinal presencial dos veces al año y trámites en línea con seguimiento por expediente.", "propuestas": [{"texto": "Rendición de cuentas vecinal presencial dos veces al año", "meta": null, "pagina": 7}, {"texto": "Trámites en línea con seguimiento por expediente", "meta": "86% de trámites digitales", "pagina": 7}, {"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 7}]}, "areas_verdes": {"sin_informacion": false, "resumen": "Propone proteger lomas, ribera o zonas naturales del distrito frente a invasiones y monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Proteger lomas, ribera o zonas naturales del distrito frente a invasiones", "meta": null, "pagina": 8}, {"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 8}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone plan de obras con priorización por presupuesto participativo.", "propuestas": [{"texto": "Plan de obras con priorización por presupuesto participativo", "meta": null, "pagina": 9}]}}}, {"id": 163, "nombre": "Candidatura Gamma", "organizacion": "Organización simulada Gamma", "temas": {"transporte": {"sin_informacion": false, "resumen": "Propone ordenar paraderos y retirar paraderos informales en las avenidas principales y programa de mantenimiento y parchado de pistas con cronograma público.", "propuestas": [{"texto": "Ordenar paraderos y retirar paraderos informales en las avenidas principales", "meta": "122 paraderos formalizados", "pagina": 2}, {"texto": "Programa de mantenimiento y parchado de pistas con cronograma público", "meta": null, "pagina": 2}, {"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": null, "pagina": 2}]}, "social": {"sin_informacion": false, "resumen": "Propone becas y talleres para jóvenes en oficios y habilidades digitales y cunas y centros de cuidado infantil para madres trabajadoras.", "propuestas": [{"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "1 744 jóvenes capacitados", "pagina": 3}, {"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "7 centros nuevos", "pagina": 3}, {"texto": "Transparentar el padrón del Vaso de Leche y focalizar beneficiarios", "meta": null, "pagina": 3}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone actualizar el catastro urbano con tecnología de drones y GIS y revisar la zonificación para ordenar el crecimiento vertical.", "propuestas": [{"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": "Catastro actualizado al 2028", "pagina": 4}, {"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 4}, {"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": null, "pagina": 4}]}, "areas_verdes": {"sin_informacion": true, "resumen": "", "propuestas": []}, "economia": {"sin_informacion": true, "resumen": "", "propuestas": []}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques y renovar la flota de compactadoras y ampliar el recojo nocturno.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "167 toneladas al mes", "pagina": 5}, {"texto": "Renovar la flota de compactadoras y ampliar el recojo nocturno", "meta": "29 unidades nuevas", "pagina": 5}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva y incorporar serenos adicionales y reorganizar el patrullaje por sectores en Villa María del Triunfo.", "propuestas": [{"texto": "Patrullaje integrado serenazgo-PNP en zonas de mayor incidencia delictiva", "meta": null, "pagina": 6}, {"texto": "Incorporar serenos adicionales y reorganizar el patrullaje por sectores en Villa María del Triunfo", "meta": "88 serenos nuevos al 2028", "pagina": 6}]}, "gestion": {"sin_informacion": true, "resumen": "", "propuestas": []}}}, {"id": 164, "nombre": "Candidatura Delta", "organizacion": "Organización simulada Delta", "temas": {"areas_verdes": {"sin_informacion": false, "resumen": "Propone arborización de avenidas y bermas centrales y monitoreo público de calidad del aire y ruido.", "propuestas": [{"texto": "Arborización de avenidas y bermas centrales", "meta": "1 954 árboles plantados", "pagina": 2}, {"texto": "Monitoreo público de calidad del aire y ruido", "meta": null, "pagina": 2}]}, "residuos": {"sin_informacion": false, "resumen": "Propone planta municipal de compostaje para residuos orgánicos y de parques.", "propuestas": [{"texto": "Planta municipal de compostaje para residuos orgánicos y de parques", "meta": "193 toneladas al mes", "pagina": 3}]}, "economia": {"sin_informacion": false, "resumen": "Propone ferias municipales para productores y emprendedores del distrito y reordenar el comercio ambulatorio con zonas autorizadas y reubicación.", "propuestas": [{"texto": "Ferias municipales para productores y emprendedores del distrito", "meta": "6 ferias al año", "pagina": 4}, {"texto": "Reordenar el comercio ambulatorio con zonas autorizadas y reubicación", "meta": null, "pagina": 4}, {"texto": "Ventanilla única para emprendedores y formalización de negocios", "meta": "3 126 negocios formalizados", "pagina": 4}]}, "gestion": {"sin_informacion": false, "resumen": "Propone oficina de integridad y canal de denuncias anónimas y trámites en línea con seguimiento por expediente.", "propuestas": [{"texto": "Oficina de integridad y canal de denuncias anónimas", "meta": null, "pagina": 5}, {"texto": "Trámites en línea con seguimiento por expediente", "meta": null, "pagina": 5}]}, "transporte": {"sin_informacion": false, "resumen": "Propone programa de mantenimiento y parchado de pistas con cronograma público y construir ciclovías conectadas con los distritos vecinos.", "propuestas": [{"texto": "Programa de mantenimiento y parchado de pistas con cronograma público", "meta": "57 km rehabilitados", "pagina": 6}, {"texto": "Construir ciclovías conectadas con los distritos vecinos", "meta": "20 km de ciclovías", "pagina": 6}, {"texto": "Ordenar paraderos y retirar paraderos informales en las avenidas principales", "meta": null, "pagina": 6}]}, "seguridad": {"sin_informacion": false, "resumen": "Propone recuperar espacios públicos con iluminación LED en parques y paraderos.", "propuestas": [{"texto": "Recuperar espacios públicos con iluminación LED en parques y paraderos", "meta": "298 puntos iluminados", "pagina": 7}]}, "desarrollo_urbano": {"sin_informacion": false, "resumen": "Propone revisar la zonificación para ordenar el crecimiento vertical y muros de contención, escaleras y accesos en zonas de ladera.", "propuestas": [{"texto": "Revisar la zonificación para ordenar el crecimiento vertical", "meta": null, "pagina": 8}, {"texto": "Muros de contención, escaleras y accesos en zonas de ladera", "meta": "8 obras ejecutadas", "pagina": 8}, {"texto": "Actualizar el catastro urbano con tecnología de drones y GIS", "meta": null, "pagina": 8}]}, "social": {"sin_informacion": false, "resumen": "Propone becas y talleres para jóvenes en oficios y habilidades digitales y cunas y centros de cuidado infantil para madres trabajadoras.", "propuestas": [{"texto": "Becas y talleres para jóvenes en oficios y habilidades digitales", "meta": "2 359 jóvenes capacitados", "pagina": 9}, {"texto": "Cunas y centros de cuidado infantil para madres trabajadoras", "meta": "2 centros nuevos", "pagina": 9}]}}}]}
+{
+ "ubigeo": "150143",
+ "ambito": "Villa María del Triunfo",
+ "nivel": "distrital",
+ "cargo": "Alcaldía distrital",
+ "con_propuestas": false,
+ "corte": "28 de septiembre de 2026",
+ "fuentes": {
+  "inf_lista": {
+   "medio": "Infobae",
+   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
+   "fecha": "27/09/2026",
+   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  }
+ },
+ "temas": [],
+ "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "candidatos": [
+  {
+   "id": 475,
+   "nombre": "Carlos Armando Chávez Montoya",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 476,
+   "nombre": "Carlos Walter Mejía Escajadillo",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 477,
+   "nombre": "Cresencio Gonzales Ccapcha",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 478,
+   "nombre": "Daniel Fernández Núñez",
+   "organizacion": "Cooperación, Verdad y Honradez",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 479,
+   "nombre": "David Andrés Morales Cárdenas",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 480,
+   "nombre": "Edgard Freddy Paucar Calero",
+   "organizacion": "Perú Moderno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 481,
+   "nombre": "Franklin Villarruel Álvarez",
+   "organizacion": "FREPAP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 482,
+   "nombre": "Guido Íñigo Peralta",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 483,
+   "nombre": "Juan Carlos Medina Morillo",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 484,
+   "nombre": "Juan José Castillo Ángeles",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 485,
+   "nombre": "Luis Ángel Yaya Kuba",
+   "organizacion": "Partido Demócrata Unido Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 486,
+   "nombre": "Magaly Rosy Copez Gutiérrez",
+   "organizacion": "Salvemos al Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 487,
+   "nombre": "René Alfredo Yucra Verástegui",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 488,
+   "nombre": "Robert Joel Ludeña Guerra",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 489,
+   "nombre": "Roger Edinsson Parra Taboada",
+   "organizacion": "Acción Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 490,
+   "nombre": "Víctor Edward Colán Huamán",
+   "organizacion": "Partido Patriótico del Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 491,
+   "nombre": "Willy Alberto Ruelas Oropeza",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  }
+ ]
+}
