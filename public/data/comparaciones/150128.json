@@ -3,107 +3,121 @@
  "ambito": "Rímac",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 322,
-   "nombre": "Adelina Rivera Escudero",
-   "organizacion": "Fe en el Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 323,
-   "nombre": "Antonio Harry Cocha Camargo",
-   "organizacion": "PRIN",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 324,
-   "nombre": "Enrique Armando Peramas Díaz",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 325,
-   "nombre": "Felicidad Emperatriz Salhuana Serna",
-   "organizacion": "APRA",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 326,
-   "nombre": "Henry Alex Cifuentes Carrillo",
-   "organizacion": "Partido Demócrata Verde",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 327,
-   "nombre": "Isabel del Rocío Ayala Melgarejo",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 328,
+   "id": 351,
    "nombre": "Javier Víctor Revilla Belisario",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 329,
-   "nombre": "Jerico Edward Mosquera Torres",
-   "organizacion": "Frente de la Esperanza 2021",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 330,
+   "id": 352,
    "nombre": "Jonathan Enrique Seña Manguinury",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 331,
-   "nombre": "José Alberto Angulo Domínguez",
-   "organizacion": "Somos Perú",
+   "id": 353,
+   "nombre": "Enrique Armando Peramas Díaz",
+   "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 332,
-   "nombre": "Katherine Angélica de la Rosa Menéndez",
-   "organizacion": "Podemos Perú",
+   "id": 354,
+   "nombre": "Adelina Rivera Escudero",
+   "organizacion": "Fe en el Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 333,
+   "id": 355,
    "nombre": "Luz Elena Flores Ledesma",
    "organizacion": "FREPAP",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 334,
+   "id": 356,
+   "nombre": "Felicidad Emperatriz Salhuana Serna",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 357,
    "nombre": "Roberto Abelardo Telles Jaramillo",
    "organizacion": "Partido del Buen Gobierno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 358,
+   "nombre": "Henry Alex Cifuentes Carrillo",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 359,
+   "nombre": "José Alberto Angulo Domínguez",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 360,
+   "nombre": "Jericó Edward Mosquera Torres",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 361,
+   "nombre": "Antonio Harry Cocha Camargo",
+   "organizacion": "PRIN",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 362,
+   "nombre": "Efigenia Rosario Arnao Infantas",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 363,
+   "nombre": "Katherine Angélica de la Rosa Menéndez",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 364,
+   "nombre": "Víctor Antonio Cruz Huamán",
+   "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 365,
+   "nombre": "Isabel del Rocío Ayala Melgarejo",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

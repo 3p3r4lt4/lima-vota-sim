@@ -3,84 +3,91 @@
  "ambito": "Magdalena del Mar",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 247,
-   "nombre": "Carla Robbiano Montes de Allison",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 248,
-   "nombre": "Eduardo Roselló Montero",
-   "organizacion": "Partido País para Todos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 249,
-   "nombre": "Franz Teseo Mario Neyra Barreda",
-   "organizacion": "Ahora Nación",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 250,
-   "nombre": "Jesús Adolfo Quispichuco Taico",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 251,
-   "nombre": "Johan Fritz Chávez Sifuentes",
-   "organizacion": "Alianza para el Progreso",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 252,
-   "nombre": "José Rafael Haro Zolezzi",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 253,
-   "nombre": "Juan José Segura Santisteban",
-   "organizacion": "Partido Morado",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 254,
+   "id": 271,
    "nombre": "Mercedes Victoria Morocho Arias",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 255,
+   "id": 272,
+   "nombre": "Franz Teseo Mario Neyra Barreda",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 273,
+   "nombre": "Johan Fritz Chávez Sifuentes",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 274,
+   "nombre": "Carla Robbiano Montes de Allison",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 275,
+   "nombre": "Jesús Adolfo Quispichuco Taico",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 276,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Partido Morado",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 277,
+   "nombre": "Eduardo Roselló Montero",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 278,
+   "nombre": "Richard Johnny Veramendi Oliva",
+   "organizacion": "Pueblo Consciente",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 279,
    "nombre": "Raúl Madueño Ortiz",
    "organizacion": "PPC",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 256,
+   "id": 280,
+   "nombre": "José Rafael Haro Zolezzi",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 281,
    "nombre": "Víctor Raúl Paulini Sánchez",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,

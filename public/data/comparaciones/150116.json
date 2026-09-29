@@ -3,93 +3,93 @@
  "ambito": "Lince",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 196,
-   "nombre": "Arturo Ronald Bejarano Gurmendi",
-   "organizacion": "Perú Primero",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 197,
-   "nombre": "Eduardo Danilo Albarracín Ugarte",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 198,
-   "nombre": "José Antonio Aliaga Pajares",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 199,
-   "nombre": "Luis Ernesto Flores Reátegui",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 200,
-   "nombre": "Luis Miguel Alonzo Ramírez",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 201,
-   "nombre": "Miguel Ángel Espinoza Saavedra",
-   "organizacion": "Partido País para Todos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 202,
-   "nombre": "Mirtha Sebastiana Uribe Soriano",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 203,
-   "nombre": "Nidia Alegría Herrera",
-   "organizacion": "Ahora Nación",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 204,
-   "nombre": "Otilia Merino García",
-   "organizacion": "Fuerza Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 205,
+   "id": 215,
    "nombre": "Víctor Manuel Noriega Salazar",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 206,
+   "id": 216,
+   "nombre": "Nidia Alegría Herrera",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 217,
+   "nombre": "Luis Ernesto Flores Reátegui",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 218,
+   "nombre": "Otilia Merino García",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 219,
    "nombre": "Yvan Alexis Villavicencio Alvildo",
-   "organizacion": "APRA",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 220,
+   "nombre": "José Antonio Aliaga Pajares",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 221,
+   "nombre": "Miguel Ángel Espinoza Saavedra",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 222,
+   "nombre": "Arturo Ronald Bejarano Gurmendi",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 223,
+   "nombre": "Eduardo Danilo Albarracín Ugarte",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 224,
+   "nombre": "Luis Miguel Alonzo Ramírez",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 225,
+   "nombre": "Mirtha Sebastiana Uribe Soriano",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

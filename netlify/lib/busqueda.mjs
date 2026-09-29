@@ -61,7 +61,8 @@ export function respuestaExtractiva(pregunta, fragmentos, candidatos) {
       s: terminos(o).filter((t) => q.has(t)).length })));
     const top = oraciones.filter((x) => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 2);
     const usar = top.length ? top : oraciones.slice(0, 1);
-    lineas.push(`**${c.nombre}:** ` + usar.map((x) => `${x.o.replace(/\.$/, "")} [${c.nombre}, p.${x.p}]`).join(". ") + ".");
+    const corto = (o) => (o.length > 280 ? o.slice(0, o.lastIndexOf(" ", 277)) + "…" : o.replace(/\.$/, ""));
+    lineas.push(`**${c.nombre}:** ` + usar.map((x) => `${corto(x.o)} [${c.nombre}, p.${x.p}]`).join(". ") + ".");
   }
   if (sinTema.length) lineas.push(`**No mencionaron este tema en las fuentes revisadas:** ${sinTema.join(", ")}.`);
   return lineas.join("\n");

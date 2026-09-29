@@ -37,3 +37,13 @@ test("detecta preguntas sobre quiénes postulan", () => {
   assert.ok(esPreguntaDeLista("¿Quiénes postulan?"));
   assert.ok(!esPreguntaDeLista("¿Qué proponen los candidatos sobre el agua?"));
 });
+
+test("La Molina: busca en los planes completos y cita la página del PDF", () => {
+  const lm = JSON.parse(readFileSync(new URL("../../public/data/planes/150114.json", import.meta.url)));
+  const ids = lm.candidatos.map((c) => c.id);
+  const r = buscar(lm, "¿Quiénes proponen drones de vigilancia?", ids);
+  assert.ok(r.length >= 3);
+  assert.ok(r.every((f) => Number.isInteger(f.pagina) && f.pagina >= 1));
+  const txt = respuestaExtractiva("drones de vigilancia", r, lm.candidatos);
+  assert.match(txt, /\[.+, p\.\d+\]/);
+});

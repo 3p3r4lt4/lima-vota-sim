@@ -36,11 +36,11 @@
    "fecha": "23/09/2026",
    "url": "https://elcomercio.pe/politica/elecciones/debate-por-lima-que-propusieron-los-candidatos-y-cuales-fueron-sus-principales-cruces-apuesplan-noticia/"
   },
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [
@@ -63,6 +63,7 @@
   "ambiente": "Limpieza y ambiente",
   "gestion": "Transparencia y gestión"
  },
+ "tipo_fuente": "debate",
  "nota_fuente": "Propuestas expuestas en el debate del JNE (21 y 22 de septiembre), según la cobertura de medios citada. No reemplazan el plan de gobierno completo.",
  "candidatos": [
   {

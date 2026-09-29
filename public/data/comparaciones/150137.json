@@ -3,107 +3,107 @@
  "ambito": "Santa Anita",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 419,
-   "nombre": "Antero Maurine Pickmans Arenaza",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 420,
-   "nombre": "Celia Laura Jorge",
-   "organizacion": "Partido País para Todos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 421,
-   "nombre": "David Elías Alegría Liberato",
-   "organizacion": "Alianza para el Progreso",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 422,
-   "nombre": "Eduardo Rimachi Martínez",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 423,
+   "id": 464,
    "nombre": "Flora Maribel Fernández Rengifo",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 424,
-   "nombre": "Ingrid Alcarraz Guía",
-   "organizacion": "Juntos por el Perú",
+   "id": 465,
+   "nombre": "David Elías Alegría Liberato",
+   "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 425,
-   "nombre": "José Eleuterio Horna Saavedra",
-   "organizacion": "Frente de la Esperanza 2021",
+   "id": 466,
+   "nombre": "Eduardo Rimachi Martínez",
+   "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 426,
-   "nombre": "José Luis Nole Palomino",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 427,
+   "id": 467,
    "nombre": "Judith Soledad Agüero Tinco",
    "organizacion": "FREPAP",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 428,
-   "nombre": "Leonor Chumbimune Cajahuaringa",
-   "organizacion": "Podemos Perú",
+   "id": 468,
+   "nombre": "Ingrid Alcarraz Guía",
+   "organizacion": "Juntos por el Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 429,
-   "nombre": "Manuel Edgardo Mamani Rodríguez",
-   "organizacion": "Perú Primero",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 430,
+   "id": 469,
    "nombre": "Maribel Albornoz Rosas",
    "organizacion": "Partido Cívico Obras",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 431,
+   "id": 470,
+   "nombre": "José Luis Nole Palomino",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 471,
+   "nombre": "José Eleuterio Horna Saavedra",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 472,
+   "nombre": "Celia Laura Jorge",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 473,
    "nombre": "Marissa Melo Llaullipoma",
    "organizacion": "Perú Libre",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 474,
+   "nombre": "Manuel Edgardo Mamani Rodríguez",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 475,
+   "nombre": "Leonor Chumbimune Cajahuaringa",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 476,
+   "nombre": "Antero Maurine Pickmans Arenaza",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

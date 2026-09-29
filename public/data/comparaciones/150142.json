@@ -3,128 +3,149 @@
  "ambito": "Villa El Salvador",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 459,
-   "nombre": "Alberto Luis Peralta Huatuco",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 460,
-   "nombre": "Clodoaldo Kevin Yñigo Peralta",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 461,
-   "nombre": "Edgard Asunción Cordero Marichini",
-   "organizacion": "APRA",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 462,
-   "nombre": "Genaro Soto Mendoza",
-   "organizacion": "Ahora Nación",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 463,
-   "nombre": "José Elías Marín Reque",
-   "organizacion": "Frente de la Esperanza 2021",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 464,
+   "id": 510,
    "nombre": "José Luis Flores Llauca",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 465,
-   "nombre": "Juan José Díaz Ayquipa",
-   "organizacion": "FREPAP",
+   "id": 511,
+   "nombre": "Genaro Soto Mendoza",
+   "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 466,
-   "nombre": "Lucero Echevarría Quispe",
-   "organizacion": "Partido Patriótico del Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 467,
+   "id": 512,
    "nombre": "Marcelino Huamán Cano",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 468,
-   "nombre": "Migman Pinchi Caro",
-   "organizacion": "Partido Morado",
+   "id": 513,
+   "nombre": "Homero Raúl Díaz Delgado",
+   "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 469,
-   "nombre": "Milton Tomás Lluque Sosa",
-   "organizacion": "Perú Primero",
+   "id": 514,
+   "nombre": "Juan José Díaz Ayquipa",
+   "organizacion": "FREPAP",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 470,
+   "id": 515,
+   "nombre": "Ricardo Gil Espadín",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 516,
+   "nombre": "William Dwight Vargas Matos",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 517,
+   "nombre": "Edgard Asunción Cordero Marichini",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 518,
    "nombre": "Nils René Antonio Siccos",
    "organizacion": "Partido Cívico Obras",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 471,
-   "nombre": "Paul Dino Carrasco Salazar",
-   "organizacion": "PPC",
+   "id": 519,
+   "nombre": "Yolanda Inés Peña Valdivia",
+   "organizacion": "Partido del Buen Gobierno",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 472,
+   "id": 520,
+   "nombre": "Clodoaldo Kevin Yñigo Peralta",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 521,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 522,
+   "nombre": "Migman Pinchi Caro",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 523,
+   "nombre": "Lucero Echevarría Quispe",
+   "organizacion": "Partido Patriótico del Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 524,
+   "nombre": "Milton Tomás Lluque Sosa",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 525,
    "nombre": "Sugey Tatiana Bernuy Cueva",
    "organizacion": "PRIN",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 473,
+   "id": 526,
+   "nombre": "Paúl Dino Carrasco Salazar",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 527,
    "nombre": "Walter Quispe Vilcas",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 474,
-   "nombre": "William Dwight Vargas Matos",
-   "organizacion": "Juntos por el Perú",
+   "id": 528,
+   "nombre": "Alberto Luis Peralta Huatuco",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

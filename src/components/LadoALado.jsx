@@ -20,14 +20,14 @@ export default function LadoALado({ datos, candidatos, onCita }) {
                 return (
                   <td key={c.id} data-candidato={c.nombre} className={d?.sin_informacion ? "celda-vacia" : undefined}>
                     {d?.sin_informacion ? (
-                      <p className="sin-info">No aparece en la cobertura del debate.</p>
+                      <p className="sin-info">{datos.tipo_fuente === "plan" ? "Sin propuesta destacada en este tema." : "No aparece en la cobertura del debate."}</p>
                     ) : (
                       <ul className="propuestas">
                         {d.propuestas.map((p, i) => (
                           <li key={i}>
                             <p>{p.texto}</p>
                             <p className="meta">{p.meta ? `Meta: ${p.meta}` : "Sin cifra ni plazo"}</p>
-                            <button className="cita" onClick={() => onCita(c.id, p.pagina)}>Ver fuente ({datos.fuentes[p.fuente]?.medio})</button>
+                            <button className="cita" onClick={() => onCita(c.id, p.pagina)}>{datos.fuentes[p.fuente]?.pdf ? `Ver en el plan, p. ${p.pagina}` : `Ver fuente (${datos.fuentes[p.fuente]?.medio})`}</button>
                           </li>
                         ))}
                       </ul>

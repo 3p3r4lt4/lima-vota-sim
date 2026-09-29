@@ -7,12 +7,13 @@ const BANCO = [
   "¿Qué proponen sobre el comercio ambulatorio?", "¿Qué proponen para la vivienda y la titulación?",
   "¿Quiénes proponen una Policía Municipal?", "¿Qué dicen sobre hospitales y salud?",
   "¿Qué proponen contra la extorsión y el sicariato?", "¿Qué harán con la ATU?",
-  "¿Qué proponen para los jóvenes?", "¿Qué proponen sobre los ríos y el ambiente?",
+  "¿Qué proponen para los jóvenes?", "¿Qué proponen sobre los ríos y el ambiente?", "¿Qué harán con el agua para regar los parques?",
+  "¿Qué proponen para los adultos mayores?", "¿Qué proponen sobre las mascotas?", "¿Quiénes proponen usar drones?",
   "¿Quiénes proponen recompensas por delincuentes?", "¿Qué harán ante un sismo o El Niño?",
 ];
 const alAzar = (n) => [...BANCO].sort(() => Math.random() - 0.5).slice(0, n);
 
-export default function Preguntar({ ubigeo, ambito, candidatos, onCita, onCambiarAmbito }) {
+export default function Preguntar({ ubigeo, ambito, candidatos, onCita, onCambiarAmbito, tipoFuente }) {
   const [pregunta, setPregunta] = useState("");
   const [ejemplos, setEjemplos] = useState(() => alAzar(3));
   const [r, setR] = useState({ cargando: false, data: null, error: "" });
@@ -40,7 +41,7 @@ export default function Preguntar({ ubigeo, ambito, candidatos, onCita, onCambia
   return (
     <section className="preguntar" aria-labelledby="t-preg">
       <h2 id="t-preg" className="seccion">Pregunta sobre un tema</h2>
-      <p className="nota">Se busca en las propuestas de las {candidatos.length} candidaturas marcadas de {ambito}.</p>
+      <p className="nota">{tipoFuente === "plan" ? `Se busca en los planes de gobierno completos de las ${candidatos.length} candidaturas marcadas de ${ambito}.` : `Se busca en las propuestas de las ${candidatos.length} candidaturas marcadas de ${ambito}.`}</p>
       <form className="fila" onSubmit={(e) => { e.preventDefault(); enviar(); }}>
         <label className="sr" htmlFor="q">Tu pregunta</label>
         <input id="q" value={pregunta} maxLength={300} onChange={(e) => setPregunta(e.target.value)}

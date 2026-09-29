@@ -8,14 +8,21 @@ alcaldía antes de votar el domingo 4 de octubre de 2026.
 | Ámbito | Contenido | Fuente |
 |---|---|---|
 | Lima Metropolitana | 26 listas y 96 propuestas en 8 temas, cada una enlazada a su fuente | Debate del JNE (21 y 22/09/2026) según RPP, Infobae, El Comercio y Perú Informa |
-| 42 distritos | Relación completa de candidaturas (465) | Información del JNE difundida por Infobae (27/09/2026) |
+| La Molina | 12 planes de gobierno completos (PDF) y 122 propuestas principales con su página | Planes inscritos ante el JNE (Voto Informado) |
+| Otros 41 distritos | Relación de candidaturas, incluidas las listas sin candidato a alcalde | Base electoral difundida por RPP (28/09/2026) |
 
-Renovación Popular y Perú Libre participan sin candidato a alcalde; se muestran con su primer regidor y
-esa condición indicada. En los distritos no se comparan propuestas: la cobertura de prensa distrital es
-parcial y publicarla favorecería a unas candidaturas sobre otras. Se enlaza a Voto Informado del JNE.
+**Verificación de citas.** Cada propuesta de La Molina lleva un fragmento textual del PDF («ancla»).
+`npm run datos` falla si ese fragmento no aparece en la página citada, así que ninguna cita puede apuntar
+a una página equivocada. En La Molina, las preguntas libres buscan en el texto completo de los 12 planes.
 
-Todos los datos están en `scripts/datos_reales.py` y `scripts/candidatos_distritales.txt`. Para corregir
-algo, edita esos archivos y ejecuta `npm run datos`.
+## Cómo agregar otro distrito
+
+1. Descarga de Voto Informado los planes de **todas** las candidaturas del distrito y guárdalos en
+   `public/planes/<ubigeo>/<organizacion>.pdf`.
+2. `python scripts/extraer_planes.py public/planes/<ubigeo>` (requiere `pdftotext`).
+3. Copia `scripts/la_molina.py` como `scripts/<distrito>.py`, cambia `UBIGEO` y escribe las propuestas con su ancla.
+4. Regístralo en `PLANES_DISTRITALES` dentro de `scripts/datos_reales.py` y ejecuta `npm run datos`.
+   El script exige un plan por cada candidatura de la lista oficial.
 
 ## Funciones
 

@@ -3,42 +3,49 @@
  "ambito": "San Bartolo",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 335,
-   "nombre": "Fernando Juan Amador Loayza Garate",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 336,
-   "nombre": "Rufino Enciso Ríos",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 337,
+   "id": 366,
    "nombre": "Yliana Elisa Castro Gregorio",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 338,
+   "id": 367,
+   "nombre": "Rufino Enciso Ríos",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 368,
+   "nombre": "Fernando Juan Amador Loayza Garate",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 369,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 370,
    "nombre": "Yolanda Chávez Rubio",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,

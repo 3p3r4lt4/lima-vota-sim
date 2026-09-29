@@ -3,121 +3,121 @@
  "ambito": "Independencia",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 145,
-   "nombre": "Ángel Demetrio Intor Vega",
-   "organizacion": "Partido Morado",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 146,
-   "nombre": "Benigno Roberto Calderón Arones",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 147,
-   "nombre": "Edgard Hugo Limaylla Montalvo",
-   "organizacion": "Juntos por el Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 148,
-   "nombre": "Evans Rodolfo Sifuentes Ocaña",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 149,
-   "nombre": "Felicita María Rodríguez Peña",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 150,
-   "nombre": "Georgina Flores Remigio",
-   "organizacion": "Partido Cívico Obras",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 151,
-   "nombre": "Gregorio Bernardino Quispe Alvino",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 152,
-   "nombre": "Iván Jesús Aquino Honores",
-   "organizacion": "Visión Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 153,
-   "nombre": "Javier Raúl Solís Espinoza",
-   "organizacion": "Cooperación, Verdad y Honradez",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 154,
-   "nombre": "Jesús Alfonso Flores Córdova",
-   "organizacion": "Partido Demócrata Verde",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 155,
-   "nombre": "José Elgar Espejo Cárdenas",
-   "organizacion": "Ahora Nación",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 156,
+   "id": 162,
    "nombre": "Lucy Balna Falcón Campos",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 157,
+   "id": 163,
+   "nombre": "José Elgar Espejo Cárdenas",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 164,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Cooperación, Verdad y Honradez",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 165,
    "nombre": "María Elena Ríos Suárez",
    "organizacion": "Fuerza Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 158,
+   "id": 166,
+   "nombre": "Edgard Hugo Limaylla Montalvo",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 167,
+   "nombre": "Georgina Flores Remigio",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 168,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 169,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Somos Perú",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 170,
+   "nombre": "Ángel Demetrio Intor Vega",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 171,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 172,
    "nombre": "Sandra Gutiérrez Aibar",
    "organizacion": "Perú Primero",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 159,
-   "nombre": "Yuri José Pando Fernández",
-   "organizacion": "Partido País para Todos",
+   "id": 173,
+   "nombre": "Evans Rodolfo Sifuentes Ocaña",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 174,
+   "nombre": "Gregorio Bernardino Quispe Alvino",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 175,
+   "nombre": "Benigno Roberto Calderón Arones",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 176,
+   "nombre": "Iván Jesús Aquino Honores",
+   "organizacion": "Visión Perú",
    "cargo_nota": null,
    "temas": {}
   }

@@ -3,72 +3,37 @@
  "ambito": "Carabayllo",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 74,
-   "nombre": "Alejandro Hipólito Ramos Rivera",
-   "organizacion": "Partido Cívico Obras",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 75,
-   "nombre": "Belica Julia Bravo Alcántara",
-   "organizacion": "Fuerza Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 76,
+   "id": 79,
    "nombre": "Carlos Faustino Núñez Calderón",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 77,
-   "nombre": "Claudio Rodríguez Mansilla",
-   "organizacion": "Perú Primero",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 78,
-   "nombre": "Daniel Josué Carbajal Ugarte",
-   "organizacion": "Partido Político ADP",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 79,
-   "nombre": "Dennis Antonio Huapaya Bravo",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
    "id": 80,
-   "nombre": "Gianfranco Antonie Soriano Linares",
-   "organizacion": "Partido Patriótico del Perú",
+   "nombre": "Ignacio Jorge Sebastián Távara Arroyo",
+   "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
    "id": 81,
-   "nombre": "Ignacio Jorge Sebastián Távara Arroyo",
-   "organizacion": "Ahora Nación",
+   "nombre": "Juan Ladislao Espinoza Ortiz",
+   "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
    "temas": {}
   },
@@ -81,64 +46,113 @@
   },
   {
    "id": 83,
+   "nombre": "Héctor Manuel Cochón Barrientos",
+   "organizacion": "FREPAP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 84,
+   "nombre": "Belica Julia Bravo Alcántara",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 85,
    "nombre": "Juan Carlos Huayanay Mormontoy",
    "organizacion": "Juntos por el Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 84,
-   "nombre": "Juan Ladislao Espinoza Ortiz",
-   "organizacion": "Alianza para el Progreso",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 85,
-   "nombre": "Michael Alonso Tineo Mendoza",
-   "organizacion": "Perú Moderno",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
    "id": 86,
-   "nombre": "Nandy Janeth Córdova Morales",
-   "organizacion": "Renovación Popular",
+   "nombre": "Pascual Eutiquinio Poma Torrez",
+   "organizacion": "Partido Aprista Peruano",
    "cargo_nota": null,
    "temas": {}
   },
   {
    "id": 87,
-   "nombre": "Pablo Alejandro González Villanueva",
-   "organizacion": "Partido País para Todos",
+   "nombre": "Alejandro Hipólito Ramos Rivera",
+   "organizacion": "Partido Cívico Obras",
    "cargo_nota": null,
    "temas": {}
   },
   {
    "id": 88,
-   "nombre": "Pascual Eutiquinio Poma Torrez",
-   "organizacion": "APRA",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 89,
-   "nombre": "Renso Evert Aguilar Velarde",
-   "organizacion": "PRIN",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 90,
    "nombre": "Rosario Peláez Ramírez",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
+   "id": 89,
+   "nombre": "Pablo Alejandro González Villanueva",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 90,
+   "nombre": "Gianfranco Antonie Soriano Linares",
+   "organizacion": "Partido Patriótico del Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
    "id": 91,
+   "nombre": "Daniel Josué Carbajal Ugarte",
+   "organizacion": "Partido Político ADP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 92,
+   "nombre": "Claudio Rodríguez Mansilla",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 93,
+   "nombre": "Renso Evert Aguilar Velarde",
+   "organizacion": "PRIN",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 94,
+   "nombre": "Dennis Antonio Huapaya Bravo",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 95,
+   "nombre": "Eduardo Urbina Santillana",
+   "organizacion": "Partido Unidad y Paz",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 96,
+   "nombre": "Michael Alonso Tineo Mendoza",
+   "organizacion": "Perú Moderno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 97,
    "nombre": "Wilmer Roberto Valverde Valverde",
    "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 98,
+   "nombre": "Nandy Janeth Córdova Morales",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

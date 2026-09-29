@@ -3,128 +3,163 @@
  "ambito": "San Juan de Lurigancho",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 352,
-   "nombre": "Alex Gonzales Castillo",
-   "organizacion": "Partido Demócrata Verde",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 353,
-   "nombre": "Antonio Flores Cáceres",
-   "organizacion": "FREPAP",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 354,
-   "nombre": "Armengol Sánchez Sandoval",
-   "organizacion": "PRIN",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 355,
-   "nombre": "Carlos Jaime de la Torre Mendoza",
-   "organizacion": "Partido del Buen Gobierno",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 356,
-   "nombre": "César André Usquiano Maldonado",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 357,
-   "nombre": "Edwin Mejía Cerdán",
-   "organizacion": "Partido Cívico Obras",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 358,
-   "nombre": "Elsa Virginia Alarcón Suárez",
-   "organizacion": "Ahora Nación",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 359,
-   "nombre": "Héctor Joaquín Alejandro Bustamante",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 360,
-   "nombre": "José Fernando Mendoza Ramírez",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 361,
-   "nombre": "José Luis Luna Morales",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 362,
-   "nombre": "Juan Valentín Navarro Jiménez",
-   "organizacion": "Alianza para el Progreso",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 363,
+   "id": 388,
    "nombre": "Luis Gino Blanco Aldama",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 364,
-   "nombre": "Noe Zender Mamani Espinoza",
-   "organizacion": "Partido Demócrata Unido Perú",
+   "id": 389,
+   "nombre": "Elsa Virginia Alarcón Suárez",
+   "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 365,
+   "id": 390,
+   "nombre": "Heisen Odorico Herrera Conopuma",
+   "organizacion": "Alianza Electoral Venceremos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 391,
+   "nombre": "Juan Valentín Navarro Jiménez",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 392,
    "nombre": "Sabina Alarcón Solís",
    "organizacion": "Alianza Regional por el Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 366,
-   "nombre": "Víctor Jhonatan Romani Medina",
-   "organizacion": "Visión Perú",
+   "id": 393,
+   "nombre": "Héctor Joaquín Alejandro Bustamante",
+   "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 367,
+   "id": 394,
+   "nombre": "Adán Renee Cobeña Gómez",
+   "organizacion": "Coalición Transformadora Tierra Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 395,
    "nombre": "Walter Jacobo Gutiérrez Vaisman",
    "organizacion": "Fe en el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 396,
+   "nombre": "Antonio Flores Cáceres",
+   "organizacion": "FREPAP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 397,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 398,
+   "nombre": "Edwin Mejía Cerdán",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 399,
+   "nombre": "Carlos Jaime de la Torre Mendoza",
+   "organizacion": "Partido del Buen Gobierno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 400,
+   "nombre": "Noe Zender Mamani Espinoza",
+   "organizacion": "Partido Demócrata Unido Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 401,
+   "nombre": "Alex Gonzales Castillo",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 402,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Somos Perú",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 403,
+   "nombre": "Miguel Oswaldo Huacre Méndez",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 404,
+   "nombre": "Armengol Sánchez Sandoval",
+   "organizacion": "PRIN",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 405,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "PPC",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 406,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Partido SíCreo",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 407,
+   "nombre": "José Luis Luna Morales",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 408,
+   "nombre": "Américo Zegarra Acuña",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

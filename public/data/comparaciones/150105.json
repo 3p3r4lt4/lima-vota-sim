@@ -3,121 +3,135 @@
  "ambito": "Breña",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 59,
-   "nombre": "Arturo Omar Maura Alfaro",
-   "organizacion": "Perú Primero",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 60,
-   "nombre": "César Israel Pérez Contreras",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 61,
-   "nombre": "Diana Pilar León Castrillón de Oyakawa",
-   "organizacion": "Partido Unidad y Paz",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
    "id": 62,
-   "nombre": "Henrry Giscard de la Cruz Arana",
-   "organizacion": "Fuerza Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 63,
-   "nombre": "Isabel María Rodríguez Vera",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 64,
-   "nombre": "Iván Joel Chang del Arroyo",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 65,
-   "nombre": "Jorge Henry Sarmiento Reynoso",
-   "organizacion": "Libertad Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 66,
    "nombre": "José Dalton Li Bravo",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 67,
-   "nombre": "Luis Alberto Ojeda Samame",
-   "organizacion": "Somos Perú",
+   "id": 63,
+   "nombre": "Iván Joel Chang del Arroyo",
+   "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 68,
-   "nombre": "Luis Rolando Alejandro de la Mata Alva",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 69,
-   "nombre": "Marco Antonio Salazar Sáenz",
-   "organizacion": "Partido Patriótico del Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 70,
-   "nombre": "Raúl Alberto Sullca Maquera",
-   "organizacion": "APRA",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 71,
+   "id": 64,
    "nombre": "Rommel Omar Carbajal Muñoz",
    "organizacion": "Fe en el Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
+   "id": 65,
+   "nombre": "Henrry Giscard de la Cruz Arana",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 66,
+   "nombre": "Urso Grajeda Reyes",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 67,
+   "nombre": "Jorge Henry Sarmiento Reynoso",
+   "organizacion": "Libertad Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 68,
+   "nombre": "Raúl Alberto Sullca Maquera",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 69,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 70,
+   "nombre": "Luis Alberto Ojeda Samame",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 71,
+   "nombre": "Marco Antonio Salazar Sáenz",
+   "organizacion": "Partido Patriótico del Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
    "id": 72,
+   "nombre": "Arturo Omar Maura Alfaro",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 73,
+   "nombre": "Haydy Lorena Breña Mejía",
+   "organizacion": "Pueblo Consciente",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 74,
+   "nombre": "César Israel Pérez Contreras",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 75,
+   "nombre": "Diana Pilar León Castrillón de Oyakawa",
+   "organizacion": "Partido Unidad y Paz",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 76,
    "nombre": "Silfredo Virgilio Gamboa Usca",
    "organizacion": "Perú Moderno",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 73,
-   "nombre": "Urso Grajeda Reyes",
-   "organizacion": "Juntos por el Perú",
+   "id": 77,
+   "nombre": "Luis Rolando Alejandro de la Mata Alva",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 78,
+   "nombre": "Isabel María Rodríguez Vera",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

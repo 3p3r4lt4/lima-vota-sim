@@ -10,14 +10,14 @@
   "ubigeo": "150102",
   "ambito": "Ancón",
   "nivel": "distrital",
-  "candidatos": 5,
+  "candidatos": 6,
   "con_propuestas": false
  },
  {
   "ubigeo": "150103",
   "ambito": "Ate",
   "nivel": "distrital",
-  "candidatos": 19,
+  "candidatos": 21,
   "con_propuestas": false
  },
  {
@@ -31,21 +31,21 @@
   "ubigeo": "150105",
   "ambito": "Breña",
   "nivel": "distrital",
-  "candidatos": 15,
+  "candidatos": 16,
   "con_propuestas": false
  },
  {
   "ubigeo": "150106",
   "ambito": "Carabayllo",
   "nivel": "distrital",
-  "candidatos": 18,
+  "candidatos": 20,
   "con_propuestas": false
  },
  {
   "ubigeo": "150107",
   "ambito": "Chaclacayo",
   "nivel": "distrital",
-  "candidatos": 11,
+  "candidatos": 12,
   "con_propuestas": false
  },
  {
@@ -66,28 +66,28 @@
   "ubigeo": "150110",
   "ambito": "Comas",
   "nivel": "distrital",
-  "candidatos": 12,
+  "candidatos": 16,
   "con_propuestas": false
  },
  {
   "ubigeo": "150111",
   "ambito": "El Agustino",
   "nivel": "distrital",
-  "candidatos": 11,
+  "candidatos": 13,
   "con_propuestas": false
  },
  {
   "ubigeo": "150112",
   "ambito": "Independencia",
   "nivel": "distrital",
-  "candidatos": 15,
+  "candidatos": 11,
   "con_propuestas": false
  },
  {
   "ubigeo": "150113",
   "ambito": "Jesús María",
   "nivel": "distrital",
-  "candidatos": 11,
+  "candidatos": 12,
   "con_propuestas": false
  },
  {
@@ -95,7 +95,7 @@
   "ambito": "La Molina",
   "nivel": "distrital",
   "candidatos": 12,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150115",
@@ -115,21 +115,21 @@
   "ubigeo": "150117",
   "ambito": "Los Olivos",
   "nivel": "distrital",
-  "candidatos": 20,
+  "candidatos": 21,
   "con_propuestas": false
  },
  {
   "ubigeo": "150118",
   "ambito": "Lurigancho-Chosica",
   "nivel": "distrital",
-  "candidatos": 10,
+  "candidatos": 11,
   "con_propuestas": false
  },
  {
   "ubigeo": "150119",
   "ambito": "Lurín",
   "nivel": "distrital",
-  "candidatos": 10,
+  "candidatos": 9,
   "con_propuestas": false
  },
  {
@@ -143,7 +143,7 @@
   "ubigeo": "150122",
   "ambito": "Miraflores",
   "nivel": "distrital",
-  "candidatos": 8,
+  "candidatos": 9,
   "con_propuestas": false
  },
  {
@@ -164,21 +164,21 @@
   "ubigeo": "150121",
   "ambito": "Pueblo Libre",
   "nivel": "distrital",
-  "candidatos": 13,
+  "candidatos": 12,
   "con_propuestas": false
  },
  {
   "ubigeo": "150125",
   "ambito": "Puente Piedra",
   "nivel": "distrital",
-  "candidatos": 11,
+  "candidatos": 12,
   "con_propuestas": false
  },
  {
   "ubigeo": "150126",
   "ambito": "Punta Hermosa",
   "nivel": "distrital",
-  "candidatos": 10,
+  "candidatos": 12,
   "con_propuestas": false
  },
  {
@@ -192,7 +192,7 @@
   "ubigeo": "150128",
   "ambito": "Rímac",
   "nivel": "distrital",
-  "candidatos": 13,
+  "candidatos": 15,
   "con_propuestas": false
  },
  {
@@ -206,35 +206,35 @@
   "ubigeo": "150130",
   "ambito": "San Borja",
   "nivel": "distrital",
-  "candidatos": 7,
+  "candidatos": 8,
   "con_propuestas": false
  },
  {
   "ubigeo": "150131",
   "ambito": "San Isidro",
   "nivel": "distrital",
-  "candidatos": 6,
+  "candidatos": 9,
   "con_propuestas": false
  },
  {
   "ubigeo": "150132",
   "ambito": "San Juan de Lurigancho",
   "nivel": "distrital",
-  "candidatos": 16,
+  "candidatos": 17,
   "con_propuestas": false
  },
  {
   "ubigeo": "150133",
   "ambito": "San Juan de Miraflores",
   "nivel": "distrital",
-  "candidatos": 16,
+  "candidatos": 17,
   "con_propuestas": false
  },
  {
   "ubigeo": "150134",
   "ambito": "San Luis",
   "nivel": "distrital",
-  "candidatos": 10,
+  "candidatos": 11,
   "con_propuestas": false
  },
  {
@@ -248,7 +248,7 @@
   "ubigeo": "150136",
   "ambito": "San Miguel",
   "nivel": "distrital",
-  "candidatos": 8,
+  "candidatos": 7,
   "con_propuestas": false
  },
  {
@@ -269,35 +269,35 @@
   "ubigeo": "150139",
   "ambito": "Santa Rosa",
   "nivel": "distrital",
-  "candidatos": 5,
+  "candidatos": 3,
   "con_propuestas": false
  },
  {
   "ubigeo": "150140",
   "ambito": "Santiago de Surco",
   "nivel": "distrital",
-  "candidatos": 13,
+  "candidatos": 14,
   "con_propuestas": false
  },
  {
   "ubigeo": "150141",
   "ambito": "Surquillo",
   "nivel": "distrital",
-  "candidatos": 6,
+  "candidatos": 9,
   "con_propuestas": false
  },
  {
   "ubigeo": "150142",
   "ambito": "Villa El Salvador",
   "nivel": "distrital",
-  "candidatos": 16,
+  "candidatos": 18,
   "con_propuestas": false
  },
  {
   "ubigeo": "150143",
   "ambito": "Villa María del Triunfo",
   "nivel": "distrital",
-  "candidatos": 17,
+  "candidatos": 18,
   "con_propuestas": false
  }
 ]

@@ -3,156 +3,170 @@
  "ambito": "Los Olivos",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 207,
-   "nombre": "Ángel Solís Vergaray",
-   "organizacion": "Libertad Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 208,
-   "nombre": "Arturo Alejandro Cutipa Camac",
-   "organizacion": "PRIN",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 209,
-   "nombre": "Carlos Alberto Romero García",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 210,
-   "nombre": "Denner Guillermo Romaldo Noblejas",
-   "organizacion": "Partido del Buen Gobierno",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 211,
-   "nombre": "Erick Melchor Torres",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 212,
-   "nombre": "Felipe Baldomero Castillo Alfaro",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 213,
+   "id": 226,
    "nombre": "Franco Enrique Cortez Gutiérrez",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 214,
-   "nombre": "Gabriela Huamani Aliaga",
-   "organizacion": "Partido Demócrata Verde",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 215,
-   "nombre": "Heidelberger Willians Davis Suyon Díaz",
-   "organizacion": "Juntos por el Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 216,
-   "nombre": "Jorge Luis Salinas Paredes",
-   "organizacion": "Coalición Transformadora Tierra Verde",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 217,
-   "nombre": "José Aníbal López Gonzales",
-   "organizacion": "Alianza para el Progreso",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 218,
-   "nombre": "José Gilberto Oliva Chuman",
-   "organizacion": "Partido SíCreo",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 219,
+   "id": 227,
    "nombre": "Lucio Hernán Cabello Morales",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 220,
-   "nombre": "Luis Sigfredo Milla Soto",
-   "organizacion": "Renovación Popular",
+   "id": 228,
+   "nombre": "José Aníbal López Gonzales",
+   "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 221,
-   "nombre": "María Rosario Silvestre Vilchez",
-   "organizacion": "Perú Libre",
+   "id": 229,
+   "nombre": "Felipe Baldomero Castillo Alfaro",
+   "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 222,
-   "nombre": "Miguel Eduardo Figueroa Suárez",
-   "organizacion": "PPC",
+   "id": 230,
+   "nombre": "Jorge Luis Salinas Paredes",
+   "organizacion": "Coalición Transformadora Tierra Verde",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 223,
-   "nombre": "Ricardo Luis Grados Guevara",
-   "organizacion": "Frente de la Esperanza 2021",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 224,
-   "nombre": "Segundo Marcos de la Cruz Vega",
-   "organizacion": "Progresemos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 225,
+   "id": 231,
    "nombre": "Tony Elbert Rojas Espinoza",
    "organizacion": "Cooperación, Verdad y Honradez",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 226,
+   "id": 232,
+   "nombre": "Fernando Lurjo Sudario Céspedes",
+   "organizacion": "Fe en el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 233,
+   "nombre": "Julián Ramos Méndez",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 234,
+   "nombre": "Heidelberger Willians Davis Suyon Díaz",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 235,
+   "nombre": "Ángel Solís Vergaray",
+   "organizacion": "Libertad Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 236,
    "nombre": "Wilder Leoncio Torpoco Huayta",
    "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 237,
+   "nombre": "Denner Guillermo Romaldo Noblejas",
+   "organizacion": "Partido del Buen Gobierno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 238,
+   "nombre": "Gabriela Huamaní Aliaga",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 239,
+   "nombre": "Erick Melchor Torres",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 240,
+   "nombre": "Ricardo Luis Grados Guevara",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 241,
+   "nombre": "María Rosario Silvestre Vilchez",
+   "organizacion": "Perú Libre",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 242,
+   "nombre": "Arturo Alejandro Cutipa Camac",
+   "organizacion": "PRIN",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 243,
+   "nombre": "Miguel Eduardo Figueroa Suárez",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 244,
+   "nombre": "José Gilberto Oliva Chuman",
+   "organizacion": "Partido SíCreo",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 245,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 246,
+   "nombre": "Segundo Marcos de la Cruz Vega",
+   "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 247,
+   "nombre": "Luis Sigfredo Milla Soto",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

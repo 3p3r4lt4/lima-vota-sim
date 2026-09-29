@@ -3,93 +3,100 @@
  "ambito": "Puente Piedra",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 294,
-   "nombre": "Antonio Germán Rodríguez Jaureguiza",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 295,
-   "nombre": "Esteban Felizardo Monzón Fernández",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 296,
-   "nombre": "Fernando Guillermo Agurto Montesinos",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 297,
+   "id": 319,
    "nombre": "Juan Carlos Merino Huamán",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 298,
-   "nombre": "Judith Marisol Ramírez Rodríguez",
-   "organizacion": "Alianza para el Progreso",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 299,
-   "nombre": "Leonidas Cordero Villarreal",
-   "organizacion": "APRA",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 300,
+   "id": 320,
    "nombre": "Luis Andrés Eustaquio Sánchez",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 301,
+   "id": 321,
+   "nombre": "Judith Marisol Ramírez Rodríguez",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 322,
+   "nombre": "Milton Fernando Jiménez Salazar",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 323,
+   "nombre": "Zusan Lizzet Sánchez Ponce",
+   "organizacion": "FREPAP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 324,
    "nombre": "Paulo Aníbal Casas Pinedo",
    "organizacion": "Juntos por el Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 302,
-   "nombre": "Rennan Santiago Espinoza Venegas",
-   "organizacion": "Somos Perú",
+   "id": 325,
+   "nombre": "Leónidas Cordero Villarreal",
+   "organizacion": "Partido Aprista Peruano",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 303,
+   "id": 326,
    "nombre": "Virginia Sandy Meza Pucho",
    "organizacion": "Partido Cívico Obras",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 304,
-   "nombre": "Zusan Lizzet Sánchez Ponce",
-   "organizacion": "FREPAP",
+   "id": 327,
+   "nombre": "Rennan Santiago Espinoza Venegas",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 328,
+   "nombre": "Antonio Germán Rodríguez Jaureguiza",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 329,
+   "nombre": "Fernando Guillermo Agurto Montesinos",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 330,
+   "nombre": "Esteban Felizardo Monzón Fernández",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

@@ -151,3 +151,6 @@ button { font: inherit; color: inherit; }
 .fuentes span { color: var(--tenue); font-size: 0.9rem; }
 .chip-azar { border-style: dashed; font-weight: 600; }
 .franja { margin: 0 0 2rem; }
+.texto-pdf { max-height: 50vh; overflow-y: auto; font-size: 1rem; background: var(--papel); padding: 0.8rem 1rem; border: 1px solid var(--linea); white-space: pre-line; }
+.boton-pdf { display: inline-block; margin-top: 0.8rem; padding: 0.5rem 0.9rem; background: var(--sello); color: #fff !important; text-decoration: none; font-weight: 600; }
+.nota-lista { font-size: 0.82rem; font-style: italic; }

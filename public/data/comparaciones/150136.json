@@ -3,72 +3,72 @@
  "ambito": "San Miguel",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 411,
-   "nombre": "Carolina Mannucci Arámbulo",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 412,
-   "nombre": "Jorge Luis Moreno Morán",
-   "organizacion": "Perú Moderno",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 413,
+   "id": 456,
    "nombre": "Juan José Guevara Bonilla",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 414,
-   "nombre": "Karin Noemí García Juárez",
+   "id": 457,
+   "nombre": "Sin candidato a alcalde",
    "organizacion": "Avanza País",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 458,
+   "nombre": "Santiago Nicolás Barreda Arias",
+   "organizacion": "Partido Aprista Peruano",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 415,
-   "nombre": "Marcos Enrique Cabrera Porras",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 416,
+   "id": 459,
    "nombre": "Michael Alberto Paredes Torres",
    "organizacion": "Partido del Buen Gobierno",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 417,
+   "id": 460,
+   "nombre": "Carolina Mannucci Arámbulo",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 461,
+   "nombre": "Jorge Luis Moreno Morán",
+   "organizacion": "Perú Moderno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 462,
    "nombre": "Napoleón Roberto Martínez Merizalde Huatuco",
    "organizacion": "Progresemos",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 418,
-   "nombre": "Santiago Nicolás Barreda Arias",
-   "organizacion": "APRA",
+   "id": 463,
+   "nombre": "Marcos Enrique Cabrera Porras",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

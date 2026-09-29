@@ -3,86 +3,100 @@
  "ambito": "Punta Hermosa",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 305,
+   "id": 331,
    "nombre": "Antonio Ricardo Díaz Zamalloa",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 306,
-   "nombre": "Federico Guillermo Abraham Kajatt Kajatt",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 307,
-   "nombre": "Héctor Portugal Marín",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 308,
-   "nombre": "Jenny Leila Romero Chaucayanqui",
-   "organizacion": "Pueblo Consciente",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 309,
-   "nombre": "Jhon Anderson Ortega Torres",
-   "organizacion": "Cooperación, Verdad y Honradez",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 310,
+   "id": 332,
    "nombre": "Jorge Humberto Olaechea Reyes",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 311,
-   "nombre": "Jorge Luis Linares Vera Portocarrero",
-   "organizacion": "Renovación Popular",
+   "id": 333,
+   "nombre": "Héctor Portugal Marín",
+   "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 312,
+   "id": 334,
+   "nombre": "Jhon Anderson Ortega Torres",
+   "organizacion": "Cooperación, Verdad y Honradez",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 335,
    "nombre": "Luis Felipe Moreno Torres",
    "organizacion": "Fuerza Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 313,
+   "id": 336,
+   "nombre": "José Jhonnatan Saldaña Vásquez",
+   "organizacion": "Partido del Buen Gobierno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 337,
+   "nombre": "Mónica Cecilia Mundaca Becerra",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 338,
    "nombre": "Max Andre Ampuero Leandro",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 314,
-   "nombre": "Mónica Cecilia Mundaca Becerra",
-   "organizacion": "Partido Demócrata Verde",
+   "id": 339,
+   "nombre": "Jenny Leila Romero Chaucayanqui",
+   "organizacion": "Pueblo Consciente",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 340,
+   "nombre": "Federico Guillermo Abraham Kajatt Kajatt",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 341,
+   "nombre": "Jorge Luis Linares Vera Portocarrero",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 342,
+   "nombre": "Richard Manuel Pereira Núñez",
+   "organizacion": "Un Camino Diferente",
    "cargo_nota": null,
    "temas": {}
   }

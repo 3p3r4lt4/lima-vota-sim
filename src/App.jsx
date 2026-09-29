@@ -65,6 +65,7 @@ export default function App() {
     }
     const candidato = p?.candidatos.find((c) => c.id === candidatoId);
     if (candidato) setVisor({ candidato, seccion, fuentes: p.fuentes });
+    else if (p) setError("No se encontró la fuente de esa cita.");
   }
 
   return (
@@ -127,7 +128,7 @@ export default function App() {
               )}
 
               <Preguntar ubigeo={ubigeo} ambito={datos.ambito} candidatos={visibles}
-                onCita={abrirFuente} onCambiarAmbito={setUbigeo} />
+                onCita={abrirFuente} onCambiarAmbito={setUbigeo} tipoFuente={datos.tipo_fuente} />
             </>
           ) : (
             <ListaDistrital datos={datos} candidatos={candidatos} onVerLima={() => setUbigeo("1501")} />

@@ -3,65 +3,72 @@
  "ambito": "San Borja",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 339,
+   "id": 371,
    "nombre": "Alberto Tejada Conroy",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 340,
-   "nombre": "Edgard Núñez Quipuzco",
-   "organizacion": "Libertad Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 341,
-   "nombre": "Gina Valeria Casanova Mera",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 342,
-   "nombre": "Javier Martín Diez Gaspard",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 343,
-   "nombre": "Joel Edmundo Miranda Villanueva",
-   "organizacion": "Partido Político ADP",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 344,
+   "id": 372,
    "nombre": "Roberth Edwuard Montoya Puente",
    "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 345,
+   "id": 373,
+   "nombre": "Edgard Núñez Quipuzco",
+   "organizacion": "Libertad Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 374,
+   "nombre": "Juan Fernando Pilco Castañeda",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 375,
+   "nombre": "Gina Valeria Casanova Mera",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 376,
+   "nombre": "Joel Edmundo Miranda Villanueva",
+   "organizacion": "Partido Político ADP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 377,
    "nombre": "Willyans José Soriano Cabrera",
    "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 378,
+   "nombre": "Javier Martín Diez Gaspard",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

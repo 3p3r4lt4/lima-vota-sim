@@ -3,72 +3,79 @@
  "ambito": "Miraflores",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 257,
-   "nombre": "Alexander Enrique Von Ehren Campos",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 258,
-   "nombre": "Amílcar Alessio Cantella Vega",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 259,
+   "id": 282,
    "nombre": "Carlos Alcides Zúñiga Arce",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 260,
-   "nombre": "Daniel Rodríguez Zanabria",
-   "organizacion": "Libertad Popular",
+   "id": 283,
+   "nombre": "Ricardo Enrique Giesecke Sara Lafosse",
+   "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 261,
+   "id": 284,
    "nombre": "Jorge Vicente Martín Muñoz Wells",
    "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 262,
-   "nombre": "María Soledad Ferreyros Castañeda",
-   "organizacion": "PPC",
+   "id": 285,
+   "nombre": "Daniel Rodríguez Zanabria",
+   "organizacion": "Libertad Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 263,
+   "id": 286,
+   "nombre": "José Ricardo Portugal Quiroz",
+   "organizacion": "Partido del Buen Gobierno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 287,
+   "nombre": "Alexander Enrique Von Ehren Campos",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 288,
    "nombre": "Mario Renato Otiniano Buquich",
    "organizacion": "Partido Morado",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 264,
-   "nombre": "Ricardo Enrique Giesecke Sara Lafosse",
-   "organizacion": "Ahora Nación",
+   "id": 289,
+   "nombre": "María Soledad Ferreyros Castañeda",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 290,
+   "nombre": "Amílcar Alessio Cantella Vega",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

@@ -3,135 +3,135 @@
  "ambito": "San Martín de Porres",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 394,
-   "nombre": "Adolfo Israel Mattos Piaggio",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 395,
-   "nombre": "Alan Rudy Vásquez Dávila",
-   "organizacion": "Partido País para Todos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 396,
-   "nombre": "Anndy Miguel Durán Núñez",
-   "organizacion": "Progresemos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 397,
-   "nombre": "Aquiles Cirilo Collasos Villanueva",
-   "organizacion": "Ahora Nación",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 398,
-   "nombre": "Carlos Alberto Albujar Corazón",
-   "organizacion": "Partido Demócrata Verde",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 399,
-   "nombre": "César Augusto Vargas Gutiérrez",
-   "organizacion": "Fe en el Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 400,
-   "nombre": "César Efraín Sifuentes Chávez",
-   "organizacion": "Cooperación, Verdad y Honradez",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 401,
-   "nombre": "Diego Armando López Jara",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 402,
-   "nombre": "Enrique Amador Escalante Carpio",
-   "organizacion": "Perú Libre",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 403,
-   "nombre": "Jiulliana Paola Herrera Moscoso",
-   "organizacion": "Partido SíCreo",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 404,
+   "id": 439,
    "nombre": "Julio Abraham Chávez Chiong",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 405,
+   "id": 440,
+   "nombre": "Aquiles Cirilo Collasos Villanueva",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 441,
+   "nombre": "Adolfo Israel Mattos Piaggio",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 442,
+   "nombre": "César Efraín Sifuentes Chávez",
+   "organizacion": "Cooperación, Verdad y Honradez",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 443,
+   "nombre": "César Augusto Vargas Gutiérrez",
+   "organizacion": "Fe en el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 444,
+   "nombre": "Luis César Navarro Maldonado",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 445,
+   "nombre": "Carlos Alberto Albujar Corazón",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 446,
+   "nombre": "Luis Paúl Cárdenas Sánchez",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 447,
    "nombre": "Luis Alberto Flores Roldán",
    "organizacion": "Partido Morado",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 406,
-   "nombre": "Luis Paul Cárdenas Sánchez",
-   "organizacion": "Somos Perú",
+   "id": 448,
+   "nombre": "Alan Rudy Vásquez Dávila",
+   "organizacion": "Partido País para Todos",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 407,
-   "nombre": "Peter Omar Jaime Cori",
-   "organizacion": "Renovación Popular",
+   "id": 449,
+   "nombre": "Enrique Amador Escalante Carpio",
+   "organizacion": "Perú Libre",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 408,
-   "nombre": "Sadith Hurtado Vela",
-   "organizacion": "FREPAP",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 409,
+   "id": 450,
    "nombre": "Víctor Vicente Santander Salvador",
    "organizacion": "Perú Primero",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 410,
+   "id": 451,
    "nombre": "Yuri Luis Medina Barrios",
    "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 452,
+   "nombre": "Jiulliana Paola Herrera Moscoso",
+   "organizacion": "Partido SíCreo",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 453,
+   "nombre": "Diego Armando López Jara",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 454,
+   "nombre": "Anndy Miguel Durán Núñez",
+   "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 455,
+   "nombre": "Peter Omar Jaime Cori",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

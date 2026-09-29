@@ -3,58 +3,79 @@
  "ambito": "San Isidro",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 346,
+   "id": 379,
    "nombre": "Carlomagno Chacón Gómez",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 347,
+   "id": 380,
+   "nombre": "Zuleika Vannessa Benel Zevallos",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 381,
+   "nombre": "César Augusto Combina Salvatierra",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 382,
+   "nombre": "Víctor Hugo Bazán Pastor",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 383,
    "nombre": "César Enrique Stuart Alvarado",
    "organizacion": "PPC",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 348,
+   "id": 384,
    "nombre": "Charles Adrián Zapata Vega",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 349,
+   "id": 385,
+   "nombre": "Carla Meyling Peralta Hu",
+   "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 386,
    "nombre": "Javier Eduardo Paino Scarpati",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 350,
+   "id": 387,
    "nombre": "Rigan Edward Valcárcel Salinas",
    "organizacion": "Visión Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 351,
-   "nombre": "Víctor Hugo Bazán Pastor",
-   "organizacion": "Somos Perú",
    "cargo_nota": null,
    "temas": {}
   }

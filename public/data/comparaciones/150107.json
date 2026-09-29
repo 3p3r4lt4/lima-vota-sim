@@ -3,72 +3,23 @@
  "ambito": "Chaclacayo",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 92,
-   "nombre": "Carlos Alberto Ysla Durán",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 93,
-   "nombre": "Carmen Rosario Cárdenas Alcarraz",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 94,
-   "nombre": "Elsa Stephany Álvarez Bonifaz",
-   "organizacion": "Fe en el Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 95,
-   "nombre": "Karen Elizabeth Acevedo Salvatierra",
-   "organizacion": "Fuerza Ciudadana",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 96,
-   "nombre": "Leonidas Iván Altamirano Matus",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 97,
+   "id": 99,
    "nombre": "Manuel Javier Campos Sologuren",
    "organizacion": "Acción Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 98,
-   "nombre": "Marco Antonio Tello Castro",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 99,
-   "nombre": "Mario Daniel Cubas Romero",
-   "organizacion": "Juntos por el Perú",
    "cargo_nota": null,
    "temas": {}
   },
@@ -81,15 +32,71 @@
   },
   {
    "id": 101,
+   "nombre": "Leónidas Iván Altamirano Matus",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 102,
+   "nombre": "Elsa Stephany Álvarez Bonifaz",
+   "organizacion": "Fe en el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 103,
+   "nombre": "Karen Elizabeth Acevedo Salvatierra",
+   "organizacion": "Fuerza Ciudadana",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 104,
+   "nombre": "Mario Daniel Cubas Romero",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 105,
+   "nombre": "Víctor Luis Urrutia Condori",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 106,
+   "nombre": "Carmen Rosario Cárdenas Alcarraz",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 107,
+   "nombre": "Adolfo Dennis Ojeda García",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 108,
    "nombre": "Vicente Felipe Castillo Jiménez",
    "organizacion": "Perú Libre",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 102,
-   "nombre": "Víctor Luis Urrutia Condori",
-   "organizacion": "Partido Demócrata Verde",
+   "id": 109,
+   "nombre": "Marco Antonio Tello Castro",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 110,
+   "nombre": "Carlos Alberto Ysla Durán",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

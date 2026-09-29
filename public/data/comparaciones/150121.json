@@ -3,105 +3,98 @@
  "ambito": "Pueblo Libre",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 281,
+   "id": 307,
    "nombre": "Carlos Enrique Arana Urteaga",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 282,
-   "nombre": "Cecilia Acosta Cajaleón",
-   "organizacion": "Renovación Popular",
+   "id": 308,
+   "nombre": "Óscar Raúl Cabello Acosta",
+   "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 283,
-   "nombre": "Daniel Martín Amaya Carranza",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 284,
-   "nombre": "Fabiola Lucero Silva Montero",
-   "organizacion": "Frente de la Esperanza 2021",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 285,
-   "nombre": "Fidel Bratzo García Durante",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 286,
+   "id": 309,
    "nombre": "Hilgo Antonio Manchego Ormeño",
    "organizacion": "Alianza Regional por el Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 287,
-   "nombre": "Jhonel Jorge Leguía Jamis",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 288,
+   "id": 310,
    "nombre": "José Luis Casas Carrión",
    "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 289,
+   "id": 311,
    "nombre": "Josmell Absalón Muñoz Barranzuela",
-   "organizacion": "APRA",
+   "organizacion": "Partido Aprista Peruano",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 290,
-   "nombre": "Manuel Augusto Landerer Loli",
-   "organizacion": "Partido País para Todos",
+   "id": 312,
+   "nombre": "Jhonel Jorge Leguía Jamis",
+   "organizacion": "Somos Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 291,
+   "id": 313,
+   "nombre": "Fabiola Lucero Silva Montero",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 314,
    "nombre": "Miguel Stefano Ruiz Gutiérrez",
    "organizacion": "Partido Morado",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 292,
-   "nombre": "Oscar Raúl Cabello Acosta",
-   "organizacion": "Ahora Nación",
+   "id": 315,
+   "nombre": "Fidel Bratzo García Durante",
+   "organizacion": "PPC",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 293,
+   "id": 316,
+   "nombre": "Daniel Martín Amaya Carranza",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 317,
+   "nombre": "Cecilia Acosta Cajaleón",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 318,
    "nombre": "Walter Alfonso Cavero Villanes",
    "organizacion": "Visión Perú",
    "cargo_nota": null,

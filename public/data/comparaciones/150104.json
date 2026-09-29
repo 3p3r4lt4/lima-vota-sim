@@ -3,72 +3,72 @@
  "ambito": "Barranco",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 51,
-   "nombre": "Angélica María Noguerol Sueldo",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 52,
-   "nombre": "Enrique Fernando Delucchi Chueca",
-   "organizacion": "Partido Morado",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 53,
-   "nombre": "Felipe Antonio Mezarina Tong",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
    "id": 54,
-   "nombre": "Jorge Antonio Ruiz de Somocurcio Hidalgo",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 55,
-   "nombre": "José Juan Rodríguez Cárdenas",
-   "organizacion": "Libertad Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 56,
-   "nombre": "Manuel Milenco Espinoza Loarte",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 57,
    "nombre": "María Luisa Cardoso Serra",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
+   "id": 55,
+   "nombre": "Angélica María Noguerol Sueldo",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 56,
+   "nombre": "José Juan Rodríguez Cárdenas",
+   "organizacion": "Libertad Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 57,
+   "nombre": "Felipe Antonio Mezarina Tong",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
    "id": 58,
+   "nombre": "Enrique Fernando Delucchi Chueca",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 59,
+   "nombre": "Jorge Antonio Ruiz de Somocurcio Hidalgo",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 60,
    "nombre": "Nicole Fiorella Muñoz Zevallos",
    "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 61,
+   "nombre": "Manuel Milenco Espinoza Loarte",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

@@ -3,93 +3,30 @@
  "ambito": "Comas",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 122,
-   "nombre": "Ana Yuriko Niño de Guzmán",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 123,
-   "nombre": "Carmen Mónica Acuña Jara",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 124,
-   "nombre": "César Augusto Cosiche Tenorio",
-   "organizacion": "Ahora Nación",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 125,
-   "nombre": "Jean Pool Granados Lazo",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 126,
-   "nombre": "Jorge Luis Molina Salazar",
-   "organizacion": "Alianza Regional por el Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 127,
-   "nombre": "Juan Carlos Condori Chávez",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 128,
-   "nombre": "Nerio Wilson Sánchez Quiroz",
-   "organizacion": "Perú Moderno",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 129,
-   "nombre": "Nicolás Octavio Kusunoki Fuero",
-   "organizacion": "Partido Cívico Obras",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 130,
+   "id": 131,
    "nombre": "Pierre Orlando Apian Castillo",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 131,
-   "nombre": "Raúl Díaz Pérez",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
    "id": 132,
-   "nombre": "Rosa Lidia Corzo Saldarriaga",
-   "organizacion": "Perú Primero",
+   "nombre": "César Augusto Cosiche Tenorio",
+   "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
@@ -97,6 +34,97 @@
    "id": 133,
    "nombre": "Roxana Marylia Ari Acuña",
    "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 134,
+   "nombre": "Raúl Díaz Pérez",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 135,
+   "nombre": "Samuel Horacio Guerrero Castillo",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 136,
+   "nombre": "Nicolás Octavio Kusunoki Fuero",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 137,
+   "nombre": "Javier Sosimo Carrasco Condori",
+   "organizacion": "Partido de los Trabajadores y Emprendedores PTE Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 138,
+   "nombre": "Ana Yuriko Niño de Guzmán Tengan",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 139,
+   "nombre": "Josmell Max Peralta Peña",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 140,
+   "nombre": "Óscar Alfredo Quevedo Pérez",
+   "organizacion": "Perú Acción",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 141,
+   "nombre": "Rosa Lidia Corzo Saldarriaga",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 142,
+   "nombre": "Juan Carlos Condori Chávez",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 143,
+   "nombre": "Nerio Wilson Sánchez Quiroz",
+   "organizacion": "Perú Moderno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 144,
+   "nombre": "Carmen Mónica Acuña Jara",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 145,
+   "nombre": "Victoria Villanueva Quiñones",
+   "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 146,
+   "nombre": "Jean Pool Granados Lazo",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

@@ -3,72 +3,72 @@
  "ambito": "Pachacámac",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 265,
-   "nombre": "Giancarlos Enrique Zárate Quispe",
-   "organizacion": "Frente de la Esperanza 2021",
+   "id": 291,
+   "nombre": "Pedro Quispe Galdos",
+   "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 266,
-   "nombre": "Guillermo Elvis Pómez Cano",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 267,
-   "nombre": "Héctor Javier Quispe Salvador",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 268,
-   "nombre": "Javier Fernando Ramírez Guerra Guerra",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 269,
+   "id": 292,
    "nombre": "Johnny Walter Auris Olivares",
    "organizacion": "Partido Cívico Obras",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 270,
+   "id": 293,
+   "nombre": "Guillermo Elvis Pómez Cano",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 294,
+   "nombre": "Giancarlos Enrique Zárate Quispe",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 295,
    "nombre": "Jorge Alexander Ardiles Quin",
    "organizacion": "Partido Morado",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 271,
+   "id": 296,
+   "nombre": "Javier Fernando Ramírez Guerra Guerra",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 297,
    "nombre": "Luis Fernando Moreno Córdova",
    "organizacion": "Partido SíCreo",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 272,
-   "nombre": "Pedro Quispe Galdos",
-   "organizacion": "Avanza País",
+   "id": 298,
+   "nombre": "Héctor Javier Quispe Salvador",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

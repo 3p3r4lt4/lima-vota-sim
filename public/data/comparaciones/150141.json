@@ -3,58 +3,79 @@
  "ambito": "Surquillo",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 453,
-   "nombre": "Jessica Ofelia Barrera Mendoza",
-   "organizacion": "Partido País para Todos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 454,
-   "nombre": "José Luis Huamaní Gonzales",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 455,
-   "nombre": "Miguel Ángel Ccamac Ortiz",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 456,
+   "id": 501,
    "nombre": "Phil Dempster Barriga Vásquez",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 457,
+   "id": 502,
+   "nombre": "Dennis Alvarado Carrasco",
+   "organizacion": "Ahora Nación",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 503,
+   "nombre": "José Luis Huamaní Gonzales",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 504,
+   "nombre": "Sandra Liz Gutiérrez Cuba",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 505,
+   "nombre": "Jessica Ofelia Barrera Mendoza",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 506,
+   "nombre": "María Teresa Maestre Mejía",
+   "organizacion": "PRIN",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 507,
    "nombre": "Renzo Jesús Gutiérrez Portillo",
    "organizacion": "PPC",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 458,
-   "nombre": "Sandra Liz Gutiérrez Cuba",
-   "organizacion": "Somos Perú",
+   "id": 508,
+   "nombre": "Miguel Ángel Ccamac Ortiz",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 509,
+   "nombre": "Ruth Haydee Meza Saldarriaga",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

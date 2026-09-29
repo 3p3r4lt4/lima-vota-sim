@@ -3,135 +3,149 @@
  "ambito": "Villa María del Triunfo",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 475,
-   "nombre": "Carlos Armando Chávez Montoya",
-   "organizacion": "Perú Primero",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 476,
-   "nombre": "Carlos Walter Mejía Escajadillo",
-   "organizacion": "Fuerza Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 477,
-   "nombre": "Cresencio Gonzales Ccapcha",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 478,
-   "nombre": "Daniel Fernández Núñez",
-   "organizacion": "Cooperación, Verdad y Honradez",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 479,
-   "nombre": "David Andrés Morales Cárdenas",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 480,
-   "nombre": "Edgard Freddy Paucar Calero",
-   "organizacion": "Perú Moderno",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 481,
-   "nombre": "Franklin Villarruel Álvarez",
-   "organizacion": "FREPAP",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 482,
-   "nombre": "Guido Íñigo Peralta",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 483,
-   "nombre": "Juan Carlos Medina Morillo",
-   "organizacion": "Partido País para Todos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 484,
-   "nombre": "Juan José Castillo Ángeles",
-   "organizacion": "Partido Cívico Obras",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 485,
-   "nombre": "Luis Ángel Yaya Kuba",
-   "organizacion": "Partido Demócrata Unido Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 486,
-   "nombre": "Magaly Rosy Copez Gutiérrez",
-   "organizacion": "Salvemos al Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 487,
-   "nombre": "René Alfredo Yucra Verástegui",
-   "organizacion": "Juntos por el Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 488,
-   "nombre": "Robert Joel Ludeña Guerra",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 489,
+   "id": 529,
    "nombre": "Roger Edinsson Parra Taboada",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 490,
+   "id": 530,
+   "nombre": "Víctor Manuel Calderón Rodríguez",
+   "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 531,
+   "nombre": "David Andrés Morales Cárdenas",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 532,
+   "nombre": "Daniel Fernández Núñez",
+   "organizacion": "Cooperación, Verdad y Honradez",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 533,
+   "nombre": "Franklin Villarruel Álvarez",
+   "organizacion": "FREPAP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 534,
+   "nombre": "Carlos Walter Mejía Escajadillo",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 535,
+   "nombre": "René Alfredo Yucra Verástegui",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 536,
+   "nombre": "Juan José Castillo Ángeles",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 537,
+   "nombre": "Guido Íñigo Peralta",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 538,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 539,
+   "nombre": "Juan Carlos Medina Morillo",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 540,
    "nombre": "Víctor Edward Colán Huamán",
    "organizacion": "Partido Patriótico del Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 491,
-   "nombre": "Willy Alberto Ruelas Oropeza",
-   "organizacion": "Frente de la Esperanza 2021",
+   "id": 541,
+   "nombre": "Carlos Armando Chávez Montoya",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 542,
+   "nombre": "Cresencio Gonzales Ccapcha",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 543,
+   "nombre": "Edgard Freddy Paucar Calero",
+   "organizacion": "Perú Moderno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 544,
+   "nombre": "Carlos Francisco Hinostroza Rodríguez",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 545,
+   "nombre": "Víctor Tito Sotomayor Bernaola",
+   "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 546,
+   "nombre": "Robert Joel Ludeña Guerra",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 547,
+   "nombre": "Magaly Rosy Copez Gutiérrez",
+   "organizacion": "Salvemos al Perú",
    "cargo_nota": null,
    "temas": {}
   }

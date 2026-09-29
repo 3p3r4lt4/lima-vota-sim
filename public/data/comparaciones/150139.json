@@ -3,51 +3,58 @@
  "ambito": "Santa Rosa",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 435,
-   "nombre": "Evelyn Elizabeth Ramírez Ocaña",
-   "organizacion": "Avanza País",
+   "id": 480,
+   "nombre": "Tanus Barraza Calvo",
+   "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 436,
+   "id": 481,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Avanza País",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 482,
    "nombre": "Ever Félix Rojas Caja",
    "organizacion": "Partido Demócrata Verde",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 437,
-   "nombre": "John Porfirio Robles Soto",
+   "id": 483,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Somos Perú",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 484,
+   "nombre": "Sin candidato a alcalde",
    "organizacion": "Podemos Perú",
-   "cargo_nota": null,
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
    "temas": {}
   },
   {
-   "id": 438,
-   "nombre": "Oscar Alex Dolorier Mori",
+   "id": 485,
+   "nombre": "Óscar Alex Dolorier Mori",
    "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 439,
-   "nombre": "Tanus Barraza Calvo",
-   "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   }

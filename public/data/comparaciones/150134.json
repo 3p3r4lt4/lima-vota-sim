@@ -3,86 +3,93 @@
  "ambito": "San Luis",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 384,
-   "nombre": "César Roberto Mendoza Valencia",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 385,
-   "nombre": "Christian Israel Pardo Reyes",
-   "organizacion": "Visión Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 386,
+   "id": 428,
    "nombre": "Diego Alejandro Hernández Huambachano",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 387,
-   "nombre": "Germán Anselmo Chirinos Quispe",
-   "organizacion": "Perú Primero",
+   "id": 429,
+   "nombre": "Ever Cabanillas Menor",
+   "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 388,
-   "nombre": "María Rosario López Solano",
-   "organizacion": "Renovación Popular",
+   "id": 430,
+   "nombre": "Zee Carlos Corrales Romero",
+   "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 389,
-   "nombre": "Napoleón Gonzales Castillo",
-   "organizacion": "Partido Demócrata Verde",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 390,
-   "nombre": "Ricardo Fidel Castro Sierra",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 391,
-   "nombre": "Ronald Eulogio Fuertes Vega",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 392,
+   "id": 431,
    "nombre": "Víctor Antonio Alegría García",
    "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 393,
-   "nombre": "Zee Carlos Corrales Romero",
-   "organizacion": "Alianza para el Progreso",
+   "id": 432,
+   "nombre": "Napoleón Gonzales Castillo",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 433,
+   "nombre": "Ricardo Fidel Castro Sierra",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 434,
+   "nombre": "Germán Anselmo Chirinos Quispe",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 435,
+   "nombre": "César Roberto Mendoza Valencia",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 436,
+   "nombre": "Ronald Eulogio Fuertes Vega",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 437,
+   "nombre": "María Rosario López Solano",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 438,
+   "nombre": "Christian Israel Pardo Reyes",
+   "organizacion": "Visión Perú",
    "cargo_nota": null,
    "temas": {}
   }

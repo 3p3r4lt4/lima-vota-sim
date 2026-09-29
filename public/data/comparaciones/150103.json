@@ -3,149 +3,163 @@
  "ambito": "Ate",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 32,
-   "nombre": "Arturo Jonell Peña Sánchez",
-   "organizacion": "Alianza Electoral Venceremos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
    "id": 33,
-   "nombre": "Carlos Daniel Cuya Ponce",
-   "organizacion": "Partido País para Todos",
+   "nombre": "Walter Jesús Rivera Guerra",
+   "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
    "id": 34,
-   "nombre": "Edde Cuellar Alegría",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 35,
-   "nombre": "Elizabeth Nancy Cabezas Flores",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 36,
-   "nombre": "Enrique Bruno Palma Salinas",
-   "organizacion": "Partido del Buen Gobierno",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 37,
-   "nombre": "Gianmarco Valentín Tobalino Castillo",
-   "organizacion": "Partido Patriótico del Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 38,
-   "nombre": "Joel José Núñez Mendoza",
-   "organizacion": "Perú Primero",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 39,
-   "nombre": "Jorge Antonio Salazar Velásquez",
-   "organizacion": "Partido Morado",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 40,
-   "nombre": "José Luis Hurtado Apaico",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 41,
    "nombre": "Luis Eusebio Poma Tacuri",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 42,
-   "nombre": "Maidy Martí López Casimiro",
-   "organizacion": "Frente de la Esperanza 2021",
+   "id": 35,
+   "nombre": "Arturo Jonell Peña Sánchez",
+   "organizacion": "Alianza Electoral Venceremos",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 43,
+   "id": 36,
    "nombre": "Manuel Gaudencio Vidal Camargo",
    "organizacion": "Avanza País",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 44,
-   "nombre": "Mel Ian Vilcahuamán Medrano",
-   "organizacion": "Progresemos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 45,
-   "nombre": "Miguel Ángel Malma Valverde",
-   "organizacion": "Partido Cívico Obras",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 46,
+   "id": 37,
    "nombre": "Misael Meneses Flores",
    "organizacion": "FREPAP",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 47,
-   "nombre": "Netzer Alemao Chávez Flores",
-   "organizacion": "Visión Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 48,
-   "nombre": "Oscar Ramírez Rojas",
+   "id": 38,
+   "nombre": "Óscar Ramírez Rojas",
    "organizacion": "Juntos por el Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 49,
+   "id": 39,
+   "nombre": "Jaime Bruno Valeriano Codina",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 40,
+   "nombre": "Miguel Ángel Malma Valverde",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 41,
+   "nombre": "Enrique Bruno Palma Salinas",
+   "organizacion": "Partido del Buen Gobierno",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 42,
    "nombre": "Simón Ortiz Talaverano",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
    "temas": {}
   },
   {
+   "id": 43,
+   "nombre": "Maidy Marti López Casimiro",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 44,
+   "nombre": "Jorge Antonio Salazar Velásquez",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 45,
+   "nombre": "Carlos Daniel Cuya Ponce",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 46,
+   "nombre": "Gianmarco Valentín Tobalino Castillo",
+   "organizacion": "Partido Patriótico del Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 47,
+   "nombre": "Joel José Núñez Mendoza",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 48,
+   "nombre": "José Luis Hurtado Apaico",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 49,
+   "nombre": "Edde Cuellar Alegría",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
    "id": 50,
-   "nombre": "Walter Jesús Rivera Guerra",
-   "organizacion": "Acción Popular",
+   "nombre": "Mel Ian Vilcahuaman Medrano",
+   "organizacion": "Progresemos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 51,
+   "nombre": "Elizabeth Nancy Cabezas Flores",
+   "organizacion": "Renovación Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 52,
+   "nombre": "Rodolfo Roiro Padilla",
+   "organizacion": "Salvemos al Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 53,
+   "nombre": "Netzer Alemao Chávez Flores",
+   "organizacion": "Visión Perú",
    "cargo_nota": null,
    "temas": {}
   }

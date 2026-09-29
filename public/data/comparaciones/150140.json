@@ -3,107 +3,121 @@
  "ambito": "Santiago de Surco",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 440,
-   "nombre": "Arturo Miguel Guillermo Bobbio Carranza",
-   "organizacion": "Somos Perú",
+   "id": 486,
+   "nombre": "Oswaldo Martín Moreno Rivera",
+   "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 441,
-   "nombre": "Betty Fani Fernández Gallarday",
-   "organizacion": "Partido Morado",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 442,
-   "nombre": "David Ignacio Vera Trujillo",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 443,
-   "nombre": "Gardo Antonio Gómez Jiménez",
-   "organizacion": "Integridad Democrática",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 444,
-   "nombre": "Hugo Roberto Encalada Chumbile",
-   "organizacion": "Partido Unidad y Paz",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 445,
-   "nombre": "Jean Pierre Combe Portocarrero",
-   "organizacion": "Alianza para el Progreso",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 446,
-   "nombre": "Jhon Cautivo Hancco Chumpitaz",
-   "organizacion": "APRA",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 447,
-   "nombre": "José Carlos Bolívar Mejía",
-   "organizacion": "Partido País para Todos",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 448,
+   "id": 487,
    "nombre": "José Manuel Fernández Chávez",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 449,
-   "nombre": "Juan Alejandro Palma Aurazo",
-   "organizacion": "Renovación Popular",
+   "id": 488,
+   "nombre": "Jean Pierre Combe Portocarrero",
+   "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 450,
+   "id": 489,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Avanza País",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 490,
+   "nombre": "Jhon Cautivo Hancco Chumpitaz",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 491,
    "nombre": "María Luisa Meneses Martínez",
    "organizacion": "Partido Demócrata Verde",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 451,
-   "nombre": "Oscar Mario Aco Miranda",
+   "id": 492,
+   "nombre": "Arturo Miguel Guillermo Bobbio Carranza",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 493,
+   "nombre": "Betty Fani Fernández Gallarday",
+   "organizacion": "Partido Morado",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 494,
+   "nombre": "José Carlos Bolívar Mejía",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 495,
+   "nombre": "Gardo Antonio Gómez Jiménez",
+   "organizacion": "Integridad Democrática",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 496,
+   "nombre": "David Ignacio Vera Trujillo",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 497,
+   "nombre": "Hugo Roberto Encalada Chumbile",
+   "organizacion": "Partido Unidad y Paz",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 498,
+   "nombre": "Ruth Candelaria Bisbal Oyague",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 499,
+   "nombre": "Óscar Mario Aco Miranda",
    "organizacion": "Progresemos",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 452,
-   "nombre": "Oswaldo Martín Moreno Rivera",
-   "organizacion": "Acción Popular",
+   "id": 500,
+   "nombre": "Juan Alejandro Palma Aurazo",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

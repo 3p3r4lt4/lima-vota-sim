@@ -3,93 +3,121 @@
  "ambito": "El Agustino",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 134,
-   "nombre": "Ana Cecilia Buleje Castillo",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 135,
-   "nombre": "Carlos Alexander Ramos Amante",
-   "organizacion": "Partido Demócrata Verde",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 136,
-   "nombre": "Carlos Manuel Juscamayta Cosme",
-   "organizacion": "Perú Primero",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 137,
-   "nombre": "Carmen Carolina Castillo Yataco",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 138,
+   "id": 147,
    "nombre": "Ernesto Mikhajil Colqui Bedregal",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 139,
-   "nombre": "Irellis Lisbbet Muchaypiña Barriales",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 140,
-   "nombre": "Jackeline Stephany Muñoz Calderón",
-   "organizacion": "FREPAP",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 141,
-   "nombre": "Juan David Barrientos Arce",
-   "organizacion": "Alianza Regional por el Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 142,
-   "nombre": "Liborio Soria Álvarez",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 143,
+   "id": 148,
    "nombre": "Miguel Hernán García Arias",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 144,
+   "id": 149,
    "nombre": "Víctor Modesto Salcedo Ríos",
    "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 150,
+   "nombre": "Juan David Barrientos Arce",
+   "organizacion": "Alianza Regional por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 151,
+   "nombre": "Irellis Lisbbet Muchaypiña Barriales",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 152,
+   "nombre": "Jackeline Stephany Muñoz Calderón",
+   "organizacion": "FREPAP",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 153,
+   "nombre": "Félix Mario Ventura Rivera",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 154,
+   "nombre": "Agustín Rojas Guzmán",
+   "organizacion": "Juntos por el Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 155,
+   "nombre": "Jorge Vivanco Zarate",
+   "organizacion": "Partido de los Trabajadores y Emprendedores PTE Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 156,
+   "nombre": "Carlos Alexander Ramos Amante",
+   "organizacion": "Partido Demócrata Verde",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 157,
+   "nombre": "Ana Cecilia Buleje Castillo",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 158,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Partido País para Todos",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 159,
+   "nombre": "Carlos Manuel Juscamayta Cosme",
+   "organizacion": "Perú Primero",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 160,
+   "nombre": "Sin candidato a alcalde",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
+   "temas": {}
+  },
+  {
+   "id": 161,
+   "nombre": "Carmen Carolina Castillo Yataco",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

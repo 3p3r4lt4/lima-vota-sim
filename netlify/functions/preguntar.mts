@@ -6,7 +6,7 @@ import { buscar, respuestaExtractiva, esPreguntaDeLista, normalizar } from "../l
 //   redacción:    Claude (ANTHROPIC_API_KEY) o extractiva (frases textuales de las fuentes)
 
 const SISTEMA = `Ayudas a ciudadanos de Lima a comparar lo que propusieron los candidatos a la alcaldía.
-Los fragmentos resumen lo que cada candidatura expuso en el debate del JNE, según medios de prensa. No son el plan completo.
+Los fragmentos provienen de los planes de gobierno inscritos ante el JNE o, en Lima Metropolitana, de lo expuesto en el debate del JNE según la prensa.
 Reglas estrictas:
 - Usa exclusivamente los fragmentos. No agregues conocimiento externo ni opiniones sobre las personas.
 - Una o dos oraciones por candidatura que sí tenga fragmentos, en el orden recibido y con el mismo nivel de detalle para todas.
@@ -50,6 +50,17 @@ async function redactarConClaude(pregunta: string, fragmentos: any[], candidatos
   return d.content.filter((b: any) => b.type === "text").map((b: any) => b.text).join("\n");
 }
 
+const cache = new Map<string, any>();
+async function cargar(url: URL) {
+  const k = url.pathname;
+  if (!cache.has(k)) {
+    const r = await fetch(url);
+    if (!r.ok) return null;
+    cache.set(k, await r.json());
+  }
+  return cache.get(k);
+}
+
 const error = (msg: string, status = 400) => Response.json({ error: msg }, { status });
 const json = (d: any) => Response.json(d, { headers: { "cache-control": "no-store" } });
 
@@ -64,11 +75,11 @@ export default async (req: Request) => {
   if (ids.length === 0 || ids.length > 30) return error("Marca al menos una candidatura.");
 
   const base = new URL(req.url);
-  const comp = await fetch(new URL(`/data/comparaciones/${ubigeo}.json`, base)).then((r) => (r.ok ? r.json() : null));
+  const comp = await cargar(new URL(`/data/comparaciones/${ubigeo}.json`, base));
   if (!comp) return error("No hay datos para este ámbito.", 404);
 
   // 1. ¿Pregunta por otro distrito?
-  const ambitos = await fetch(new URL("/data/ambitos.json", base)).then((r) => r.json()).catch(() => []);
+  const ambitos = (await cargar(new URL("/data/ambitos.json", base))) ?? [];
   const q = normalizar(pregunta);
   const otro = ambitos.find((a: any) => a.ubigeo !== ubigeo && q.includes(normalizar(a.ambito)));
   if (otro) return json({ tipo: "otro_ambito", ubigeo: otro.ubigeo, ambito: otro.ambito,
@@ -76,14 +87,14 @@ export default async (req: Request) => {
 
   // 2. ¿Pregunta quiénes postulan?
   if (esPreguntaDeLista(pregunta)) {
-    const lista = comp.candidatos.map((c: any) => `**${c.nombre}:** ${c.organizacion}${c.cargo_nota ? ` (${c.cargo_nota})` : ""}.`);
+    const lista = comp.candidatos.map((c: any) => `**${c.organizacion}:** ${c.nombre}${c.cargo_nota ? ` (${c.cargo_nota.replace(/\.$/, "")})` : ""}.`);
     return json({ tipo: "lista", respuesta: `Candidaturas a la alcaldía de ${comp.ambito} (${lista.length}):\n` + lista.join("\n") });
   }
 
   if (!comp.con_propuestas) return json({ tipo: "sin_propuestas",
     respuesta: `Todavía no hay propuestas cargadas para ${comp.ambito}. Puedes revisar los planes de gobierno oficiales en Voto Informado del JNE.` });
 
-  const planes = await fetch(new URL(`/data/planes/${ubigeo}.json`, base)).then((r) => r.json());
+  const planes = await cargar(new URL(`/data/planes/${ubigeo}.json`, base));
   const candidatos = ids.map((id) => planes.candidatos.find((c: any) => c.id === id)).filter(Boolean);
   if (candidatos.length === 0) return error("Las candidaturas no pertenecen a este ámbito.");
 

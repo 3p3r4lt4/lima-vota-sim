@@ -3,93 +3,100 @@
  "ambito": "Jesús María",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "con_propuestas": false,
  "corte": "28 de septiembre de 2026",
+ "con_propuestas": false,
  "fuentes": {
-  "inf_lista": {
-   "medio": "Infobae",
-   "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)",
-   "fecha": "27/09/2026",
-   "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"
+  "rpp_lista": {
+   "medio": "RPP",
+   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
+   "fecha": "28/09/2026",
+   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
   }
  },
  "temas": [],
- "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
  "candidatos": [
   {
-   "id": 160,
-   "nombre": "Daniel Ricardo Li León",
-   "organizacion": "Renovación Popular",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 161,
-   "nombre": "Ernesto Enrique Delhonte Cagna",
-   "organizacion": "Podemos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 162,
+   "id": 177,
    "nombre": "Jorge Luis Quintana García Godos",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 163,
-   "nombre": "José Luis Herrera Urueta",
-   "organizacion": "Partido Cívico Obras",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 164,
-   "nombre": "Julissa Rocío Fernández Fernández",
-   "organizacion": "PPC",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 165,
-   "nombre": "Luis Enrique Ocrospoma Pella",
-   "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 166,
-   "nombre": "Luiz Carlos Reátegui del Águila",
-   "organizacion": "Somos Perú",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 167,
-   "nombre": "María del Pilar Albarracín Valverde",
-   "organizacion": "Frente de la Esperanza 2021",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 168,
-   "nombre": "María Luisa Lanatta Pino",
-   "organizacion": "APRA",
-   "cargo_nota": null,
-   "temas": {}
-  },
-  {
-   "id": 169,
+   "id": 178,
    "nombre": "Raphael Christian Valencia Diestra",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
    "temas": {}
   },
   {
-   "id": 170,
+   "id": 179,
    "nombre": "Renato Aldo Rossini Valenzuela",
    "organizacion": "Alianza para el Progreso",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 180,
+   "nombre": "Luis Enrique Ocrospoma Pella",
+   "organizacion": "Avanza País",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 181,
+   "nombre": "Roberto Antonio Aymar Silva",
+   "organizacion": "Fuerza Popular",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 182,
+   "nombre": "María Luisa Lanatta Pino",
+   "organizacion": "Partido Aprista Peruano",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 183,
+   "nombre": "José Luis Herrera Urueta",
+   "organizacion": "Partido Cívico Obras",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 184,
+   "nombre": "Luiz Carlos Reátegui del Águila",
+   "organizacion": "Somos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 185,
+   "nombre": "María del Pilar Albarracín Valverde",
+   "organizacion": "Frente de la Esperanza 2021",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 186,
+   "nombre": "Julissa Rocío Fernández Fernández",
+   "organizacion": "PPC",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 187,
+   "nombre": "Ernesto Enrique Delhonte Cagna",
+   "organizacion": "Podemos Perú",
+   "cargo_nota": null,
+   "temas": {}
+  },
+  {
+   "id": 188,
+   "nombre": "Daniel Ricardo Li León",
+   "organizacion": "Renovación Popular",
    "cargo_nota": null,
    "temas": {}
   }

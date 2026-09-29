@@ -3,13 +3,14 @@
 - Lima Metropolitana: propuestas expuestas por las 26 listas en el debate del JNE (21 y 22 de septiembre
   de 2026), redactadas con palabras propias a partir de la cobertura de RPP e Infobae. Cada propuesta
   enlaza a su fuente.
-- Distritos: relación de candidatos a alcalde publicada por Infobae a partir de información del JNE
-  (actualizada al 27 de septiembre de 2026). Sin propuestas: la cobertura periodística distrital es parcial
-  y publicarla favorecería a unos candidatos sobre otros.
+- La Molina: propuestas de los 12 planes de gobierno oficiales (ver scripts/la_molina.py), cada una con
+  la página exacta del PDF, verificada automáticamente.
+- Resto de distritos: relación de candidatos a alcalde publicada por RPP (28/09/2026). Sin propuestas
+  hasta contar con los planes de todas sus candidaturas.
 
 Para corregir o añadir datos, edita este archivo y ejecuta: python scripts/datos_reales.py
 """
-import json, pathlib, re
+import json, pathlib, re, sys, unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "public/data"
@@ -26,8 +27,8 @@ FUENTES = {
                "url": "https://www.peruinforma.com/elecciones-2026-candidatos-a-la-alcaldia-de-lima-toman-parte-en-la-segunda-jornada-del-debate-municipal/"},
     "ec_d2":  {"medio": "El Comercio", "titulo": "Debate por Lima: qué propusieron los candidatos en la segunda fecha", "fecha": "23/09/2026",
                "url": "https://elcomercio.pe/politica/elecciones/debate-por-lima-que-propusieron-los-candidatos-y-cuales-fueron-sus-principales-cruces-apuesplan-noticia/"},
-    "inf_lista": {"medio": "Infobae", "titulo": "Candidatos a la alcaldía de Lima y los 43 distritos (lista oficial)", "fecha": "27/09/2026",
-               "url": "https://www.infobae.com/peru/2026/09/16/elecciones-2026-candidatos-a-alcalde-de-lima-y-los-43-distritos-lista-completa/"},
+    "rpp_lista": {"medio": "RPP", "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana", "fecha": "28/09/2026",
+               "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"},
 }
 
 TEMAS = {
@@ -209,6 +210,10 @@ DISTRITOS = {
     "150141": "Surquillo", "150142": "Villa El Salvador", "150143": "Villa María del Triunfo",
 }
 
+sys.path.insert(0, str(ROOT / "scripts"))
+import la_molina  # noqa: E402
+PLANES_DISTRITALES = {la_molina.UBIGEO: la_molina}
+
 LISTA_DISTRITOS = (ROOT / "scripts/candidatos_distritales.txt").read_text(encoding="utf-8")
 
 def parsear_distritos():
@@ -220,14 +225,45 @@ def parsear_distritos():
             actual = nombre_a_ubigeo[linea[3:].strip()]
             salida[actual] = []
         elif linea.startswith("- ") and actual:
-            nombre, org = [x.strip().rstrip(".") for x in linea[2:].split(" — ")]
-            salida[actual].append((nombre, org))
+            nombre, org = [x.strip() for x in linea[2:].split(" — ")]
+            salida[actual].append((None if nombre == "SIN CANDIDATO" else nombre, org))
     faltan = set(DISTRITOS) - set(salida)
     assert not faltan, f"Faltan distritos: {faltan}"
     return salida
 
-def slug(t):
-    return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+def norm(t):
+    t = unicodedata.normalize("NFD", t.lower()).encode("ascii", "ignore").decode()
+    return re.sub(r"\s+", " ", t).replace(" %", "%")
+
+def generar_plan_distrital(modulo, cid, nombres_oficiales):
+    """Comparación y corpus a partir de planes de gobierno en PDF, con verificación de cada cita."""
+    ub = modulo.UBIGEO
+    fuentes, comp_c, planes_c = {}, [], []
+    oficiales = {norm(n) for n, _ in nombres_oficiales if n}
+    assert len(modulo.PLANES) == len(nombres_oficiales), f"{ub}: faltan planes ({len(modulo.PLANES)} de {len(nombres_oficiales)})"
+    for nombre, org, clave, props in modulo.PLANES:
+        assert norm(nombre) in oficiales, f"{nombre} no está en la lista oficial de {ub}"
+        paginas = json.loads((ROOT / f"scripts/planes/{ub}/{clave}.json").read_text(encoding="utf-8"))
+        pn = [norm(p) for p in paginas]
+        url = f"/planes/{ub}/{clave}.pdf"
+        fk = f"plan_{clave}"
+        fuentes[fk] = {"medio": "Plan de gobierno", "titulo": f"Plan de gobierno de {org} (JNE)", "fecha": "2026", "url": url, "pdf": True}
+        temas = {t: {"sin_informacion": True, "propuestas": []} for t in TEMAS}
+        for p in props:
+            assert p["tema"] in TEMAS, p
+            ancla = norm(p["ancla"])
+            encontradas = [i + 1 for i, t in enumerate(pn) if ancla in t]
+            assert encontradas, f"{org}: no se encontró «{p['ancla']}» en el plan"
+            pag = p["pagina"] or next((x for x in encontradas if x > 2), encontradas[0])
+            assert pag in encontradas, f"{org}: «{p['ancla']}» no está en la p. {pag} (sí en {encontradas})"
+            temas[p["tema"]]["sin_informacion"] = False
+            temas[p["tema"]]["propuestas"].append({"texto": p["texto"], "meta": p["meta"], "fuente": fk, "pagina": pag})
+        comp_c.append({"id": cid, "nombre": nombre, "organizacion": org, "cargo_nota": None, "temas": temas})
+        planes_c.append({"id": cid, "nombre": nombre, "organizacion": org, "pdf": url,
+                         "paginas": [{"pagina": i + 1, "titulo": f"Página {i + 1} del plan", "texto": t, "fuentes": [fk]}
+                                     for i, t in enumerate(paginas) if len(t) > 40]})
+        cid += 1
+    return comp_c, planes_c, fuentes, cid
 
 def main():
     for d in ("comparaciones", "planes"):
@@ -238,6 +274,7 @@ def main():
     cid = 1
     comp = {"ubigeo": "1501", "ambito": "Lima Metropolitana", "nivel": "provincial", "cargo": "Alcaldía de Lima Metropolitana",
             "con_propuestas": True, "corte": CORTE, "fuentes": FUENTES, "temas": list(TEMAS), "nombres_temas": TEMAS,
+            "tipo_fuente": "debate",
             "nota_fuente": "Propuestas expuestas en el debate del JNE (21 y 22 de septiembre), según la cobertura de medios citada. No reemplazan el plan de gobierno completo.",
             "candidatos": []}
     planes = {"ubigeo": "1501", "ambito": "Lima Metropolitana", "fuentes": FUENTES, "candidatos": []}
@@ -249,29 +286,46 @@ def main():
             temas[t] = {"sin_informacion": not lista, "propuestas": lista}
             if lista:
                 texto = " ".join(f"{p['texto']}." + (f" Meta: {p['meta']}." if p["meta"] else "") for p in lista)
-                paginas.append({"pagina": i, "titulo": TEMAS[t], "texto": texto,
-                                "fuentes": sorted({p["fuente"] for p in lista})})
+                paginas.append({"pagina": i, "titulo": TEMAS[t], "texto": texto, "fuentes": sorted({p["fuente"] for p in lista})})
         comp["candidatos"].append({"id": cid, "nombre": nombre, "organizacion": org, "cargo_nota": cargo_nota, "temas": temas})
         planes["candidatos"].append({"id": cid, "nombre": nombre, "organizacion": org, "paginas": paginas})
         cid += 1
-    (DATA / "comparaciones/1501.json").write_text(json.dumps(comp, ensure_ascii=False, indent=1), encoding="utf-8")
-    (DATA / "planes/1501.json").write_text(json.dumps(planes, ensure_ascii=False), encoding="utf-8")
+    escribir("1501", comp, planes)
 
     indice = [{"ubigeo": "1501", "ambito": "Lima Metropolitana", "nivel": "provincial", "candidatos": len(LIMA), "con_propuestas": True}]
-    for ubigeo, cands in sorted(parsear_distritos().items(), key=lambda x: DISTRITOS[x[0]]):
-        d = {"ubigeo": ubigeo, "ambito": DISTRITOS[ubigeo], "nivel": "distrital", "cargo": "Alcaldía distrital",
-             "con_propuestas": False, "corte": CORTE, "fuentes": {"inf_lista": FUENTES["inf_lista"]}, "temas": [],
-             "nota_fuente": "Relación de candidatos según información del JNE difundida por Infobae. Las listas pueden variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
-             "candidatos": []}
-        for nombre, org in cands:
-            d["candidatos"].append({"id": cid, "nombre": nombre, "organizacion": org, "cargo_nota": None, "temas": {}})
-            cid += 1
-        (DATA / f"comparaciones/{ubigeo}.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
-        indice.append({"ubigeo": ubigeo, "ambito": DISTRITOS[ubigeo], "nivel": "distrital", "candidatos": len(cands), "con_propuestas": False})
+    total = 0
+    for ubigeo, lista in sorted(parsear_distritos().items(), key=lambda x: DISTRITOS[x[0]]):
+        base = {"ubigeo": ubigeo, "ambito": DISTRITOS[ubigeo], "nivel": "distrital", "cargo": "Alcaldía distrital", "corte": CORTE}
+        if ubigeo in PLANES_DISTRITALES:
+            comp_c, planes_c, fuentes, cid = generar_plan_distrital(PLANES_DISTRITALES[ubigeo], cid, lista)
+            d = {**base, "con_propuestas": True, "tipo_fuente": "plan", "fuentes": fuentes, "temas": list(TEMAS), "nombres_temas": TEMAS,
+                 "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
+                 "candidatos": comp_c}
+            escribir(ubigeo, d, {"ubigeo": ubigeo, "ambito": DISTRITOS[ubigeo], "fuentes": fuentes, "candidatos": planes_c})
+        else:
+            d = {**base, "con_propuestas": False, "fuentes": {"rpp_lista": FUENTES["rpp_lista"]}, "temas": [],
+                 "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+                 "candidatos": []}
+            for nombre, org in lista:
+                d["candidatos"].append({"id": cid, "nombre": nombre or "Sin candidato a alcalde", "organizacion": org,
+                                        "cargo_nota": None if nombre else "La organización figura en competencia sin candidato a alcalde consignado.",
+                                        "temas": {}})
+                cid += 1
+            escribir(ubigeo, d)
+        n = sum(1 for x, _ in lista if x)
+        total += n
+        indice.append({"ubigeo": ubigeo, "ambito": DISTRITOS[ubigeo], "nivel": "distrital", "candidatos": n,
+                       "con_propuestas": ubigeo in PLANES_DISTRITALES})
     (DATA / "ambitos.json").write_text(json.dumps(indice, ensure_ascii=False, indent=1), encoding="utf-8")
-    total_d = sum(a["candidatos"] for a in indice[1:])
     print(f"Lima Metropolitana: {len(LIMA)} listas, {sum(len(x[3]) for x in LIMA)} propuestas")
-    print(f"Distritos: {len(indice) - 1}, {total_d} candidatos")
+    for ub, m in PLANES_DISTRITALES.items():
+        print(f"{DISTRITOS[ub]}: {len(m.PLANES)} planes, {sum(len(x[3]) for x in m.PLANES)} propuestas verificadas")
+    print(f"Distritos: {len(indice) - 1}, {total} candidatos")
+
+def escribir(ubigeo, comp, planes=None):
+    (DATA / f"comparaciones/{ubigeo}.json").write_text(json.dumps(comp, ensure_ascii=False, indent=1), encoding="utf-8")
+    if planes:
+        (DATA / f"planes/{ubigeo}.json").write_text(json.dumps(planes, ensure_ascii=False), encoding="utf-8")
 
 if __name__ == "__main__":
     main()
