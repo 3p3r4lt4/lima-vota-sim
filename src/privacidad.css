@@ -1,0 +1,5 @@
+.privacidad { max-width: 720px; padding-block: var(--s-5) var(--s-7); display: grid; gap: var(--s-3); }
+.privacidad h1 { font-size: var(--fs-xl); }
+.privacidad h2 { font-size: var(--fs-md); margin-top: var(--s-3); }
+.privacidad ul { list-style: disc; padding-left: var(--s-5); display: grid; gap: var(--s-2); }
+.privacidad-nota { margin-top: var(--s-4); font-size: var(--fs-sm); color: var(--text-muted); }

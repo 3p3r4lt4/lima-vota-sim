@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Privacidad · Lima vota informado</title>
+  <meta name="description" content="Qué mide Lima vota informado, para qué y cuánto tiempo lo guarda." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect x=%223%22 y=%223%22 width=%2226%22 height=%2226%22 fill=%22white%22 stroke=%22%2316233a%22 stroke-width=%223%22/><path d=%22M8 8l16 16M24 8L8 24%22 stroke=%22%231f55b8%22 stroke-width=%223.5%22/></svg>" />
+  <link rel="stylesheet" href="/src/styles.css" />
+  <link rel="stylesheet" href="/src/privacidad.css" />
+</head>
+<body>
+  <main class="contenedor privacidad">
+    <p><a href="/">← Volver al comparador</a></p>
+    <h1>Privacidad</h1>
+    <p>Este sitio mide sus visitas con una herramienta propia, sin Google Analytics ni servicios de terceros,
+      conforme a la Ley N.º 29733, Ley de Protección de Datos Personales.</p>
+
+    <h2>Qué se mide</h2>
+    <ul>
+      <li>Tipo de dispositivo, sistema operativo y navegador (con su versión principal).</li>
+      <li>Ubicación aproximada deducida de la conexión: país, departamento, provincia y, a veces, distrito.
+        Es una estimación y en redes móviles suele ser imprecisa.</li>
+      <li>Los distritos que consultas en el comparador, la hora de entrada y de salida y la duración de la visita.</li>
+      <li>Tamaño de pantalla, idioma del navegador y, si llegaste desde otro sitio, solo su dominio.</li>
+    </ul>
+
+    <h2>Para qué</h2>
+    <p>Solo para estadística agregada del proyecto: saber cuántas personas lo usan, desde qué zonas y con qué
+      dispositivos, para mejorarlo. No se usa con fines comerciales ni políticos, no se cede a terceros y no se cruza
+      con otras fuentes.</p>
+
+    <h2>Qué no se guarda</h2>
+    <ul>
+      <li><strong>Tu dirección IP no se guarda en claro.</strong> Se conserva una huella cifrada (HMAC-SHA256) que cambia
+        cada día, así que no permite seguirte de un día a otro.</li>
+      <li><strong>No hay cookies de rastreo.</strong> La visita se identifica con un número aleatorio guardado en la
+        memoria de la pestaña (sessionStorage), que se borra al cerrarla.</li>
+      <li>No se registran tus preguntas en esta estadística ni datos de identificación como nombre o correo.</li>
+    </ul>
+
+    <h2>Cuánto tiempo</h2>
+    <p>Los registros se borran automáticamente a los <strong>90 días</strong>.</p>
+
+    <h2>Cómo excluirte</h2>
+    <p>Si tu navegador tiene activado <em>Do Not Track</em> o <em>Global Privacy Control</em>, el sitio no envía
+      ningún dato de visita.</p>
+
+    <h2>Contacto</h2>
+    <p>Para consultas o para ejercer tus derechos de acceso, rectificación, cancelación u oposición, escribe en
+      <a href="https://github.com/3p3r4lt4/lima-vota-sim/issues" rel="noreferrer">el repositorio del proyecto</a>.</p>
+
+    <p class="privacidad-nota">Proyecto personal, independiente y sin afiliación política. Última actualización: octubre de 2026.</p>
+  </main>
+</body>
+</html>

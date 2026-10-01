@@ -25,6 +25,11 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[redirects]]
+  from = "/privacidad"
+  to = "/privacidad.html"
+  status = 200
+
+[[redirects]]
   from = "/admin"
   to = "/admin.html"
   status = 200
