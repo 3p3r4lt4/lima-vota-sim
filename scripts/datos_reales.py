@@ -5,16 +5,19 @@
   enlaza a su fuente.
 - La Molina: propuestas de los 12 planes de gobierno oficiales (ver scripts/la_molina.py), cada una con
   la página exacta del PDF, verificada automáticamente.
+- Otros distritos con planes completos: un módulo por distrito en scripts/distritos/ (mismo formato que
+  la_molina.py). Los PDF se descargan con scripts/descargar_planes.py y se enlazan a la URL oficial del JNE
+  registrada en scripts/planes/<ubigeo>/manifiesto.json.
 - Resto de distritos: relación de candidatos a alcalde publicada por RPP (28/09/2026). Sin propuestas
   hasta contar con los planes de todas sus candidaturas.
 
 Para corregir o añadir datos, edita este archivo y ejecuta: python scripts/datos_reales.py
 """
-import json, pathlib, re, sys, unicodedata
+import importlib, json, pathlib, re, sys, unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "public/data"
-CORTE = "28 de septiembre de 2026"
+CORTE = "30 de septiembre de 2026"  # fecha de descarga de los planes distritales del JNE
 
 FUENTES = {
     "rpp_d1": {"medio": "RPP", "titulo": "Debate municipal en Lima: principales propuestas (1.ª jornada)", "fecha": "22/09/2026",
@@ -212,7 +215,16 @@ DISTRITOS = {
 
 sys.path.insert(0, str(ROOT / "scripts"))
 import la_molina  # noqa: E402
+
+# Distritos con los planes de TODAS sus candidaturas (scripts/distritos/<ubigeo>_<slug>.py)
+MODULOS_DISTRITOS = [
+    "150130_san_borja",
+    "150141_surquillo",
+]
 PLANES_DISTRITALES = {la_molina.UBIGEO: la_molina}
+for _m in MODULOS_DISTRITOS:
+    _mod = importlib.import_module(f"distritos.{_m}")
+    PLANES_DISTRITALES[_mod.UBIGEO] = _mod
 
 LISTA_DISTRITOS = (ROOT / "scripts/candidatos_distritales.txt").read_text(encoding="utf-8")
 
@@ -241,11 +253,14 @@ def generar_plan_distrital(modulo, cid, nombres_oficiales):
     fuentes, comp_c, planes_c = {}, [], []
     oficiales = {norm(n) for n, _ in nombres_oficiales if n}
     assert len(modulo.PLANES) == len(nombres_oficiales), f"{ub}: faltan planes ({len(modulo.PLANES)} de {len(nombres_oficiales)})"
+    f_manifiesto = ROOT / f"scripts/planes/{ub}/manifiesto.json"
+    manifiesto = {m["clave"]: m for m in json.loads(f_manifiesto.read_text(encoding="utf-8"))["planes"]} if f_manifiesto.exists() else {}
     for nombre, org, clave, props in modulo.PLANES:
-        assert norm(nombre) in oficiales, f"{nombre} no está en la lista oficial de {ub}"
+        assert nombre is None or norm(nombre) in oficiales, f"{nombre} no está en la lista oficial de {ub}"
         paginas = json.loads((ROOT / f"scripts/planes/{ub}/{clave}.json").read_text(encoding="utf-8"))
         pn = [norm(p) for p in paginas]
-        url = f"/planes/{ub}/{clave}.pdf"
+        # PDF servido por el JNE (manifiesto) o copia local en public/planes (La Molina)
+        url = manifiesto[clave]["url"] if clave in manifiesto else f"/planes/{ub}/{clave}.pdf"
         fk = f"plan_{clave}"
         fuentes[fk] = {"medio": "Plan de gobierno", "titulo": f"Plan de gobierno de {org} (JNE)", "fecha": "2026", "url": url, "pdf": True}
         temas = {t: {"sin_informacion": True, "propuestas": []} for t in TEMAS}
@@ -258,8 +273,10 @@ def generar_plan_distrital(modulo, cid, nombres_oficiales):
             assert pag in encontradas, f"{org}: «{p['ancla']}» no está en la p. {pag} (sí en {encontradas})"
             temas[p["tema"]]["sin_informacion"] = False
             temas[p["tema"]]["propuestas"].append({"texto": p["texto"], "meta": p["meta"], "fuente": fk, "pagina": pag})
-        comp_c.append({"id": cid, "nombre": nombre, "organizacion": org, "cargo_nota": None, "temas": temas})
-        planes_c.append({"id": cid, "nombre": nombre, "organizacion": org, "pdf": url,
+        nota = None if nombre else "La organización figura en competencia sin candidato a alcalde consignado."
+        nombre_vis = nombre or "Sin candidato a alcalde"
+        comp_c.append({"id": cid, "nombre": nombre_vis, "organizacion": org, "cargo_nota": nota, "temas": temas})
+        planes_c.append({"id": cid, "nombre": nombre_vis, "organizacion": org, "pdf": url,
                          "paginas": [{"pagina": i + 1, "titulo": f"Página {i + 1} del plan", "texto": t, "fuentes": [fk]}
                                      for i, t in enumerate(paginas) if len(t) > 40]})
         cid += 1
@@ -316,16 +333,16 @@ def main():
         total += n
         indice.append({"ubigeo": ubigeo, "ambito": DISTRITOS[ubigeo], "nivel": "distrital", "candidatos": n,
                        "con_propuestas": ubigeo in PLANES_DISTRITALES})
-    (DATA / "ambitos.json").write_text(json.dumps(indice, ensure_ascii=False, indent=1), encoding="utf-8")
+    (DATA / "ambitos.json").write_text(json.dumps(indice, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
     print(f"Lima Metropolitana: {len(LIMA)} listas, {sum(len(x[3]) for x in LIMA)} propuestas")
     for ub, m in PLANES_DISTRITALES.items():
         print(f"{DISTRITOS[ub]}: {len(m.PLANES)} planes, {sum(len(x[3]) for x in m.PLANES)} propuestas verificadas")
     print(f"Distritos: {len(indice) - 1}, {total} candidatos")
 
 def escribir(ubigeo, comp, planes=None):
-    (DATA / f"comparaciones/{ubigeo}.json").write_text(json.dumps(comp, ensure_ascii=False, indent=1), encoding="utf-8")
+    (DATA / f"comparaciones/{ubigeo}.json").write_text(json.dumps(comp, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
     if planes:
-        (DATA / f"planes/{ubigeo}.json").write_text(json.dumps(planes, ensure_ascii=False), encoding="utf-8")
+        (DATA / f"planes/{ubigeo}.json").write_text(json.dumps(planes, ensure_ascii=False), encoding="utf-8", newline="\n")
 
 if __name__ == "__main__":
     main()

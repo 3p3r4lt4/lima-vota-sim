@@ -207,7 +207,7 @@
   "ambito": "San Borja",
   "nivel": "distrital",
   "candidatos": 8,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150131",
@@ -284,7 +284,7 @@
   "ambito": "Surquillo",
   "nivel": "distrital",
   "candidatos": 9,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150142",

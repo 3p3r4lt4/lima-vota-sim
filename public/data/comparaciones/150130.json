@@ -3,74 +3,995 @@
  "ambito": "San Borja",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "corte": "28 de septiembre de 2026",
- "con_propuestas": false,
+ "corte": "30 de septiembre de 2026",
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/24b4dbc0-faeb-45b2-9288-9e21102c60c3.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/fffe8552-13c4-4d7f-99f1-5308d6d5d6bf.pdf",
+   "pdf": true
+  },
+  "plan_libertad-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Libertad Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/2203506f-0cab-4410-a0b2-135eaed0d0a4.pdf",
+   "pdf": true
+  },
+  "plan_partido-aprista-peruano": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Aprista Peruano (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/a8dec2d5-15b9-40b3-8fb6-db013627947e.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/ef610aec-23d7-4dcb-b718-7eb56637613a.pdf",
+   "pdf": true
+  },
+  "plan_partido-politico-adp": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Político ADP (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/e3a2ec32-62f4-42ea-a78a-820b78758ab1.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/24c591b7-0e08-4dc5-ab23-ad853aa76bf9.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/6a94e529-2256-4e01-a26e-82898bae0ec1.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 371,
    "nombre": "Alberto Tejada Conroy",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Borja Seguro 360»: patrullaje integrado, analítica de video, centros descentralizados, participación vecinal y articulación con la PNP",
+       "meta": "Reducir la victimización a 21,39 % y superar el 80 % de percepción de seguridad",
+       "fuente": "plan_accion-popular",
+       "pagina": 73
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Movilidad inteligente y «Urbanito Seguro»: transporte de proximidad, integración modal, ciclovías, rutas seguras y cultura vial",
+       "meta": "40 % más uso de movilidad sostenible y 20 % menos tiempo de viaje en corredores priorizados",
+       "fuente": "plan_accion-popular",
+       "pagina": 75
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Agua y Energía para el Futuro»: riego tecnificado, Canal Surco, luminarias eficientes, energías renovables y soterramiento",
+       "meta": "60 % de riego tecnificado, 20 % menos consumo de agua y 25 % menos energía municipal",
+       "fuente": "plan_accion-popular",
+       "pagina": 76
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Barrios Integrados y Convivencia Vecinal»: intervenciones barriales y recuperación de espacios comunitarios en sectores residenciales",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 77
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Borja Salud 360» con tamizajes preventivos, vida saludable, atención comunitaria y seguimiento digital",
+       "meta": "80 % de cobertura anual de tamizajes y 50 % más de participación en actividades saludables",
+       "fuente": "plan_accion-popular",
+       "pagina": 72
+      },
+      {
+       "texto": "Red «San Borja Cardioprotegida» con desfibriladores, brigadas comunitarias y capacitación en RCP en espacios públicos",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 73
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Borja Emprende e Innova»: capacitación, mentoría, digitalización, ventanilla empresarial y promoción comercial para emprendedores y mypes",
+       "meta": "Más de 3 000 emprendedores y pequeñas empresas beneficiados",
+       "fuente": "plan_accion-popular",
+       "pagina": 74
+      },
+      {
+       "texto": "Bolsa laboral, escuela de capacitación e inclusión laboral para jóvenes, mujeres, adultos mayores y personas con discapacidad",
+       "meta": "Más de 5 000 vecinos capacitados y vinculados laboralmente en 2027-2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 74
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan Distrital de Adaptación Climática y sistema de medición de la huella de carbono municipal",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 76
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar el catastro, rentas y finanzas con información georreferenciada y gestión tributaria digital",
+       "meta": "Eficacia de recaudación de 72,85 % a 90 % al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 74
+      },
+      {
+       "texto": "Plataforma «Mi San Borja» con gobierno digital, datos abiertos e innovación pública",
+       "meta": "Al menos 90 % de trámites digitalizados y 50 % menos tiempo de atención",
+       "fuente": "plan_accion-popular",
+       "pagina": 76
+      }
+     ]
+    }
+   }
   },
   {
    "id": 372,
    "nombre": "Roberth Edwuard Montoya Puente",
    "organizacion": "Avanza País",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan «San Borja Muy Seguro»: central de videovigilancia con IA predictiva, botones de pánico, drones y patrullaje con civiles armados",
+       "meta": "100 % de cámaras con IA y respuesta a emergencias en menos de 3 minutos",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 33
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fiscalización permanente con la ATU y la Policía de Tránsito para erradicar paraderos informales, en especial en el nodo Javier Prado–Aviación",
+       "meta": "0 paraderos informales en el distrito",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 34
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego tecnificado de parques con aguas residuales tratadas y sistemas automatizados",
+       "meta": "90 % de las áreas verdes con riego tecnificado",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 34
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Protocolo de reparación rápida de baches en las vías urbanas",
+       "meta": "100 % de vías reparadas en menos de 72 horas",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 35
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ambulancias municipales Tipo I y II y preventorios itinerantes de salud en los 12 sectores vecinales",
+       "meta": "2 ambulancias nuevas en el primer año de gestión",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 33
+      },
+      {
+       "texto": "Casas del Adulto Mayor (CIAM) sectoriales para descentralizar la atención",
+       "meta": "4 nuevas Casas CIAM equipadas",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 33
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reubicar el comercio informal en ferias itinerantes formales y crear una plataforma digital de formalización de microemprendedores",
+       "meta": "0 puntos de comercio ambulante no autorizado y 800 microemprendedores formalizados",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 34
+      },
+      {
+       "texto": "Reestructurar la Bolsa de Trabajo y vincular los talleres municipales con lo que piden las empresas del distrito",
+       "meta": "2 500 vecinos insertados en empleos formales",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 34
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Monitoreo del arbolado con tecnología Tree-Radar y tomógrafos sónicos para detectar daños y programar podas",
+       "meta": "100 % del arbolado con ficha digital y 0 accidentes por caída de árboles en parques",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 34
+      },
+      {
+       "texto": "Sonómetros en zonas comerciales, renovación de contenedores soterrados y rutas de recolección con GPS",
+       "meta": "50 % menos contaminación sonora en ejes críticos y 80 % de familias reciclando",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 35
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Tambos Municipales y Muni-Agencias descentralizadas por sector, con atención digital unificada y transparencia activa",
+       "meta": "12 Tambos Municipales y 100 % de cumplimiento del Portal de Transparencia",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 35
+      }
+     ]
+    }
+   }
   },
   {
    "id": 373,
    "nombre": "Edgard Núñez Quipuzco",
    "organizacion": "Libertad Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Más cámaras de videovigilancia con inteligencia artificial",
+       "meta": "50 % más cámaras, con un aumento de 25 % anual",
+       "fuente": "plan_libertad-popular",
+       "pagina": 15
+      },
+      {
+       "texto": "Centro de control C5 para gestionar la seguridad pública y las emergencias urbanas",
+       "meta": "C5 implementado al 100 % en 24 meses",
+       "fuente": "plan_libertad-popular",
+       "pagina": 15
+      },
+      {
+       "texto": "Mejorar la app «SOS San Borja» y crear una línea segura para denunciar extorsión y violencia familiar",
+       "meta": "App en 6 meses y línea segura en 12 meses",
+       "fuente": "plan_libertad-popular",
+       "pagina": 15
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reducir la congestión vehicular y la contaminación, con más uso de transporte público, bicicletas y ciclovías",
+       "meta": "25 % menos flujo vehicular en horas punta",
+       "fuente": "plan_libertad-popular",
+       "pagina": 14
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Teleconsulta municipal para consultas de salud que no son de emergencia",
+       "meta": "80 % de las consultas no de emergencia por teleconsulta",
+       "fuente": "plan_libertad-popular",
+       "pagina": 13
+      },
+      {
+       "texto": "Atención primaria de salud con horarios ampliados y actividades fuera del establecimiento",
+       "meta": "Cobertura del 90 % de la población objetivo y citas en menos de 2 días hábiles",
+       "fuente": "plan_libertad-popular",
+       "pagina": 16
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Nuestros jubilados son jóvenes con experiencia» para reinsertar a profesionales jubilados en el mercado laboral",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar las áreas verdes urbanas y reducir los contaminantes del aire",
+       "meta": "15 % más de áreas verdes urbanas",
+       "fuente": "plan_libertad-popular",
+       "pagina": 14
+      },
+      {
+       "texto": "Empadronar y formalizar a los recicladores que trabajan de noche, y usar cámaras con IA contra el arrojo de basura y desmonte",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 3
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Revisar el TUPA y digitalizar todos los trámites municipales",
+       "meta": "100 % de trámites digitales al final de la gestión",
+       "fuente": "plan_libertad-popular",
+       "pagina": 13
+      },
+      {
+       "texto": "Publicar indicadores de gestión en formato abierto para auditoría ciudadana",
+       "meta": "Actualización cada 15 días como máximo",
+       "fuente": "plan_libertad-popular",
+       "pagina": 12
+      }
+     ]
+    }
+   }
   },
   {
    "id": 374,
    "nombre": "Juan Fernando Pilco Castañeda",
    "organizacion": "Partido Aprista Peruano",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar la videovigilancia inteligente, integrar serenazgo y PNP, y botones de pánico con alerta vecinal",
+       "meta": "Reducir en 30 % la percepción de inseguridad",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 3
+      },
+      {
+       "texto": "Corredores seguros en zonas comerciales, educativas y recreativas",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 3
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestión inteligente del tránsito con monitoreo de tráfico y ampliación de ciclovías",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 8
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Simulacros distritales, capacitación vecinal en primeros auxilios y sistemas de alerta temprana",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 9
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Salud mental comunitaria, atención preventiva al adulto mayor y jornadas gratuitas de despistaje",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      },
+      {
+       "texto": "Escuelas municipales deportivas y modernización de espacios deportivos",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro Municipal de Desarrollo Empresarial con asistencia técnica y capacitación digital para mypes",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 5
+      },
+      {
+       "texto": "Ordenar el comercio ambulatorio e incentivar la formalización con trámites simplificados",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 6
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reciclaje con segregación en origen, puntos ecológicos e incentivos a prácticas sostenibles",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 8
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Observatorio ciudadano de obras y servicios, portal de datos abiertos y audiencias públicas",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 10
+      },
+      {
+       "texto": "Informes trimestrales de gestión y tablero digital de seguimiento de metas",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 11
+      }
+     ]
+    }
+   }
   },
   {
    "id": 375,
    "nombre": "Gina Valeria Casanova Mera",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Borja Seguro e Inteligente 24/7» con IA, reconocimiento facial y vehicular, y cámaras corporales",
+       "meta": "Más de 1 000 cámaras inteligentes y 30 % menos percepción de inseguridad al 2030",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 54
+      },
+      {
+       "texto": "Programa «Identifica tu Delivery» con carné municipal y registro digital de repartidores",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 54
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rehabilitación de vías locales y programa «San Borja Ciudad Ciclable» con señalización y regulación de vehículos eléctricos",
+       "meta": "100 % de vías locales en mal estado rehabilitadas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 55
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Alerta temprana ante sismos en parques y plazas que son puntos de reunión, y contenedores soterrados con equipos de respuesta",
+       "meta": "100 % de puntos de reunión cubiertos y activación en 15 segundos o menos",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 54
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar espacios deportivos y parques recreativos, con campañas de salud preventiva en los 12 sectores",
+       "meta": "15 espacios deportivos y 30 parques recreativos",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 54
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nuevo Centro Integral del Adulto Mayor y una OMAPED modernizada con rehabilitación y terapias",
+       "meta": "1 CIAM nuevo y más de 10 000 vecinos vulnerables beneficiados",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 54
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Alianzas público-privadas y Obras por Impuestos para proyectos distritales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 55
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar áreas verdes con riego tecnificado y convertir parques en nodos de sostenibilidad",
+       "meta": "50 000 m² de áreas verdes recuperadas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 55
+      },
+      {
+       "texto": "Programa «Bono Verde» de segregación de residuos con incentivos",
+       "meta": "25 % más cobertura de segregación al 2030",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 55
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Municipalidad Digital y Gobierno Inteligente» con trámites de inicio a fin en línea",
+       "meta": "100 % de trámites digitales al 2030 y 40 % menos tiempo en licencias de edificación",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 56
+      },
+      {
+       "texto": "Audiencias públicas descentralizadas, tablero de control ciudadano e indicadores trimestrales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 56
+      }
+     ]
+    }
+   }
   },
   {
    "id": 376,
    "nombre": "Joel Edmundo Miranda Villanueva",
    "organizacion": "Partido Político ADP",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de seguridad ciudadana inteligente con videovigilancia, patrullaje integrado y participación vecinal",
+       "meta": "30 % menos delitos reportados al 2030",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Movilidad sostenible y semaforización inteligente contra la congestión",
+       "meta": "20 % menos tiempo de congestión vehicular",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 5
+      },
+      {
+       "texto": "Ampliar y modernizar la red de ciclovías",
+       "meta": "20 km más de infraestructura ciclista",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 5
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Tecnificar el riego de áreas verdes con aguas tratadas",
+       "meta": null,
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 3
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar y modernizar parques y espacios públicos seguros e inclusivos",
+       "meta": "30 espacios públicos recuperados o mejorados",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 4
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programas de innovación, capacitación y emprendimiento",
+       "meta": "2 000 emprendedores beneficiados durante la gestión",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 4
+      },
+      {
+       "texto": "Programas y ferias de promoción comercial e inversión local",
+       "meta": "Al menos 20 programas o ferias",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 5
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programas de reciclaje, arborización y monitoreo ambiental",
+       "meta": "10 000 árboles y 30 % más de reciclaje",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 5
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma digital de gobierno abierto y fortalecimiento de las juntas vecinales",
+       "meta": "20 000 usuarios registrados y 100 % de juntas vecinales fortalecidas al 2030",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 4
+      },
+      {
+       "texto": "Plataforma única de trámites digitales y simplificación administrativa",
+       "meta": "90 % de trámites municipales digitalizados",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 4
+      },
+      {
+       "texto": "Dos audiencias públicas al año transmitidas en vivo y un «semáforo de cumplimiento» del plan en línea",
+       "meta": "2 audiencias públicas al año",
+       "fuente": "plan_partido-politico-adp",
+       "pagina": 5
+      }
+     ]
+    }
+   }
   },
   {
    "id": 377,
    "nombre": "Willyans José Soriano Cabrera",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Central Inteligente de Seguridad con analítica de video, lectura de placas, Red Vecino Seguro y patrullaje integrado",
+       "meta": "30 % menos robos al paso, 40 % menos robo de vehículos y 35 % menos robos domiciliarios",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 12
+      },
+      {
+       "texto": "Escuela Municipal de Formación y Capacitación de Serenos",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 11
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Borja en Bici 2.0»: bicicletas públicas con estaciones inteligentes, app y registro digital",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 25
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Borja Iluminada» de alumbrado LED y catastro digital georreferenciado",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 31
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programas «Médico en tu Barrio» y teleorientación municipal en salud",
+       "meta": "60 % más atenciones preventivas y más de 20 000 vecinos al año en campañas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 16
+      },
+      {
+       "texto": "Ampliar la atención psicológica municipal y los programas para adultos mayores",
+       "meta": "Duplicar la atención psicológica y 50 % más adultos mayores en programas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 16
+      },
+      {
+       "texto": "Escuelas Deportivas Municipales y formación de talentos",
+       "meta": "Más de 25 disciplinas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 20
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Innovación y Emprendimiento, Ventanilla Única Empresarial y bolsa laboral",
+       "meta": "70 % menos tiempo en licencias y más de 5 000 emprendedores capacitados",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 23
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de arborización, Eco Parque San Borja y reciclaje",
+       "meta": "10 000 árboles nuevos y 30 % más de reciclaje",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 29
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Municipalidad Digital 100 %» con expediente electrónico, firma digital y «San Borja App»",
+       "meta": "100 % de procedimientos digitalizados y 70 % menos tiempo de atención",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 34
+      },
+      {
+       "texto": "Portal de transparencia, observatorio ciudadano y presupuesto participativo digital",
+       "meta": "100 % de la información obligatoria publicada",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 36
+      }
+     ]
+    }
+   }
   },
   {
    "id": 378,
    "nombre": "Javier Martín Diez Gaspard",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Mi Sector Seguro»: patrullas fijas por cuadrante, patrullaje integrado con la PNP y cámaras con reconocimiento facial y de placas",
+       "meta": "Reducir en 50 % la tasa de delitos por cada 10 000 habitantes",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "«Serenazgo Comunitario a Pie» y redes «Vecinos Alerta» conectadas al Centro de Monitoreo por app",
+       "meta": "80 % de percepción positiva de seguridad",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar y mantener la red de ciclovías y controlar las emisiones vehiculares con la PNP",
+       "meta": "50 % menos emisiones vehiculares y 100 % más operativos",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 12
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego tecnificado por goteo y aspersión conectado a redes de agua tratada",
+       "meta": "100 % de áreas verdes regadas con agua tratada",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Actualizar los parámetros urbanísticos para proteger las zonas residenciales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Casa del Adulto Mayor y Centro de Día, atención médica domiciliaria y telemedicina",
+       "meta": "100 % de adultos mayores vulnerables identificados atendidos",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 7
+      },
+      {
+       "texto": "Casa de la Juventud con coworking, laboratorios de innovación y Academia Preuniversitaria Municipal gratuita",
+       "meta": "50 % de la población juvenil",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Clínica Municipal con pediatría, ginecología, cardiología y odontología a tarifas sociales",
+       "meta": "50 % de la población con atención preventiva y especializada",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ferias, ruedas de negocios y plataforma «San Borja Compra Local» para los negocios del distrito",
+       "meta": "100 % más ferias y ruedas de negocios",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Recicla San Borja» con educación ambiental puerta por puerta",
+       "meta": "100 % de hogares en el programa de reciclaje",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Certificación ISO 37001 antisoborno, control concurrente de la Contraloría en licitaciones y denuncias anónimas",
+       "meta": "100 % de política de prevención de la corrupción",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 15
+      }
+     ]
+    }
+   }
   }
  ]
 }
