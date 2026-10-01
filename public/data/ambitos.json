@@ -11,14 +11,14 @@
   "ambito": "Ancón",
   "nivel": "distrital",
   "candidatos": 6,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150103",
   "ambito": "Ate",
   "nivel": "distrital",
   "candidatos": 21,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150104",
@@ -32,7 +32,7 @@
   "ambito": "Breña",
   "nivel": "distrital",
   "candidatos": 16,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150106",

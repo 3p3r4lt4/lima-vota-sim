@@ -4,59 +4,751 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "30 de septiembre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_fuerza-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Fuerza Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/9765e3ab-1d6e-4876-9c3c-9ad09910f0ff.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/6b3a3226-156e-4211-bb73-7d28b5abfe7c.pdf",
+   "pdf": true
+  },
+  "plan_partido-pais-para-todos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido País para Todos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/1298fde9-8b75-4fbf-93a8-100b4012c940.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/5bef0cd5-149e-49af-b8c9-3f466d6e7650.pdf",
+   "pdf": true
+  },
+  "plan_progresemos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Progresemos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/5a1969ae-7976-4940-a43d-d61d65aab091.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/04b2c0a9-432d-45d5-832b-a86849534637.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 27,
    "nombre": "Lauro Cristóbal Muñoz Soldevilla",
    "organizacion": "Fuerza Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centrales de videovigilancia inteligente y nuevas cámaras en Villas de Ancón, Cercado y km 39",
+       "meta": "150 cámaras operativas y 3 centrales de videovigilancia",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 22
+      },
+      {
+       "texto": "Gestionar ante el Ministerio del Interior la construcción de la Comisaría Los Rosales – Ancón Norte (km 39)",
+       "meta": null,
+       "fuente": "plan_fuerza-popular",
+       "pagina": 22
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Ancón en Bicicleta» con construcción de ciclovías y gestión de rutas integradas con la ATU",
+       "meta": null,
+       "fuente": "plan_fuerza-popular",
+       "pagina": 27
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyecto de atrapanieblas en Pasamayo y laderas de Ancón para recuperar áreas verdes",
+       "meta": "3 proyectos ejecutados",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 26
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Titulación para Todos» y actualización del catastro digital del distrito",
+       "meta": "4 000 predios y 70 % de cobertura catastral",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 22
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Academia Municipal Preuniversitaria gratuita",
+       "meta": "1 000 estudiantes beneficiados por año",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 20
+      },
+      {
+       "texto": "Programa «Ancón sin Anemia» contra la anemia infantil",
+       "meta": "Reducir en 50 % la anemia infantil",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 20
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Bolsa de Trabajo Municipal y convenios con empresas del corredor logístico e industrial del norte",
+       "meta": "1 000 nuevos empleos formales al 2030",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 24
+      },
+      {
+       "texto": "Licencias de funcionamiento emitidas en 24 horas",
+       "meta": "90 % de cumplimiento",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 24
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Planta de valorización de residuos sólidos y programa de segregación y reciclaje en la fuente",
+       "meta": "1 planta y 8 000 hogares incorporados a la segregación",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 26
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Municipalidad digital con expediente electrónico, mesa de partes virtual y plataforma de seguimiento de obras",
+       "meta": null,
+       "fuente": "plan_fuerza-popular",
+       "pagina": 30
+      }
+     ]
+    }
+   }
   },
   {
    "id": 28,
    "nombre": "Pedro John Barrera Bernui",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar y mejorar espacios recreativos y comunitarios",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas de salud y apoyo social en los distintos sectores del distrito",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      },
+      {
+       "texto": "Talleres educativos, culturales y deportivos para niños y jóvenes",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      },
+      {
+       "texto": "Programas de apoyo para adultos mayores y madres de familia",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ferias y capacitaciones para emprendedores y comerciantes locales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Programas y convenios para generar oportunidades laborales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Espacios adecuados para un comercio formal y ordenado",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas de limpieza y reciclaje, y programas de arborización y recuperación de áreas verdes",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Fortalecer el servicio de recolección de residuos sólidos",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Digitalizar y modernizar los trámites municipales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      },
+      {
+       "texto": "Reuniones descentralizadas con dirigentes y vecinos, y mecanismos de participación vecinal",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      }
+     ]
+    }
+   }
   },
   {
    "id": 29,
    "nombre": "Óscar Enrique Aliaga Abanto",
    "organizacion": "Partido País para Todos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar la red de cámaras con reconocimiento facial e IA y botones de pánico conectados a la central",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 18
+      },
+      {
+       "texto": "GPS en unidades de serenazgo y patrulleros, y puntos de control fijos en los ingresos del distrito",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 19
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Buses alimentadores desde Villas de Ancón y las partes altas, y gestionar una ruta troncal permanente del Metropolitano",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 30
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Pastillas potabilizadoras y tanques de almacenamiento en sectores sin red pública de agua",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Titulación de asentamientos humanos con los procedimientos simplificados de COFOPRI y actualización del catastro",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 16
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Brigadas de salud en zonas periféricas como Villas de Ancón y telemedicina en comedores populares",
+       "meta": "Brigadas semanales",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 14
+      },
+      {
+       "texto": "Padrón nominal de niños con anemia y canastas con alimentos ricos en hierro para familias focalizadas",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 14
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla única para formalizar negocios y bolsa de trabajo digital con ofertas para residentes",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 21
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rutas de recojo optimizadas con mapas digitales, horarios fijos y bolsas de colores para separar residuos",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 27
+      },
+      {
+       "texto": "Riego tecnificado, plantas nativas de poco consumo de agua y compost para los parques",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 28
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Portal de transparencia actualizado a diario en lenguaje claro y solicitudes de información por internet",
+       "meta": "Actualización diaria",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 33
+      }
+     ]
+    }
+   }
   },
   {
    "id": 30,
    "nombre": "Felipe Arakaki Shapiama",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Central de Monitoreo Inteligente con IA para lectura de placas, reconocimiento facial y mapas del delito",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 5
+      },
+      {
+       "texto": "Cámaras con analítica de video conectadas por fibra óptica en puntos críticos",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ciclovías seguras y estaciones de micromovilidad que conecten zonas residenciales con servicios",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 15
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Coejecutar con SEDAPAL y el Ministerio de Vivienda la ampliación de redes de agua y desagüe en sectores sin servicio",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Convenios con COFOPRI y la Municipalidad de Lima para titular predios en asentamientos humanos",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "«Plan Distrital de Pavimentación 100 %» de pistas y veredas con convenios del Ministerio de Vivienda",
+       "meta": "Cobertura total de transitabilidad en las zonas con déficit",
+       "fuente": "plan_podemos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centros de refuerzo escolar y alfabetización digital en sectores vulnerables, y academia preuniversitaria municipal",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Monitoreo de niños menores de 5 años y gestantes con suplementación oportuna contra la anemia",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de capacitación y formalización de MYPE en alianza con PRODUCE",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Ancón Recicla» y protección de las Lomas de Ancón y del ecosistema marino",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla única virtual con todos los trámites del TUPA, firma digital y aplicativo ciudadano",
+       "meta": "100 % de los trámites del TUPA digitalizados",
+       "fuente": "plan_podemos-peru",
+       "pagina": 16
+      }
+     ]
+    }
+   }
   },
   {
    "id": 31,
    "nombre": "Víctor Hernán Medina Zúñiga",
    "organizacion": "Progresemos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Más serenos y unidades de patrullaje integrado con la Policía Nacional",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 12
+      },
+      {
+       "texto": "Más cámaras en zonas de mayor incidencia y centro de monitoreo permanente con reconocimiento facial",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 12
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Renovar la señalización vial, campañas de educación vial y mantenimiento de pistas locales",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 18
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar con las entidades responsables la ampliación de redes de agua y alcantarillado en zonas sin cobertura",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Orientación técnica y legal para formalizar predios y agilizar la titulación",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 13
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas de descarte de anemia, diabetes, hipertensión y salud visual en zonas alejadas",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 10
+      },
+      {
+       "texto": "Vehículo acondicionado para trasladar a adultos mayores y personas con discapacidad a los centros de salud",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 10
+      },
+      {
+       "texto": "Biblioteca municipal con computadoras e internet y espacios de reforzamiento escolar",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 11
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Emprende Ancón»: asesoría para formalizar negocios, bolsa de trabajo y capacitación laboral",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 16
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Plan Ancón Verde»: mantenimiento de parques, nuevos parques en zonas con déficit y arborización",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 20
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanillas únicas de atención y plataformas virtuales para pagos, consultas y servicios",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 22
+      }
+     ]
+    }
+   }
   },
   {
    "id": 32,
    "nombre": "Pablo César Ramos Ocaña",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Videovigilancia en puntos críticos, más capacidad del serenazgo y patrullaje integrado permanente",
+       "meta": "Cámaras en el 100 % de puntos críticos priorizados y el doble de capacidad operativa del serenazgo",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas trimestrales de salud, repotenciación de centros de salud y programas contra la anemia",
+       "meta": "20 campañas, 70 % de niños tamizados y 10 % menos anemia infantil",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Gestionar el proyecto del Hospital de Ancón o una sede tipo Hospital de la Solidaridad",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Biblioteca municipal en los sectores alejados y convenios con universidades e institutos técnicos",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Red municipal de soporte social y deporte para adultos mayores, personas con discapacidad y jóvenes",
+       "meta": "Más de 200 adultos mayores y personas con discapacidad beneficiados",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Capacitación y acompañamiento a emprendedores, y ferias productivas y comerciales",
+       "meta": "10 ferias comerciales",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Plan de repotenciación del Parque Industrial y alianzas con empresas para empleo local",
+       "meta": "Plan de repotenciación del Parque Industrial",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 4
+      },
+      {
+       "texto": "Mercados zonales en sectores priorizados y reglas de ordenamiento comercial acordadas con comerciantes",
+       "meta": "3 mercados zonales y 10 mesas de trabajo con comerciantes",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 4
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema integrado de recojo con horarios, renovación de la flota y contenedores en puntos críticos",
+       "meta": "3 camiones recolectores y 100 % de cobertura de recojo",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 4
+      },
+      {
+       "texto": "Segregación en la fuente y recolección selectiva, con formalización de recicladores",
+       "meta": "40 % de viviendas incorporadas al programa",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reorganizar las gerencias municipales para simplificar procesos y reducir los tiempos de trámite",
+       "meta": "10 procesos simplificados, más del 90 % de servidores capacitados y 60 % de satisfacción ciudadana",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 5
+      }
+     ]
+    }
+   }
   }
  ]
 }

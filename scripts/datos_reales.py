@@ -218,7 +218,10 @@ import la_molina  # noqa: E402
 
 # Distritos con los planes de TODAS sus candidaturas (scripts/distritos/<ubigeo>_<slug>.py)
 MODULOS_DISTRITOS = [
+    "150102_ancon",
+    "150103_ate",
     "150104_barranco",
+    "150105_brena",
     "150106_carabayllo",
     "150130_san_borja",
     "150141_surquillo",
@@ -257,6 +260,7 @@ def generar_plan_distrital(modulo, cid, nombres_oficiales):
     assert len(modulo.PLANES) == len(nombres_oficiales), f"{ub}: faltan planes ({len(modulo.PLANES)} de {len(nombres_oficiales)})"
     f_manifiesto = ROOT / f"scripts/planes/{ub}/manifiesto.json"
     manifiesto = {m["clave"]: m for m in json.loads(f_manifiesto.read_text(encoding="utf-8"))["planes"]} if f_manifiesto.exists() else {}
+    notas = getattr(modulo, "NOTAS", {})
     for nombre, org, clave, props in modulo.PLANES:
         assert nombre is None or norm(nombre) in oficiales, f"{nombre} no está en la lista oficial de {ub}"
         paginas = json.loads((ROOT / f"scripts/planes/{ub}/{clave}.json").read_text(encoding="utf-8"))
@@ -275,7 +279,8 @@ def generar_plan_distrital(modulo, cid, nombres_oficiales):
             assert pag in encontradas, f"{org}: «{p['ancla']}» no está en la p. {pag} (sí en {encontradas})"
             temas[p["tema"]]["sin_informacion"] = False
             temas[p["tema"]]["propuestas"].append({"texto": p["texto"], "meta": p["meta"], "fuente": fk, "pagina": pag})
-        nota = None if nombre else "La organización figura en competencia sin candidato a alcalde consignado."
+        assert props or clave in notas, f"{org}: plan sin propuestas y sin nota que lo explique"
+        nota = notas.get(clave) or (None if nombre else "La organización figura en competencia sin candidato a alcalde consignado.")
         nombre_vis = nombre or "Sin candidato a alcalde"
         comp_c.append({"id": cid, "nombre": nombre_vis, "organizacion": org, "cargo_nota": nota, "temas": temas})
         planes_c.append({"id": cid, "nombre": nombre_vis, "organizacion": org, "pdf": url,

@@ -39,6 +39,9 @@ def main(ruta, muestra=0):
             errores.append(f"{clave}: organización «{org}» ≠ manifiesto «{man['organizacion']}»")
         paginas = json.loads((ROOT / f"scripts/planes/{ub}/{clave}.json").read_text(encoding="utf-8"))
         pn = [norm(p) for p in paginas]
+        if clave in getattr(m, "NOTAS", {}) and not props:
+            print(f"{clave}: sin propuestas — nota: {m.NOTAS[clave]}")
+            continue
         if not 8 <= len(props) <= 11:
             errores.append(f"{clave}: {len(props)} propuestas (deben ser 8–11)")
         temas = {p["tema"] for p in props}
