@@ -228,6 +228,11 @@ MODULOS_DISTRITOS = [
     "150109_cieneguilla",
     "150110_comas",
     "150111_el_agustino",
+    "150112_independencia",
+    "150113_jesus_maria",
+    "150115_la_victoria",
+    "150116_lince",
+    "150117_los_olivos",
     "150130_san_borja",
     "150141_surquillo",
 ]

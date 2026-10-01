@@ -81,14 +81,14 @@
   "ambito": "Independencia",
   "nivel": "distrital",
   "candidatos": 11,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150113",
   "ambito": "Jesús María",
   "nivel": "distrital",
   "candidatos": 12,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150114",
@@ -102,21 +102,21 @@
   "ambito": "La Victoria",
   "nivel": "distrital",
   "candidatos": 13,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150116",
   "ambito": "Lince",
   "nivel": "distrital",
   "candidatos": 11,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150117",
   "ambito": "Los Olivos",
   "nivel": "distrital",
   "candidatos": 21,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150118",
