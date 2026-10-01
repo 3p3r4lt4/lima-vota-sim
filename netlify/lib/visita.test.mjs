@@ -19,7 +19,8 @@ test("latido y fin no exigen ámbito", () => {
 test("rechaza eventos, uuid y ubigeo inválidos", () => {
   assert.equal(validarEvento(ev({ e: "click", s: S })).motivo, "evento");
   assert.equal(validarEvento(ev({ e: "latido", s: "no-es-uuid" })).motivo, "sesion");
-  assert.equal(validarEvento(ev({ e: "inicio", s: S })).motivo, "ambito");
+  assert.equal(validarEvento(ev({ e: "ambito", s: S })).motivo, "ambito");
+  assert.equal(validarEvento(ev({ e: "inicio", s: S })).evento.ambito, null);
   assert.equal(validarEvento(ev({ e: "ambito", s: S, a: "1501" })).ok, true);
   for (const a of ["123", "1501144", "15a114", "150114 ", 150114]) {
     assert.equal(validarEvento(ev({ e: "ambito", s: S, a })).ok, false, String(a));

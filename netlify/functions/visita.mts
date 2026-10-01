@@ -38,7 +38,8 @@ const SQL_INICIO = `
   insert into visitas_sesion (sesion_id, dispositivo_tipo, so, so_version, navegador, navegador_version, es_bot,
     pais, departamento, provincia, distrito, ubigeo_geo, precision_geo,
     ambito_inicial, ambitos_visitados, ip_hash, referer_host, idioma, pantalla)
-  values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14::varchar, array[$14::text], $15, $16, $17, $18)
+  values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14::varchar,
+    case when $14::text is null then '{}'::text[] else array[$14::text] end, $15, $16, $17, $18)
   on conflict (sesion_id) do nothing`;
 
 async function registrar(ev: any, ipHash: string, req: Request, context: Context) {

@@ -30,7 +30,7 @@ export function validarEvento(texto) {
   const r = opcional(typeof b.r === "string" ? b.r.toLowerCase() : b.r, HOST, 253);
   if (!a.ok) return { ok: false, motivo: "ambito" };
   if (!p.ok || !i.ok || !r.ok) return { ok: false, motivo: "formato" };
-  if ((b.e === "inicio" || b.e === "ambito") && !a.v) return { ok: false, motivo: "ambito" };
+  if (b.e === "ambito" && !a.v) return { ok: false, motivo: "ambito" };
 
   return { ok: true, evento: { tipo: b.e, sesion_id: b.s.toLowerCase(), ambito: a.v, pantalla: p.v, idioma: i.v, referer_host: r.v } };
 }

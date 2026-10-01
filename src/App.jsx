@@ -11,6 +11,7 @@ import Acordeon from "./components/Acordeon.jsx";
 import GuiaVoto from "./components/GuiaVoto.jsx";
 import Pie from "./components/Pie.jsx";
 import { useAmbito } from "./hooks/useAmbito.js";
+import { useAnalitica } from "./hooks/useAnalitica.js";
 import { escribirUrl, leerUrl } from "./lib/url.js";
 
 const DetalleCandidato = lazy(() => import("./components/DetalleCandidato.jsx"));
@@ -29,6 +30,7 @@ export default function App() {
   const [detalleId, setDetalleId] = useState(null);
   const [visor, setVisor] = useState(null);
   const [aviso, setAviso] = useState("");
+  useAnalitica(ubigeo);
 
   useEffect(() => { setTema(""); setSel([]); setComparando(false); setVisor(null); setDetalleId(null); setAviso(""); }, [ubigeo]);
 
