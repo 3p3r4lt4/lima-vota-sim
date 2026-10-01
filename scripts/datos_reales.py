@@ -218,6 +218,8 @@ import la_molina  # noqa: E402
 
 # Distritos con los planes de TODAS sus candidaturas (scripts/distritos/<ubigeo>_<slug>.py)
 MODULOS_DISTRITOS = [
+    "150104_barranco",
+    "150106_carabayllo",
     "150130_san_borja",
     "150141_surquillo",
 ]

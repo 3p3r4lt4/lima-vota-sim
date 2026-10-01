@@ -25,7 +25,7 @@
   "ambito": "Barranco",
   "nivel": "distrital",
   "candidatos": 8,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150105",
@@ -39,7 +39,7 @@
   "ambito": "Carabayllo",
   "nivel": "distrital",
   "candidatos": 20,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150107",

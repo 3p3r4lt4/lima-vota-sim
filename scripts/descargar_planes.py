@@ -128,7 +128,7 @@ def descargar(ubigeo, ambitos, local):
                              {"dep": "14", "pro": "01", "dis": dis, "idSolicitudLista": lista["idSolicitudLista"]})
         todos = [c for b in cands["data"] for org in b["organizaciones"] for l in org["listas"] for c in l.get("candidatos", [])]
         alcalde = next((c for c in todos if "ALCALDE" in c["cargoEleccion"]), None)
-        nombre_jne = " ".join(alcalde[k] for k in ("nombres", "apellidoPaterno", "apellidoMaterno")) if alcalde else None
+        nombre_jne = " ".join(alcalde[k] for k in ("nombres", "apellidoPaterno", "apellidoMaterno") if alcalde.get(k)) if alcalde else None
 
         # Cruce con nuestra lista: solo coincidencias exactas (sin tildes ni mayúsculas); el resto se reporta
         nombre_local = org_local = None
@@ -141,7 +141,7 @@ def descargar(ubigeo, ambitos, local):
             sin = [org for n, org in nuestra if n is None]
             avisos.append(f"Lista sin candidato a alcalde en el JNE: {org_jne}. En nuestra lista figuran sin candidato: {sin or 'ninguna'}.")
         if alcalde and alcalde["estadoCandidato"] != "INSCRITO":
-            avisos.append(f"{nombre_jne} ({org_jne}) figura como {alcalde['estadoCandidato']}.")
+            avisos.append(f"{nombre_jne or 'Candidatura a alcalde'} ({org_jne}) figura como {alcalde['estadoCandidato']}.")
 
         item = {"clave": clave, "organizacion_jne": org_jne, "organizacion": org_local, "candidato": nombre_local,
                 "candidato_jne": nombre_jne, "estado_candidato": alcalde["estadoCandidato"] if alcalde else None,
@@ -163,6 +163,14 @@ def descargar(ubigeo, ambitos, local):
             print(f"  ↓ {clave}.pdf ({len(datos) / 1e6:.2f} MB)")
         manifiesto.append({**item, "url": url, "plan": True, "descargado": fecha, "sha256": sha256(datos),
                            "bytes": len(datos), "ocr": (anterior or {}).get("ocr", False)})
+
+    # Listas sin candidato a alcalde: solo se emparejan si hay exactamente una en cada lado (no se adivina)
+    sin_jne = [m for m in manifiesto if not m["candidato_jne"]]
+    sin_local = [org for n, org in nuestra if n is None]
+    if len(sin_jne) == 1 and len(sin_local) == 1:
+        sin_jne[0]["organizacion"] = sin_local[0]
+    elif sin_jne or sin_local:
+        avisos.append(f"Listas sin candidato a alcalde sin emparejar: JNE {[m['organizacion_jne'] for m in sin_jne]}, nuestra lista {sin_local}.")
 
     for n, org in nuestra:
         if n and norm(n) not in emparejados:

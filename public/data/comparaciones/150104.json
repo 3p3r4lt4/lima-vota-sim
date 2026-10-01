@@ -4,73 +4,995 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "30 de septiembre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/f74178b5-16fb-45f0-af81-17020785c96b.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/9b54d1df-ed8a-4249-87b7-8cd82a7f7b8d.pdf",
+   "pdf": true
+  },
+  "plan_libertad-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Libertad Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/d4d7d9b6-8473-4926-ad65-b18b7ecd1479.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/a4f1c164-3966-426e-9681-f3e2e6e1d249.pdf",
+   "pdf": true
+  },
+  "plan_partido-morado": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Morado (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/5931bc02-6605-4347-bf38-78275df50c66.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/d402c9ee-3f16-49e1-8821-c091df9705c9.pdf",
+   "pdf": true
+  },
+  "plan_progresemos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Progresemos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/71f7e3af-6bf5-4c1a-8575-217389f5e8d9.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/e4144db1-9b07-4543-a761-a88a99ad6246.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 54,
    "nombre": "María Luisa Cardoso Serra",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Barranco Seguro 360» con Centro de Monitoreo Inteligente, serenazgo reforzado, recuperación de espacios públicos y trabajo con juntas vecinales y PNP",
+       "meta": "30 % más de cobertura de videovigilancia y 100 % de juntas vecinales activas fortalecidas",
+       "fuente": "plan_accion-popular",
+       "pagina": 21
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan Integral de Movilidad Barranquina y gestiones ante la MML, la ATU y el MTC para intervenir puntos críticos de tránsito",
+       "meta": "100 % de los puntos críticos de movilidad priorizados intervenidos",
+       "fuente": "plan_accion-popular",
+       "pagina": 21
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Patrimonio Vivo Barranquino»: identificar inmuebles patrimoniales en riesgo, elaborar expedientes técnicos e incentivar su conservación",
+       "meta": "100 % de inmuebles patrimoniales en riesgo identificados",
+       "fuente": "plan_accion-popular",
+       "pagina": 23
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Barranco Saludable» con campañas preventivas y actividades de salud mental comunitaria",
+       "meta": "50 % más de campañas preventivas y 50 % más de acceso a salud mental comunitaria",
+       "fuente": "plan_accion-popular",
+       "pagina": 21
+      },
+      {
+       "texto": "Programa «Barranco Activo» con actividades deportivas y recreativas para todas las edades",
+       "meta": "50 % más de actividades deportivas y recreativas municipales",
+       "fuente": "plan_accion-popular",
+       "pagina": 21
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Barranco Destino Cultural y Turístico Inteligente» con circuitos turísticos, culturales y gastronómicos",
+       "meta": "30 % más de actividades y circuitos turísticos",
+       "fuente": "plan_accion-popular",
+       "pagina": 22
+      },
+      {
+       "texto": "Programa «Barranco Emprende»: capacitación, transformación digital de negocios, ferias y ruedas de negocios",
+       "meta": "30 % más de mypes en programas de fortalecimiento empresarial",
+       "fuente": "plan_accion-popular",
+       "pagina": 22
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rutas de recolección optimizadas con tecnología, segregación en la fuente con incentivos, red de «Puntos Verdes» y compostaje municipal",
+       "meta": "80 % menos puntos críticos de acumulación de residuos",
+       "fuente": "plan_accion-popular",
+       "pagina": 23
+      },
+      {
+       "texto": "Arborización con especies nativas y plan de protección y monitoreo del litoral y los acantilados",
+       "meta": "25 % más de arbolado urbano y monitoreo permanente del 100 % del borde costero",
+       "fuente": "plan_accion-popular",
+       "pagina": 24
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«La Municipalidad en tus manos»: todos los trámites del TUPA desde el celular o la computadora, y consultas por teléfono y WhatsApp",
+       "meta": "100 % de trámites TUPA digitalizados",
+       "fuente": "plan_accion-popular",
+       "pagina": 24
+      },
+      {
+       "texto": "Gobierno abierto: publicar contratos y concesiones, transmitir en vivo las sesiones del Concejo y atención semanal de autoridades a vecinos",
+       "meta": "100 % de contratos y concesiones publicados",
+       "fuente": "plan_accion-popular",
+       "pagina": 25
+      }
+     ]
+    }
+   }
   },
   {
    "id": 55,
    "nombre": "Angélica María Noguerol Sueldo",
    "organizacion": "Avanza País",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar la central de monitoreo con analítica avanzada e inteligencia artificial en las cámaras de seguridad",
+       "meta": "100 % de las cámaras municipales integradas con inteligencia artificial al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      },
+      {
+       "texto": "Dotar al serenazgo de chalecos antibalas, gas pimienta, grilletes de nylon y varas tonfa, con capacitación continua",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semaforización inteligente en las avenidas e intersecciones de mayor congestión",
+       "meta": "100 % de las avenidas principales con semáforos inteligentes al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      },
+      {
+       "texto": "Señalización vial preventiva en los perímetros de los colegios, con campañas de educación vial",
+       "meta": "100 % de las zonas escolares públicas y privadas señalizadas",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Planificación urbana participativa con mesas de diálogo vecinal y protección de las Zonas Monumentales",
+       "meta": "1 Plan de Desarrollo Urbano Participativo aprobado",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 18
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas integrales de salud con alianzas público-privadas, apoyo a niños con TDAH o TEA y una Veterinaria Municipal",
+       "meta": "48 campañas de salud (12 por año) y 1 Veterinaria Municipal operativa",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      },
+      {
+       "texto": "Semilleros deportivos municipales, incluida una Academia Municipal de Deportes de Contacto",
+       "meta": "1 semillero deportivo multidisciplinario permanente",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Soporte técnico a emprendimientos tradicionales y formalización de artistas, vinculándolos a circuitos turísticos",
+       "meta": "Al menos 6 actividades culturales o comerciales al año",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego tecnificado en las áreas verdes y fomento de muros y techos verdes",
+       "meta": "100 % de espacios verdes con riego tecnificado y 20 muros o techos verdes piloto",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      },
+      {
+       "texto": "Campañas de desinfección, limpieza profunda y lavado de calles, plazas y mercados",
+       "meta": "100 % de mercados y plazas principales desinfectados al menos una vez al mes",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 18
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Audiencias públicas semestrales de rendición de cuentas y tablero público de avance de metas, con respuesta a reclamos en 2 días hábiles",
+       "meta": "2 audiencias públicas al año",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 18
+      }
+     ]
+    }
+   }
   },
   {
    "id": 56,
    "nombre": "José Juan Rodríguez Cárdenas",
    "organizacion": "Libertad Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar la central de monitoreo, ampliar la videovigilancia inteligente e incorporar análisis predictivo de incidentes",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 6
+      },
+      {
+       "texto": "Atender conflictos por actividades nocturnas, controlar la contaminación sonora y promover la mediación comunitaria",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 6
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de Desarrollo Urbano y de Movilidad para el distrito",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 10
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Eliminar barreras arquitectónicas y adecuar espacios públicos con accesibilidad universal",
+       "meta": "100 % de locales municipales y 100 % de parques",
+       "fuente": "plan_libertad-popular",
+       "pagina": 5
+      },
+      {
+       "texto": "Mejorar los accesos a las playas y activar el borde costero con actividades culturales y recreativas",
+       "meta": "Recuperar el 100 % de los accesos peatonales",
+       "fuente": "plan_libertad-popular",
+       "pagina": 11
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Red Cultural y Educativa con biblioteca y mediateca digital, auditorio, salas de exposición, talleres y laboratorios de innovación",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 4
+      },
+      {
+       "texto": "Ampliar los servicios del CIAM con programas de envejecimiento activo y actividades recreativas",
+       "meta": "Duplicar la oferta de talleres y programas de 2026",
+       "fuente": "plan_libertad-popular",
+       "pagina": 5
+      },
+      {
+       "texto": "Escuelas municipales deportivas y artísticas, y programas de reforzamiento educativo para niños y adolescentes",
+       "meta": "Duplicar la oferta de talleres y programas de 2026",
+       "fuente": "plan_libertad-popular",
+       "pagina": 5
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Agilizar la emisión de licencias de funcionamiento",
+       "meta": "24 horas para emitir licencias de funcionamiento",
+       "fuente": "plan_libertad-popular",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Incrementar la cobertura vegetal urbana con siembra de árboles",
+       "meta": "Duplicar el número de árboles en el distrito",
+       "fuente": "plan_libertad-popular",
+       "pagina": 10
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Digitalizar los principales trámites municipales y abrir módulos de trámite descentralizados",
+       "meta": "100 % de trámites digitalizados en línea y 6 módulos instalados",
+       "fuente": "plan_libertad-popular",
+       "pagina": 11
+      }
+     ]
+    }
+   }
   },
   {
    "id": 57,
    "nombre": "Felipe Antonio Mezarina Tong",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Barranco Seguro 24 Horas»: central con inteligencia artificial y nuevas cámaras en accesos, límites, playas, malecones y corredores gastronómicos",
+       "meta": "100 % de cámaras operativas integradas y respuesta a incidencias críticas en 5 minutos o menos",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nuevas conexiones viales en el entorno del ex cine Balta y Metro, y paso a desnivel en la Av. Bolognesi",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 10
+      },
+      {
+       "texto": "Red continua de ciclovías conectada al sistema de transporte y a los distritos vecinos",
+       "meta": "40 % más de red de ciclovías",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Convertir el talud del acantilado en jardines estabilizados (andenería) y gestionar obras de protección de acantilados y malecones",
+       "meta": "40 % más de intervenciones en accesos, malecones o zonas vulnerables",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 19
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Óvalo en Av. Grau con Av. El Sol, mejoramiento del malecón Paul Harris y soterrado progresivo del cableado aéreo",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 19
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Policlínico Municipal con atención primaria, salud mental y especialidades a tarifas sociales, y campañas mensuales de salud",
+       "meta": "12 campañas de salud preventiva al año",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Remodelación integral del Complejo Deportivo Luis Gálvez Chipoco y reserva de turnos en línea",
+       "meta": "60 % de espacios deportivos y culturales recuperados",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Bolsa de empleo barranquino articulada con empresas del distrito y campañas de formalización progresiva",
+       "meta": "40 % de trabajadores colocados mediante la bolsa de empleo y 40 % más de negocios formalizados",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 15
+      },
+      {
+       "texto": "Corredores turísticos, culturales y gastronómicos seguros e iluminados, y alianza con PROMPERÚ",
+       "meta": "4 corredores turísticos con intervención integral",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 17
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Barranco Verde y Limpio»: plantas de tratamiento de aguas residuales para riego tecnificado, arborización y contenedores soterrados",
+       "meta": "40 % de áreas verdes con riego tecnificado y 70 % más de puntos críticos de residuos recuperados",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 18
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Municipalidad Digital y de Puertas Abiertas» con trámites en línea y tablero de control de metas",
+       "meta": "80 % de trámites disponibles en línea",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 21
+      }
+     ]
+    }
+   }
   },
   {
    "id": 58,
    "nombre": "Enrique Fernando Delucchi Chueca",
    "organizacion": "Partido Morado",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Comando Serenazgo–PNP que integre cámaras, GPS y radios, con patrullaje focalizado por zonas de mayor incidencia",
+       "meta": null,
+       "fuente": "plan_partido-morado",
+       "pagina": 9
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestión inteligente del tránsito con sensores, cámaras y sincronización semafórica en corredores como Av. Grau y San Martín",
+       "meta": "Entre 30 % y 40 % menos tiempo de traslado en corredores priorizados",
+       "fuente": "plan_partido-morado",
+       "pagina": 17
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego tecnificado por sectores y jardines de bajo consumo de agua",
+       "meta": "Hasta 80 % de áreas verdes priorizadas con riego tecnificado y 50 % menos césped no funcional",
+       "fuente": "plan_partido-morado",
+       "pagina": 22
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan Urbano Distrital 2027-2037 que actualice zonificación y alturas, y proteja la Zona Monumental y el borde costero",
+       "meta": null,
+       "fuente": "plan_partido-morado",
+       "pagina": 15
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ruta del Atletismo Barranquino en malecones y Bajada de Baños, y una Escuela Municipal de Running gratuita",
+       "meta": null,
+       "fuente": "plan_partido-morado",
+       "pagina": 6
+      },
+      {
+       "texto": "DEMUNA itinerante con psicólogo y abogado que visiten cada semana los colegios públicos",
+       "meta": null,
+       "fuente": "plan_partido-morado",
+       "pagina": 7
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla Única de Formalización, padrón de comercios y ruta progresiva de orientación, advertencia, fiscalización y sanción",
+       "meta": null,
+       "fuente": "plan_partido-morado",
+       "pagina": 11
+      },
+      {
+       "texto": "Programa «Barranco Nocturno Ordenado» con horarios diferenciados, control de ruido y licencias condicionadas",
+       "meta": null,
+       "fuente": "plan_partido-morado",
+       "pagina": 12
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema «Barranco Separa en Casa, Edificio y Negocio» con reciclaje, compostaje y recicladores formales",
+       "meta": "Hasta 85 % de viviendas y edificios y 100 % de grandes generadores al 2030",
+       "fuente": "plan_partido-morado",
+       "pagina": 21
+      },
+      {
+       "texto": "Red de Infraestructura Verde con corredores verdes y arbolado en malecones, parques y avenidas",
+       "meta": "Hasta 8 corredores verdes y 1 200 árboles nuevos",
+       "fuente": "plan_partido-morado",
+       "pagina": 23
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Diversificar los ingresos municipales con convenios y obras por impuestos, sin elevar los arbitrios",
+       "meta": "1 obra por impuestos al año",
+       "fuente": "plan_partido-morado",
+       "pagina": 28
+      }
+     ]
+    }
+   }
   },
   {
    "id": 59,
    "nombre": "Jorge Antonio Ruiz de Somocurcio Hidalgo",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Más capacidad operativa del serenazgo con mejor equipamiento y capacitación, y patrullaje integrado con la PNP",
+       "meta": "50 % más de capacidad operativa del serenazgo y 30 % menos percepción de inseguridad",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 6
+      },
+      {
+       "texto": "Modernizar el sistema de videovigilancia con cámaras inteligentes y monitoreo permanente",
+       "meta": "100 % del sistema de videovigilancia distrital instalado o modernizado",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 6
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de Movilidad que evalúe trasladar el Metropolitano a la Vía Expresa Sur y deje la Av. Bolognesi para alimentadores",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 14
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rehabilitación y mantenimiento de viviendas de adultos mayores vulnerables y asesoría gratuita para regularizar predios",
+       "meta": "Al menos 200 viviendas de adultos mayores rehabilitadas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 7
+      },
+      {
+       "texto": "Conservación y puesta en valor de inmuebles patrimoniales mediante gestión y convenios",
+       "meta": "Al menos 10 espacios o inmuebles patrimoniales recuperados",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      },
+      {
+       "texto": "Plan Urbano Distrital 2027-2037 por concurso, consensuado con vecinos y la Municipalidad de Lima",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 19
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Casa de la Juventud de Barranco con talleres de capacitación, emprendimiento y becas",
+       "meta": "Más de 2 000 jóvenes beneficiados y al menos 15 convenios educativos",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      },
+      {
+       "texto": "Fortalecer las escuelas deportivas municipales y recuperar los espacios deportivos",
+       "meta": "Duplicar los participantes en escuelas deportivas municipales",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma «Barranco a tu Casa» para el delivery de los mercados y ferias de fin de semana para emprendedores del distrito",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 18
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de arbolado en las bermas laterales de vías locales y avenidas, con reposición de árboles retirados",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 11
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Contrataciones de personal por concurso o lista corta, con meritocracia y rendición de cuentas",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 22
+      }
+     ]
+    }
+   }
   },
   {
    "id": 60,
    "nombre": "Nicole Fiorella Muñoz Zevallos",
    "organizacion": "Progresemos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Comando C4 integrado a la PNP y cámaras con reconocimiento facial y lectura de placas",
+       "meta": "300 cámaras de videovigilancia",
+       "fuente": "plan_progresemos",
+       "pagina": 6
+      },
+      {
+       "texto": "Serenazgo 24/7 con patrullaje a pie y en bicicleta, y Unidad de Respuesta Rápida ante emergencias",
+       "meta": "80 serenos, 15 motos y 4 camionetas; respuesta en menos de 5 minutos",
+       "fuente": "plan_progresemos",
+       "pagina": 6
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Conexiones seguras con Miraflores, San Isidro y la Costa Verde, con ciclovías y transporte sostenible",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 16
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ejecutar el Plan Maestro de la Costa Verde en Barranco: malecones, paseos, ciclovías y obras contra la erosión costera",
+       "meta": "Intervención del 100 % del tramo de Barranco",
+       "fuente": "plan_progresemos",
+       "pagina": 9
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de asfaltado y mantenimiento de calles con sardineles y drenaje pluvial, y renovación de veredas con rampas",
+       "meta": "100 % de calles, avenidas y pasajes intervenidos",
+       "fuente": "plan_progresemos",
+       "pagina": 8
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Atención Integral al Adulto Mayor y Centro de Protección a la Mujer con refugio temporal para víctimas de violencia",
+       "meta": "Al menos 2 000 personas atendidas y 3 centros especializados",
+       "fuente": "plan_progresemos",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Desarrollo Empresarial para mypes y artesanos, y modernización de mercados de abastos",
+       "meta": "Al menos 500 mypes fortalecidas y 2 mercados modernizados",
+       "fuente": "plan_progresemos",
+       "pagina": 11
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema de recolección selectiva y reciclaje «Barranco Verde» con separación en origen y valorización",
+       "meta": "40 % de residuos reciclados al 2030",
+       "fuente": "plan_progresemos",
+       "pagina": 9
+      },
+      {
+       "texto": "Programa «Más Árboles, Más Vida» de forestación de avenidas, parques y calles",
+       "meta": "6 m² de área verde por habitante",
+       "fuente": "plan_progresemos",
+       "pagina": 9
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Presupuesto participativo para que los vecinos decidan las obras prioritarias",
+       "meta": "Al menos 10 % del presupuesto de inversiones",
+       "fuente": "plan_progresemos",
+       "pagina": 13
+      },
+      {
+       "texto": "Plataforma «Barranco Digital» con todos los trámites en línea, aplicativo de reportes y datos abiertos",
+       "meta": "100 % de trámites y servicios en línea",
+       "fuente": "plan_progresemos",
+       "pagina": 15
+      }
+     ]
+    }
+   }
   },
   {
    "id": 61,
    "nombre": "Manuel Milenco Espinoza Loarte",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Serenazgo las 24 horas en puntos críticos, mejor alumbrado y videovigilancia integrada con la PNP y las juntas vecinales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fiscalizadores de tránsito con capacidad de sanción, semáforos en zonas críticas y estudio del Plan Vial de Tránsito",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Espigones en el litoral para mitigar la erosión marina y recuperar la franja de arena de las playas",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Puesta en valor de espacios emblemáticos con MINCETUR y COPESCO, y poner en funcionamiento el Funicular",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Policlínico Municipal de atención primaria y centro bromatológico para el control sanitario de restaurantes y mercados",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 10
+      },
+      {
+       "texto": "Complejo deportivo municipal en la playa Las Sombrillas y programas deportivos itinerantes",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro Municipal de Emprendimiento y Hub de Innovación con coworking y laboratorio de fabricación digital",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "«Pasaporte Barranco Cultural»: circuito turístico con premios que conecta puntos artísticos y gastronómicos con descuentos en comercios locales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa RECICLA Barranco con empadronamiento de nuevos edificios y formalización de recicladores",
+       "meta": "10 recicladores formalizados",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 15
+      },
+      {
+       "texto": "Arborizar la base del acantilado y declarar intangibles los humedales de las playas Los Yuyos y Las Sombrillas",
+       "meta": "500 árboles nativos",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 16
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema de gestión antisoborno ISO 37001, informes trimestrales de gestión y administración directa de la piscina y el estadio municipales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 17
+      }
+     ]
+    }
+   }
   }
  ]
 }

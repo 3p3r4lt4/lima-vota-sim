@@ -7,9 +7,16 @@ Si un PDF es escaneado (páginas sin texto), aplica OCR en español con Tesserac
 imagen de cada página y lo marca en el manifiesto ("ocr": true). Sin Tesseract instalado, lo marca como
 "requiere_ocr" y no inventa texto.
 """
-import json, pathlib, re, shutil, subprocess, sys, tempfile
+import json, os, pathlib, re, shutil, subprocess, sys, tempfile
 
 MIN_CARACTERES = 40  # una página con menos texto se considera sin capa de texto
+TESSDATA = pathlib.Path(__file__).parent / ".cache/tessdata"  # spa.traineddata local (no requiere instalar idiomas)
+
+
+def buscar_tesseract():
+    return shutil.which("tesseract") or next(
+        (str(p) for p in [pathlib.Path("C:/Program Files/Tesseract-OCR/tesseract.exe"),
+                               pathlib.Path(os.environ.get("LOCALAPPDATA", "")) / "Programs/Tesseract-OCR/tesseract.exe"] if p.exists()), None)
 
 
 def correr(*args):
@@ -20,7 +27,8 @@ def ocr(pdf, pagina, tesseract):
     with tempfile.TemporaryDirectory() as tmp:
         base = pathlib.Path(tmp) / "p"
         subprocess.run(["pdftoppm", "-f", str(pagina), "-l", str(pagina), "-r", "300", "-png", "-singlefile", str(pdf), str(base)], check=True)
-        return correr(tesseract, str(base) + ".png", "-", "-l", "spa")
+        extra = ["--tessdata-dir", str(TESSDATA)] if (TESSDATA / "spa.traineddata").exists() else []
+        return correr(tesseract, str(base) + ".png", "-", "-l", "spa", *extra)
 
 
 def main(carpeta):
@@ -28,7 +36,7 @@ def main(carpeta):
     ubigeo = carpeta.name
     salida = pathlib.Path(__file__).parent / "planes" / ubigeo
     salida.mkdir(parents=True, exist_ok=True)
-    tesseract = shutil.which("tesseract")
+    tesseract = buscar_tesseract()
     f_manifiesto = salida / "manifiesto.json"
     manifiesto = json.loads(f_manifiesto.read_text(encoding="utf-8")) if f_manifiesto.exists() else None
     for pdf in sorted(carpeta.glob("*.pdf")):
