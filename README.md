@@ -56,11 +56,36 @@ Sin variables de entorno funciona completo. Con `ANTHROPIC_API_KEY` en Netlify l
 con Claude. Con `DATABASE_URL_READONLY` y `VOYAGE_API_KEY` la búsqueda pasa a ser semántica (ver `db/schema.sql`
 e `ingest/`).
 
+## Analítica y panel admin
+
+Analítica propia, sin Google Analytics, cookies de rastreo ni scripts de terceros. Cada pestaña es una sesión
+(`sessionStorage`) que envía `inicio`, `latido` cada 30 s con la pestaña visible, `ambito` al cambiar de distrito
+y `fin` al salir, a `POST /api/visita`. El servidor deduce el dispositivo del user-agent y la ubicación de
+`context.geo` (resuelta a ubigeo INEI con precisión país → departamento → provincia → distrito), y guarda solo
+un HMAC diario de la IP. Con Do Not Track o GPC no se envía nada, y si falta configuración el sitio funciona igual.
+El texto para el público está en `/privacidad`. La retención es de 90 días.
+
+El panel está en `/admin` (no enlazado, `noindex`). Pide contraseña (scrypt) y un código TOTP. Tras 5 fallos
+bloquea la IP 15 min.
+
+**Despliegue**
+
+1. Migración, con un usuario administrador: `psql "$DATABASE_URL_ADMIN" -f db/analytics.sql` (idempotente).
+2. Crear los roles `analytics_writer` y `analytics_reader` con los `GRANT` comentados al final de `db/analytics.sql`.
+3. `node scripts/admin-setup.mjs`: pide la contraseña sin eco, imprime `ADMIN_PASSWORD_HASH`,
+   `ADMIN_TOTP_SECRET`, `ADMIN_SESSION_SECRET` y `ANALYTICS_SALT`, y la URI `otpauth://` para la app autenticadora.
+4. En Netlify, definir esas cuatro variables más `DATABASE_URL_ANALYTICS` (rol writer) y
+   `DATABASE_URL_ANALYTICS_READER` (rol reader), marcadas como secretas, y volver a desplegar.
+5. Entrar a `/admin`. La función programada `purgar-visitas` borra cada día lo que tenga más de 90 días.
+
+Para cerrar todas las sesiones del panel, rota `ADMIN_SESSION_SECRET`. Para cambiar la contraseña o el TOTP,
+vuelve a correr el script y reemplaza las variables.
+
 ## Desarrollo
 
 ```bash
 npm install
-npm test              # pruebas del buscador
+npm test              # pruebas del buscador, analítica y panel admin
 npm run datos         # regenera public/data desde scripts/
 npm i -g netlify-cli && netlify dev
 ```
