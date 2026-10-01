@@ -171,7 +171,7 @@ PLANES = [
         P("economia", "Operativos preventivos de fiscalización para llevar al comercio informal hacia la formalidad", 7, "Incrementar a 16.96% la tasa de variación", "Incrementar a 16,96 % la tasa de variación de agentes económicos formales"),
         P("economia", "Talleres técnico-productivos y de comercio electrónico para microempresarios", 7, "50 empresarios capacitados participando anualmente", "50 empresarios capacitados al año"),
         P("economia", "Programa de Desarrollo Turístico con infraestructura en el Malecón Grau, playas de la Costa Verde y rutas históricas", 7, "Ejecutar 20 acciones estratégicas de desarrollo e impacto turístico", "20 acciones estratégicas de desarrollo turístico"),
-        P("ambiente", "Programa de segregación en la fuente para elevar el reciclaje inorgánico", 6, "programa de segregación en la fuente"),
+        P("ambiente", "Programa de segregación en la fuente para elevar el reciclaje inorgánico", 6, "programa de segregación en la fuente", "Reciclaje inorgánico al 1,56 % de la masa total distrital"),
         P("ambiente", "Normas de fiscalización ambiental para controlar gases, humos y ruidos en zonas comerciales y residenciales", 6, "controlar la emisión de gases, humos y ruidos"),
         P("agua_riesgos", "Fortalecer el Centro de Operaciones de Emergencia Local y preparar a la comunidad ante sismos y tsunamis", 8, "Consolidar y mantener el 100% de la capacidad operativa básica del COEL", "100 % de la capacidad operativa básica del COEL"),
         P("gestion", "Actualizar el catastro urbano y mejorar la recaudación de arbitrios e impuesto predial", 8, "Incrementar la recaudación efectiva oportuna al 71.43%", "Recaudación efectiva de 71,43 % de lo emitido"),
