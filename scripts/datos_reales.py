@@ -17,7 +17,7 @@ import importlib, json, pathlib, re, sys, unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DATA = ROOT / "public/data"
-CORTE = "30 de septiembre de 2026"  # fecha de descarga de los planes distritales del JNE
+CORTE = "1 de octubre de 2026"  # fecha de descarga de los planes distritales del JNE
 
 FUENTES = {
     "rpp_d1": {"medio": "RPP", "titulo": "Debate municipal en Lima: principales propuestas (1.ª jornada)", "fecha": "22/09/2026",
@@ -223,6 +223,11 @@ MODULOS_DISTRITOS = [
     "150104_barranco",
     "150105_brena",
     "150106_carabayllo",
+    "150107_chaclacayo",
+    "150108_chorrillos",
+    "150109_cieneguilla",
+    "150110_comas",
+    "150111_el_agustino",
     "150130_san_borja",
     "150141_surquillo",
 ]

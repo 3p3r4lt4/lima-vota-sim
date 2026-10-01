@@ -1,0 +1,110 @@
+{
+ "ubigeo": "150109",
+ "ambito": "Cieneguilla",
+ "ubigeo_jne": "140139",
+ "fuente": "https://votoinformado.jne.gob.pe/api/v1/candidatos/organizaciones",
+ "planes": [
+  {
+   "clave": "alianza-para-el-progreso",
+   "organizacion_jne": "ALIANZA PARA EL PROGRESO",
+   "organizacion": "Alianza para el Progreso",
+   "candidato": "Wilber Jorge Ancco Mamani",
+   "candidato_jne": "WILBER JORGE ANCCO MAMANI",
+   "estado_candidato": "INSCRITO",
+   "id_solicitud_lista": 44249,
+   "expediente": "ERM.2026022985",
+   "url": "https://mpesije.jne.gob.pe/docs/79e141ac-67c2-4393-bcec-908e217e6022.pdf",
+   "plan": true,
+   "descargado": "2026-09-30",
+   "sha256": "407f3722d54c231f44349125533208ca66589331ca863966dbb36ab826c8ada5",
+   "bytes": 220825,
+   "ocr": false,
+   "paginas": 4,
+   "paginas_ocr": [],
+   "requiere_ocr": []
+  },
+  {
+   "clave": "frente-popular-agricola-fia-del-peru",
+   "organizacion_jne": "FRENTE POPULAR AGRICOLA FIA DEL PERU",
+   "organizacion": "FREPAP",
+   "candidato": "Ermelinda Lanazca Baltazar de Taype",
+   "candidato_jne": "ERMELINDA LANAZCA BALTAZAR DE TAYPE",
+   "estado_candidato": "INSCRITO",
+   "id_solicitud_lista": 47320,
+   "expediente": "ERM.2026017030",
+   "url": "https://mpesije.jne.gob.pe/docs/ecbc3442-e16e-43bd-8db8-5ba2ae07486c.pdf",
+   "plan": true,
+   "descargado": "2026-09-30",
+   "sha256": "31deb9602e13ae38f08611b952e9d2f5988458c947dd99f64746e914487de0bd",
+   "bytes": 571109,
+   "ocr": true,
+   "paginas": 17,
+   "paginas_ocr": [
+    1
+   ],
+   "requiere_ocr": []
+  },
+  {
+   "clave": "partido-democratico-somos-peru",
+   "organizacion_jne": "PARTIDO DEMOCRATICO SOMOS PERU",
+   "organizacion": "Somos Perú",
+   "candidato": "Edwin Subileti Areche",
+   "candidato_jne": "EDWIN SUBILETI ARECHE",
+   "estado_candidato": "INSCRITO",
+   "id_solicitud_lista": 42944,
+   "expediente": "ERM.2026014990",
+   "url": "https://mpesije.jne.gob.pe/docs/c8f94f55-e35f-464c-9ea9-472d5bca5655.pdf",
+   "plan": true,
+   "descargado": "2026-09-30",
+   "sha256": "431fac4f300341b8a6abc61e3ea21aa8ccd9cc972fb5c64a12cc23a1e035d0ab",
+   "bytes": 2169280,
+   "ocr": true,
+   "paginas": 10,
+   "paginas_ocr": [
+    3
+   ],
+   "requiere_ocr": []
+  },
+  {
+   "clave": "podemos-peru",
+   "organizacion_jne": "PODEMOS PERU",
+   "organizacion": "Podemos Perú",
+   "candidato": "Ortensia La Torre Cervantes",
+   "candidato_jne": "ORTENSIA LA TORRE CERVANTES",
+   "estado_candidato": "INSCRITO",
+   "id_solicitud_lista": 46335,
+   "expediente": "ERM.2026019592",
+   "url": "https://mpesije.jne.gob.pe/docs/35f39fbd-da61-472e-ab51-74510c86a6b6.pdf",
+   "plan": true,
+   "descargado": "2026-09-30",
+   "sha256": "c3b8035f8e1b2d94de911cc971961e3016c3f24683deb2d7e01c60a1e4ca71b0",
+   "bytes": 437045,
+   "ocr": false,
+   "paginas": 42,
+   "paginas_ocr": [],
+   "requiere_ocr": []
+  },
+  {
+   "clave": "renovacion-popular-peru",
+   "organizacion_jne": "RENOVACION POPULAR PERU",
+   "organizacion": "Renovación Popular",
+   "candidato": "William Ronald Salazar Mateo",
+   "candidato_jne": "WILLIAM RONALD SALAZAR MATEO",
+   "estado_candidato": "INSCRITO",
+   "id_solicitud_lista": 52541,
+   "expediente": "ERM.2026016690",
+   "url": "https://mpesije.jne.gob.pe/docs/51d27ba5-eef1-4a03-931d-79bf1e47ade4.pdf",
+   "plan": true,
+   "descargado": "2026-09-30",
+   "sha256": "d6a781ca9684cb687c3bcbe1cc61123f0cbf58758c26dd9daa9547cdc80f7b25",
+   "bytes": 909988,
+   "ocr": true,
+   "paginas": 13,
+   "paginas_ocr": [
+    13
+   ],
+   "requiere_ocr": []
+  }
+ ],
+ "avisos": []
+}

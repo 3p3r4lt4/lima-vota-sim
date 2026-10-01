@@ -46,35 +46,35 @@
   "ambito": "Chaclacayo",
   "nivel": "distrital",
   "candidatos": 12,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150108",
   "ambito": "Chorrillos",
   "nivel": "distrital",
   "candidatos": 14,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150109",
   "ambito": "Cieneguilla",
   "nivel": "distrital",
   "candidatos": 5,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150110",
   "ambito": "Comas",
   "nivel": "distrital",
   "candidatos": 16,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150111",
   "ambito": "El Agustino",
   "nivel": "distrital",
   "candidatos": 13,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150112",

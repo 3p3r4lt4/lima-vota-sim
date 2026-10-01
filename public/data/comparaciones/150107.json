@@ -3,102 +3,1464 @@
  "ambito": "Chaclacayo",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "corte": "30 de septiembre de 2026",
- "con_propuestas": false,
+ "corte": "1 de octubre de 2026",
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/3b5f572e-99a4-40f7-800c-3a70ca9cb91d.pdf",
+   "pdf": true
+  },
+  "plan_alianza-para-el-progreso": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Alianza para el Progreso (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/ddfab76f-b017-475b-b628-4c6bffb95228.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/6fbee840-49ba-4386-b110-858eda94fc20.pdf",
+   "pdf": true
+  },
+  "plan_fe-en-el-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Fe en el Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/88ea552d-485a-4fc8-8e46-d335c5165cbe.pdf",
+   "pdf": true
+  },
+  "plan_fuerza-ciudadana": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Fuerza Ciudadana (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/875e18bb-cfcd-4695-a71b-57f09240f57e.pdf",
+   "pdf": true
+  },
+  "plan_juntos-por-el-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Juntos por el Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/1cbc8465-7041-4722-a23a-50e0b64663da.pdf",
+   "pdf": true
+  },
+  "plan_partido-democrata-verde": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Demócrata Verde (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/e409f7d4-0485-46be-b969-7a11c52589e1.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/4a27f79f-56c9-498c-b1bc-be9da1303b28.pdf",
+   "pdf": true
+  },
+  "plan_partido-pais-para-todos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido País para Todos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/86c64a19-b660-4607-b058-d068c8bcbb6e.pdf",
+   "pdf": true
+  },
+  "plan_partido-politico-nacional-peru-libre": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Perú Libre (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/b9f704a5-4cae-4765-b48d-5a6564c44c76.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/17b52e18-1b4d-4295-9c50-be5b84a80629.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/4c16262c-e864-43ee-99a8-ff2ca5a3fbda.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 99,
    "nombre": "Manuel Javier Campos Sologuren",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Bases de Monitoreo y Alerta Vecinal en los 6 sectores del distrito y serenazgo con motos, bicicletas y unidades con GPS",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 20
+      },
+      {
+       "texto": "Cámaras, megáfonos, sirenas y pulsadores de emergencia en parques, conectados con la PNP y los Bomberos",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 21
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estudios y financiamiento para un teleférico turístico que conecte zonas paisajísticas y recreativas del distrito",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 21
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyectos para cambiar las redes de agua y alcantarillado con más de 50 años y gestionar agua las 24 horas con SEDAPAL",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 30
+      },
+      {
+       "texto": "Mallas metálicas en laderas y quebradas críticas, revegetación de taludes y brigadas vecinales de defensa civil",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 31
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estudios y proyecto para cambiar todo el alumbrado público a luminarias LED e iluminar el Malecón de Chaclacayo",
+       "meta": "100 % de luminarias con LED",
+       "fuente": "plan_accion-popular",
+       "pagina": 26
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Policlínico Municipal «Carlos Bazán Zender» para atención primaria, soporte psicológico y terapias infantiles",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 21
+      },
+      {
+       "texto": "Academia Preuniversitaria Municipal a costo social, priorizando según la clasificación del SISFOH, y convenios de becas",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 22
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Constituir la Cámara de Comercio de Chaclacayo y reactivar las asociaciones de comerciantes",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 27
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nuevos camiones compactadores y programa de segregación en la fuente y reciclaje",
+       "meta": "100 % de los residuos no reutilizables con disposición final en rellenos sanitarios",
+       "fuente": "plan_accion-popular",
+       "pagina": 31
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema antisoborno con certificación ISO 37001 y procesos de atención con ISO 9001",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 36
+      }
+     ]
+    }
+   }
   },
   {
    "id": 100,
    "nombre": "Rique Danny Aguilar Quispe",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Monitoreo con 100 cámaras con reconocimiento facial en mercados, colegios e ingresos, conectado a la comisaría",
+       "meta": "100 cámaras y 30 % menos robos al 2028",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 26
+      },
+      {
+       "texto": "«Operación Cerrojo»: pórticos con lectores de placas en los 4 accesos al distrito, con cierre solo ante delitos flagrantes graves",
+       "meta": "En 12 meses",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 26
+      },
+      {
+       "texto": "Convenio con la PNP para rondas mixtas semanales de policía, serenazgo y juntas vecinales",
+       "meta": "12 rondas por trimestre (una por semana)",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 27
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Limpieza y descolmatación anual de las quebradas Huascarán y Cuadro antes de la temporada de lluvias",
+       "meta": "Cada año antes del 30 de noviembre",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 28
+      },
+      {
+       "texto": "Constituir la EPS comunal «Aguas de Chaclacayo» y ejecutar con el PNSU un proyecto de agua de S/ 43,7 millones",
+       "meta": "Cobertura de agua potable del 89 % al 95 % al 2029",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 29
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Inventario de luminarias dañadas y reemplazo con LED, priorizando zonas oscuras; ordenanza para retirar cables aéreos",
+       "meta": "100 % de calles con alumbrado funcionando",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 30
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reemplazar al proveedor del Vaso de Leche por bonos «Mi Chacla» canjeables en bodegas, ligados a controles de salud",
+       "meta": "Reducir 10 % la anemia infantil al 2029",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 33
+      },
+      {
+       "texto": "Estipendio mensual para socias de comedores populares financiado con el FONCOMUN",
+       "meta": "50 socias con estipendio",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 33
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla Única del Emprendedor: licencias de funcionamiento en 48 horas con asesoría legal y contable gratuita",
+       "meta": "100 licencias en 48 horas al 2028",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 31
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Monitoreo satelital de los camiones de basura con aviso de horario al vecino y planta de compostaje",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 30
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Respaldo documentario para todo gasto «sin producto» y tablero de control de gestión en cada gerencia",
+       "meta": "Menos del 10 % del gasto en el código «sin producto» al 2028",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 35
+      }
+     ]
+    }
+   }
   },
   {
    "id": 101,
    "nombre": "Leónidas Iván Altamirano Matus",
    "organizacion": "Avanza País",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Videovigilancia con inteligencia artificial, drones, alarmas vecinales y «Serenazgo sin Fronteras» con Chosica y Ate",
+       "meta": "Reducir en 30 % la victimización delictiva al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar diques y mallas en las quebradas Los Cóndores, Cusipata y Huascarán",
+       "meta": "100 % de quebradas críticas con alerta temprana y obras de protección al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar parques emblemáticos con riego tecnificado e impulsar el Parque Lineal Río Rímac",
+       "meta": "9 m² de área verde por habitante",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Médico a tu Puerta» para adultos mayores y personas vulnerables, y recategorización de centros de salud",
+       "meta": "90 % de cobertura en programas preventivos de salud al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Corredor gastronómico y turístico «Chaclacayo Tradición» con incentivos tributarios temporales y ferias de fin de semana",
+       "meta": "40 % más afluencia turística anual al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      },
+      {
+       "texto": "Programa «Chamba Joven Chaclacayo» con bolsa de trabajo con empresas de Lima Este e incubadora de emprendimientos",
+       "meta": "500 jóvenes beneficiados al año",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      },
+      {
+       "texto": "Reubicar el comercio ambulatorio en ferias modelo y licencias de funcionamiento a costo social («Licencia Cero»)",
+       "meta": "70 % de comerciantes informales formalizados al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Renovar la flota de recolección y programa «Chaclacayo Recicla» con descuentos en arbitrios por segregar",
+       "meta": "30 % de segregación en origen al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      },
+      {
+       "texto": "Control de emisiones vehiculares y de ruido con equipos homologados, con operativos en la Carretera Central",
+       "meta": "24 operativos de control ambiental al año",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital «Chaclacayo Clic»: todos los trámites del TUPA en línea y licencias automáticas para negocios de bajo riesgo",
+       "meta": "Licencias de bajo riesgo en máximo 48 horas",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      },
+      {
+       "texto": "Sistema antisoborno ISO 37001 con auditoría externa y cabildos abiertos trimestrales descentralizados",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 5
+      }
+     ]
+    }
+   }
   },
   {
    "id": 102,
    "nombre": "Elsa Stephany Álvarez Bonifaz",
    "organizacion": "Fe en el Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Central de monitoreo en Ñaña con cámaras con IA, ambulancia municipal, policía canina y patrullaje en bicicletas, motos y camionetas",
+       "meta": "200 cámaras con IA y respuesta en 5 minutos o menos al 2030",
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 10
+      },
+      {
+       "texto": "Escuela de formación para inspectores y serenos y más efectivos de serenazgo con pago puntual",
+       "meta": "50 % más serenos",
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Señalización vial horizontal y vertical en todas las vías del distrito, con reductores de velocidad",
+       "meta": "100 % de vías señalizadas, 50 km de señalización horizontal y 500 señales verticales",
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Comisión de seguimiento y mesa mensual con la ANIN para culminar las defensas ribereñas y la protección de quebradas",
+       "meta": "Protección de toda la ribera y de 5 quebradas al 2030",
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Declarar en emergencia y reemplazar las redes de agua y alcantarillado de los sectores 4 y 5, con medidores y cloración",
+       "meta": "100 % de redes renovadas y 99 % de continuidad al 2030",
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Pavimentación por etapas de las partes altas y asentamientos humanos periféricos (Santa Rosa, Villa Mercedes, Huascata, Perla del Sol)",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 14
+      },
+      {
+       "texto": "Gestionar la viabilidad, financiamiento y construcción del parque lineal entre el puente Ñaña y el puente Los Girasoles",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 16
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar los 9 establecimientos de salud del primer nivel con equipamiento y remodelación, en convenio con la DIRIS Lima Este",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla única de licencias, ferias «Hecho en Chaclacayo» y capacitación digital para mypes",
+       "meta": "Más de 100 mypes formalizadas y 10 % más empleo formal al 2030",
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Operación «Río Vivo»: limpieza semestral, recojo gratuito de desmonte y fiscalización con drones en la ribera del Rímac",
+       "meta": "12 km de ribera limpia (100 % del tramo distrital)",
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 15
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Oficina de Gestión de Proyectos, digitalización de expedientes y ventanilla única virtual",
+       "meta": "80 % de procesos automatizados al 2030",
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 10
+      }
+     ]
+    }
+   }
   },
   {
    "id": 103,
    "nombre": "Karen Elizabeth Acevedo Salvatierra",
    "organizacion": "Fuerza Ciudadana",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan «Luz y Orden para la Seguridad» en parques, escaleras, paraderos, zonas comerciales y accesos barriales",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 17
+      },
+      {
+       "texto": "Apps vecinal y de patrullaje, mapa del delito en tiempo real y videovigilancia con IA y lectura de placas en los accesos",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 18
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Muros de contención, diques secos y barreras dinámicas por etapas en quebradas, y rutas de evacuación señalizadas",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 12
+      },
+      {
+       "texto": "Simulacros calendarizados en los sectores más expuestos y fortalecimiento de brigadas comunitarias",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 15
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan barrial de accesibilidad peatonal y recuperación de parques, losas, escaleras y muros en zonas priorizadas",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 22
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro Municipal de Orientación y Ayuda Especializada con soporte legal y psicológico, y modernización de la Casa de la Mujer",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 24
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla ágil de licencias con seguimiento de expedientes y escuela de habilidades comerciales y finanzas digitales",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 27
+      },
+      {
+       "texto": "Oficina de Promoción de la Inversión, Banco de Proyectos y Red Turística de Chaclacayo",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 30
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programas «Mi parque, mi jardín» y «Mi hijo, mi árbol» con riego tecnificado y participación vecinal",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 22
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestión documental «Cero Papel» con expediente electrónico, firma y notificación digital y pagos electrónicos",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 23
+      },
+      {
+       "texto": "Implementar ISO 37001 en contrataciones, fiscalización y obras, e ISO 9001 en atención y licencias",
+       "meta": null,
+       "fuente": "plan_fuerza-ciudadana",
+       "pagina": 32
+      }
+     ]
+    }
+   }
   },
   {
    "id": 104,
    "nombre": "Mario Daniel Cubas Romero",
    "organizacion": "Juntos por el Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Central de videovigilancia conectada a la Policía y a los puntos de entrada y salida del distrito",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Modernizar el serenazgo y reforzar el patrullaje integrado por sectores con la PNP",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ordenar paraderos y mototaxis en puntos estratégicos y señalizar las calles",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Priorizar un Centro de Operaciones de Emergencia con local para logística y simulacros en colegios",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Atender el desabastecimiento de agua con una fuente primaria y planta de potabilización",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Priorizar el catastro de todo el distrito y talleres de saneamiento físico legal de predios",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Pistas y veredas para el sector 1 y mejora del servicio de mototaxis",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Remodelar los estadios con servicios higiénicos, vestuarios, tribunas techadas y riego del grass",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Censar y ordenar el comercio ambulatorio y promover mercados de abastos",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Promover la construcción de un terminal pesquero para productores y pequeños empresarios",
+       "meta": null,
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyectos de áreas verdes y espacios públicos con la MML, SERPAR, SEDAPAL y el MINAM",
+       "meta": "9,5 m² de área verde por habitante al 2030",
+       "fuente": "plan_juntos-por-el-peru",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": true,
+     "propuestas": []
+    }
+   }
   },
   {
    "id": 105,
    "nombre": "Víctor Luis Urrutia Condori",
    "organizacion": "Partido Demócrata Verde",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer el serenazgo, optimizar la videovigilancia y promover el patrullaje integrado con la PNP",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 7
+      },
+      {
+       "texto": "Fortalecer las juntas vecinales de seguridad ciudadana",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 7
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Intervenciones preventivas en quebradas y zonas vulnerables y capacitación comunitaria en gestión del riesgo",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 9
+      },
+      {
+       "texto": "Gestionar la ampliación y mejora de agua y alcantarillado y la formalización de conexiones domiciliarias",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 9
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer la OMAPED y la DEMUNA y promover programas para el adulto mayor",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 7
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estrategia de promoción territorial «Marca Chaclacayo» con ferias productivas, comerciales y gastronómicas",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 8
+      },
+      {
+       "texto": "Capacitación a emprendedores y pequeños negocios y promoción de la formalización empresarial",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 8
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programas de arborización urbana y recuperación de áreas verdes y espacios públicos",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 9
+      },
+      {
+       "texto": "Promover la segregación y valorización de residuos sólidos",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 9
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Control concurrente de la Contraloría en las contrataciones mayores a 8 UIT, con informes publicados",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 11
+      },
+      {
+       "texto": "Mesa de concertación mensual del Valle de Chaclacayo transmitida en vivo y plataforma «Vigilancia Verde» de riesgos",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 12
+      }
+     ]
+    }
+   }
   },
   {
    "id": 106,
    "nombre": "Carmen Rosario Cárdenas Alcarraz",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Plan Cerco Distrital» de control en Los Ángeles, Filampa, Girasoles, Puente Morón y Puente Ñaña, con sistema inteligente de seguridad",
+       "meta": "5 puntos de control",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 22
+      },
+      {
+       "texto": "WhatsApp de emergencias, alerta móvil y Escuela de Seguridad Comunitaria",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 22
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Chaclacayo Preparado»: monitoreo de quebradas todo el año, brigadas comunitarias y gestión de diques",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 26
+      },
+      {
+       "texto": "Diagnóstico técnico de los sistemas de agua y alcantarillado y revisión transparente de la tarifa",
+       "meta": "Diagnóstico al 2027",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 27
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar las losas deportivas, el skate park Miguel Grau y los gimnasios al aire libre",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 24
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Caravana Integral de Salud, Farmadiris con la DIRIS Lima Este y atención de 24 horas en el C. S. López Silva",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 22
+      },
+      {
+       "texto": "Programa «Chaclacayo Te Escucha» de atención psicológica comunitaria y red de salud mental",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 22
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de emprendimiento con PRODUCE, SUNAT, MINTRA, MINCETUR y la Cámara de Comercio",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 24
+      },
+      {
+       "texto": "Circuito turístico Colchón de Nubes y ruta arqueológica (Cerro Culebra, Huascata, Alfonso Cobián) con el Ministerio de Cultura",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 25
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Escuelas Verdes» con promotores ambientales y huertos escolares",
+       "meta": "100 % de colegios en programas ambientales al 2029",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 28
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Auditoría integral de la gestión recibida e informe de los primeros 100 días; «Alcaldía en tu Barrio» en los 5 sectores",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 29
+      }
+     ]
+    }
+   }
   },
   {
    "id": 107,
    "nombre": "Adolfo Dennis Ojeda García",
    "organizacion": "Partido País para Todos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Serenazgo descentralizado en los 5 sectores con módulos y puntos de apoyo",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 34
+      },
+      {
+       "texto": "Videovigilancia con reconocimiento facial y analítica en accesos y zonas críticas, integrada con la PNP",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 35
+      },
+      {
+       "texto": "Escuadrón motorizado de respuesta rápida para atender alertas de vecinos y cámaras",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 37
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reordenar rutas de mototaxis y paraderos e interconectar ciclovías",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 42
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Chaclacayo Accesible»: juegos inclusivos y rampas en plazas y parques",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 29
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "DEMUNA descentralizada y Red de Alerta Vecinal contra la violencia familiar, con talleres en locales comunales",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 29
+      },
+      {
+       "texto": "Módulos itinerantes de estimulación temprana y nutrición infantil articulados con ollas comunes y Vaso de Leche",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 30
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Promover la formalización de mypes con un centro de emprendimiento y escuela de negocios digitales",
+       "meta": "Informalidad de las mypes de 84,8 % a 58 % al 2030",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 27
+      },
+      {
+       "texto": "Bolsa de trabajo municipal y feria del empleo descentralizada",
+       "meta": "Feria del empleo dos veces al año",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 32
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego tecnificado por goteo en parques y uso de aguas grises tratadas en lugar de cisternas",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 39
+      },
+      {
+       "texto": "Segregación en la fuente con recicladores formalizados («Conoce a tu Reciclador») y compostaje de residuos de mercados",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 40
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": true,
+     "propuestas": []
+    }
+   }
   },
   {
    "id": 108,
    "nombre": "Vicente Felipe Castillo Jiménez",
    "organizacion": "Perú Libre",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mesa Distrital contra el Crimen Organizado, cámaras con lectura de placas y centro de monitoreo las 24 horas",
+       "meta": "100 % de zonas críticas monitoreadas",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 2
+      },
+      {
+       "texto": "Patrullaje integrado permanente, corredores seguros, alarmas vecinales y programa «Vecino Vigilante»",
+       "meta": "30 % menos robos al paso, 50 juntas vecinales y respuesta en menos de 5 minutos",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 3
+      },
+      {
+       "texto": "Drones para patrullaje, aplicativo de emergencia conectado al serenazgo e integración con la Central 105",
+       "meta": "90 % de operatividad tecnológica",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 3
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proteger la ribera del Rímac con muros verdes y barreras naturales",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 8
+      },
+      {
+       "texto": "Reforestación de quebradas, limpieza de cauces y sistemas de alerta temprana ante huaicos e inundaciones",
+       "meta": "10 ha reforestadas en zonas críticas al 2030",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 10
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "economia": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Planta de segregación primaria con recicladores formales, compostaje y puntos ecológicos",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 8
+      },
+      {
+       "texto": "Ordenanzas contra la quema de residuos, la tala ilegal y el ruido, y plataforma de denuncias ambientales",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 9
+      },
+      {
+       "texto": "Arborización con especies nativas en parques y laderas y recuperación de áreas verdes degradadas",
+       "meta": "3 m² más de área verde por habitante al 2030",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 10
+      },
+      {
+       "texto": "Promover la segregación de residuos en los hogares",
+       "meta": "40 % de hogares segregando al 2030",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 10
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Observatorio Ciudadano de Seguridad, audiencias trimestrales y publicación mensual de estadísticas delictivas",
+       "meta": "100 % de transparencia en adquisiciones",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 3
+      }
+     ]
+    }
+   }
   },
   {
    "id": 109,
    "nombre": "Marco Antonio Tello Castro",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Torre Integrada de Videovigilancia y Monitoreo con la PNP, el Grupo Terna y la Fiscalía, financiada con el FESC",
+       "meta": "Torre operativa al 2027; 40 % menos tiempo de respuesta y el doble de operativos conjuntos al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 25
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formalizar el transporte menor con rutas, zonas de operación y paraderos autorizados y señalizados",
+       "meta": "85 % de asociaciones de mototaxis formalizadas y 100 % de paraderos autorizados al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 32
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar pozos, reservorios y redes de agua y alcantarillado administrados por la municipalidad",
+       "meta": "100 % de cobertura en zonas administradas por la municipalidad al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 28
+      },
+      {
+       "texto": "Obras de mitigación en zonas de riesgo (descolmatación, muros, drenajes), brigadas y simulacros distritales",
+       "meta": "100 % de zonas de riesgo alto y medio intervenidas al 2030 y 2 simulacros al año",
+       "fuente": "plan_podemos-peru",
+       "pagina": 35
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir y rehabilitar pistas, veredas y accesos peatonales y recuperar parques",
+       "meta": "100 % de cierre de brechas de infraestructura pública al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 29
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar la capacidad de establecimientos de salud del primer nivel e impulsar un policlínico distrital",
+       "meta": "4 establecimientos y desnutrición crónica del 5 % al 4 % al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 26
+      },
+      {
+       "texto": "Programa «Chaclacayo Educa y Crea» y convenios con PRONIED para mejorar locales escolares",
+       "meta": "Brecha de locales escolares inadecuados en 38 % al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 27
+      },
+      {
+       "texto": "Casa de la Mujer y la Familia con capacitación técnica, emprendimiento y orientación psicológica",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 31
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Desarrollo Empresarial y Emprendimiento y Plan de Desarrollo Económico Local",
+       "meta": "120 empresas por cada 1 000 habitantes al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 33
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de arborización urbana y ampliación de parques y corredores verdes",
+       "meta": "8,2 m² de área verde por habitante al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 36
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ordenanza de audiencias públicas semestrales y transmisión en línea de las sesiones de concejo",
+       "meta": "2 audiencias al año",
+       "fuente": "plan_podemos-peru",
+       "pagina": 37
+      }
+     ]
+    }
+   }
   },
   {
    "id": 110,
    "nombre": "Carlos Alberto Ysla Durán",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nuevos puntos de videovigilancia con reconocimiento en accesos y límites, patrullaje integrado con la comisaría y apoyo a juntas vecinales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estudio técnico para una tarifa de agua diferenciada entre consumo residencial y comercial",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Perfiles técnicos para diques y mallas dinámicas en quebradas críticas y descolmatación del Rímac antes de las lluvias",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Equipo técnico itinerante y asesoría legal gratuita para el saneamiento físico-legal de asentamientos humanos",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 7
+      },
+      {
+       "texto": "Reasfaltado y bacheo continuo de vías locales y red de ecoparaderos con paneles solares",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar ante los ministerios más vacantes de Pensión 65, Contigo y Beca 18, y ampliar talleres del CIAM y la OMAPED",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Nuevas disciplinas en las escuelas deportivas, torneos interbarrios y mantenimiento de losas",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma «Emprende Chaclacayo» para licencias automatizadas y línea virtual de formalización",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Programa «Descubre Chaclacayo»: ferias gastronómicas y artesanales y circuitos turísticos junto al río Rímac",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Chacla Recicla» con estaciones de reciclaje, campañas puerta a puerta y formalización de recicladores",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla Única Virtual y aplicación para reportar incidencias de servicios con geolocalización",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 12
+      }
+     ]
+    }
+   }
   }
  ]
 }

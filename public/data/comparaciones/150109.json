@@ -3,53 +3,633 @@
  "ambito": "Cieneguilla",
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
- "corte": "30 de septiembre de 2026",
- "con_propuestas": false,
+ "corte": "1 de octubre de 2026",
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_alianza-para-el-progreso": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Alianza para el Progreso (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/79e141ac-67c2-4393-bcec-908e217e6022.pdf",
+   "pdf": true
+  },
+  "plan_frente-popular-agricola-fia-del-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de FREPAP (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/ecbc3442-e16e-43bd-8db8-5ba2ae07486c.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/c8f94f55-e35f-464c-9ea9-472d5bca5655.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/35f39fbd-da61-472e-ab51-74510c86a6b6.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/51d27ba5-eef1-4a03-931d-79bf1e47ade4.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 126,
    "nombre": "Wilber Jorge Ancco Mamani",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centros de Monitoreo y Videovigilancia sectoriales y fortalecimiento del serenazgo municipal",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mantenimiento vial y construcción de infraestructura peatonal segura",
+       "meta": "50 km de vías rehabilitadas (2027-2030)",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Cieneguilla Ciudad Jardín» para recuperar parques y espacios públicos",
+       "meta": "10 parques (2027-2030)",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas médicas descentralizadas y convenios institucionales para la atención preventiva de salud",
+       "meta": "30 campañas (2027-2030)",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Corredores turísticos, gastronómicos y culturales para promover el turismo sostenible",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      },
+      {
+       "texto": "Programa «Emprende Cieneguilla» de capacitación y formalización empresarial",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestión de residuos sólidos con programas de segregación y reciclaje",
+       "meta": "100 % de cobertura de recolección (2027-2030)",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 3
+      },
+      {
+       "texto": "Programas de conservación para recuperar y proteger el ecosistema del río Lurín",
+       "meta": "4 campañas (2027-2030)",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 3
+      },
+      {
+       "texto": "Programa «Cieneguilla Verde» de recuperación de áreas verdes y arborización",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 3
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Portal de Gobierno Abierto con transmisión de sesiones y Gobierno Digital Municipal para los trámites",
+       "meta": "100 % de sesiones transmitidas y 80 % de trámites digitalizados (2027-2030)",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 3
+      },
+      {
+       "texto": "Audiencias públicas semestrales en cada sector, avance trimestral de obras y comités de vigilancia ciudadana",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 4
+      }
+     ]
+    }
+   }
   },
   {
    "id": 127,
    "nombre": "Ermelinda Lanazca Baltazar de Taype",
    "organizacion": "FREPAP",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Cieneguilla Segura»: más videovigilancia, serenazgo modernizado, patrullaje integrado con la PNP e iluminación de espacios públicos",
+       "meta": "Reducir en 20 % los delitos patrimoniales al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de conectividad: mejorar vías de acceso a centros poblados y atractivos turísticos y ordenar zonas comerciales",
+       "meta": "30 km de vías estratégicas y accesos turísticos al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Servicios Básicos para una Cieneguilla Digna»: proyectos de agua y alcantarillado con Sedapal y ampliación de redes eléctricas",
+       "meta": "+20 puntos porcentuales en agua y saneamiento y electrificación superior al 98 % al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Plan de gestión del riesgo: diques y defensas ribereñas, limpieza de quebradas, alerta temprana y rutas de evacuación",
+       "meta": "Intervenir el 100 % de quebradas y zonas críticas priorizadas al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Cieneguilla Crece Sana»: suplementación nutricional, alimentos ricos en hierro, huertos familiares y seguimiento de gestantes y niños",
+       "meta": "Anemia infantil de 10,8 % a menos de 5 % al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 10
+      },
+      {
+       "texto": "«Escuelas del Futuro para Cieneguilla»: mejora de infraestructura educativa, conectividad y equipamiento con MINEDU y PRONIED",
+       "meta": "Intervenir al menos el 60 % de instituciones educativas con mayores brechas al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Emprende Cieneguilla»: asistencia para formalizar negocios, bolsa de empleo local, ferias laborales y capacitación",
+       "meta": "Reducir la informalidad laboral en 15 puntos porcentuales al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Corredor turístico hacia el Qhapaq Ñan y el valle de Lurín, festivales gastronómicos y circuitos ecoturísticos",
+       "meta": "+50 % de flujo turístico y duplicar la permanencia promedio al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Cieneguilla Limpia y Circular»: segregación en la fuente, formalización de recicladores, centros de acopio y planta de compostaje",
+       "meta": "Valorizar al menos el 25 % de los residuos sólidos al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 14
+      },
+      {
+       "texto": "«Más Verde para Cieneguilla»: nuevos parques, arborización con especies nativas, corredores verdes y riego tecnificado",
+       "meta": "De 3,3 m² a 6 m² de áreas verdes por habitante al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 15
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Municipalidad Digital y Cercana»: expediente electrónico, mesa de partes virtual, aplicativo y atención itinerante en zonas altas",
+       "meta": "Digitalizar el 100 % de los trámites prioritarios al 2030",
+       "fuente": "plan_frente-popular-agricola-fia-del-peru",
+       "pagina": 15
+      }
+     ]
+    }
+   }
   },
   {
    "id": 128,
    "nombre": "Edwin Subileti Areche",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema integral de videocámaras y central de alerta interconectados con la Policía Nacional",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Casetas de control con cámaras y personal las 24 horas en la entrada y salida del distrito, y una nueva comisaría",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rehabilitar y mejorar los sectores críticos de las carreteras vecinales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar la calidad del agua potable en todas las zonas del distrito",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear el Parque Lineal Metropolitano en Cieneguilla",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir un pabellón de aulas en cada colegio del distrito",
+       "meta": "1 pabellón con 18 aulas por colegio",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Gestionar la construcción de un hospital y mejorar los puestos de salud del distrito",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Crear dos locales Cuna Más y el Instituto de Desarrollo Neurológico Infantil",
+       "meta": "2 Cuna Más",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Circuito Turístico Gastronómico, Festival Internacional de Cieneguilla y promoción del caballo de paso",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir una planta de tratamiento de residuos sólidos y programas de forestación y reforestación",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Presupuesto participativo y participación ciudadana en el Plan de Desarrollo Concertado",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    }
+   }
   },
   {
    "id": 129,
    "nombre": "Ortensia La Torre Cervantes",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa AVISPA: drones de vigilancia municipal y patrullaje aéreo contra la microcomercialización de drogas, integrado con la central de monitoreo y la PNP",
+       "meta": "Reducir en al menos 20 % los puntos de comercialización de drogas (2027-2030)",
+       "fuente": "plan_podemos-peru",
+       "pagina": 23
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Regular los paseos en cuatrimotos: rutas autorizadas, registro de operadores, protocolos de seguridad y fiscalización",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 28
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar zonas críticas del malecón del río Lurín como espacios de comercio, turismo y esparcimiento",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 26
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Espacios públicos neuroinclusivos en parques («Espacios que conectan») y zonas de calma en patios escolares",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 15
+      },
+      {
+       "texto": "Programa «Noviazgo sin Violencia» en escuelas para prevenir la violencia contra la mujer desde temprana edad",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 16
+      },
+      {
+       "texto": "Reabrir la Academia Municipal con preparación preuniversitaria, reforzamiento escolar y orientación vocacional",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 18
+      },
+      {
+       "texto": "Construir el Centro Integral de Desarrollo Social y liberar la Casa de la Cultura para actividades educativas y juveniles",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 24
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Cieneguilla Emprende»: capacitación, preincubación, ventanilla única de formalización y fondos concursables Procompite",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 26
+      },
+      {
+       "texto": "Programa de asistencia técnica para la agricultura familiar con extensionistas locales y convenios con el Midagri",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 30
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Contenedores subterráneos en puntos estratégicos y puntos verdes de acopio de reciclables y electrónicos",
+       "meta": "Ampliar al 100 % la cobertura adecuada de recolección de residuos (2027-2030)",
+       "fuente": "plan_podemos-peru",
+       "pagina": 33
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Oficinas de atención y gestión municipal descentralizadas en lugares estratégicos del distrito",
+       "meta": "Reducir en 40 % el tiempo de respuesta a los expedientes (2027-2030)",
+       "fuente": "plan_podemos-peru",
+       "pagina": 23
+      }
+     ]
+    }
+   }
   },
   {
    "id": 130,
    "nombre": "William Ronald Salazar Mateo",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cámaras con reconocimiento facial, lectores de placas, drones y botones de pánico conectados a la central de monitoreo y la comisaría",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 10
+      },
+      {
+       "texto": "Escuela de Serenazgo, patrullaje integrado con la PNP, unidades con GPS y planes operativos «Plan Cerco» y «Plan Telaraña»",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar los cuatro carriles de acceso al distrito con vías auxiliares y ciclovías, en coordinación con la Municipalidad de Lima",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ordenamiento territorial con formalización de predios y regulación del crecimiento urbano",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Vecinos Saludables»: establecimiento tipo Hospital de la Solidaridad con rayos X, ecografía y laboratorio, y botica municipal",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Nuevos establecimientos de salud en el Primer Sector y Río Seco y campañas médicas para niños y adultos mayores",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "«Educación con Oportunidades para Todos»: becas municipales, academias preuniversitarias y aulas digitales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Marca Cieneguilla», rutas turísticas con el Qhapaq Ñan y sitios arqueológicos, y ferias gastronómicas y artesanales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Segregación en la fuente, puntos limpios, maquinaria para el recojo, plantas de reciclaje y compostaje para el vivero municipal",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital con automatización de trámites, aplicativos móviles y plataformas virtuales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Plataformas para seguir la gestión en tiempo real y canales anónimos para reportar actos indebidos",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 12
+      }
+     ]
+    }
+   }
   }
  ]
 }

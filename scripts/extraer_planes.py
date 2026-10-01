@@ -1,11 +1,13 @@
 """Extrae el texto por página de los PDF de planes de gobierno (requiere Poppler: pdfinfo, pdftotext, pdftoppm).
 Uso: python scripts/extraer_planes.py public/planes/150114
      python scripts/extraer_planes.py scripts/.cache/planes/150130
+     python scripts/extraer_planes.py scripts/.cache/planes/150111 --forzar-ocr fuerza-popular
 Genera scripts/planes/<ubigeo>/<clave>.json con la lista de páginas.
 
 Si un PDF es escaneado (páginas sin texto), aplica OCR en español con Tesseract (`tesseract -l spa`) sobre la
 imagen de cada página y lo marca en el manifiesto ("ocr": true). Sin Tesseract instalado, lo marca como
-"requiere_ocr" y no inventa texto.
+"requiere_ocr" y no inventa texto. Con --forzar-ocr <clave,...> se aplica OCR a todas las páginas de esos
+planes (para PDF escaneados cuya capa de texto incrustada es defectuosa).
 """
 import json, os, pathlib, re, shutil, subprocess, sys, tempfile
 
@@ -31,7 +33,7 @@ def ocr(pdf, pagina, tesseract):
         return correr(tesseract, str(base) + ".png", "-", "-l", "spa", *extra)
 
 
-def main(carpeta):
+def main(carpeta, forzar=()):
     carpeta = pathlib.Path(carpeta)
     ubigeo = carpeta.name
     salida = pathlib.Path(__file__).parent / "planes" / ubigeo
@@ -40,11 +42,13 @@ def main(carpeta):
     f_manifiesto = salida / "manifiesto.json"
     manifiesto = json.loads(f_manifiesto.read_text(encoding="utf-8")) if f_manifiesto.exists() else None
     for pdf in sorted(carpeta.glob("*.pdf")):
+        if forzar and pdf.stem not in forzar:
+            continue
         n = int(re.search(r"Pages:\s+(\d+)", correr("pdfinfo", str(pdf))).group(1))
         paginas, con_ocr, sin_texto = [], [], []
         for i in range(1, n + 1):
             t = " ".join(correr("pdftotext", "-enc", "UTF-8", "-f", str(i), "-l", str(i), str(pdf), "-").split())
-            if len(t) < MIN_CARACTERES:
+            if len(t) < MIN_CARACTERES or pdf.stem in forzar:
                 if tesseract:
                     t = " ".join(ocr(pdf, i, tesseract).split())
                     con_ocr.append(i)
@@ -64,4 +68,8 @@ def main(carpeta):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    args = sys.argv[1:]
+    forzar = set(args[args.index("--forzar-ocr") + 1].split(",")) if "--forzar-ocr" in args else set()
+    if forzar and not shutil.which("tesseract") and not buscar_tesseract():
+        sys.exit("--forzar-ocr requiere Tesseract")
+    main(args[0], forzar)

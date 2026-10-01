@@ -162,15 +162,24 @@ def descargar(ubigeo, ambitos, local):
             pdf.write_bytes(datos)
             print(f"  ↓ {clave}.pdf ({len(datos) / 1e6:.2f} MB)")
         manifiesto.append({**item, "url": url, "plan": True, "descargado": fecha, "sha256": sha256(datos),
-                           "bytes": len(datos), "ocr": (anterior or {}).get("ocr", False)})
+                           "bytes": len(datos), "ocr": (anterior or {}).get("ocr", False),
+                           **{k: anterior[k] for k in ("paginas", "paginas_ocr", "requiere_ocr") if anterior and k in anterior}})
 
-    # Listas sin candidato a alcalde: solo se emparejan si hay exactamente una en cada lado (no se adivina)
+    # Listas sin candidato a alcalde: se emparejan por nombre de organización solo si la coincidencia es única
+    # (nombre igual, o nuestro nombre como palabras completas dentro del del JNE); si no, una contra una; si no, aviso
     sin_jne = [m for m in manifiesto if not m["candidato_jne"]]
     sin_local = [org for n, org in nuestra if n is None]
-    if len(sin_jne) == 1 and len(sin_local) == 1:
-        sin_jne[0]["organizacion"] = sin_local[0]
-    elif sin_jne or sin_local:
-        avisos.append(f"Listas sin candidato a alcalde sin emparejar: JNE {[m['organizacion_jne'] for m in sin_jne]}, nuestra lista {sin_local}.")
+    contiene = lambda corto, largo: re.search(rf"(^|W){re.escape(norm(corto))}(W|$)", norm(largo)) is not None
+    for m in sin_jne:
+        opciones = [o for o in sin_local if contiene(o, m["organizacion_jne"])]
+        if len(opciones) == 1 and sum(contiene(opciones[0], x["organizacion_jne"]) for x in sin_jne) == 1:
+            m["organizacion"] = opciones[0]
+            sin_local.remove(opciones[0])
+    pendientes = [m for m in sin_jne if not m["organizacion"]]
+    if len(pendientes) == 1 and len(sin_local) == 1:
+        pendientes[0]["organizacion"] = sin_local.pop()
+    elif pendientes or sin_local:
+        avisos.append(f"Listas sin candidato a alcalde sin emparejar: JNE {[m['organizacion_jne'] for m in pendientes]}, nuestra lista {sin_local}.")
 
     for n, org in nuestra:
         if n and norm(n) not in emparejados:
