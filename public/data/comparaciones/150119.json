@@ -4,94 +4,1356 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_alianza-para-el-progreso": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Alianza para el Progreso (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/a22bc916-be97-4e2e-a90c-696ee54753b8.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/4045bce7-1544-4f40-94d2-98a504e3c760.pdf",
+   "pdf": true
+  },
+  "plan_fe-en-el-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Fe en el Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/57f04f9c-1296-4385-8787-65fac76fa1ef.pdf",
+   "pdf": true
+  },
+  "plan_fuerza-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Fuerza Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/07640a2f-0ffa-47a9-8ed3-0dce53095400.pdf",
+   "pdf": true
+  },
+  "plan_libertad-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Libertad Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/c5d3720c-fe7f-43a4-b393-8c5ffeb10113.pdf",
+   "pdf": true
+  },
+  "plan_partido-aprista-peruano": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Aprista Peruano (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/c5c5b83a-e130-463b-9ee0-32634d1c5153.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/6d35da8f-7616-456a-b71d-26f07d8683d9.pdf",
+   "pdf": true
+  },
+  "plan_partido-frente-de-la-esperanza-2021": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Frente de la Esperanza 2021 (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/b79957d4-53ae-43ec-927f-b4ce0b253e50.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/2fc666d1-0c22-449e-937b-20a6f8cefdda.pdf",
+   "pdf": true
+  },
+  "plan_progresemos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Progresemos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/b67e669d-0023-4eab-ab0e-65313efb37e7.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/5136a89b-25b8-4944-8e07-15b4326815ee.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 260,
    "nombre": "Sin candidato a alcalde",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Central Integrada de Videovigilancia y Monitoreo Inteligente conectada con la Policía Nacional y los servicios de emergencia",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 9
+      },
+      {
+       "texto": "Modernizar el serenazgo con vehículos, motos, cuatrimotos y drones, y crear el aplicativo «Alerta Lurín» para avisos en tiempo real",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 9
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estudio de factibilidad de 4 ejes viales, puentes peatonales en la Antigua Panamericana Sur y paraderos de transporte público",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 14
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Supervisar la ejecución del proyecto de agua y alcantarillado «Esquema Lurín» y gestionar la ampliación de servicios básicos",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 11
+      },
+      {
+       "texto": "Plan de reducción de riesgo de desastres «Lurín Listo», con simulacros de sismo y señalización de zonas seguras",
+       "meta": "Simulacros de sismo 6 veces al año",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 30
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar la construcción del Hospital Municipal de Lurín y un Policlínico Municipal con emergencia las 24 horas",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 7
+      },
+      {
+       "texto": "Farmacias Municipales Solidarias en las cinco zonas del distrito, con medicamentos esenciales a costo social",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Cómprale a Lurín» con ferias productivas, gastronómicas, artesanales y turísticas en las cinco zonas",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 21
+      },
+      {
+       "texto": "Gestionar un muelle pesquero artesanal en la Playa San Pedro para los pescadores del distrito",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 27
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Albergue Municipal de mascotas con el programa «Tenencia Responsable» y adopción de animales rescatados",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 32
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Simplificar trámites con seguimiento de expedientes en tiempo real vía web y abrir oficinas de atención descentralizadas",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 39
+      }
+     ]
+    }
+   }
   },
   {
    "id": 261,
    "nombre": "Esther del Rosario Meza Atuncar",
    "organizacion": "Avanza País",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Lurín Seguro 24/7»: Centro Integrado de Monitoreo con inteligencia artificial y lectura automática de placas",
+       "meta": "500 cámaras operativas al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 8
+      },
+      {
+       "texto": "Serenazgo de alta capacidad con camionetas, motocicletas, serenos capacitados y sistema GPS",
+       "meta": "50 camionetas, 80 motocicletas y 200 serenos capacitados",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 9
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar pistas del distrito y automatizar intersecciones con semáforos inteligentes",
+       "meta": "50 km de pistas mejoradas y 30 intersecciones automatizadas",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 10
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Lurín Agua para Todos» con convenio con Sedapal, reservorios y ampliación de redes de agua y alcantarillado",
+       "meta": "Reducir en al menos 80 % las brechas de agua y saneamiento",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 16
+      },
+      {
+       "texto": "Programa «Lurín Sin Aniegos» con colectores pluviales, canales de evacuación y pozos de infiltración",
+       "meta": "Reducir en 90 % los puntos críticos de aniego",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gran Parque Metropolitano del Valle de Lurín (20 a 30 ha) y programa de renovación de parques",
+       "meta": "100 parques renovados",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 11
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Hospital Municipal de Lurín con emergencia 24 horas, pediatría, ginecología, laboratorio e imágenes",
+       "meta": "150 000 atenciones anuales",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 10
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Formación Técnica e Industrial con soldadura, mecánica, automatización, logística y maquinaria pesada",
+       "meta": "3 000 estudiantes por año",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 13
+      },
+      {
+       "texto": "Bolsa de Empleo Municipal para vecinos y ventanilla única empresarial para licencias",
+       "meta": "10 000 empleos formales",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 13
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Lurín Verde» de recuperación de áreas verdes y «Lurín Limpio» con compactadoras y camiones nuevos",
+       "meta": "200 000 m² de áreas verdes recuperados",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 14
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital con expediente electrónico y programa «Transparencia Total» con datos abiertos, tablero de obras y audiencias",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 15
+      }
+     ]
+    }
+   }
   },
   {
    "id": 262,
    "nombre": "Diana Vanessa Herrera Zavala",
    "organizacion": "Fe en el Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Central única de cámaras con reconocimiento facial y de placas, conectada con la PNP, financiada por obras por impuestos",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 17
+      },
+      {
+       "texto": "Convenio con el Ministerio del Interior para que una unidad del grupo Terna opere de forma permanente en el distrito",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 17
+      },
+      {
+       "texto": "Iluminación con energía solar en las zonas críticas con altos índices de delincuencia",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 17
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de Acondicionamiento y Ordenamiento Territorial y comisión técnica para definir los límites con Pachacámac y Villa El Salvador",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 12
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar la construcción de un hospital de primer nivel en un terreno saneado del distrito",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 13
+      },
+      {
+       "texto": "Policlínicos municipales en convenio con entidades privadas de salud mediante obras por impuestos",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 13
+      },
+      {
+       "texto": "Centros de preparación preuniversitaria municipales en forma descentralizada",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de atención a empresarios locales para reducir los tiempos de licencias de funcionamiento y pago de impuestos",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proteger y conservar las zonas agrícolas del valle y apoyar a pequeños y medianos productores con convenios de venta",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Módulos permanentes de asesoría y acompañamiento al vecino durante sus trámites municipales",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 11
+      },
+      {
+       "texto": "Actualizar y modernizar el catastro urbano y rural municipal",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 16
+      }
+     ]
+    }
+   }
   },
   {
    "id": 263,
    "nombre": "Sin candidato a alcalde",
    "organizacion": "Fuerza Popular",
    "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Adquirir nuevos equipos de videovigilancia para el sistema de seguridad ciudadana",
+       "meta": "100 cámaras de videovigilancia",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 5
+      },
+      {
+       "texto": "Reunión mensual de coordinación con autoridades y vecinos sobre seguridad ciudadana",
+       "meta": "1 reunión mensual",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 6
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rediseñar veredas, paraderos, avenidas y parques para el desplazamiento y la recreación de personas con discapacidad",
+       "meta": "Mejorar los espacios de accesibilidad al 50 %",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 5
+      },
+      {
+       "texto": "Plan de desarrollo urbano con catastro distrital y regularización de parámetros urbanos",
+       "meta": "Regularizar parámetros urbanos del 80 % de instituciones públicas y 40 % de privadas",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear un velatorio municipal con el equipamiento necesario",
+       "meta": null,
+       "fuente": "plan_fuerza-popular",
+       "pagina": 5
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Talleres y ferias para emprendedores, con una base de datos de emprendedores del distrito",
+       "meta": "Incrementar a un 60 % las ferias de emprendedores",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 5
+      },
+      {
+       "texto": "Brigadas escolares de emprendedores en las instituciones educativas del distrito",
+       "meta": "80 % de formación de brigadas escolares en 10 instituciones educativas",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 6
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Charlas informativas sobre el cuidado del medio ambiente",
+       "meta": "1 charla al mes",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 6
+      },
+      {
+       "texto": "Mejorar la conservación y el mantenimiento de las áreas verdes del distrito",
+       "meta": "Renovación de áreas verdes 1 vez a la semana",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 6
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Publicar diariamente los ingresos y egresos municipales, con auditoría interna permanente y auditoría externa anual",
+       "meta": null,
+       "fuente": "plan_fuerza-popular",
+       "pagina": 5
+      },
+      {
+       "texto": "Sesiones de concejo municipal descentralizadas en los distintos cuadrantes del distrito",
+       "meta": "Al menos cada cuatro meses",
+       "fuente": "plan_fuerza-popular",
+       "pagina": 6
+      }
+     ]
+    }
+   }
   },
   {
    "id": 264,
    "nombre": "Antonio Caycho Cervantes",
    "organizacion": "Libertad Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Lurín es Seguridad»: patrullaje integrado de PNP, serenazgo, fiscalización, defensa civil y personal de salud",
+       "meta": "Patrullaje integrado operativo en las cinco zonas al 2030",
+       "fuente": "plan_libertad-popular",
+       "pagina": 9
+      },
+      {
+       "texto": "Descentralizar la seguridad con sedes o bases de serenazgo en cada zona del distrito",
+       "meta": "Sedes o bases en las zonas A, B, C, D y E",
+       "fuente": "plan_libertad-popular",
+       "pagina": 10
+      },
+      {
+       "texto": "Software que interconecte cámaras de reconocimiento facial, cámaras testigo y botones de pánico, con uso de drones",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 10
+      },
+      {
+       "texto": "Crear la Fuerza de Operaciones Municipales (FOM) y el Grupo Especial Municipal (GEM), con capacitación del serenazgo",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 6
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Adquirir puentes Bailey y crear zonas de embarque y desembarque para taxis y vehículos menores en puntos de congestión",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 8
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar con empresas privadas pozos con ozonificación y purificadores para tener agua potable, y proyectos de agua por sector",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 6
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa catastral y de saneamiento territorial, con apoyo al saneamiento físico-legal y control del tráfico de terrenos",
+       "meta": "Catastro distrital actualizado al 2030",
+       "fuente": "plan_libertad-popular",
+       "pagina": 11
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar un centro de salud tipo 4 y ampliar la atención de los establecimientos a 24 horas",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Emprende con tu municipio» con asistencia técnica y formalización de MYPE, y bolsa de trabajo con empresas locales",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 12
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programas «Basura Cero y Reciclaje Vecinal» y «Lurín Distrito Verde» de arborización y defensa de la ribera del río",
+       "meta": null,
+       "fuente": "plan_libertad-popular",
+       "pagina": 11
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa cero papel con software integrado, audiencias públicas y cabildos abiertos",
+       "meta": "Cabildos abiertos mensuales y semestrales",
+       "fuente": "plan_libertad-popular",
+       "pagina": 14
+      }
+     ]
+    }
+   }
   },
   {
    "id": 265,
    "nombre": "Honorio César Paredes Gálvez",
    "organizacion": "Partido Aprista Peruano",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema de vigilancia inteligente «Ojos de Lurín» y serenazgo con modelo preventivo-comunitario",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 7
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cruces peatonales elevados y reductores de velocidad cerca de colegios, y red de ciclovías con aceras rehabilitadas",
+       "meta": "12 km de ciclovías y 8 km de aceras rehabilitadas",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 16
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar la ribera y la faja marginal del río Lurín para prevenir inundaciones",
+       "meta": "3 km lineales de ribera recuperados",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 16
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Red de «parques de sombra» inclusivos con arborización y mobiliario accesible en zonas densamente pobladas",
+       "meta": "5 nuevos parques inclusivos",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 16
+      },
+      {
+       "texto": "Renovar el alumbrado público con tecnología LED de alta eficiencia",
+       "meta": "60 % de la red con LED y 95 % de operatividad del alumbrado",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 11
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Lurín Joven: Futuro Sin Adicciones» con centros de orientación en cada zona y recuperación de espacios públicos",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 9
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Lurín Emprende» de formalización y capacitación de micro y pequeñas empresas",
+       "meta": "300 MYPE formalizadas y capacitadas",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 16
+      },
+      {
+       "texto": "Bolsa de Trabajo Municipal con capacitación técnica y vínculo con empresas locales",
+       "meta": "200 jóvenes insertados laboralmente por año",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 16
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear Áreas de Conservación Local para proteger ecosistemas nativos del valle",
+       "meta": "2 áreas de conservación con al menos 100 hectáreas",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 16
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla única virtual, sistema ERP municipal y tablero de control de indicadores",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 13
+      },
+      {
+       "texto": "Comités de Vigilancia Ciudadana de Obras y aplicativo «Vecino Fiscalizador» para reportar avances y deficiencias",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 8
+      }
+     ]
+    }
+   }
   },
   {
    "id": 266,
    "nombre": "Bernardo Silva Beck",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Puestos de Auxilio Rápido con personal municipal y policial, las 24 horas, en las zonas del distrito",
+       "meta": "3 nuevos Puestos de Auxilio Rápido",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 29
+      },
+      {
+       "texto": "Central de Monitoreo Municipal con cámaras en fibra óptica y policías y fiscales permanentes en las casetas",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 21
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Abrir y pavimentar nuevas salidas desde la Antigua Panamericana Sur hacia la Panamericana Nueva",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 25
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Dragar la desembocadura del río Lurín y reforzar la defensa ribereña ante inundaciones",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 24
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Iluminación LED inteligente en calles, avenidas, parques y espacios públicos",
+       "meta": "3 000 luminarias LED",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 29
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ordenanza «50 % Lurinense» con incentivos tributarios a empresas que contraten como mínimo la mitad de su personal entre residentes",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 22
+      },
+      {
+       "texto": "Recuperación integral de playas (Conchán, Mamacona, San Pedro) con servicios básicos e impulso a negocios locales",
+       "meta": "3 playas priorizadas recuperadas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 31
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyecto Malecón del Río Lurín: paseo ecológico con arborización, senderos, ciclovías e iluminación",
+       "meta": "5 km de paseo ecológico",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 23
+      },
+      {
+       "texto": "Clausurar desagües clandestinos y construir un filtro físico de residuos en el límite con Pachacámac",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 24
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Papel Cero» con sistemas integrados tipo SAP y procesos digitalizados con trazabilidad",
+       "meta": "70 % de procesos internos prioritarios digitalizados",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 34
+      },
+      {
+       "texto": "Reactivar las cinco agencias municipales con infraestructura y conexión al sistema digital",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 26
+      }
+     ]
+    }
+   }
   },
   {
    "id": 267,
    "nombre": "César Ricardo Noa Casas",
    "organizacion": "Frente de la Esperanza 2021",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Más vehículos y personal de serenazgo, y creación de la Escuela de Serenazgo de Lurín",
+       "meta": "Duplicar la flota y el personal de serenazgo",
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 14
+      },
+      {
+       "texto": "Centrales de monitoreo en las cinco zonas del distrito, con cámaras y drones",
+       "meta": null,
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 20
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Puente integrador El Olivar y semáforos inteligentes en puntos estratégicos",
+       "meta": null,
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 14
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Abastecer de agua potable a los pueblos de Lurín y construir una planta de tratamiento de agua para consumo humano",
+       "meta": "80 % de la población a octubre de 2030",
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 15
+      },
+      {
+       "texto": "Brigada de emergencia para las cinco zonas y almacenes municipales ante desastres",
+       "meta": null,
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Entrega de títulos de propiedad mediante convenio con COFOPRI para el saneamiento físico-legal",
+       "meta": "90 % de la población a octubre de 2030",
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 15
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar el hospital materno infantil de Lurín y el hospital de Lima Sur",
+       "meta": null,
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 15
+      },
+      {
+       "texto": "Becas de estudio para jóvenes de bajos recursos en convenio con empresas del distrito",
+       "meta": "100 becas al año",
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 22
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formalizar a vendedores ambulantes y empresas con licencias de funcionamiento y certificados ITSE",
+       "meta": "A diciembre de 2028",
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 16
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyectos de tratamiento e industrialización de la basura",
+       "meta": "A diciembre de 2029",
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 17
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema integrado de gestión ISO 9001 en la municipalidad",
+       "meta": "A diciembre de 2027",
+       "fuente": "plan_partido-frente-de-la-esperanza-2021",
+       "pagina": 18
+      }
+     ]
+    }
+   }
   },
   {
    "id": 268,
    "nombre": "Lizardo Alberto Ramos Rivas",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Patrullaje preventivo integrado, municipal y con rondas mixtas, en zonas estratégicas de seguridad",
+       "meta": "Mínimo 5 zonas estratégicas de seguridad",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan vial con paraderos señalizados e iluminados y eliminación de paraderos informales de mototaxis",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 4
+      },
+      {
+       "texto": "Gestionar con las mancomunidades de Lima Sur la vía costanera como vía alterna para el transporte pesado",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 4
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan para descontaminar los canales de regadío con mesa de trabajo de los sectores involucrados",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 6
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Oficina municipal de acompañamiento para el saneamiento de los centros urbanos informales",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Primera Escuela Municipal de Artes, Cultura y Danzas financiada con responsabilidad social empresarial",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 3
+      },
+      {
+       "texto": "Atención de neuropediatras para niños con TDAH y TEA y apoyo en salud mental a través de los CLAS",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 5
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar una sede de SENATI y el «Plan Chamba Juvenil» para colocar a jóvenes según las especialidades que piden las empresas",
+       "meta": "Mínimo 25 jóvenes capacitados como plan piloto",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 3
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Parque lineal del río Lurín con espacios para deporte, arte, ciclovías y recreación familiar",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 5
+      },
+      {
+       "texto": "Veterinarias municipales y campañas de tenencia responsable de mascotas",
+       "meta": "2 veterinarias (zonas A y E)",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 5
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Relanzar las agencias municipales con plataformas virtuales de atención",
+       "meta": "5 agencias municipales con plataformas virtuales",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 7
+      }
+     ]
+    }
+   }
   },
   {
    "id": 269,
    "nombre": "Ramón Andrés Córdova Arge",
    "organizacion": "Progresemos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Serenazgo por cuadrantes con mapa del delito, cámaras, alarmas comunales y botones de alerta",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 8
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Intercambio vial (paso a desnivel) en el Puente Lurín para eliminar el cuello de botella vehicular",
+       "meta": "Perfil o estudio preliminar al 2030",
+       "fuente": "plan_progresemos",
+       "pagina": 8
+      },
+      {
+       "texto": "Plan de circulación de carga pesada con rutas, horarios y zonas logísticas reguladas",
+       "meta": "Plan aprobado al 2030",
+       "fuente": "plan_progresemos",
+       "pagina": 8
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Unidad municipal de articulación con Sedapal y el Ministerio de Vivienda para el seguimiento de obras de agua y desagüe",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 7
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gran Malecón del Río Lurín: defensa ribereña, ciclovías, espacios deportivos y culturales y bulevar comercial",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 12
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Atención extendida y nocturna en establecimientos de salud, ambulancias, unidad móvil y ruta técnica para un Hospital II-1",
+       "meta": "Al menos un establecimiento con atención extendida al 2030",
+       "fuente": "plan_progresemos",
+       "pagina": 9
+      },
+      {
+       "texto": "Remodelar los establecimientos de salud de Lurín con equipo básico de atención",
+       "meta": "6 establecimientos de salud remodelados",
+       "fuente": "plan_progresemos",
+       "pagina": 19
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Instituto Superior Tecnológico, CETPRO en la Zona E y educación dual, con la Bolsa Laboral «Lurín Primero»",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 9
+      },
+      {
+       "texto": "Ordenanza «Lurín Primero» con incentivos a las empresas que contraten vecinos capacitados",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Arborización con especies de bajo consumo de agua y recuperación de parques",
+       "meta": "10 % más de áreas verdes y 10 parques recuperados por año",
+       "fuente": "plan_progresemos",
+       "pagina": 22
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mesas de concertación, tablero público de compromisos municipales y rendición de cuentas por zona",
+       "meta": "5 mesas de concertación funcionando al 2030",
+       "fuente": "plan_progresemos",
+       "pagina": 7
+      }
+     ]
+    }
+   }
   },
   {
    "id": 270,
    "nombre": "Rosa Elva Torrejón Aragón",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Videovigilancia integrada con cámaras de alta resolución, drones y parlantes en puntos críticos",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 25
+      },
+      {
+       "texto": "Botón de pánico en una aplicación gratuita conectado a la central, el serenazgo y la PNP, y vigilancia por cuadrantes",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 26
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semaforización con inteligencia artificial, señalización vial y peatonal y ciclovías",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 42
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Conexiones domiciliarias de agua potable y desagüe en zonas urbanas, rurales y asentamientos humanos",
+       "meta": "85 % de cobertura de agua potable y desagüe",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 29
+      },
+      {
+       "texto": "Central de monitoreo de riesgos de desastres en Defensa Civil y programa de apoyo a los bomberos voluntarios",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 64
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Convenio con COFOPRI y equipo técnico legal itinerante para formalizar la propiedad",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 28
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Policlínico Municipal con farmacia municipal y ambulancias articuladas con el SAMU",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 22
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Consolidar la Ruta Gastronómica del Chicharrón como atractivo turístico y económico",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 54
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Albergue municipal «Patitas Felices» para animales abandonados y Centro Veterinario Municipal",
+       "meta": "Atención integral al 100 % de los animales rescatados que ingresen",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 56
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Diagnóstico integral de fondos y bienes municipales y fortalecimiento del control interno",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 66
+      },
+      {
+       "texto": "Gestión documental «Cero Papel», mesa de partes virtual y casilla electrónica",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 68
+      }
+     ]
+    }
+   }
   }
  ]
 }

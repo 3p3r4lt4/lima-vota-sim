@@ -123,28 +123,28 @@
   "ambito": "Lurigancho-Chosica",
   "nivel": "distrital",
   "candidatos": 11,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150119",
   "ambito": "Lurín",
   "nivel": "distrital",
   "candidatos": 9,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150120",
   "ambito": "Magdalena del Mar",
   "nivel": "distrital",
   "candidatos": 10,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150122",
   "ambito": "Miraflores",
   "nivel": "distrital",
   "candidatos": 9,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150123",
@@ -165,7 +165,7 @@
   "ambito": "Pueblo Libre",
   "nivel": "distrital",
   "candidatos": 12,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150125",

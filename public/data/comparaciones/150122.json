@@ -4,80 +4,1116 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/aeda689a-3b83-44e2-bf0d-cc5ec5a82a4d.pdf",
+   "pdf": true
+  },
+  "plan_ahora-nacion-an": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Ahora Nación (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/8a89d1f0-0014-4291-98d0-8cc740cb1d8c.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/d0159a9d-226a-4034-adc2-b9a9e67e6907.pdf",
+   "pdf": true
+  },
+  "plan_libertad-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Libertad Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/29d5113e-a86b-4fe8-b724-dbfbb44be7a8.pdf",
+   "pdf": true
+  },
+  "plan_partido-del-buen-gobierno": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido del Buen Gobierno (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/2e472457-55a6-4da1-9a2c-ae71e4850d6e.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/a4e5025c-9f02-4350-87bd-788ccbe2e8eb.pdf",
+   "pdf": true
+  },
+  "plan_partido-morado": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Morado (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/292248e0-e30c-4d38-b483-13b479e2684a.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/4a10187f-f00a-48a1-9d31-33ecfea3a896.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/8b1e8adf-a44a-401c-aa02-fd43a0b0a6f3.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 282,
    "nombre": "Carlos Alcides Zúñiga Arce",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Escuela de Serenos, más serenos, renovación de la flota y drones; comité distrital de seguridad semanal liderado por el alcalde",
+       "meta": "Escuela de Serenos desde el primer año y 20 % más serenos",
+       "fuente": "plan_accion-popular",
+       "pagina": 19
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Bus vecinal ecológico con dos rutas, nuevas ciclovías conectadas a la red metropolitana y estaciones de bicicletas en parques y óvalos",
+       "meta": "2 rutas de bus vecinal ecológico y 9 km de nuevas ciclovías",
+       "fuente": "plan_accion-popular",
+       "pagina": 28
+      },
+      {
+       "texto": "Reordenar intersecciones eliminando giros a la izquierda, centralizar los semáforos con la MML y construir un puente peatonal y ciclista hacia Barranco",
+       "meta": "30 intersecciones reordenadas y 100 % de la red semafórica conectada a la central de la MML",
+       "fuente": "plan_accion-popular",
+       "pagina": 28
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Almacenes soterrados de ayuda humanitaria, una brigada comunal por zona, centro de operaciones de emergencia y sala de crisis conectados con Lima e INDECI",
+       "meta": "14 almacenes soterrados nuevos y 14 brigadas comunales, una por zona",
+       "fuente": "plan_accion-popular",
+       "pagina": 23
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Red de baños públicos inteligentes y accesibles, y uso temporal de lotes en desuso como huertos, parklets o zonas de descanso",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 62
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Farmacia municipal con medicamentos básicos a precio de costo, centro de salud mental comunitario y plataforma de telemedicina",
+       "meta": "1 farmacia municipal y 1 centro de salud mental comunitario operativos",
+       "fuente": "plan_accion-popular",
+       "pagina": 35
+      },
+      {
+       "texto": "Programa «Salud en tu Barrio»: campañas gratuitas de despistaje y prevención en las 14 zonas del distrito, con clínicas privadas y servicios públicos",
+       "meta": "28 campañas gratuitas al año (2 por cada una de las 14 zonas)",
+       "fuente": "plan_accion-popular",
+       "pagina": 35
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Incubadora de negocios «Miraflores Innova», licencias digitalizadas y bolsa de trabajo inteligente que conecta a vecinos con empresas del distrito",
+       "meta": "Al menos 3 000 vecinos insertados en empleos formales al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 56
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego tecnificado en más parques, inventario digital del arbolado y programa vecinal de siembra «Árboles para Miraflores»",
+       "meta": "13 parques más con riego tecnificado",
+       "fuente": "plan_accion-popular",
+       "pagina": 71
+      },
+      {
+       "texto": "Ordenanza de segregación obligatoria en edificios, recojo selectivo en todo el distrito y recolección de aparatos electrónicos y aceite usado",
+       "meta": "Segregación en la fuente en el 100 % de comercios y el 90 % de edificios multifamiliares",
+       "fuente": "plan_accion-popular",
+       "pagina": 74
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Audiencias vecinales «Gobernando con el Vecino», rendición de cuentas anual y un visor web del avance del plan de gobierno",
+       "meta": "50 audiencias vecinales al año y 4 rendiciones de cuentas en la gestión",
+       "fuente": "plan_accion-popular",
+       "pagina": 76
+      }
+     ]
+    }
+   }
   },
   {
    "id": 283,
    "nombre": "Ricardo Enrique Giesecke Sara Lafosse",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer el serenazgo con más cámaras, programas preventivos en colegios y una Casa de las Familias para atención emocional",
+       "meta": "30 % más cámaras operativas y 20 % menos percepción de inseguridad",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semaforización inteligente, más fiscalización del tránsito, ampliación de ciclovías y una ruta especial del Urbanito",
+       "meta": "34 intersecciones con semáforos inteligentes, 15 km de ciclovías y 25 % menos tiempo de desplazamiento",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ascensores y accesos peatonales seguros desde el malecón hacia las playas para adultos mayores y personas con discapacidad",
+       "meta": "Al menos 3 sistemas de acceso vertical a las playas",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Unidades de serenazgo especializadas en violencia de género, campañas educativas y asesoría legal y psicológica",
+       "meta": "20 % menos reportes de acoso callejero en zonas críticas",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      },
+      {
+       "texto": "Programa de Renacimiento Cultural con circuitos turísticos y artísticos, Casa del Artista y recuperación del Estadio Bonilla",
+       "meta": "Estadio Bonilla recuperado antes de terminar el segundo año y al menos 5 circuitos turísticos y culturales",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      },
+      {
+       "texto": "Guardería municipal con horarios adaptados a las familias, en especial a las mujeres que trabajan",
+       "meta": "Guardería en el primer año, para al menos 500 familias al año",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Normativa para preservar áreas verdes en nuevas edificaciones y recuperación de espacios residuales con arborización",
+       "meta": "10 % más áreas verdes y 5 000 árboles plantados",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      },
+      {
+       "texto": "Modernizar la gestión de residuos con reciclaje, segregación en origen y recolección selectiva",
+       "meta": "50 % más reciclaje y recolección selectiva en el 100 % de sectores",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      },
+      {
+       "texto": "Servicio veterinario municipal con vacunación, esterilización y adopción responsable",
+       "meta": "20 000 vacunaciones y 10 000 esterilizaciones en la gestión",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Vigilancia ciudadana, acceso a la información y cabildos abiertos semestrales",
+       "meta": "2 cabildos abiertos al año y ejecución presupuestal publicada cada trimestre",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      },
+      {
+       "texto": "Gobierno electrónico para digitalizar trámites y reducir tiempos de atención",
+       "meta": "100 % de los principales trámites digitalizados y 50 % menos tiempo de atención",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      }
+     ]
+    }
+   }
   },
   {
    "id": 284,
    "nombre": "Jorge Vicente Martín Muñoz Wells",
    "organizacion": "Avanza País",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Seguridad integral basada en información: patrullaje y monitoreo permanentes en sectores priorizados y sistema integrado de vigilancia en zonas críticas",
+       "meta": "25 % menos tiempo de respuesta y patrullaje permanente en el 100 % de sectores priorizados",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 7
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyectos de movilidad sostenible y caminabilidad, y campañas de educación vial",
+       "meta": "30 % menos puntos críticos de congestión y al menos 30 proyectos de movilidad sostenible",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 12
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Simulacros y ejercicios de preparación ciudadana ante emergencias e intervenciones preventivas para reducir riesgos",
+       "meta": "Al menos 40 simulacros y ejercicios de preparación al año",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 44
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar y poner en valor parques, plazas, malecones y áreas recreativas con accesibilidad universal",
+       "meta": "Al menos 100 espacios públicos recuperados",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 10
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programas permanentes de actividad física y deporte en parques, malecones y losas deportivas para todas las edades",
+       "meta": "Más de 30 000 vecinos en programas de actividad física y deporte",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 9
+      },
+      {
+       "texto": "Mejor iluminación y seguridad en zonas priorizadas, prevención del acoso y programas de capacitación y empleo para mujeres",
+       "meta": "3 000 mujeres en programas de capacitación y empleo; 25 % más percepción de seguridad de las mujeres",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Capacitación, mentoría y espacios de innovación o coworking para emprendedores del distrito",
+       "meta": "Más de 3 000 emprendedores capacitados y al menos 5 espacios de innovación o coworking",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 27
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar el arbolado y aplicar riego eficiente en las áreas verdes priorizadas",
+       "meta": "20 % más cobertura arbórea y riego eficiente en el 100 % de áreas verdes priorizadas",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 31
+      },
+      {
+       "texto": "Ampliar el reciclaje y la valorización de residuos con educación ambiental para vecinos y comercios",
+       "meta": "50 % más residuos valorizados o reciclados respecto a 2026",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 32
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Digitalizar trámites y servicios municipales priorizados",
+       "meta": "90 % de trámites priorizados digitales y 50 % menos tiempo de atención",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 37
+      },
+      {
+       "texto": "Espacios de diálogo y rendición de cuentas con vecinos y organizaciones",
+       "meta": "20 espacios de diálogo y rendición de cuentas al año",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 41
+      }
+     ]
+    }
+   }
   },
   {
    "id": 285,
    "nombre": "Daniel Rodríguez Zanabria",
    "organizacion": "Libertad Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Corredores de alta vigilancia en Larco, Kennedy, Pardo, Costa Verde y zonas turísticas, con patrullaje integrado de serenazgo, PNP y juntas vecinales",
+       "meta": "100 % de zonas turísticas protegidas",
+       "fuente": "plan_libertad-popular",
+       "pagina": 49
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan Maestro de Movilidad 2030 y semaforización inteligente con sensores y monitoreo en tiempo real",
+       "meta": "25 % menos tiempo de desplazamiento y 100 % de intersecciones principales monitoreadas",
+       "fuente": "plan_libertad-popular",
+       "pagina": 39
+      },
+      {
+       "texto": "Red de estacionamientos subterráneos, automatizados o concesionados en Kennedy, Larco, Pardo y el sector turístico",
+       "meta": "1 500 nuevas plazas de estacionamiento",
+       "fuente": "plan_libertad-popular",
+       "pagina": 40
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Protección de acantilados de la Costa Verde con monitoreo geotécnico, estabilización de taludes y drenajes",
+       "meta": "100 % de zonas críticas monitoreadas",
+       "fuente": "plan_libertad-popular",
+       "pagina": 41
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan «Cero Huecos» de pavimentación, bacheo y mantenimiento preventivo de vías",
+       "meta": "100 % de vías principales en estado óptimo",
+       "fuente": "plan_libertad-popular",
+       "pagina": 40
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas preventivas de salud «Miraflores Saludable» y atención domiciliaria «Médico en Casa» para adultos mayores y personas con movilidad reducida",
+       "meta": "5 000 visitas domiciliarias al año y 40 000 atenciones preventivas acumuladas",
+       "fuente": "plan_libertad-popular",
+       "pagina": 28
+      },
+      {
+       "texto": "Servicio municipal de salud mental «Miraflores Te Escucha», presencial, telefónico y virtual",
+       "meta": "20 000 atenciones psicológicas acumuladas",
+       "fuente": "plan_libertad-popular",
+       "pagina": 28
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla rápida «Formaliza Miraflores» con licencia digital, inspección programada y asesoría a emprendedores",
+       "meta": "50 % menos tiempo en trámites empresariales",
+       "fuente": "plan_libertad-popular",
+       "pagina": 34
+      },
+      {
+       "texto": "Programa «Empleo Joven Turismo»: capacitación en atención turística, inglés, marketing digital y gastronomía",
+       "meta": "4 000 jóvenes capacitados",
+       "fuente": "plan_libertad-popular",
+       "pagina": 35
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Basura Cero» con segregación, reciclaje, planta de reciclaje y contenedores inteligentes en zonas turísticas",
+       "meta": "Duplicar la tasa de reciclaje y contenedores inteligentes en el 100 % de zonas turísticas",
+       "fuente": "plan_libertad-popular",
+       "pagina": 44
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Municipalidad digital: licencias, certificados, pagos y expedientes en línea, con expediente electrónico único",
+       "meta": "90 % de trámites digitales",
+       "fuente": "plan_libertad-popular",
+       "pagina": 51
+      }
+     ]
+    }
+   }
   },
   {
    "id": 286,
    "nombre": "José Ricardo Portugal Quiroz",
    "organizacion": "Partido del Buen Gobierno",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cinco módulos de seguridad descentralizados, cámaras con analítica de video conectadas por fibra óptica y drones de vigilancia",
+       "meta": "5 módulos y 163 cámaras operativos; respuesta ante emergencias en menos de 3 minutos",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Catastro digital conectado con fiscalización y control de tránsito, y parqueo regulado para frenar el estacionamiento informal",
+       "meta": "Catastro digital al 100 % y cero estacionamiento informal en zonas rígidas residenciales",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 16
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar el alumbrado público en todo el distrito mediante inversión pública",
+       "meta": "100 % del distrito iluminado al 2030",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 5
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Policonsultorios municipales descentralizados en las casas del adulto mayor, con telesalud, laboratorio básico y atención psicológica",
+       "meta": null,
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 6
+      },
+      {
+       "texto": "Flota municipal de ambulancias tipo II y III con geolocalización, en convenio con el SAMU",
+       "meta": "Respuesta médica prehospitalaria en menos de 5 minutos",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Licenciamiento y formalización comercial digitalizados, con apoyo a micro y pequeñas empresas",
+       "meta": "Licencias en máximo 24 horas y más de 3 000 microemprendimientos formalizados",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 12
+      },
+      {
+       "texto": "Bolsa de trabajo municipal conectada con empresas aliadas para empleo y prácticas de jóvenes",
+       "meta": "Más de 2 500 jóvenes insertados en empleos o prácticas",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 14
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Planta municipal de valorización y compostaje, y estaciones de reciclaje inteligentes en parques y zonas turísticas",
+       "meta": "100 % de residuos aprovechables reciclados o valorizados",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 17
+      },
+      {
+       "texto": "Sensores de ruido en ejes saturados, retiro de cables aéreos en desuso y regulación de paneles publicitarios",
+       "meta": "100 % de puntos críticos con monitoreo de ruido y sin cableado aéreo en desuso en avenidas principales",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 19
+      },
+      {
+       "texto": "Nueva veterinaria municipal, registro de mascotas con microchip y zonas exclusivas para mascotas en parques",
+       "meta": "Veterinaria operativa y registro de todas las mascotas residentes",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 11
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla única digital de trámites y canal de denuncias anónimas en convenio con la PCM",
+       "meta": "100 % de trámites y servicios municipales automatizados",
+       "fuente": "plan_partido-del-buen-gobierno",
+       "pagina": 22
+      }
+     ]
+    }
+   }
   },
   {
    "id": 287,
    "nombre": "Alexander Enrique Von Ehren Campos",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reforzar el patrullaje integrado de serenazgo y PNP, modernizar las cámaras y activar comités vecinales de seguridad",
+       "meta": "30 % más patrullaje integrado y 30 % menos delitos al cierre de la gestión",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      },
+      {
+       "texto": "Personal operativo en colegios, centros comerciales y parques con mayor afluencia",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reordenar el tránsito, revisar semáforos, señalización y zonas de carga, y fijar puntos de embarque en zonas turísticas",
+       "meta": "20 % menos tiempo de circulación en las vías más congestionadas y 20 % más vías de movilidad sostenible",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de mantenimiento y rehabilitación de pistas y veredas, y mejor iluminación en puntos críticos",
+       "meta": "90 % de calles y avenidas en mal estado atendidas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      },
+      {
+       "texto": "Recuperar y crear espacios públicos con mejor mobiliario, iluminación y seguridad para actividades vecinales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Agenda permanente de actividades culturales, deportivas y recreativas, con talleres y festivales descentralizados en las 14 zonas",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mesas de trabajo con comercios y vecinos, y simplificación de trámites municipales",
+       "meta": "30 % más rapidez en la atención de trámites",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mantenimiento integral de parques: bancas, juegos infantiles, riego, poda y tratamiento fitosanitario",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Campañas de reciclaje vecinal y escolar, jornadas de limpieza y arborización, y premios a buenas prácticas",
+       "meta": "Campañas bimensuales",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Difundir el gasto, realizar audiencias públicas de balance y crear canales de denuncia de corrupción",
+       "meta": "Reportes bimensuales y audiencias públicas periódicas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Intervención obligatoria de delegados vecinales en el Concejo y mejor presupuesto participativo",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    }
+   }
   },
   {
    "id": 288,
    "nombre": "Mario Renato Otiniano Buquich",
    "organizacion": "Partido Morado",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Serenazgo modernizado con drones, inteligencia artificial y cámaras particulares integradas, en coordinación con PNP, Fiscalía y juntas vecinales",
+       "meta": "20 % menos percepción de inseguridad y cobertura del 100 % de zonas identificadas",
+       "fuente": "plan_partido-morado",
+       "pagina": 11
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rutas internas gratuitas con buses eléctricos accesibles, geolocalizados e integrados con ciclovías y corredores metropolitanos",
+       "meta": "4 buses eléctricos y más de 1 millón de viajes acumulados",
+       "fuente": "plan_partido-morado",
+       "pagina": 20
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestión del riesgo con almacenes estratégicos, capacitación por zonas vecinales y simulacros masivos",
+       "meta": "Al menos 4 simulacros masivos al año y 20 000 vecinos capacitados",
+       "fuente": "plan_partido-morado",
+       "pagina": 38
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Veredas Inclusivas» con rampas, pisos podotáctiles e intersecciones más seguras para peatones",
+       "meta": "45 km de infraestructura peatonal accesible",
+       "fuente": "plan_partido-morado",
+       "pagina": 45
+      },
+      {
+       "texto": "Concurso internacional para modernizar el Complejo Deportivo Manuel Bonilla con un parque costero sobre las instalaciones deportivas",
+       "meta": "Concurso de diseño en 2027 y obra entregada al 2030 con 20 000 m² de parque costero",
+       "fuente": "plan_partido-morado",
+       "pagina": 56
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Tamizajes, actividad física y voluntariado para adultos mayores con la red de atención preventiva",
+       "meta": "Tamizaje al 50 % de los adultos mayores y 20 % menos sedentarismo",
+       "fuente": "plan_partido-morado",
+       "pagina": 14
+      },
+      {
+       "texto": "Renovar las bibliotecas de los CIAM con nuevos títulos, clubes de lectura y el programa «Abuelos Cuentacuentos»",
+       "meta": "100 % de bibliotecas CIAM renovadas y 5 000 libros físicos y digitales",
+       "fuente": "plan_partido-morado",
+       "pagina": 15
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ferias de emprendedores ordenadas y descentralizadas, censo y red de comerciantes, y licencias nuevas 100 % digitales",
+       "meta": "2 ferias al mes en cada espacio y censo de emprendedores en el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 74
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Microbosques urbanos Miyawaki y reforestación de áreas críticas",
+       "meta": "Cobertura arbórea del 18 % al 35 % y 50 microbosques",
+       "fuente": "plan_partido-morado",
+       "pagina": 52
+      },
+      {
+       "texto": "Limpieza pública con rutas monitoreadas por GPS y nuevas barredoras y compactadoras",
+       "meta": "12 barredoras y 8 compactadoras nuevas; 100 % de rutas con GPS",
+       "fuente": "plan_partido-morado",
+       "pagina": 44
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernización tributaria con trámites virtuales y Cuenta Única Municipal para cada contribuyente",
+       "meta": "80 % de trámites tributarios virtuales y Cuenta Única Municipal para el 100 % de contribuyentes",
+       "fuente": "plan_partido-morado",
+       "pagina": 60
+      }
+     ]
+    }
+   }
   },
   {
    "id": 289,
    "nombre": "María Soledad Ferreyros Castañeda",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyecto «Smart City Miraflores»: cámaras con inteligencia artificial, reconocimiento de placas y biometría integradas con la Central 105 de la PNP",
+       "meta": "50 % menos delitos contra el patrimonio, 100 % de cámaras operativas (70 % con IA) y respuesta en 5 minutos o menos",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Plan Cuadrante con operativos permanentes, pórticos inteligentes, botón de pánico, drones y programa escolar «Mi Cole seguro»",
+       "meta": "40 % menos percepción de inseguridad y 30 % más serenos operativos",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semaforización inteligente, señalización, rediseño de cruces peatonales y red de ciclovías seguras",
+       "meta": "20 intersecciones con semáforos inteligentes, 9 km más de ciclovías y 30 % menos tiempo de viaje en hora punta",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 2
+      },
+      {
+       "texto": "Circuitos de buses eléctricos gratuitos y estacionamientos rotativos y de carga y descarga",
+       "meta": "3 circuitos de buses eléctricos gratuitos",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 2
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Alerta temprana ante sismos y tsunamis, almacenes soterrados equipados, brigadas vecinales y mejores salidas de evacuación de la Costa Verde",
+       "meta": "100 % de almacenes soterrados equipados y 60 % de accesos de la Costa Verde adaptados para evacuación",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 3
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejoramiento de pistas y veredas con cronograma informado a los vecinos, recuperación de parques y piscina temperada municipal",
+       "meta": "80 % más pistas y veredas reparadas y parques recuperados",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa PADOMI Municipal de atención a adultos mayores y más campañas de salud preventiva y mental",
+       "meta": "Al menos el 80 % de los adultos mayores identificados en el programa",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 3
+      },
+      {
+       "texto": "Recuperar el Complejo Deportivo Manuel Bonilla, construir un gimnasio municipal y mejorar el skate park de la Costa Verde",
+       "meta": "40 % más capacidad de la infraestructura deportiva municipal",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 4
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Licencias de funcionamiento rápidas, fiscalización preventiva, ferias de emprendimiento y bolsa de trabajo con empresas",
+       "meta": "Reducir en 3 puntos porcentuales la tasa de desempleo",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 6
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Arborización, segregación en la fuente, compostaje y contenedores soterrados en puntos críticos",
+       "meta": "15 m² de área verde por habitante y 40 % más vecinos que segregan en la fuente",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 7
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema antisoborno ISO 37001, trámites digitales y atención multicanal, y reuniones semanales «El alcalde te escucha»",
+       "meta": "90 % más trámites con atención multicanal",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      }
+     ]
+    }
+   }
   },
   {
    "id": 290,
    "nombre": "Amílcar Alessio Cantella Vega",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Escuela de Serenos para seleccionar y formar al personal, y más serenos en el distrito",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 21
+      },
+      {
+       "texto": "Centro Inteligente de Seguridad Distrital con análisis predictivo, que integre cámaras de comercios y la participación de vigilantes y conserjes",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 23
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de gestión inteligente del tránsito con semaforización adaptativa, cámaras y sensores",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 30
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Almacenes de emergencia soterrados y en contenedores con víveres, agua y herramientas para las primeras 72 horas",
+       "meta": "Al menos un almacén por sector y distribución inicial de ayuda en menos de 1 hora",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 26
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Alumbrado LED inteligente con monitoreo remoto en avenidas, calles y el circuito de playas",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 51
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Policlínico municipal con medicina general, geriatría, pediatría, psicología y laboratorio básico",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 27
+      },
+      {
+       "texto": "Ambulancias tipo II con geolocalización articuladas con serenazgo, bomberos y PNP, y telemedicina para adultos mayores",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 29
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro municipal de formación y emprendimiento, becas educativas y bolsa de trabajo",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 54
+      },
+      {
+       "texto": "Consolidar el eje Larco–Kennedy como corredor turístico e integrar el circuito de playas con la ciudad",
+       "meta": "Experiencias turísticas permanentes cada 100 metros del recorrido",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 69
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar los sistemas de riego de parques, bermas y jardines, y programa de segregación de residuos",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 58
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Aplicación móvil única con todos los servicios municipales y eliminación progresiva del expediente físico",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 39
+      }
+     ]
+    }
+   }
   }
  ]
 }

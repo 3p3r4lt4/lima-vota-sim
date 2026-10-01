@@ -233,6 +233,11 @@ MODULOS_DISTRITOS = [
     "150115_la_victoria",
     "150116_lince",
     "150117_los_olivos",
+    "150118_lurigancho_chosica",
+    "150119_lurin",
+    "150120_magdalena_del_mar",
+    "150121_pueblo_libre",
+    "150122_miraflores",
     "150130_san_borja",
     "150141_surquillo",
 ]

@@ -4,94 +4,1352 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/b148fa6b-71e6-4f9c-bfaa-1ac933eb8f50.pdf",
+   "pdf": true
+  },
+  "plan_ahora-nacion-an": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Ahora Nación (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/1962fe40-eb47-409a-9575-d4ec72987c95.pdf",
+   "pdf": true
+  },
+  "plan_alianza-para-el-progreso": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Alianza para el Progreso (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/3b6142f8-22af-48d4-8888-481bcf85b32a.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/66664b59-153a-4ce4-8698-64fb9659f6f9.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/a5295a6b-2dbb-4e98-80b1-54fae2d063f4.pdf",
+   "pdf": true
+  },
+  "plan_partido-morado": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Morado (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/855485c8-49c4-42a6-95f8-73ba68785792.pdf",
+   "pdf": true
+  },
+  "plan_partido-pais-para-todos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido País para Todos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/039bf8cd-b842-498b-a14e-f0681db22f2b.pdf",
+   "pdf": true
+  },
+  "plan_partido-politico-pueblo-consciente": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Pueblo Consciente (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/b92ad712-1abe-48f9-a537-c4f7e4c54e2d.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/f348ea43-8b3c-4825-bf51-18738d045a3b.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/1780927b-14bb-49e0-86dd-6a964de27289.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/2d16deb3-0e1f-4e72-b751-1efc0e37ce34.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 271,
    "nombre": "Mercedes Victoria Morocho Arias",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Magdalena Segura 360°»: más cámaras inteligentes, red con inteligencia artificial, módulos modernizados y videovigilancia integrada con viviendas",
+       "meta": "Duplicar las cámaras inteligentes y cubrir el 100 % del distrito con videovigilancia",
+       "fuente": "plan_accion-popular",
+       "pagina": 5
+      },
+      {
+       "texto": "Plan «Fronteras Seguras» con patrullaje conjunto e interoperabilidad con las municipalidades limítrofes",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Magdalena Vuelve al Mar»: teleférico, buses eléctricos municipales y nuevas conexiones peatonales y ciclistas hacia la Costa Verde",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 18
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Macromanzana peatonal alrededor del Mercado de Magdalena, con terrazas gastronómicas y menos tráfico de paso",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 22
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Dos ambulancias municipales de apoyo y una central distrital de coordinación de emergencias médicas",
+       "meta": "Al menos 2 500 emergencias y traslados asistidos por año al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 12
+      },
+      {
+       "texto": "Programa «Magdalena Te Escucha» de salud mental con talleres, campañas trimestrales y orientación psicológica inicial",
+       "meta": "10 000 vecinos beneficiados al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 13
+      },
+      {
+       "texto": "Centro Cultural en la Costa Verde, museo municipal y conservatorio de artes",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 14
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Formal estoy mejor»: remodelación del Mercado Central, convenios tributarios y ordenamiento del comercio",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 23
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Red de infraestructura verde con sensores, riego inteligente y monitoreo ambiental en parques, calles y la Costa Verde",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 17
+      },
+      {
+       "texto": "Programa de economía circular «La vida es un ciclo» con segregación, reciclaje y compostaje",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 17
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Municipalidad sin papel con expediente electrónico por vecino e interoperabilidad con las bases de datos del Estado",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 27
+      }
+     ]
+    }
+   }
   },
   {
    "id": 272,
    "nombre": "Franz Teseo Mario Neyra Barreda",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Patrullaje en cuatro modalidades en todos los sectores y aplicativo «Alerta Vecino Magdalense» para reportar delitos en tiempo real",
+       "meta": null,
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Magdalena Bus»: buses eléctricos municipales gratuitos que recorran las principales rutas del distrito",
+       "meta": "10 buses eléctricos",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 19
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistemas de alerta temprana ante sismos, brigadas vecinales de defensa civil y mochilas de emergencia para familias vulnerables",
+       "meta": "2 sistemas de alerta, 100 brigadas y 2 000 mochilas de emergencia",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 13
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Iluminación pública inteligente y plan de soterramiento progresivo del cableado aéreo",
+       "meta": null,
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 15
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Casa de la Juventud, Casa de la Mujer, Comedor Municipal y servicio de atención domiciliaria",
+       "meta": "Servicios implementados al 2030",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      },
+      {
+       "texto": "Academia preuniversitaria gratuita y cursos gratuitos de conducción para jóvenes de 18 a 21 años",
+       "meta": null,
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 7
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Licencia de funcionamiento exprés para negocios de bajo riesgo mediante un sistema digital",
+       "meta": "Licencias de bajo riesgo en un máximo de 24 horas",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 10
+      },
+      {
+       "texto": "Formalización con asistencia técnica y legal gratuita, incentivos temporales y reubicación concertada en ferias itinerantes",
+       "meta": "80 % de los micro comerciantes censados formalizados",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 11
+      },
+      {
+       "texto": "Bolsa de empleo municipal «Chamba en Magdalena» que conecte a vecinos con vacantes de negocios locales",
+       "meta": "Al menos 2 500 vecinos insertados en empleo formal",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 11
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Magdalena recicla» con recojo diferenciado de residuos orgánicos e inorgánicos",
+       "meta": null,
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 16
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Firma digital en todos los documentos, mesa de partes virtual y transición del personal a la Ley Servir",
+       "meta": null,
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 16
+      }
+     ]
+    }
+   }
   },
   {
    "id": 273,
    "nombre": "Johan Fritz Chávez Sifuentes",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer la seguridad ciudadana frente a hurtos y robos",
+       "meta": "40 % menos delitos, 90 % de cámaras operativas y respuesta en menos de 5 minutos",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar la movilidad urbana interviniendo los principales nodos de congestión",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer el drenaje y la resiliencia urbana ante aniegos",
+       "meta": "100 % de puntos críticos intervenidos",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa UBAP Magdalena y fortalecimiento de la atención al adulto mayor",
+       "meta": "10 000 asegurados y 2 Casas del Adulto Mayor",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      },
+      {
+       "texto": "Programa «Magdalena Emprende Joven» y becas para jóvenes",
+       "meta": "120 emprendimientos, 200 becas y 1 000 beneficiarios",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formalización y competitividad empresarial",
+       "meta": "35 % más licencias vigentes",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      },
+      {
+       "texto": "Programa «Compra Magdalena» para digitalizar el comercio local",
+       "meta": "600 negocios afiliados y 900 comerciantes capacitados",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      },
+      {
+       "texto": "Fortalecer el Mercado de Magdalena y las ferias económicas",
+       "meta": "16 ferias económicas al año",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa integral de limpieza y recuperación del espacio público",
+       "meta": "100 % de microbasurales eliminados",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      },
+      {
+       "texto": "Ampliar las áreas verdes del distrito",
+       "meta": "6 000 m² recuperados",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital y transparencia, con reportes trimestrales y audiencias públicas de rendición de cuentas",
+       "meta": "80 % de trámites digitalizados y 95 % de ejecución presupuestal",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      }
+     ]
+    }
+   }
   },
   {
    "id": 274,
    "nombre": "Carla Robbiano Montes de Allison",
    "organizacion": "Avanza País",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Casetas de monitoreo descentralizado, botones de emergencia en plazas y parques, y vigilancia con drones en la Costa Verde",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      },
+      {
+       "texto": "Cámaras corporales para todo el personal de serenazgo, más motocicletas y capacitación permanente",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Bus municipal con ruta propia, gratuito o subsidiado, con prioridad para adultos mayores y personas con discapacidad",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 5
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar una planta potabilizadora de agua y campañas permanentes de prevención ante sismos con simulacros",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 7
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Culminar la iluminación LED de todas las calles, parques y espacios públicos",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      },
+      {
+       "texto": "Rehabilitar pistas y veredas en los jirones Echenique, Rutté, Graña y Libertad, entre otras vías prioritarias",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 5
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Servicio de motoambulancia municipal las 24 horas y capacitación en RCP y primeros auxilios en colegios",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 7
+      },
+      {
+       "texto": "Casa de la Mujer con asesoría legal y psicológica, y sala cuna municipal para familias trabajadoras",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campaña de formalización de comerciantes con trámites simplificados y ferias municipales periódicas",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Arborización de calles y avenidas con especies nativas y ampliación de áreas verdes en la Costa Verde",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 6
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Wifi gratuito en plazas, parques y malecones, y canal digital de emergencias integrado al serenazgo",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 14
+      }
+     ]
+    }
+   }
   },
   {
    "id": 275,
    "nombre": "Jesús Adolfo Quispichuco Taico",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan «Magdalena 360°»: vigilancia por sectores con bases de monitoreo descentralizadas y cámaras particulares integradas al sistema municipal",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      },
+      {
+       "texto": "Escuela de Serenos, alarmas vecinales y aplicativo «Alerta Magdalena» como botón de pánico",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cuerpo municipal de inspectores de tránsito para horas punta y semáforos inteligentes",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Almacenes municipales de emergencia para atender a los vecinos en desastres",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan Urbano distrital para proteger la residencialidad, limitar alturas y peatonalizar algunas vías",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Política «Magdalena 100% Deporte»: convenios para usar campos del Hospital Larco Herrera y el Puericultorio, y gimnasio municipal",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Casa de la Juventud con talleres de arte y oficios, y sala de ensayo y grabación para músicos del distrito",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Guardería municipal en alianza con adultos mayores, comedor municipal y servicio de ambulancia",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Capacitación a emprendedores y comerciantes, y expo ferias periódicas dentro y fuera del distrito",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Magdalena Recicla» con puntos de reciclaje; lo recaudado irá a la biblioteca infantil y la casa del adulto mayor",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema antisoborno ISO 37001, transmisión en vivo de las sesiones de concejo y boletines trimestrales de obras y contrataciones",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 10
+      }
+     ]
+    }
+   }
   },
   {
    "id": 276,
    "nombre": "Sin candidato a alcalde",
    "organizacion": "Partido Morado",
    "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Magdalena Segura 360°» con cámaras de reconocimiento facial, drones, botón de pánico vecinal y patrullaje integrado",
+       "meta": "Reducir en 25 % los delitos",
+       "fuente": "plan_partido-morado",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mantenimiento de semáforos y señales, y promoción de bicicletas y scooters para trayectos cortos",
+       "meta": "25 % menos congestión en las vías principales",
+       "fuente": "plan_partido-morado",
+       "pagina": 8
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Piscina municipal con clases de natación, recuperación de canchas deportivas y mantenimiento de parques",
+       "meta": "45 % más uso de espacios recreativos y deportivos",
+       "fuente": "plan_partido-morado",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Buena Salud para Todos»: atención médica de S/ 5 y S/ 10 y campañas preventivas",
+       "meta": "40 % más acceso a servicios médicos municipales",
+       "fuente": "plan_partido-morado",
+       "pagina": 6
+      },
+      {
+       "texto": "Apoyo alimentario a familias de bajos recursos y adultos mayores mediante convenios con empresas",
+       "meta": "45 % más cobertura de asistencia alimentaria",
+       "fuente": "plan_partido-morado",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Remodelación de los mercados municipales y control de residuos en zonas comerciales",
+       "meta": "100 % de mercados modernizados y 60 % menos residuos en zonas comerciales",
+       "fuente": "plan_partido-morado",
+       "pagina": 7
+      },
+      {
+       "texto": "Bolsa de trabajo «Magdalena Emplea» con ferias laborales y capacitaciones técnicas",
+       "meta": "35 % más acceso a empleo formal y 30 % más capacitaciones",
+       "fuente": "plan_partido-morado",
+       "pagina": 7
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mapeo de los lugares con más ruido y prevención de ruidos molestos",
+       "meta": "40 % menos denuncias por ruido",
+       "fuente": "plan_partido-morado",
+       "pagina": 8
+      },
+      {
+       "texto": "Programa de tenencia responsable de mascotas con señalización y brigadas vecinales",
+       "meta": "55 % menos contaminación por heces de mascotas",
+       "fuente": "plan_partido-morado",
+       "pagina": 8
+      },
+      {
+       "texto": "Programa «Magdalena Verde» con reciclaje domiciliario y jornadas vecinales de limpieza",
+       "meta": "50 % más participación vecinal en programas ambientales",
+       "fuente": "plan_partido-morado",
+       "pagina": 9
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Municipalidad de Puertas Abiertas»: atención directa del alcalde y reuniones con juntas vecinales",
+       "meta": "60 % menos tiempo de atención municipal",
+       "fuente": "plan_partido-morado",
+       "pagina": 9
+      }
+     ]
+    }
+   }
   },
   {
    "id": 277,
    "nombre": "Eduardo Roselló Montero",
    "organizacion": "Partido País para Todos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nuevas cámaras con reconocimiento facial y lectura de placas conectadas al centro de control municipal",
+       "meta": "200 cámaras instaladas en el primer año",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 8
+      },
+      {
+       "texto": "Serenazgo en 20 sectores, cada uno con un vehículo, una moto y un efectivo policial",
+       "meta": "Respuesta del serenazgo en no más de 5 minutos",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 8
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estacionamiento subterráneo de tres niveles bajo la Plaza Manco Cápac, financiado con obras por impuestos o concesión",
+       "meta": "300 plazas operativas antes de 2030",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 13
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Polideportivo municipal con piscina semiolímpica techada y climatizada, gimnasio y tarifas sociales para vecinos",
+       "meta": "Inaugurado antes de 2029",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 13
+      },
+      {
+       "texto": "Policlínico municipal a costo social con más de 20 especialidades y geriatría",
+       "meta": "Inaugurado en el primer año",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 17
+      },
+      {
+       "texto": "Segunda Casa del Adulto Mayor con horario extendido, fisioterapia a precio social y seguro de salud básico",
+       "meta": "2 sedes al 2028 con más de 3 000 beneficiarios al año",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 17
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernización del Mercado Distrital con plan maestro, zona gastronómica, pagos digitales y wifi",
+       "meta": "Pagos digitales y wifi en el 100 % de puestos al 2028",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 14
+      },
+      {
+       "texto": "Formalización del comercio ambulatorio con zonas autorizadas y capacitación en gestión",
+       "meta": "80 % del comercio ambulatorio formalizado",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 18
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar áreas verdes en parques, malecones y bermas con especies nativas y riego eficiente",
+       "meta": "100 000 m² de áreas verdes",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 9
+      },
+      {
+       "texto": "Programa «Magdalena Recicla y Gana»: ecopuntos inteligentes que pagan créditos por el material reciclado",
+       "meta": "20 ecopuntos al 2027",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 22
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital con trámites en línea, app «Magdalena Digital» y presupuesto participativo con votación digital",
+       "meta": "80 % de trámites en línea al 2028 y 100 % al 2030",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 22
+      }
+     ]
+    }
+   }
   },
   {
    "id": 278,
    "nombre": "Richard Johnny Veramendi Oliva",
    "organizacion": "Pueblo Consciente",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cámaras con inteligencia artificial, reconocimiento facial y lectura de placas en los accesos al distrito, integradas con la PNP",
+       "meta": "150 cámaras en todos los accesos al distrito",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 1
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Drones de apoyo en incendios y emergencias, y brigadas de respuesta rápida",
+       "meta": null,
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 3
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Complejo polideportivo náutico en la Costa Verde y ciclovía conectada con los distritos colindantes",
+       "meta": "1 complejo náutico y ciclovía conectada al 100 %",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Magdalena Saludable» con centros del adulto mayor repotenciados y salud móvil",
+       "meta": "2 CIAM repotenciados y cobertura de salud móvil al 100 %",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      },
+      {
+       "texto": "Clínica municipal las 24 horas con atención básica, emergencias y farmacia",
+       "meta": null,
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Tu Negocio Consciente» para formalizar el comercio ambulatorio",
+       "meta": "95 % de comercios ambulatorios formalizados",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      },
+      {
+       "texto": "Rutas gastronómicas señalizadas para posicionar la zona comercial como polo culinario",
+       "meta": "25 % más visitantes de otros distritos",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Segregación de residuos en edificios multifamiliares",
+       "meta": "60 % de edificios multifamiliares reciclando en la fuente",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      },
+      {
+       "texto": "Paneles solares en oficinas públicas y alumbrado municipal",
+       "meta": "30 % menos gasto energético",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Trámites del TUPA digitales con respuesta por aplicación",
+       "meta": "100 % de procedimientos del TUPA digitalizados",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      },
+      {
+       "texto": "Presupuestos participativos transmitidos en vivo y rendición de cuentas trimestral",
+       "meta": "4 presupuestos participativos al año",
+       "fuente": "plan_partido-politico-pueblo-consciente",
+       "pagina": 2
+      }
+     ]
+    }
+   }
   },
   {
    "id": 279,
    "nombre": "Raúl Madueño Ortiz",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Señalización y semaforización inteligente en las principales intersecciones",
+       "meta": "80 % de intersecciones principales modernizadas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Renovación urbana y recuperación de espacios públicos",
+       "meta": "50 000 m² recuperados al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar la oferta cultural, educativa y de formación para niños, jóvenes y adultos",
+       "meta": "40 programas anuales al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Ampliar los programas de salud preventiva y atención comunitaria",
+       "meta": "20 000 atenciones acumuladas al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Promover la actividad física con infraestructura y programas deportivos inclusivos",
+       "meta": "50 % más participación vecinal al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar los procedimientos municipales para facilitar la inversión y el emprendimiento",
+       "meta": "Licencias en un máximo de 24 horas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Capacitación, asesoría y empleo local para emprendedores y empresarios",
+       "meta": "3 000 beneficiarios al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Posicionar a Magdalena como destino turístico, gastronómico y comercial",
+       "meta": "30 eventos turísticos anuales al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer la gestión ambiental y ampliar las áreas verdes",
+       "meta": "25 % más áreas verdes al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital eficiente y accesible para los vecinos",
+       "meta": "100 % de trámites digitales al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Procesos participativos y rendición pública de cuentas semestral",
+       "meta": "8 procesos participativos y 2 rendiciones de cuentas al año",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    }
+   }
   },
   {
    "id": 280,
    "nombre": "José Rafael Haro Zolezzi",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Patrullaje integrado, analítica de video y serenazgo con enfoque de policía comunitaria («Sereno Amigo»)",
+       "meta": "10 % menos victimización",
+       "fuente": "plan_podemos-peru",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semáforos peatonales con pulsador en entornos escolares",
+       "meta": "100 % de entornos escolares priorizados equipados",
+       "fuente": "plan_podemos-peru",
+       "pagina": 5
+      },
+      {
+       "texto": "Complejo de estacionamientos subterráneos en el Parque Túpac Amaru",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 1
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Alumbrado público con tecnología LED y telegestión en avenidas y zonas vulnerables",
+       "meta": "100 % del alumbrado migrado a LED",
+       "fuente": "plan_podemos-peru",
+       "pagina": 4
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Unidad de urgencias de la Clínica Municipal con ambulancias y atención continua",
+       "meta": "Urgencias y ambulancia disponibles 24/7",
+       "fuente": "plan_podemos-peru",
+       "pagina": 2
+      },
+      {
+       "texto": "Centro Geriátrico Municipal integrado a la red de centros del adulto mayor",
+       "meta": "1 Centro Geriátrico construido",
+       "fuente": "plan_podemos-peru",
+       "pagina": 2
+      },
+      {
+       "texto": "Casa de la Juventud para coworking, innovación, cultura y empleabilidad",
+       "meta": "1 Casa de la Juventud operativa",
+       "fuente": "plan_podemos-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Piscina semiolímpica techada y climatizada en el Estadio Aldo Chamochumbi, con programas de hidroterapia",
+       "meta": "Complejo acuático ejecutado al 100 %",
+       "fuente": "plan_podemos-peru",
+       "pagina": 3
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de Formalización Progresiva del comercio con incentivos, simplificación y capacitación",
+       "meta": "Comercio regulado y asistido al 100 %",
+       "fuente": "plan_podemos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Islas de contenedores soterrados y parques con iluminación ecoeficiente",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Trámites del TUPA en línea y aplicación municipal para reportar incidencias urbanas",
+       "meta": "100 % de trámites del TUPA en línea",
+       "fuente": "plan_podemos-peru",
+       "pagina": 5
+      }
+     ]
+    }
+   }
   },
   {
    "id": 281,
    "nombre": "Víctor Raúl Paulini Sánchez",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Aplicativo «SOS Magdalena» para denunciar delitos, de uso exclusivo para vecinos del distrito",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 7
+      },
+      {
+       "texto": "Reactivar el módulo tripartito de Echenique con Amazonas y nuevos módulos de seguridad en Gonzales Prada, Leoncio Prado, Sucre y la urb. Jacaranda",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Subgerencia de tránsito, depósito y grúa municipal en convenio con la PNP, y control del estacionamiento indebido",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      },
+      {
+       "texto": "Estacionamiento subterráneo en la Plaza Túpac Amaru por concesión, con horarios gratuitos para vecinos",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 18
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar la recuperación de la compañía de bomberos del distrito, puntos de encuentro y simulacros de evacuación",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 12
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar la clínica y la ambulancia municipal, y programa de médico a domicilio para adultos mayores",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 14
+      },
+      {
+       "texto": "Complejo deportivo municipal en la Costa Verde con canchas de fútbol, vóley, básquet, tenis, frontón y pádel",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 14
+      },
+      {
+       "texto": "Comedor popular municipal y cuna jardín municipal",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 22
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Zona de restaurantes en la Costa Verde solo para restaurantes del distrito, mediante concesión",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 18
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Parque con laguna artificial en la Costa Verde, más áreas verdes en Magdalena Antigua y contenedores subterráneos",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 20
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Certificación antisoborno y de calidad, sistema de denuncia contra malos funcionarios e información abierta sobre contrataciones",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 23
+      }
+     ]
+    }
+   }
   }
  ]
 }
