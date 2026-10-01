@@ -8,7 +8,7 @@
     "dev:web": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --test netlify/lib/busqueda.test.mjs",
+    "test": "node --test netlify/lib/busqueda.test.mjs netlify/lib/ua.test.mjs netlify/lib/ubigeo-geo.test.mjs",
     "datos": "python3 scripts/datos_reales.py"
   },
   "dependencies": {
