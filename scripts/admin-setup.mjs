@@ -47,6 +47,9 @@ function preguntarOculto(texto) {
 
 try {
   const password = await preguntarOculto("Contraseña del panel (mín. 12 caracteres): ");
+  if (!process.stdin.isTTY && password === "") {
+    throw new Error("No hay terminal interactiva para escribir la contraseña. Ejecútalo directamente en PowerShell o Git Bash.");
+  }
   if (password.length < 12 || password.length > 256) throw new Error("La contraseña debe tener entre 12 y 256 caracteres.");
   if (process.stdin.isTTY && (await preguntarOculto("Repítela: ")) !== password) throw new Error("Las contraseñas no coinciden.");
 
