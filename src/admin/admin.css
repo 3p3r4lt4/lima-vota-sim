@@ -1,0 +1,57 @@
+/* Panel /admin: reutiliza los tokens de styles.css */
+.adm { width: 100%; max-width: 1200px; margin: 0 auto; padding: var(--s-4); display: grid; gap: var(--s-4); }
+.adm h1 { font-size: var(--fs-lg); }
+.adm h2 { font-size: var(--fs-md); margin-bottom: var(--s-3); }
+.adm-cabecera { display: flex; flex-wrap: wrap; gap: var(--s-3); align-items: center; justify-content: space-between; }
+.adm-acciones { display: flex; gap: var(--s-2); }
+.adm-nota { font-size: var(--fs-sm); color: var(--text-muted); }
+.adm-nota[role="note"] { background: var(--accent-soft); border-radius: var(--r-sm); padding: var(--s-2) var(--s-3); color: var(--text); }
+
+.adm-boton { min-height: var(--tap); padding: 0 var(--s-4); border-radius: var(--r-pill); border: 1px solid var(--accent);
+  background: var(--accent); color: var(--accent-contrast); font-weight: 600; display: inline-flex; align-items: center; text-decoration: none; }
+.adm-boton-sec { background: var(--surface); color: var(--accent); }
+.adm-boton:disabled { opacity: 0.5; cursor: default; }
+
+.adm-filtros { display: flex; flex-wrap: wrap; gap: var(--s-3); align-items: end; background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--s-3); }
+.adm-filtros label, .adm-tarjeta label { display: grid; gap: var(--s-1); font-size: var(--fs-sm); color: var(--text-muted); }
+.adm-filtros input, .adm-filtros select, .adm-tarjeta input { min-height: var(--tap); border: 1px solid var(--border); border-radius: var(--r-sm);
+  background: var(--surface); color: var(--text); padding: 0 var(--s-2); font: inherit; }
+.adm-filtros label.adm-check { display: flex; align-items: center; gap: var(--s-2); min-height: var(--tap); color: var(--text); }
+
+.adm-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--s-3); }
+.adm-kpis div { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--s-3) var(--s-4); display: grid; gap: var(--s-1); }
+.adm-kpis span { font-size: var(--fs-sm); color: var(--text-muted); }
+.adm-kpis strong { font-size: var(--fs-xl); font-variant-numeric: tabular-nums; }
+
+.adm-rejilla { display: grid; gap: var(--s-3); grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+.adm-rejilla-3 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.adm-grafico { margin: 0; background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--s-3) var(--s-4); }
+.adm-grafico figcaption { font-weight: 600; margin-bottom: var(--s-2); }
+.adm-grafico svg { width: 100%; height: auto; display: block; }
+.adm-barra { fill: var(--accent); }
+.adm-hit { fill: transparent; }
+.adm-hit:hover + .adm-barra { fill: var(--accent-strong); }
+.adm-eje { stroke: var(--border); stroke-width: 1; }
+.adm-eje-texto { fill: var(--text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.adm-vacio { color: var(--text-muted); font-size: var(--fs-sm); }
+
+.adm-ranking { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.adm-ranking li { display: grid; grid-template-columns: 1fr auto; gap: 2px var(--s-2); font-size: var(--fs-sm); }
+.adm-ranking-nombre { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.adm-ranking-valor { font-variant-numeric: tabular-nums; color: var(--text-muted); }
+.adm-ranking-pista { grid-column: 1 / -1; height: 6px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+.adm-ranking-pista span { display: block; height: 100%; background: var(--accent); border-radius: 3px; min-width: 2px; }
+
+.adm-seccion { background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); padding: var(--s-3) var(--s-4); }
+.adm-tabla-envoltura { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.adm-tabla { border-collapse: collapse; width: 100%; font-size: var(--fs-xs); white-space: nowrap; }
+.adm-tabla th, .adm-tabla td { text-align: left; padding: var(--s-2); border-bottom: 1px solid var(--border); }
+.adm-tabla th { color: var(--text-muted); font-weight: 600; position: sticky; top: 0; background: var(--surface); }
+.adm-tabla td:last-child { white-space: normal; min-width: 180px; }
+.adm-bot td { color: var(--text-muted); }
+.adm-paginacion { display: flex; gap: var(--s-3); align-items: center; justify-content: center; margin-top: var(--s-3); font-size: var(--fs-sm); }
+
+.adm-login { min-height: 100vh; display: grid; place-items: center; padding: var(--s-4); }
+.adm-tarjeta { width: min(100%, 360px); display: grid; gap: var(--s-4); background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--r-lg); padding: var(--s-5); box-shadow: var(--shadow); }
