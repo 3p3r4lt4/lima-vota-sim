@@ -238,6 +238,11 @@ MODULOS_DISTRITOS = [
     "150120_magdalena_del_mar",
     "150121_pueblo_libre",
     "150122_miraflores",
+    "150123_pachacamac",
+    "150124_pucusana",
+    "150125_puente_piedra",
+    "150126_punta_hermosa",
+    "150127_punta_negra",
     "150130_san_borja",
     "150141_surquillo",
 ]

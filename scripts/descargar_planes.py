@@ -23,6 +23,8 @@ DOCS = "https://mpesije.jne.gob.pe/docs/"
 UA = "lima-vota-sim/1.0 (comparador ciudadano de planes de gobierno; +https://github.com/3p3r4lt4/lima-vota-sim)"
 INTERVALO = 1.1
 ALIAS_JNE = {"LURIGANCHO-CHOSICA": "LURIGANCHO"}
+# Estados con los que la candidatura a alcalde ya no está en contienda: la lista se trata como sin candidato
+FUERA_DE_CONTIENDA = {"TACHADO", "EXCLUSION", "IMPROCEDENTE", "RENUNCIA", "FALLECIDO", "RETIRO"}
 
 _ultima = 0.0
 
@@ -146,6 +148,9 @@ def descargar(ubigeo, ambitos, local):
         item = {"clave": clave, "organizacion_jne": org_jne, "organizacion": org_local, "candidato": nombre_local,
                 "candidato_jne": nombre_jne, "estado_candidato": alcalde["estadoCandidato"] if alcalde else None,
                 "id_solicitud_lista": lista["idSolicitudLista"], "expediente": lista["codigoExpediente"]}
+        if alcalde and alcalde["estadoCandidato"].strip() in FUERA_DE_CONTIENDA and nombre_local:
+            item["candidato"] = None  # se conserva candidato_jne y la organización emparejada por nombre
+            avisos.append(f"{nombre_local} ({org_local}) queda fuera de contienda ({alcalde['estadoCandidato']}): la lista se publica sin candidato a alcalde.")
         ruta = lista.get("rutaPlanGobierno")
         if not ruta:
             avisos.append(f"SIN PLAN publicado en el JNE: {org_jne} ({nombre_jne or 'sin candidato'}).")

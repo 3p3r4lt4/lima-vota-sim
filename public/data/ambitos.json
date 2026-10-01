@@ -151,14 +151,14 @@
   "ambito": "Pachacámac",
   "nivel": "distrital",
   "candidatos": 8,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150124",
   "ambito": "Pucusana",
   "nivel": "distrital",
   "candidatos": 8,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150121",
@@ -172,21 +172,21 @@
   "ambito": "Puente Piedra",
   "nivel": "distrital",
   "candidatos": 12,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150126",
   "ambito": "Punta Hermosa",
   "nivel": "distrital",
   "candidatos": 12,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150127",
   "ambito": "Punta Negra",
   "nivel": "distrital",
   "candidatos": 7,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150128",
