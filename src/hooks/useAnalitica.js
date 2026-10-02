@@ -1,11 +1,12 @@
 import { useEffect } from "react";
-import { iniciarAnalitica, registrarAmbito, detenerAnalitica } from "../lib/analitica.js";
+import { iniciarAnalitica, registrarAmbito, registrarVista, detenerAnalitica } from "../lib/analitica.js";
 
-// Registra la visita al montar y cada cambio de ámbito. Corre después del render y nunca lanza.
-export function useAnalitica(ubigeo) {
+// Registra la visita al montar, cada cambio de ámbito y cada cambio de vista. Corre después del render y nunca lanza.
+export function useAnalitica(ubigeo, vista) {
   useEffect(() => {
-    iniciarAnalitica(ubigeo);
+    iniciarAnalitica(ubigeo, vista);
     return detenerAnalitica;
   }, []);
   useEffect(() => { registrarAmbito(ubigeo); }, [ubigeo]);
+  useEffect(() => { registrarVista(vista); }, [vista]);
 }

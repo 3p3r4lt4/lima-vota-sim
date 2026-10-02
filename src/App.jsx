@@ -30,7 +30,7 @@ export default function App() {
   const [detalleId, setDetalleId] = useState(null);
   const [visor, setVisor] = useState(null);
   const [aviso, setAviso] = useState("");
-  useAnalitica(ubigeo);
+  useAnalitica(ubigeo, comparando ? "comparar" : "fichas");
 
   useEffect(() => { setTema(""); setSel([]); setComparando(false); setVisor(null); setDetalleId(null); setAviso(""); }, [ubigeo]);
 

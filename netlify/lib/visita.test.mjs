@@ -1,6 +1,9 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { validarEvento, hashIp, fechaLima, crearLimitador, mismoOrigen, MAX_BODY } from "./visita.mjs";
+import {
+  validarEvento, hashIp, fechaLima, crearLimitador, mismoOrigen, analiticaHabilitada, diasRetencion,
+  EVENTOS, TIPO_EVENTO, MAX_BODY,
+} from "./visita.mjs";
 
 const S = "3f2b8c1e-9a4d-4c6b-8e2f-1a2b3c4d5e6f";
 const ev = (o) => JSON.stringify(o);
@@ -8,7 +11,47 @@ const ev = (o) => JSON.stringify(o);
 test("acepta un inicio completo y normaliza", () => {
   const r = validarEvento(ev({ e: "inicio", s: S.toUpperCase(), a: "150114", p: "390x844", i: "es-PE", r: "WWW.Google.com" }));
   assert.equal(r.ok, true);
-  assert.deepEqual(r.evento, { tipo: "inicio", sesion_id: S, ambito: "150114", pantalla: "390x844", idioma: "es-PE", referer_host: "www.google.com" });
+  assert.deepEqual(r.evento, {
+    tipo: "inicio", sesion_id: S, ambito: "150114", pantalla: "390x844", idioma: "es-PE", referer_host: "www.google.com",
+    vista: null, ruta: null, utm_source: null, utm_medium: null, utm_campaign: null,
+  });
+});
+
+test("inicio con vista, ruta y UTM", () => {
+  const r = validarEvento(ev({ e: "inicio", s: S, v: "comparar", t: "/", us: "facebook", um: "social", uc: "erm 2026_lima" }));
+  assert.equal(r.ok, true);
+  assert.equal(r.evento.vista, "comparar");
+  assert.equal(r.evento.ruta, "/");
+  assert.deepEqual([r.evento.utm_source, r.evento.utm_medium, r.evento.utm_campaign], ["facebook", "social", "erm 2026_lima"]);
+});
+
+test("vista y pregunta: solo el tipo, nunca texto libre", () => {
+  assert.equal(validarEvento(ev({ e: "vista", s: S, v: "fichas" })).ok, true);
+  assert.equal(validarEvento(ev({ e: "vista", s: S })).motivo, "vista");
+  assert.equal(validarEvento(ev({ e: "vista", s: S, v: "mapa" })).motivo, "vista");
+  assert.equal(validarEvento(ev({ e: "pregunta", s: S, a: "150114" })).ok, true);
+  assert.equal(validarEvento(ev({ e: "pregunta", s: S, q: "¿serenazgo?" })).motivo, "campo");
+  for (const [k, v] of [["t", "no-empieza-con-barra"], ["t", "/a?b=1"], ["us", "<script>"], ["uc", "x".repeat(81)], ["um", 5]]) {
+    assert.equal(validarEvento(ev({ e: "inicio", s: S, [k]: v })).motivo, "formato", `${k}=${v}`);
+  }
+});
+
+test("cada evento con fila en analytics_eventos usa un tipo válido de la tabla", () => {
+  const TIPOS_TABLA = ["vista", "cambio_ambito", "pregunta", "latido", "salida"];
+  for (const e of EVENTOS) {
+    if (e === "latido") assert.equal(TIPO_EVENTO[e], undefined);
+    else assert.ok(TIPOS_TABLA.includes(TIPO_EVENTO[e]), e);
+  }
+});
+
+test("interruptor ANALYTICS_ENABLED y días de retención", () => {
+  for (const v of [undefined, "", "true", "1", "sí"]) assert.equal(analiticaHabilitada(v), true, String(v));
+  for (const v of ["false", "FALSE", "0", "no", " off "]) assert.equal(analiticaHabilitada(v), false, v);
+  assert.equal(diasRetencion(undefined), 180);
+  assert.equal(diasRetencion("abc"), 180);
+  assert.equal(diasRetencion("90"), 90);
+  assert.equal(diasRetencion("5"), 30);
+  assert.equal(diasRetencion("9999"), 730);
 });
 
 test("latido y fin no exigen ámbito", () => {

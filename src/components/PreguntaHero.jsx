@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Respuesta from "../lib/Respuesta.jsx";
 import { IconoAzar } from "./Iconos.jsx";
+import { registrarPregunta } from "../lib/analitica.js";
 
 // soloLima: preguntas que solo tienen sentido para Lima Metropolitana
 const BANCO = [
@@ -39,6 +40,7 @@ export default function PreguntaHero({ ubigeo, datos, candidatos, onCita, onCamb
       if (res.status === 429) throw new Error("Hiciste muchas preguntas seguidas. Espera un minuto y vuelve a intentar.");
       const d = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(d.error ?? "No se pudo responder. Intenta de nuevo.");
+      registrarPregunta();
       setR({ estado: SIN_RESULTADOS.test(d.respuesta ?? "") ? "vacio" : "listo", data: d, error: "" });
     } catch (e) {
       const msg = e instanceof TypeError ? "No hay conexión con el servicio de preguntas. Revisa tu internet e intenta de nuevo." : e.message;
