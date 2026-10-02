@@ -161,15 +161,24 @@ export function origenValido(req) {
 
 // ---------- Decisión de un intento de login ----------
 // cfg: { usuario?, passwordHash, totpSecreto }. Se verifican todos los factores siempre, para no revelar
-// cuál falló por el tiempo de respuesta. Devuelve { resultado: "ok" | "fallo" | "bloqueado", contador? }.
+// cuál falló por el tiempo de respuesta. Devuelve { resultado: "ok" | "fallo" | "bloqueado", contador?, motivos? }.
+// «motivos» es solo para el log del servidor; al cliente siempre se le responde lo mismo.
 export async function evaluarLogin({ usuario, password, codigo }, cfg, bloqueo, clave, ultimoContador = -1, ahoraMs = Date.now()) {
-  if (await bloqueo.bloqueado(clave)) return { resultado: "bloqueado" };
+  if (await bloqueo.bloqueado(clave)) return { resultado: "bloqueado", motivos: ["rate_limited"] };
   const okUsuario = usuarioValido(usuario, cfg.usuario);
   const okPassword = await verificarPassword(password, cfg.passwordHash);
   const contador = verificarTotp(codigo, cfg.totpSecreto, ahoraMs);
   if (!okUsuario || !okPassword || contador < 0 || contador <= ultimoContador) {
+    const motivos = [];
+    if (!okUsuario) motivos.push("bad_user");
+    if (!okPassword) motivos.push("bad_password");
+    if (contador >= 0 && contador <= ultimoContador) motivos.push("bad_totp:reused");
+    else if (contador < 0) {
+      // ¿Coincide con una ventana más amplia? Entonces el reloj del teléfono está desfasado
+      motivos.push(verificarTotp(codigo, cfg.totpSecreto, ahoraMs, 10) >= 0 ? "bad_totp:clock_skew" : "bad_totp");
+    }
     await bloqueo.fallo(clave);
-    return { resultado: "fallo" };
+    return { resultado: "fallo", motivos };
   }
   await bloqueo.limpiar(clave);
   return { resultado: "ok", contador };

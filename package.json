@@ -8,7 +8,7 @@
     "dev:web": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --test netlify/lib/busqueda.test.mjs netlify/lib/ua.test.mjs netlify/lib/ubigeo-geo.test.mjs netlify/lib/visita.test.mjs netlify/lib/auth-admin.test.mjs netlify/lib/admin-consultas.test.mjs scripts/cargar-ref-ubigeo.test.mjs",
+    "test": "node --test netlify/lib/busqueda.test.mjs netlify/lib/ua.test.mjs netlify/lib/ubigeo-geo.test.mjs netlify/lib/visita.test.mjs netlify/lib/auth-admin.test.mjs netlify/lib/admin-consultas.test.mjs netlify/lib/login-admin.test.mjs scripts/cargar-ref-ubigeo.test.mjs",
     "datos": "python3 scripts/datos_reales.py"
   },
   "dependencies": {
