@@ -4,38 +4,391 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_alianza-para-el-progreso": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Alianza para el Progreso (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/7d4ccd58-ae58-4500-adb9-32038d6c3bf9.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/2a0f769f-ab67-4fcb-a759-e0603315dfbc.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/5eeb7b13-0ab5-4cf9-a3f1-83ddd0597f97.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 477,
    "nombre": "Marwan Zakharia Kahhat Abedrabbo",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Base integral de seguridad en la zona de playa, cámaras en puntos estratégicos y nuevo equipamiento y unidades móviles para el serenazgo",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 8
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Red de ciclovías del distrito junto con obras de accesibilidad universal",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 9
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema de alerta temprana ante sismos, tsunamis y emergencias, con desfibriladores y botiquines en puntos estratégicos",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 8
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar pistas, recuperar veredas, construir rampas de accesibilidad y mejorar los accesos a las zonas altas",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 9
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa municipal de salud con convenios con el MINSA, campañas médicas, telemedicina y un Centro de Atención Médica Municipal",
+       "meta": "12 campañas médicas por año y más de 3,000 atenciones anuales",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 4
+      },
+      {
+       "texto": "Construir e implementar un Policlínico Municipal que atienda las 24 horas",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 8
+      },
+      {
+       "texto": "Centro Comunitario Integral con Wawa Wasi, espacios de integración vecinal y velatorio municipal",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir un mercado municipal y promover la formalización y los emprendimientos locales",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 9
+      },
+      {
+       "texto": "Impulsar el turismo durante todo el año con eventos culturales, deportivos y gastronómicos",
+       "meta": "20 eventos por año y 40 % más visitantes en temporada baja",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 5
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar la recolección de residuos e implementar la segregación en la fuente y el reciclaje",
+       "meta": "40 % de residuos reciclables aprovechados y 70 % de viviendas en programas de segregación",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 6
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Digitalizar los trámites municipales y reducir los tiempos de atención al ciudadano",
+       "meta": "90 % de trámites digitalizados y 50 % menos tiempo de atención",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 7
+      }
+     ]
+    }
+   }
   },
   {
    "id": 478,
    "nombre": "Yessica Rosselli Amuruz Dulanto",
    "organizacion": "Avanza País",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar el serenazgo con capacitación y dotarlo de vehículos, drones y videovigilancia interconectada con la PNP",
+       "meta": "40 % más efectivos de serenazgo",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 2
+      },
+      {
+       "texto": "Registro digital obligatorio de vehículos y visitantes en temporada alta en las dos vías de ingreso, con datos compartidos con la PNP",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 2
+      },
+      {
+       "texto": "Brigada municipal de salvataje acuático en convenio con la PNP, con torres de vigilancia y personal certificado en rescate",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mesa técnica permanente con Sedapal y el Ministerio de Vivienda para mejorar las redes y reducir pérdidas de agua",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      },
+      {
+       "texto": "Gestionar ante el Gobierno central muros de contención y enrocados en las zonas críticas de los acantilados",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de recapeo de pistas y veredas priorizado por flujo vehicular, con publicación mensual de avance y gasto",
+       "meta": "95 % de pistas principales en estado bueno o regular",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Convertir la posta médica Villa Mercedes en un centro de salud de categoría I-3",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      },
+      {
+       "texto": "Programa preuniversitario municipal gratuito para 4.º y 5.º de secundaria mediante convenios con la PUCP y la Cayetano Heredia",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 5
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla única digital para licencias de funcionamiento y autorizaciones temporales",
+       "meta": "Respuesta en un máximo de 48 horas para mypes",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 3
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Mar y Acantilado Limpio» con jornadas semestrales de limpieza submarina y de playas con voluntariado",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Todo el personal técnico y administrativo ingresará por concurso público, con evaluaciones anuales de desempeño",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 4
+      }
+     ]
+    }
+   }
   },
   {
    "id": 479,
    "nombre": "Jorge Patricio Vásquez Nemi",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar la central distrital de monitoreo y videovigilancia",
+       "meta": "Cobertura integral de videovigilancia en accesos y espacios públicos al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 2
+      },
+      {
+       "texto": "Incrementar progresivamente el personal de serenazgo durante la temporada alta",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 2
+      },
+      {
+       "texto": "Fortalecer el sistema de salvataje y primeros auxilios en las playas",
+       "meta": "Cobertura total de salvataje en la playa principal al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de accesibilidad urbana y recuperación de veredas",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 2
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campeonatos y circuitos deportivos interdistritales con Punta Hermosa, Punta Negra y San Bartolo, y deportes de playa",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 4
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Desarrollar un mercado municipal para el abastecimiento y el comercio local",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 3
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego tecnificado en parques y arborización con especies de bajo consumo de agua",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 3
+      },
+      {
+       "texto": "Franja verde paisajística en la avenida principal del distrito",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 3
+      },
+      {
+       "texto": "Controlar la contaminación sonora y los residuos durante la temporada alta",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Actualizar el catastro urbano, fiscalizar los predios, modernizar la cobranza e incentivar el pronto pago",
+       "meta": "100 % del catastro actualizado y 25 % más recaudación al 2030",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 3
+      },
+      {
+       "texto": "Cabildos abiertos con rendición trimestral de cuentas, aplicación móvil municipal y presupuesto participativo vecinal",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 5
+      }
+     ]
+    }
+   }
   }
  ]
 }

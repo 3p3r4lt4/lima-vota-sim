@@ -37,6 +37,12 @@ def main(ruta, muestra=0):
             errores.append(f"{clave}: candidato «{nombre}» ≠ manifiesto «{man['candidato']}»")
         if org != man["organizacion"]:
             errores.append(f"{clave}: organización «{org}» ≠ manifiesto «{man['organizacion']}»")
+        if not man["plan"]:
+            if props or clave not in getattr(m, "NOTAS", {}):
+                errores.append(f"{clave}: sin plan publicado en el JNE: debe ir sin propuestas y con nota")
+            else:
+                print(f"{clave}: sin plan publicado — nota: {m.NOTAS[clave]}")
+            continue
         paginas = json.loads((ROOT / f"scripts/planes/{ub}/{clave}.json").read_text(encoding="utf-8"))
         pn = [norm(p) for p in paginas]
         if clave in getattr(m, "NOTAS", {}) and not props:

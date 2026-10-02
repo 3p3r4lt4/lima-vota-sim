@@ -193,14 +193,14 @@
   "ambito": "Rímac",
   "nivel": "distrital",
   "candidatos": 15,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150129",
   "ambito": "San Bartolo",
   "nivel": "distrital",
   "candidatos": 4,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150130",
@@ -214,7 +214,7 @@
   "ambito": "San Isidro",
   "nivel": "distrital",
   "candidatos": 9,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150132",
@@ -249,35 +249,35 @@
   "ambito": "San Miguel",
   "nivel": "distrital",
   "candidatos": 7,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150137",
   "ambito": "Santa Anita",
   "nivel": "distrital",
   "candidatos": 13,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150138",
   "ambito": "Santa María del Mar",
   "nivel": "distrital",
   "candidatos": 3,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150139",
   "ambito": "Santa Rosa",
   "nivel": "distrital",
   "candidatos": 3,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150140",
   "ambito": "Santiago de Surco",
   "nivel": "distrital",
   "candidatos": 14,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150141",
@@ -291,13 +291,13 @@
   "ambito": "Villa El Salvador",
   "nivel": "distrital",
   "candidatos": 18,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150143",
   "ambito": "Villa María del Triunfo",
   "nivel": "distrital",
   "candidatos": 18,
-  "con_propuestas": false
+  "con_propuestas": true
  }
 ]

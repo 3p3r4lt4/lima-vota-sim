@@ -4,80 +4,1031 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/7705bbab-2dfe-4ffb-bf25-2e8278086eb6.pdf",
+   "pdf": true
+  },
+  "plan_alianza-para-el-progreso": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Alianza para el Progreso (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/5bb79f54-4975-4794-8bc0-e7696b066f82.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/3194cacc-160a-4b2f-b6fe-016b74cb7df4.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/60b323c9-f32a-4a3a-9451-fcb452654d0c.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/6a6b2742-1b6e-4e03-83e4-6c74f03d25b0.pdf",
+   "pdf": true
+  },
+  "plan_progresemos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Progresemos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/d44749a8-2033-4ee9-80b5-05632103eff7.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/c147b580-9cca-4eb4-8756-9b408756179f.pdf",
+   "pdf": true
+  },
+  "plan_vision-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Visión Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/136ede5e-df9d-43f8-a680-d5aa7fad4546.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 379,
    "nombre": "Carlomagno Chacón Gómez",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Videovigilancia con analítica de IA (reconocimiento facial, lectura de placas, detección de armas) en todo el territorio distrital",
+       "meta": "100 % del territorio monitoreado",
+       "fuente": "plan_accion-popular",
+       "pagina": 5
+      },
+      {
+       "texto": "Más serenazgo distribuido en los 5 sectores, con patrullaje a pie mediante el programa «El sereno de tu parque»",
+       "meta": "1 500 efectivos de serenazgo",
+       "fuente": "plan_accion-popular",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar el «Expreso San Isidro» con buses eléctricos y extender su horario",
+       "meta": "2 buses eléctricos y horario hasta las 9:00 pm",
+       "fuente": "plan_accion-popular",
+       "pagina": 13
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Bache Cero» de rehabilitación de pistas locales, con rampas y senderos podotáctiles en intersecciones residenciales",
+       "meta": "100 % de las pistas locales críticas rehabilitadas",
+       "fuente": "plan_accion-popular",
+       "pagina": 7
+      },
+      {
+       "texto": "Defender los parámetros urbanísticos de altura, zonificación y densidad, y reorganizar el servicio de fiscalización municipal",
+       "meta": "100 % de licencias que respeten los parámetros del distrito",
+       "fuente": "plan_accion-popular",
+       "pagina": 10
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Polideportivo, piscina y gimnasio municipales para los sectores 4 y 5, con menor oferta deportiva",
+       "meta": "1 polideportivo, 1 piscina y 1 gimnasio",
+       "fuente": "plan_accion-popular",
+       "pagina": 7
+      },
+      {
+       "texto": "Nuevas ambulancias de emergencia médica las 24 horas y una ambulancia para emergencias veterinarias",
+       "meta": "2 ambulancias nuevas (4 en total) y 1 ambulancia veterinaria",
+       "fuente": "plan_accion-popular",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fiscalización del comercio ambulatorio con videovigilancia con IA y un escuadrón de drones",
+       "meta": "100 % más intervenciones de fiscalización y 2 drones nuevos",
+       "fuente": "plan_accion-popular",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Corredores verdes, reforestación de zonas de calor urbano y riego tecnificado con aguas tratadas en El Olivar y parques principales",
+       "meta": "3 corredores verdes",
+       "fuente": "plan_accion-popular",
+       "pagina": 12
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Liquidaciones de predial y arbitrios prellenadas y una Billetera Digital Municipal con estados de cuenta, recibos y licencias",
+       "meta": "100 % de liquidaciones prellenadas y 50 % más trámites en línea",
+       "fuente": "plan_accion-popular",
+       "pagina": 15
+      },
+      {
+       "texto": "Tablero público de datos abiertos sobre la inversión en seguridad, limpieza y áreas verdes, y audiencias «Tu Alcalde te escucha»",
+       "meta": "2 audiencias vecinales al mes como mínimo",
+       "fuente": "plan_accion-popular",
+       "pagina": 16
+      }
+     ]
+    }
+   }
   },
   {
    "id": 380,
    "nombre": "Zuleika Vannessa Benel Zevallos",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Escudo San Isidro»: videovigilancia, centro de monitoreo con IA, app de alertas, botón de emergencia y patrullaje integrado Serenazgo-PNP",
+       "meta": "30 % menos delitos de oportunidad y más de 85 % de percepción de seguridad",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 33
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Movilidad sostenible, transporte compartido, infraestructura ciclista y gestión inteligente del tránsito",
+       "meta": "20 % menos tiempo de desplazamiento interno",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 33
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«San Isidro Ilumina 2030»: alumbrado LED con monitoreo remoto en calles, parques y malecones, y luminarias solares",
+       "meta": "100 % del distrito con iluminación LED",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 37
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyecto «Sonrisa de Mujer»: centro de atención a la mujer con apoyo psicológico y legal, fondo semilla y bolsa de empleo",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 17
+      },
+      {
+       "texto": "Proyecto «Adulto Mayor Activo» con Casa Municipal del Adulto Mayor, acompañamiento domiciliario y red de voluntariado vecinal",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 18
+      },
+      {
+       "texto": "Programa «Huellitas por Siempre»: registro de mascotas con código QR, esterilización, veterinaria municipal y ambulancia veterinaria",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 19
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Toca Mi Labor»: ferias temáticas itinerantes en parques y boulevares y sello «Hecho en San Isidro»",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 23
+      },
+      {
+       "texto": "«Laboratorio 360»: coworking municipal, laboratorio de fabricación digital y apoyo al primer negocio",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 26
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«San Isidro Verde 365» con estándar único para los parques y control ecológico de roedores en El Olivar",
+       "meta": "44 parques modelo",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 35
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital con laboratorio de innovación pública, datos abiertos e inteligencia artificial aplicada a la gestión",
+       "meta": "100 % de trámites digitalizados al 2030",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 22
+      },
+      {
+       "texto": "Oficina de Alianzas y Cooperación Estratégica con bancos, embajadas, universidades y empresas para programas vecinales",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 38
+      }
+     ]
+    }
+   }
   },
   {
    "id": 381,
    "nombre": "César Augusto Combina Salvatierra",
    "organizacion": "Avanza País",
-   "cargo_nota": null,
-   "temas": {}
+   "cargo_nota": "La organización no tiene un plan de gobierno publicado en Voto Informado del JNE, por lo que no hay propuestas que resumir.",
+   "temas": {
+    "seguridad": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "economia": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "ambiente": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "gestion": {
+     "sin_informacion": true,
+     "propuestas": []
+    }
+   }
   },
   {
    "id": 382,
    "nombre": "Víctor Hugo Bazán Pastor",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Videovigilancia inteligente en todo el distrito y un Centro Inteligente de Seguridad operativo las 24 horas",
+       "meta": "100 % del distrito con videovigilancia inteligente",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 29
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estacionamientos inteligentes, red semafórica modernizada y ciclovías integradas con los distritos vecinos",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 31
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plantas de tratamiento de aguas residuales para reutilizar agua en riego, con sensores de humedad en áreas verdes",
+       "meta": "2 PTAR",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 31
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Parque Costero San Isidro en la Costa Verde, con miradores, andenes paisajísticos y circuitos peatonales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 31
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Médico Municipal en Casa» y construcción de policlínicos municipales",
+       "meta": "2 policlínicos municipales",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 29
+      },
+      {
+       "texto": "Construcción de polideportivos verticales",
+       "meta": "3 polideportivos verticales",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 29
+      },
+      {
+       "texto": "Gran Complejo Cultural Municipal con auditorio, Teatro Municipal y Casa de la Música",
+       "meta": "Auditorio para 2 000 personas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 30
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Academia Municipal de Innovación y becas «San Isidro Global» con convenios internacionales",
+       "meta": "Más de 8 000 vecinos capacitados",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 30
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plantación de árboles y especies ornamentales, y riego inteligente en parques y jardines",
+       "meta": "100 000 árboles y especies ornamentales",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 31
+      },
+      {
+       "texto": "Programa «Basura Cero» con biodigestores para residuos orgánicos y educación ambiental",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 32
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "App Vecino San Isidro con servicios integrados, gemelo digital del distrito e IA en la atención municipal",
+       "meta": "Más del 80 % de trámites digitalizados",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 30
+      }
+     ]
+    }
+   }
   },
   {
    "id": 383,
    "nombre": "César Enrique Stuart Alvarado",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Alinear la seguridad del distrito con las políticas estatales de seguridad ciudadana",
+       "meta": "Reducción en 50 % de la tasa de denuncias",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reglamentar el uso de las veredas para que no circulen scooters ni bicicletas",
+       "meta": "Menos de 8 multas al mes por uso indebido de veredas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Restringir los proyectos de vivienda de interés social (VIS) a sectores específicos del distrito",
+       "meta": "0 % de proyectos VIS fuera de zona",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Servicios de salud primaria para la población adulta mayor, que representa el 26 % del distrito",
+       "meta": "75 % de la población atendida",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Programas educativos con herramientas digitales, metodologías innovadoras y alianzas estratégicas",
+       "meta": "8 herramientas o metodologías y 10 000 participantes",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Llevar actividades culturales a parques, plazas y otros espacios públicos de distintos sectores",
+       "meta": "120 actividades descentralizadas y 20 espacios públicos en el circuito cultural",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Remodelación integral del centro cultural de la municipalidad",
+       "meta": "100 % de la remodelación concluida",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas de promoción de los atractivos culturales, históricos y naturales del distrito",
+       "meta": "6 campañas de promoción por año",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Establecer y difundir horarios para fiestas en zonas residenciales, con control de decibeles",
+       "meta": "Menos de 4 multas al mes",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Priorizar en el presupuesto las acciones que impacten en el bienestar del vecino",
+       "meta": "100 % de ejecución del presupuesto",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      },
+      {
+       "texto": "Oficina de Cooperación al Desarrollo para gestionar recursos, alianzas y asistencia técnica",
+       "meta": "12 proyectos presentados y 15 convenios en el periodo",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 1
+      }
+     ]
+    }
+   }
   },
   {
    "id": 384,
    "nombre": "Charles Adrián Zapata Vega",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan «Colibrí»: patrullaje aéreo con aeronave no tripulada con reconocimiento facial y de placas, y más serenos a pie",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Evaluación con polígrafo de todo el personal de seguridad ciudadana",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cambiar a un solo sentido las calles colectoras que llegan a la Av. Javier Prado, hoy de doble sentido en su mayoría",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 15
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Planta desalinizadora de agua de mar con energía solar para regar parques y jardines, en lugar de cisternas desde Surco",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 24
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «SI Ilumina»: minicentrales solares para iluminar calles oscuras y parques, como en la Urb. Santa Cruz",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Servicios descentralizados a 15 minutos en cada sector: botica municipal, atención domiciliaria (PADOMI) y una ambulancia por sector",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Clínica Digital Municipal con telemedicina y una historia clínica del vecino",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Fondo San Isidro»: fideicomiso para que pequeños empresarios y startups del distrito accedan a nuevos mercados",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 22
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Planta recicladora que convierta plásticos en ladrillos para pistas, veredas y parques",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 24
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Primer censo distrital sobre pobreza, edades, discapacidad, vehículos y mascotas, con la academia y las empresas",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 25
+      },
+      {
+       "texto": "«Cero Colas / Cero Papel»: trámites TUPA automatizados, carpeta ciudadana y ficha única del vecino",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 26
+      }
+     ]
+    }
+   }
   },
   {
    "id": 385,
    "nombre": "Carla Meyling Peralta Hu",
    "organizacion": "Progresemos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar el patrullaje integrado PNP–Serenazgo las 24 horas, con patrullas adicionales y rondas a pie en zonas críticas",
+       "meta": "2 patrullas adicionales",
+       "fuente": "plan_progresemos",
+       "pagina": 21
+      },
+      {
+       "texto": "Capacitar y aumentar el serenazgo, con turnos nocturnos especializados",
+       "meta": "20 % más agentes",
+       "fuente": "plan_progresemos",
+       "pagina": 21
+      },
+      {
+       "texto": "Cámaras de alta definición en avenidas, cruces y parques integradas con la PNP, y botones de pánico",
+       "meta": "Unas 100 cámaras",
+       "fuente": "plan_progresemos",
+       "pagina": 22
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Renovar el alumbrado con LED en vías secundarias y parques tras mapear las zonas oscuras",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 22
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Parques caninos y campañas gratuitas anuales de vacunación antirrábica y antiparasitaria",
+       "meta": "Al menos 3 parques caninos y cobertura de vacunación de 95 % o más",
+       "fuente": "plan_progresemos",
+       "pagina": 26
+      },
+      {
+       "texto": "Talleres intergeneracionales que reúnan a niños y adultos mayores",
+       "meta": "50 talleres al año y 5 000 beneficiarios en 2027–2030",
+       "fuente": "plan_progresemos",
+       "pagina": 26
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nuevos parques y corredores verdes, e incentivos para techos verdes con exoneración de arbitrios",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 17
+      },
+      {
+       "texto": "Plan de Arbolado Urbano con especies nativas, inventario anual, podas preventivas y reposición",
+       "meta": "1 000 árboles por año",
+       "fuente": "plan_progresemos",
+       "pagina": 17
+      },
+      {
+       "texto": "Programa distrital de reciclaje domiciliario con puntos de reciclaje y compostaje comunal de residuos de jardín",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 17
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar el presupuesto participativo e incluir a jóvenes de 18 a 30 años en los comités de priorización",
+       "meta": "Del 1 % al 2 % del presupuesto municipal",
+       "fuente": "plan_progresemos",
+       "pagina": 26
+      },
+      {
+       "texto": "Plataforma digital de participación con votación electrónica de proyectos, foros y audiencias virtuales",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 26
+      }
+     ]
+    }
+   }
   },
   {
    "id": 386,
    "nombre": "Javier Eduardo Paino Scarpati",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar la videovigilancia con cámaras con IA que identifiquen rostros y placas vehiculares",
+       "meta": "1 500 cámaras, 500 de ellas con IA, al 2030",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 33
+      },
+      {
+       "texto": "Ampliar el patrullaje integrado del Serenazgo con la Policía Nacional",
+       "meta": "200 efectivos policiales al 2030",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 33
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego tecnificado de áreas verdes para reducir la vulnerabilidad ante el estrés hídrico",
+       "meta": "50 % de las áreas verdes",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 34
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programas de vida saludable e inclusión para adultos mayores y más especialidades en el centro médico municipal",
+       "meta": "40 % más atenciones médicas",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 33
+      },
+      {
+       "texto": "Servicios, espacios y programas accesibles para personas con discapacidad",
+       "meta": "Duplicar las personas con discapacidad empadronadas al 2030",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 33
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ferias itinerantes por sectores para las micro y pequeñas empresas locales",
+       "meta": "12 ferias al año con 40 a 60 emprendedores cada una",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 33
+      },
+      {
+       "texto": "Inversiones con participación privada (Obras por Impuestos, APP) para cerrar brechas de infraestructura",
+       "meta": "Al menos 4 inversiones durante la gestión",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 33
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Arborización con especies nativas para aumentar la cobertura arbórea del distrito",
+       "meta": "36 461 árboles en el distrito al 2030",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 24
+      },
+      {
+       "texto": "Monitoreo del ruido con IA y sensibilización a conductores en los puntos críticos de contaminación sonora",
+       "meta": "Reducir a 31 los puntos críticos del mapa de ruido",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 34
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma Integral de Inteligencia Municipal que integre datos de seguridad, limpieza, tránsito y fiscalización",
+       "meta": "100 % de los sistemas estratégicos integrados",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 34
+      },
+      {
+       "texto": "Digitalizar los procedimientos TUPA con expediente electrónico, firma digital y pagos virtuales",
+       "meta": "100 % de procedimientos TUPA viables y 50 % más atenciones digitales",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 34
+      }
+     ]
+    }
+   }
   },
   {
    "id": 387,
    "nombre": "Rigan Edward Valcárcel Salinas",
    "organizacion": "Visión Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma «SafeCity-SI»: centro de operaciones con IA predictiva, 100 cámaras adicionales y patrullaje según mapas de calor",
+       "meta": "40 % menos ocurrencias delictivas y respuesta en menos de 4 minutos al 2030",
+       "fuente": "plan_vision-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de Movilidad Sostenible, nuevos tramos de ciclovía protegida y sensores de estacionamiento con app",
+       "meta": "30 % menos incidencias viales y 6 km nuevos de ciclovía",
+       "fuente": "plan_vision-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Smart Green SI»: sensores de humedad, riego por goteo inteligente y Plan de Resiliencia Hídrica",
+       "meta": "35 % menos agua de riego y 600 000 m² con riego inteligente",
+       "fuente": "plan_vision-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Actualizar la norma de edificación sostenible y rebajar tasas de licencia a proyectos con certificación LEED/EDGE",
+       "meta": "50 % de nuevas licencias con criterios sostenibles al 2030",
+       "fuente": "plan_vision-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modelo «San Isidro Envejece Bien»: gestor de caso para mayores de 80 años, telesalud y CEV abiertos los sábados",
+       "meta": "40 % de cobertura de mayores de 65 años (5 440 personas)",
+       "fuente": "plan_vision-peru",
+       "pagina": 7
+      },
+      {
+       "texto": "Programa «San Isidro Activo y Saludable» con actividad física por grupo de edad en parques y el gimnasio municipal",
+       "meta": "20 000 usuarios al año al 2030",
+       "fuente": "plan_vision-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Programa «San Isidro Pet-Friendly»: registro de mascotas con microchip, zonas caninas por sector y jornadas gratuitas de esterilización",
+       "meta": "7 000 o más mascotas registradas y 5 zonas caninas",
+       "fuente": "plan_vision-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Licencias de funcionamiento con análisis de riesgo automatizado, firma digital y expediente electrónico",
+       "meta": "Licencias en un máximo de 3 días hábiles al 2028",
+       "fuente": "plan_vision-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Relanzar «Recicla San Isidro» con separación en origen por edificio, eco-puntos y beneficios tributarios",
+       "meta": "30 % menos residuos al relleno sanitario al 2030",
+       "fuente": "plan_vision-peru",
+       "pagina": 12
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Municipalidad «Trámite Cero»: plataformas informáticas integradas, cero papel y acompañamiento digital a adultos mayores",
+       "meta": "100 % de trámites digitales al 2029",
+       "fuente": "plan_vision-peru",
+       "pagina": 14
+      },
+      {
+       "texto": "Presupuesto participativo digital decidido por vecinos registrados e informe trimestral de gestión",
+       "meta": "S/ 5 millones anuales",
+       "fuente": "plan_vision-peru",
+       "pagina": 15
+      }
+     ]
+    }
+   }
   }
  ]
 }

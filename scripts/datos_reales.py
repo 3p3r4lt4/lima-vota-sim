@@ -243,8 +243,18 @@ MODULOS_DISTRITOS = [
     "150125_puente_piedra",
     "150126_punta_hermosa",
     "150127_punta_negra",
+    "150128_rimac",
+    "150129_san_bartolo",
     "150130_san_borja",
+    "150131_san_isidro",
+    "150136_san_miguel",
+    "150137_santa_anita",
+    "150138_santa_maria_del_mar",
+    "150139_santa_rosa",
+    "150140_santiago_de_surco",
     "150141_surquillo",
+    "150142_villa_el_salvador",
+    "150143_villa_maria_del_triunfo",
 ]
 PLANES_DISTRITALES = {la_molina.UBIGEO: la_molina}
 for _m in MODULOS_DISTRITOS:
@@ -283,12 +293,16 @@ def generar_plan_distrital(modulo, cid, nombres_oficiales):
     notas = getattr(modulo, "NOTAS", {})
     for nombre, org, clave, props in modulo.PLANES:
         assert nombre is None or norm(nombre) in oficiales, f"{nombre} no está en la lista oficial de {ub}"
-        paginas = json.loads((ROOT / f"scripts/planes/{ub}/{clave}.json").read_text(encoding="utf-8"))
+        # Lista sin plan publicado en el JNE: sin páginas ni fuente, y la nota lo explica
+        sin_plan = clave in manifiesto and not manifiesto[clave]["plan"]
+        assert not (sin_plan and props), f"{org}: tiene propuestas pero no plan publicado"
+        paginas = [] if sin_plan else json.loads((ROOT / f"scripts/planes/{ub}/{clave}.json").read_text(encoding="utf-8"))
         pn = [norm(p) for p in paginas]
         # PDF servido por el JNE (manifiesto) o copia local en public/planes (La Molina)
-        url = manifiesto[clave]["url"] if clave in manifiesto else f"/planes/{ub}/{clave}.pdf"
+        url = None if sin_plan else manifiesto[clave]["url"] if clave in manifiesto else f"/planes/{ub}/{clave}.pdf"
         fk = f"plan_{clave}"
-        fuentes[fk] = {"medio": "Plan de gobierno", "titulo": f"Plan de gobierno de {org} (JNE)", "fecha": "2026", "url": url, "pdf": True}
+        if not sin_plan:
+            fuentes[fk] = {"medio": "Plan de gobierno", "titulo": f"Plan de gobierno de {org} (JNE)", "fecha": "2026", "url": url, "pdf": True}
         temas = {t: {"sin_informacion": True, "propuestas": []} for t in TEMAS}
         for p in props:
             assert p["tema"] in TEMAS, p

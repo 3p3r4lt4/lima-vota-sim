@@ -4,59 +4,747 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/a402f4cc-06ad-4133-8316-30ccfca79e0c.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/de237b1c-7f0b-40c2-8a87-23ee60a8aa35.pdf",
+   "pdf": true
+  },
+  "plan_partido-democrata-verde": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Demócrata Verde (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/fe2ef289-678a-49fe-846d-7355a31429c0.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/dfe30d3a-32a9-4e15-bafd-2a8d13bd1d86.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/1e570289-3ff4-4d51-99c0-2874d4a7a866.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/2e89d4b8-14e6-4372-8f3d-6a6c2c5b6620.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 480,
    "nombre": "Tanus Barraza Calvo",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema integral de seguridad con central de monitoreo, cámaras, puestos de auxilio rápido y unidades móviles conectados por fibra óptica con la PNP",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 19
+      },
+      {
+       "texto": "Profesionalizar al serenazgo según la Ley 31297 e incrementar progresivamente el número de serenos",
+       "meta": "80 % más serenos operativos al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 12
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Registro de unidades de transporte público y empadronamiento obligatorio de vehículos menores mediante ordenanza",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 25
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Acelerar con el Ministerio de Vivienda y SEDAPAL el proyecto de agua y desagüe en Profam, Adesesep y otros sectores",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 22
+      },
+      {
+       "texto": "Gestionar muros de contención en la Parcela H, Portales de Santa Rosa y Adesesep con fondos de inversión y el programa Lurawi",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 20
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Saneamiento físico-legal y titulación de los asentamientos humanos, en coordinación con Sedapal, Pluz Enel y COFOPRI",
+       "meta": "100 % de los asentamientos humanos viables saneados",
+       "fuente": "plan_accion-popular",
+       "pagina": 5
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar y equipar las 3 postas médicas actuales y construir un Policlínico Municipal",
+       "meta": "Policlínico inaugurado en 2029",
+       "fuente": "plan_accion-popular",
+       "pagina": 6
+      },
+      {
+       "texto": "Casa de la Mujer con protocolo de respuesta inmediata ante violencia familiar, articulada con la Comisaría de Santa Rosa",
+       "meta": "Casa de la Mujer en funcionamiento en 2027",
+       "fuente": "plan_accion-popular",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de Desarrollo Turístico Local con circuitos de festivales playeros, gastronomía y caballos de paso",
+       "meta": "Duplicar el flujo de visitantes de Lima Norte al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 8
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Red de contenedores soterrados en los puntos críticos de acumulación de basura, empezando por las zonas comerciales",
+       "meta": "100 % de los puntos soterrados previstos al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 9
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Catastro municipal integral y georreferenciado mediante convenios con el Ministerio de Vivienda o SUNARP",
+       "meta": "25 % del territorio en 2027 y 100 % del catastro al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 11
+      }
+     ]
+    }
+   }
   },
   {
    "id": 481,
    "nombre": "Sin candidato a alcalde",
    "organizacion": "Avanza País",
    "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema integrado de seguridad con central de monitoreo y videovigilancia inteligente, integrado con el serenazgo y la Policía",
+       "meta": "Implementado entre 2027 y 2028",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 139
+      },
+      {
+       "texto": "Red distrital de alarmas comunitarias, escuelas de seguridad vecinal e iluminación preventiva de espacios públicos",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 130
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Planes distritales ante sismos y tsunami, rutas de evacuación señalizadas, zonas seguras, alerta temprana y simulacros comunitarios",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 132
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de mejoramiento urbano con pavimentación de vías, veredas, accesibilidad universal y renovación de parques",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 84
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de Innovación, Juventud y Emprendimiento con laboratorios digitales, coworking e incubadora de emprendimientos",
+       "meta": "Implementado en 2028",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 139
+      },
+      {
+       "texto": "Programas Adulto Mayor Activo, Santa Rosa Inclusiva y Deporte para Todos",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 130
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gran Malecón Turístico y Recreativo con paseo costero, miradores, ciclovías y espacios culturales y gastronómicos",
+       "meta": "Ejecución entre 2029 y 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 140
+      },
+      {
+       "texto": "Corredor gastronómico costero, ruta turística del distrito y ferias de emprendimiento y producción local",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 131
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Parque Metropolitano Costero con áreas verdes, bosques urbanos, espacios recreativos e infraestructura deportiva",
+       "meta": "Ejecución en 2029",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 139
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Santa Rosa Digital» con trámites digitales, mesa de partes virtual, gobierno abierto y transparencia digital",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 62
+      }
+     ]
+    }
+   }
   },
   {
    "id": 482,
    "nombre": "Ever Félix Rojas Caja",
    "organizacion": "Partido Demócrata Verde",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar con el MININTER la construcción de una comisaría en el sector de PROFAM",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 10
+      },
+      {
+       "texto": "Cámaras de videovigilancia en puntos críticos con una central de monitoreo que usa inteligencia artificial para generar alertas",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 11
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formalizar las mototaxis con registro, rutas definidas, paraderos autorizados, identificación vehicular y fiscalización",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 12
+      },
+      {
+       "texto": "Promover una línea de transporte público que conecte Coovitiomar, La Arboleda, PROFAM y Pachacútec con Ventanilla",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 12
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Asistencia técnica a los asentamientos humanos para su titulación y saneamiento físico-legal, y actualización del catastro",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 12
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar ante el MINSA un Centro Materno Infantil en PROFAM",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 14
+      },
+      {
+       "texto": "Promover un centro comunitario de salud mental para jóvenes, mujeres y adultos mayores",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 15
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ruta turística que una las playas de Santa Rosa y Ancón, con restaurantes y zonas de comercio local",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 9
+      },
+      {
+       "texto": "Mesa técnica público-privada para captar empleo y servicios vinculados al Parque Industrial de Ancón y al Puerto de Chancay",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Segregación en la fuente, puntos limpios y formalización de los recicladores",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 14
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma digital para trámites, pagos, consultas y seguimiento de expedientes",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 12
+      }
+     ]
+    }
+   }
   },
   {
    "id": 483,
    "nombre": "Sin candidato a alcalde",
    "organizacion": "Somos Perú",
    "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Patrullaje integrado e interconexión de cámaras para un centro C4 de monitoreo conjunto con la PNP",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 7
+      },
+      {
+       "texto": "Promover la creación e implementación de una nueva comisaría en PROFAM",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Dar seguimiento a los esquemas de agua Pachacútec-Profam y Santa Rosa-Ancón para iniciar las obras pendientes con SEDAPAL",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Convenios con COFOPRI para oficinas descentralizadas de titulación y saneamiento de predios en la Parcela H",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Gestionar con el Ministerio de Cultura rescates arqueológicos en los sectores 4, 5, 6 y 10 de Profam para acceder a servicios básicos",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear el primer policlínico municipal del distrito con servicios a costo social",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      },
+      {
+       "texto": "Academia municipal de fútbol y Casa de la Juventud para deporte, arte y cultura",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Circuito turístico de Playa Grande con alameda, zonas deportivas, estacionamiento, camping y zona de conciertos",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Adquirir una máquina rastrilladora de arena para limpiar las playas e instalar tachos de basura y reciclaje",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 11
+      },
+      {
+       "texto": "Comprar compactadoras de 17 a 21 toneladas e incentivos tributarios para quienes se sumen al reciclaje",
+       "meta": "2 compactadoras",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Muni móvil»: llevar los servicios municipales a zonas de difícil acceso",
+       "meta": "Una vez al mes",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 5
+      }
+     ]
+    }
+   }
   },
   {
    "id": 484,
    "nombre": "Sin candidato a alcalde",
    "organizacion": "Podemos Perú",
    "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema integral de seguridad con central de monitoreo, cámaras y puestos de auxilio rápido; más serenazgo con patrullaje a pie y en bicicleta",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Convenios para dotar de agua y desagüe a Profam, Productiva, Adesep y otros asentamientos humanos con SEDAPAL",
+       "meta": "Reducir en 50 % la brecha de acceso a agua y saneamiento",
+       "fuente": "plan_podemos-peru",
+       "pagina": 14
+      },
+      {
+       "texto": "Sistema de alerta temprana ante tsunamis y sismos en el litoral y simulacros comunitarios en las zonas más vulnerables",
+       "meta": "100 % del sistema de alerta y 4 simulacros por año",
+       "fuente": "plan_podemos-peru",
+       "pagina": 17
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar con la MML la Vía Metropolitana por las avenidas Playa Hondable, Revolución y El Carmen",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 12
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear el Centro Materno Infantil en Arboleda y mejorar la posta médica de Profam",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 11
+      },
+      {
+       "texto": "Reducir la anemia infantil reforzando la atención primaria y la vigilancia nutricional",
+       "meta": "Menos del 20 % de anemia infantil al final del periodo",
+       "fuente": "plan_podemos-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Proyecto de centro comercial y bancario en la Av. Colectora y parque industrial en Profam",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Mercado Modelo Municipal Central con inversión público-privada para reordenar el comercio de abastos",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 16
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Basura Cero» para mejorar el recojo diario y formalizar asociaciones de recicladores locales",
+       "meta": "95 % de cobertura de recojo diario y al menos 3 asociaciones de recicladores formalizadas",
+       "fuente": "plan_podemos-peru",
+       "pagina": 16
+      },
+      {
+       "texto": "Plantar árboles para zonas áridas (huarango, molle) en parques y avenidas, regados con aguas residuales tratadas",
+       "meta": "10,000 árboles",
+       "fuente": "plan_podemos-peru",
+       "pagina": 17
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma web y aplicativo móvil para digitalizar los trámites de mayor demanda",
+       "meta": "80 % de trámites digitalizados al segundo año",
+       "fuente": "plan_podemos-peru",
+       "pagina": 17
+      }
+     ]
+    }
+   }
   },
   {
    "id": 485,
    "nombre": "Óscar Alex Dolorier Mori",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Central de monitoreo con fibra óptica a la Comisaría y al MININTER, y cámaras con analítica en los accesos del Km 39 y zonas de usurpación",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Patrullaje integrado por sectores con más serenazgo, patrullas y unidades ligeras para Campamento, El Golf y La Arboleda",
+       "meta": "45 % menos denuncias por robo y usurpación en 24 meses",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Empadronamiento obligatorio de mototaxis, paraderos autorizados, señalización de cruces escolares y educación vial con la PNP",
+       "meta": "98 % de asociaciones de vehículos menores formalizadas",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mesa técnica con el Ministerio de Vivienda y SEDAPAL para culminar el agua y desagüe de PROFAM, Productiva y Adesep",
+       "meta": "90 % de conexiones domiciliarias al 2030",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de pistas y veredas en los AA.HH. El Golf y La Arboleda con señalización vial y de zonas escolares",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 5
+      },
+      {
+       "texto": "Sanear terrenos del Estado para construir el primer cementerio municipal de Santa Rosa",
+       "meta": "100 % del terreno saneado y primera etapa construida al 2030",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar ante el MINSA un Centro Materno Infantil en La Arboleda con urgencias 24 horas y mejorar la posta de PROFAM",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan «Circuito Turístico Seguro» en Playa Grande, Playa Chica y Playa Hondable, con eventos deportivos y ferias gastronómicas todo el año",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      },
+      {
+       "texto": "Red de mercados de abastos municipales que agrupe y formalice a los comerciantes locales",
+       "meta": "50 % de avance físico de la red de mercados al 2030",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Optimizar las rutas de compactadoras para cubrir la recolección en PROFAM y Adesep e instalar contenedores en playas, plazas y colegios",
+       "meta": "100 % de recolección diaria de las 15 toneladas",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Oficina de atención municipal permanente en el Km 39 (Villa Estela, Los Rosales, Carlos Manuel Cox, Bahía Blanca)",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 4
+      }
+     ]
+    }
+   }
   }
  ]
 }

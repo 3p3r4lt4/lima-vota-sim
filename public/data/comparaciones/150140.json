@@ -4,122 +4,1827 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/b3cc62fd-1fa6-49ad-ae88-2276550c3cdd.pdf",
+   "pdf": true
+  },
+  "plan_ahora-nacion-an": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Ahora Nación (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/4d4d248f-046d-4eec-b15b-834ed43f2eaa.pdf",
+   "pdf": true
+  },
+  "plan_alianza-para-el-progreso": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Alianza para el Progreso (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/25b1031a-b1ba-4dca-a3b0-488f66f0e518.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/248ed3dc-d592-4c60-8ac3-795f68a79309.pdf",
+   "pdf": true
+  },
+  "plan_partido-aprista-peruano": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Aprista Peruano (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/7f6b1e1f-9363-4d9a-b662-90a86d056f01.pdf",
+   "pdf": true
+  },
+  "plan_partido-democrata-verde": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Demócrata Verde (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/09696622-b077-41db-a177-f0f26bcc2ae7.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/c35d4277-f1ee-4a5d-95a6-3f586c55ab78.pdf",
+   "pdf": true
+  },
+  "plan_partido-morado": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Morado (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/9de45a7e-5705-4069-a68c-f2b054e878a4.pdf",
+   "pdf": true
+  },
+  "plan_partido-pais-para-todos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido País para Todos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/7a85d86f-2ffc-429f-aba1-8010ee2d136d.pdf",
+   "pdf": true
+  },
+  "plan_partido-politico-integridad-democratica": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Integridad Democrática (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/7f2502cc-7985-4b0f-b5c8-dda2d01982bf.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/a4934cfc-4230-4564-9d3d-6b73d69a8fc3.pdf",
+   "pdf": true
+  },
+  "plan_partido-unidad-y-paz": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Unidad y Paz (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/83d998de-12b3-47ea-ae0c-1c30d18f6eba.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/fb49317f-aaab-4b1d-a518-dfc871d763c5.pdf",
+   "pdf": true
+  },
+  "plan_progresemos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Progresemos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/f294e9cf-d552-452b-a091-72f5ab2e86ec.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/a8025758-16e4-4e19-baa2-148cf876a885.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 486,
    "nombre": "Oswaldo Martín Moreno Rivera",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Filtros en zigzag, bolardos y pavimento rugoso en los accesos de pasajes de los sectores 2, 3 y 4 para frenar el ingreso de motos",
+       "meta": "30 accesos críticos intervenidos",
+       "fuente": "plan_accion-popular",
+       "pagina": 19
+      },
+      {
+       "texto": "Aplicativo municipal para reportar incidencias y descuento en arbitrios a vecinos y negocios que integren sus cámaras privadas al monitoreo distrital",
+       "meta": "500 cámaras privadas integradas a la red municipal de monitoreo",
+       "fuente": "plan_accion-popular",
+       "pagina": 22
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semáforos adaptativos con olas verdes en Benavides, Caminos del Inca, Velasco Astete, Primavera y Encalada, y aplicativo de estacionamientos",
+       "meta": "Reducción del 20% del tiempo de viaje en avenidas intervenidas",
+       "fuente": "plan_accion-popular",
+       "pagina": 32
+      },
+      {
+       "texto": "Buses eléctricos municipales como alimentadores hacia el Metro y el Metropolitano, paraderos inteligentes y red de ciclovías continuas",
+       "meta": "9 buses eléctricos y 25 km de ciclovías continuas",
+       "fuente": "plan_accion-popular",
+       "pagina": 40
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir tres albergues antisísmicos con iluminación solar en las zonas críticas de La Encantada de Villa, Cercado de Surco y Ex Susana Higuchi",
+       "meta": "3 albergues con capacidad total de 1,500 personas",
+       "fuente": "plan_accion-popular",
+       "pagina": 31
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Surco: Calle por Calle»: rehabilitar pistas y veredas con accesibilidad universal, priorizadas según el mapa de vulnerabilidad",
+       "meta": "50 km de pistas y veredas rehabilitadas en el periodo",
+       "fuente": "plan_accion-popular",
+       "pagina": 28
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Escuadrón de moto-ambulancias con paramédicos en cuatro bases y desfibriladores (DEA) en centros comerciales, estaciones del Metro y mercados",
+       "meta": "100 DEAs instalados y primera respuesta < 5 minutos en el 90% de los casos",
+       "fuente": "plan_accion-popular",
+       "pagina": 25
+      },
+      {
+       "texto": "Red de centros de escucha con soporte psicológico primario, uno por zona, para detectar violencia de género e ideación suicida",
+       "meta": "9 centros de escucha (uno por zona)",
+       "fuente": "plan_accion-popular",
+       "pagina": 27
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Festival mensual permanente, recuperación de Surco Pueblo como polo turístico-gastronómico y Escuela Municipal de Arte",
+       "meta": "12 festivales al año y 5,000 visitantes mensuales a Surco Pueblo",
+       "fuente": "plan_accion-popular",
+       "pagina": 33
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Riego por goteo con sensores y desvío de agua del Canal del Río Surco, tratada, hacia los parques",
+       "meta": "80% con riego tecnificado y 40% menos gasto en agua potable",
+       "fuente": "plan_accion-popular",
+       "pagina": 35
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Aplicativo municipal único, expediente 100 % digital y licencias comerciales en un máximo de 72 horas",
+       "meta": "Licencias en 72 horas desde el año 1",
+       "fuente": "plan_accion-popular",
+       "pagina": 31
+      }
+     ]
+    }
+   }
   },
   {
    "id": 487,
    "nombre": "José Manuel Fernández Chávez",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Descentralizar la Central Alerta Surco y articular su inteligencia artificial con cuadrantes vecinales y juntas vecinales bajo un protocolo común",
+       "meta": "Reducir la percepción de inseguridad del 89.3% al 39%, con respuesta máxima de 3 minutos",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      },
+      {
+       "texto": "Reasignar 10 % del gasto corriente en consultorías y publicidad al mantenimiento de la flota de serenazgo y al patrullaje por sectores",
+       "meta": null,
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semaforización inteligente centralizada con sensores en los cinco nudos más congestionados, financiada con parte del presupuesto de bacheo",
+       "meta": "Disminuir en un 25% el tiempo de espera y congestión vehicular",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 10
+      },
+      {
+       "texto": "Gestionar con el MTC y el Ministerio de Vivienda el cofinanciamiento de viaductos y pasos a desnivel en Benavides, Primavera y Encalada",
+       "meta": null,
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 14
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Brigada municipal gratuita de abogados y arquitectos para sanear, titular e independizar predios y quintas del Surco tradicional",
+       "meta": "3,500 lotes, quintas y viviendas saneados",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 8
+      },
+      {
+       "texto": "Ordenanza para congelar los parámetros urbanísticos y frenar alturas y densidades no previstas en las zonas residenciales",
+       "meta": null,
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 12
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centros de Innovación, Deporte y Cultura (CENIDEC) en losas deportivas recuperadas de los sectores populares, con talleres digitales",
+       "meta": "Cobertura del 100% de los sectores populares (2, 5, 7, 8 y 9)",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Eje turístico, histórico y gastronómico del Surco Viejo con formalización predial, incentivos tributarios y simplificación de trámites para MYPES",
+       "meta": "500 nuevas MYPES formalizadas",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 9
+      },
+      {
+       "texto": "Exonerar de tasas de tramitación las licencias de giros tradicionales de escala barrial en el Surco Viejo",
+       "meta": "Exoneración del 100 % durante el primer año de gestión",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Defender el Parque Zonal 22-A y los espacios públicos de Los Álamos de Monterrico y no aprobar licencias que vulneren la zonificación",
+       "meta": "Cero licencias que vulneren la zonificación residencial",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 10
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Unidad de promoción de la inversión privada para obras por impuestos, con cartera anual de proyectos y certificados CIPRL más rápidos",
+       "meta": "Trámite de CIPRL de 90 a 30 días",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 15
+      }
+     ]
+    }
+   }
   },
   {
    "id": 488,
    "nombre": "Jean Pierre Combe Portocarrero",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar la iluminación de calles, parques y losas deportivas",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      },
+      {
+       "texto": "Fortalecer la videovigilancia y el patrullaje",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formalizar y reordenar el transporte, reduciendo paraderos y transporte informal, con un plan regulador actualizado",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Implementar el catastro distrital y nuevas bibliotecas municipales, modernizando las existentes",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas periódicas de salud y nutrición para reducir la anemia infantil",
+       "meta": "Reducir la anemia en niños menores de 5 años en 20%",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      },
+      {
+       "texto": "Proyectos sociales para niñez, adultos mayores, mujeres, jóvenes y personas con discapacidad, e implementación de la OMAPED",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      },
+      {
+       "texto": "Convenios con el MINSA y el sector privado, e infraestructura municipal de salud propia",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 1
+      },
+      {
+       "texto": "Renovar y ampliar los convenios con universidades e institutos para el acceso a educación técnica y superior",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Promover la formalización comercial, el turismo y la capacitación para el empleo",
+       "meta": null,
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nuevos parques y áreas verdes, y valorización de residuos con enfoque de economía circular",
+       "meta": "5m² de áreas verdes por habitante",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Digitalizar y simplificar trámites, y actualizar ROF, CAP, TUPA y demás instrumentos de gestión",
+       "meta": "90% actualizados al 2030",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 2
+      }
+     ]
+    }
+   }
   },
   {
    "id": 489,
    "nombre": "Sin candidato a alcalde",
    "organizacion": "Avanza País",
    "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan «Surco Seguro»: nuevas cámaras con reconocimiento facial y lectura de placas, y aumento del cuerpo de serenazgo con prioridad nocturna",
+       "meta": "200 cámaras, 40 % más serenos y victimización reducida al 18% al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 10
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar con el MTC y la Municipalidad de Lima la solución de los cuellos de botella en Primavera, Benavides y Circunvalación",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 12
+      },
+      {
+       "texto": "Ampliar la red de ciclovías conectando zonas residenciales con centros comerciales, parques y estaciones de transporte masivo",
+       "meta": "15 km de ciclovías al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 15
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cuatro Centros de Atención Municipal de Salud Preventiva y unidades móviles de salud que recorran los sectores",
+       "meta": "4 CAMPS operativos al 2029; 80,000 atenciones preventivas anuales al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 10
+      },
+      {
+       "texto": "Casa de la Mujer de Surco con atención psicológica, asesoría legal, capacitación laboral y albergue temporal para víctimas de violencia",
+       "meta": "500 mujeres atendidas/año al 2028",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 11
+      },
+      {
+       "texto": "Programa «Surco Aprende» de reforzamiento escolar gratuito y Academia Municipal Preuniversitaria gratuita",
+       "meta": "5,000 estudiantes beneficiados al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 11
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Licencias de funcionamiento para negocios de bajo riesgo en 72 horas y campañas de formalización con reducción temporal de tasas",
+       "meta": "Reducir la informalidad al 30% al 2030; otorgar 3,000 nuevas licencias en el periodo",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 13
+      },
+      {
+       "texto": "Circuito turístico-arqueológico «Huacas de Surco» con señalización y guías, y Festival Gastronómico Anual",
+       "meta": "10,000 visitantes/año al circuito arqueológico al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 14
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Renovar la flota de limpieza y programa «Surco Recicla» de segregación con incentivos tributarios",
+       "meta": "100% de cobertura al 2028; 15% de residuos valorizados al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 15
+      },
+      {
+       "texto": "Nuevos parques, jardines lineales y corredor verde «Paseo de la Vida», y recuperación de 20 parques en mal estado",
+       "meta": "Alcanzar 7 m²/habitante al 2030",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 15
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma «Surco Digital» como ventanilla única virtual para trámites, pagos y seguimiento de expedientes",
+       "meta": "80% de trámites digitalizados al 2029",
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      }
+     ]
+    }
+   }
   },
   {
    "id": 490,
    "nombre": "Jhon Cautivo Hancco Chumpitaz",
    "organizacion": "Partido Aprista Peruano",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Patrullaje por microzonas de vigilancia adaptado a las necesidades de cada sector",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 7
+      },
+      {
+       "texto": "Uso de drones y otras tecnologías de monitoreo para vigilancia preventiva y respuesta ante emergencias",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 7
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar la red semafórica con sistemas de gestión inteligente, en coordinación con las entidades competentes",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 14
+      },
+      {
+       "texto": "Evaluar el «Urbanito Surcano»: rutas de conexión vecinal hacia estaciones del Metro y corredores de transporte",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 15
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar veredas, cruces peatonales y rampas de accesibilidad en los espacios públicos",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 15
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Descentralizar los servicios municipales de salud mediante módulos, programas itinerantes y nuevos puntos de atención",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 12
+      },
+      {
+       "texto": "Programa «Surco Salud en Casa» de atención domiciliaria para adultos mayores con movilidad reducida y personas con discapacidad",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Surco Emprende» de capacitación, digitalización y formalización, con alianzas con universidades, empresas y cámaras empresariales",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas de atención veterinaria, esterilización y adopción responsable, y convenios para espacios de recuperación de animales abandonados",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 16
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ecosistema digital «Surco 360» para reportar incidencias, hacer trámites, seguir solicitudes y participar en consultas",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 5
+      },
+      {
+       "texto": "Publicar periódicamente el avance de los compromisos del plan y un tablero de obras e indicadores de gestión",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 9
+      }
+     ]
+    }
+   }
   },
   {
    "id": 491,
    "nombre": "María Luisa Meneses Martínez",
    "organizacion": "Partido Demócrata Verde",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Escuela de Serenazgo para la selección y capacitación especializada del personal",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 4
+      },
+      {
+       "texto": "Cámaras de videovigilancia con inteligencia artificial y módulos de atención rápida con policías y serenos en colegios, paraderos y puentes",
+       "meta": "500 cámaras",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Actualizar el Plan de Desarrollo Urbano y el catastro, y usar la mayor recaudación predial para mantener pistas y veredas",
+       "meta": "80% del catastro modernizado al 2030",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 16
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Servicio de ambulancia municipal las 24 horas con personal médico y protocolo epidemiológico ante brotes y pandemias",
+       "meta": "Tiempo de respuesta menor a 10 minutos al 2030",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 5
+      },
+      {
+       "texto": "Red de talleres ocupacionales inclusivos para personas con discapacidad, con incentivos a empresas que las contraten",
+       "meta": "Alcanzar 180 inserciones laborales directas",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 6
+      },
+      {
+       "texto": "Cuna Municipal Verde piloto con paneles solares, biohuerto y horarios flexibles para familias trabajadoras",
+       "meta": "Capacidad máxima de 120 niños",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 7
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Aplicativo «Surco Verde Conectado» para registrar, auditar y conectar a técnicos y trabajadores independientes con los vecinos",
+       "meta": "Incrementar el padrón a 1,000 trabajadores independientes",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 10
+      },
+      {
+       "texto": "Modernizar mercados con un modelo de cogestión entre municipalidad, asociaciones de comerciantes e inversión privada, con puestos para reubicar ambulantes",
+       "meta": "Mercado piloto co-gestionado en operación al 2030",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 11
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Segregación en la fuente, integración de recicladores, riego con aguas residuales tratadas y ampliación de áreas verdes",
+       "meta": "25% de residuos aprovechables valorizados y 15 % más áreas verdes al 2029",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 18
+      },
+      {
+       "texto": "Red de Asistencia Veterinaria Municipal Gratuita, campañas de esterilización itinerantes y fiscalización contra el maltrato animal",
+       "meta": null,
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 3
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Procuraduría de defensa territorial para impulsar la demarcación con Chorrillos y San Juan de Miraflores y reforzar servicios en zonas limítrofes",
+       "meta": "100% de los expedientes con dictamen favorable al 2030",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 24
+      }
+     ]
+    }
+   }
   },
   {
    "id": 492,
    "nombre": "Arturo Miguel Guillermo Bobbio Carranza",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar el C4 Alerta Surco con interoperabilidad, analítica de video, mapas de calor y modelos predictivos para el patrullaje",
+       "meta": "40 % menos denuncias por delitos contra el patrimonio y 50 % menos tiempo de respuesta",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 45
+      },
+      {
+       "texto": "Modelo «Serenazgo 4.0»: capacitación y certificación continua del personal en el centro CECAM, con especialización y entrenamiento táctico",
+       "meta": "700 efectivos capacitados y certificados anualmente",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 127
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar e integrar la red de ciclovías con estaciones para bicicletas cerca de la Línea 1 del Metro",
+       "meta": "10 km de ciclovías y 3 estaciones para bicicletas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 133
+      },
+      {
+       "texto": "Servicio municipal de transporte vecinal «Surcanito» con rutas piloto, paraderos accesibles y unidades de bajas emisiones",
+       "meta": "2 rutas y 4 unidades de transporte",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 133
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Continuar y ampliar el programa Techo Propio Surcano, con cofinanciamiento del Bono Familiar Habitacional del MVCS",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 121
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Integrar FES, Supérate, Academia Surcana y Preuniversitaria Surcana en una ruta de apoyo escolar, becas y preparación preuniversitaria",
+       "meta": "Al menos 2,000 beneficiarios anuales",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 124
+      },
+      {
+       "texto": "Programa «Loncheritas Surcanas» de nutrición escolar, tamizajes y educación alimentaria en colegios públicos priorizados",
+       "meta": "Intervención anual en el 100% de instituciones educativas públicas priorizadas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 123
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Asesoría técnica preventiva «Antes de Alquilar, Consulta» y módulos descentralizados para agilizar licencias de funcionamiento e ITSE",
+       "meta": "Mínimo 5.000 atenciones preventivas gratuitas y 30% de reducción en tiempos de formalización",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 130
+      },
+      {
+       "texto": "«Boulevard Surco Pueblo»: reglamento de terrazas gastronómicas con incentivos y agenda turística y cultural permanente",
+       "meta": "Mínimo 40 nuevos negocios con terrazas y 24 activaciones o ferias al año",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 131
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar la conducción de agua del Canal Surco–Ate y construir reservorios para regar áreas verdes sin agua potable",
+       "meta": "50% de áreas verdes abastecidas por agua de canal al 2030",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 138
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Surco Digital 360»: trámites digitales, expediente electrónico único, firma digital y aplicativo móvil unificado",
+       "meta": "90% de los trámites realizados virtualmente",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 143
+      }
+     ]
+    }
+   }
   },
   {
    "id": 493,
    "nombre": "Betty Fani Fernández Gallarday",
    "organizacion": "Partido Morado",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Teleasistencia las 24 horas para mayores de 70 años mediante botón de pánico o pulsera, en alianza con entidades privadas de salud",
+       "meta": "500 adultos mayores beneficiados inicialmente",
+       "fuente": "plan_partido-morado",
+       "pagina": 8
+      },
+      {
+       "texto": "Cunas municipales de horario extendido para niños de 1 a 3 años de familias trabajadoras",
+       "meta": "2 cunas piloto y 200 niños el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 9
+      },
+      {
+       "texto": "Programa «Salud Responsable»: convenios con clínicas del distrito para descuentos en consultas y exámenes mediante una tarjeta municipal",
+       "meta": "20,000 vecinos el primer año y convenios con al menos 10 clínicas",
+       "fuente": "plan_partido-morado",
+       "pagina": 11
+      },
+      {
+       "texto": "Programa «Educación Responsable»: descuentos en universidades y colegios privados y gestión de becas con embajadas",
+       "meta": "Convenios con 10 universidades y 20 colegios; al menos 100 becas",
+       "fuente": "plan_partido-morado",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Marca Surco» con sello de reconocimiento, plataforma digital y circuitos turísticos y gastronómicos",
+       "meta": "Al menos 1,000 empresas y establecimientos incorporados",
+       "fuente": "plan_partido-morado",
+       "pagina": 14
+      },
+      {
+       "texto": "Moneda digital «SurcoCoin» para premiar el pago puntual, el reciclaje y la participación, canjeable en comercios afiliados",
+       "meta": "30,000 vecinos y 1,000 comercios afiliados el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 17
+      },
+      {
+       "texto": "Centro de emprendimiento con incubadora de negocios municipal, capacitación y fondo de capital semilla",
+       "meta": "200 nuevos emprendimientos incubados el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 19
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Descuentos en arbitrios para viviendas y empresas que instalen paneles solares, y paneles en locales municipales",
+       "meta": "1,000 viviendas y establecimientos en el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 25
+      },
+      {
+       "texto": "Programa «Huella Verde» con «Adopta un Árbol, Adopta un Parque» e incentivos tributarios por arborización y techos verdes",
+       "meta": "Más de 10,000 árboles sembrados o recuperados en la gestión",
+       "fuente": "plan_partido-morado",
+       "pagina": 27
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Billetera Digital Surco para pagar tributos y arbitrios, recibir beneficios municipales y cobrar en comercios del distrito",
+       "meta": "50,000 usuarios afiliados el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 16
+      },
+      {
+       "texto": "Plataforma «Agenda Transparente» con la agenda del alcalde y funcionarios, seguimiento de compromisos e indicadores de gestión",
+       "meta": "100% de las agendas institucionales publicadas",
+       "fuente": "plan_partido-morado",
+       "pagina": 30
+      }
+     ]
+    }
+   }
   },
   {
    "id": 494,
    "nombre": "José Carlos Bolívar Mejía",
    "organizacion": "Partido País para Todos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro Integrado de Inteligencia Distrital que reúna cámaras, reconocimiento de placas, georreferenciación del delito, mapas de calor y alertas en tiempo real",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 29
+      },
+      {
+       "texto": "Convenios con Miraflores, San Borja, La Molina y Barranco para compartir información y seguir a delincuentes que se desplazan entre distritos",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 29
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar la red de ciclovías interconectadas, con estacionamientos para bicicletas en centros comerciales, colegios y espacios públicos",
+       "meta": "De 32 a 50 km de ciclovías y corredores sostenibles al 2030",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 52
+      },
+      {
+       "texto": "Modernizar intersecciones con semaforización inteligente, sensores de tráfico y señalización horizontal y vertical",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 52
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer el primer nivel de atención con modernización de centros de salud, laboratorios básicos e historia clínica digital interoperable",
+       "meta": "Resolver al menos el 80% de los problemas de salud sin derivación hospitalaria",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 34
+      },
+      {
+       "texto": "Construir y equipar dos centros de salud de nivel I-4 con medicina general, pediatría, ginecología y salud mental",
+       "meta": "2 centros de salud I-4",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 50
+      },
+      {
+       "texto": "Crear tres nuevos Centros Integrales de Atención al Adulto Mayor (CIAM) en zonas estratégicas del distrito",
+       "meta": "3 nuevos CIAM",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 50
+      },
+      {
+       "texto": "Red de multilosas con iluminación LED, cámaras, wifi público y accesibilidad universal, construidas o renovadas en los barrios",
+       "meta": "Construcción o renovación de 20 a 30 espacios deportivos barriales",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 39
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir dos Centros de Desarrollo Empresarial para capacitación, asesoría, formalización y acceso a financiamiento de emprendedores",
+       "meta": "Más de 10,000 emprendedores y microempresarios atendidos",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 51
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Planta municipal de valorización de residuos orgánicos de mercados, áreas verdes y comercios para producir compost para los parques",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 51
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital municipal con atención virtual, expediente electrónico, interoperabilidad y digitalización de trámites",
+       "meta": "95 % de trámites digitalizados al 2030",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 52
+      }
+     ]
+    }
+   }
   },
   {
    "id": 495,
    "nombre": "Gardo Antonio Gómez Jiménez",
    "organizacion": "Integridad Democrática",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Surco Seguro por Cuadrantes»: microcuadrantes con serenazgo y PNP, cámaras públicas y privadas en una plataforma y tiempos de respuesta publicados",
+       "meta": "100 % de los cuadrantes con patrullaje integrado y vigilancia aérea con la PNP al 2030",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semáforos inteligentes con sensores y sincronización «Ola Verde» en Caminos del Inca, Velasco Astete, Benavides, Primavera y otras avenidas",
+       "meta": "100 % de los ejes viales críticos con sincronización en Ola Verde al 2030",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 6
+      },
+      {
+       "texto": "Gestionar y cofinanciar con la MML pasos a desnivel en las vías expresas Angamos y Benavides y en otros nudos viales",
+       "meta": "Inicio de obra de 2 corredores con pasos a desnivel al 2030",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 8
+      },
+      {
+       "texto": "Empadronamiento digital de mototaxis con código QR y plan piloto para reemplazarlas por unidades colectivas eléctricas en los sectores 1, 2 y 7",
+       "meta": "100 % de mototaxis formalizadas y unidades colectivas en 3 sectores piloto al 2030",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 7
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear la Gerencia de Defensa Civil y Gestión del Riesgo de Desastres, con sensores IoT, sistema de información geográfica y observatorio de riesgos",
+       "meta": "100 % del ecosistema Smart GRD operativo al 2030",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Equipo «Fonoparchado» que atiende por la app baches, veredas rotas, luminarias y señalización",
+       "meta": "Atención en un plazo no mayor a 48 horas desde el reporte",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 18
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Clínica de la Familia»: atención primaria descentralizada mediante convenios con EsSalud y MINSA, con pediatría, ginecología y salud mental",
+       "meta": "1 red de Clínicas de la Familia al 2030",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 4
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Destinar al menos el 30 % de las compras y contrataciones municipales a mypes formalizadas con domicilio fiscal en Surco",
+       "meta": "Al menos 30 % de las compras y contrataciones directas",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Dejar de regar parques con agua potable y cisternas contratadas, usando agua tratada de plantas y canales con riego tecnificado",
+       "meta": "Reducción del 25 % anual del agua potable para riego y 0 % de cisternas privadas al 2030",
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 10
+      },
+      {
+       "texto": "Islas de contenedores soterrados para residuos segregados en puntos clave de los sectores, en reemplazo del recojo en aceras",
+       "meta": null,
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 12
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«App Única Surco» que reúne trámites, pagos, alertas y reportes, con un módulo para seguir el avance del presupuesto participativo",
+       "meta": null,
+       "fuente": "plan_partido-politico-integridad-democratica",
+       "pagina": 17
+      }
+     ]
+    }
+   }
   },
   {
    "id": 496,
    "nombre": "David Ignacio Vera Trujillo",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma digital de gestión integral de la seguridad con video wall y una sala de gestión de crisis",
+       "meta": "01 video wall de 12 pantallas instalado",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 5
+      },
+      {
+       "texto": "Pórticos de videovigilancia vehicular en las vías de ingreso y salida del distrito para registrar en tiempo real los vehículos",
+       "meta": "45 pórticos y 266 cámaras de videovigilancia vehicular; 74 vías y 133 carriles cubiertos",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 5
+      },
+      {
+       "texto": "Integrar vecinos, vigilantes y conserjes con el CCO, el serenazgo y la PNP en un sistema de vigilancia y alarma con aplicativo",
+       "meta": "700 personas integradas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear una línea de transporte urbano municipal («Surcanito») con ómnibus a gas, eléctricos o híbridos",
+       "meta": "01 línea nueva y 04 ómnibus eléctricos o híbridos",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 6
+      },
+      {
+       "texto": "Pasos a desnivel en puntos de congestión, radares de velocidad, paraderos con paneles solares y erradicación de paraderos informales",
+       "meta": "02 pasos a desnivel, 05 radares y 05 paraderos con paneles solares",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 6
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Tayta Wasi»: guardería municipal para adultos mayores dependientes, atendidos por profesionales mientras sus familiares trabajan",
+       "meta": "60 adultos mayores y sus familias beneficiadas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 7
+      },
+      {
+       "texto": "«Casa de Día» de la OMAPED para personas con discapacidad mientras sus familiares trabajan",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reducir trámites para abrir negocios y orientar la fiscalización hacia la prevención antes que la sanción",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Canalizar el río Surco en la nueva Av. La Castellana (cuadras 9 a 11) y crear un parque emblemático con arborización",
+       "meta": "300 m lineales de canalización y 30 árboles nuevos",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      },
+      {
+       "texto": "Control de animales domésticos en la calle con campañas de esterilización y vacunación",
+       "meta": "04 campañas anuales de esterilización y 12 de vacunación",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno electrónico para reducir al mínimo los trámites presenciales, incluidos los de desarrollo urbano",
+       "meta": "80 % de trámites virtuales como mínimo",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      }
+     ]
+    }
+   }
   },
   {
    "id": 497,
    "nombre": "Hugo Roberto Encalada Chumbile",
    "organizacion": "Partido Unidad y Paz",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Contingente permanente de serenos y efectivos de la PNP en servicios extraordinarios, asignados por cuadrante territorial",
+       "meta": "2,500 serenos y 100 efectivos de la PNP en 2027; 25 % menos victimización al 2030",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 51
+      },
+      {
+       "texto": "Cámaras con reconocimiento de placas y analítica de video en las avenidas Tomás Marsano, Benavides y Caminos del Inca",
+       "meta": null,
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 52
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estudio de capacidad de las redes de agua y luz para condicionar licencias y exigir a SEDAPAL y Luz del Sur renovar redes",
+       "meta": "Estudio culminado en 2028; 100 % de nuevas licencias multifamiliares con factibilidad certificada al 2030",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 64
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ordenanza de parámetros urbanísticos que congele alturas excepcionales y exija estudios de impacto vial y factibilidad de agua y luz",
+       "meta": "Ordenanza en el primer trimestre de 2027",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 56
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir una Casa de la Juventud con laboratorios de innovación digital, coworking, estudios audiovisuales e incubadora de emprendimiento",
+       "meta": "01 Casa de la Juventud operativa para 2028",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 53
+      },
+      {
+       "texto": "Equipar los centros del adulto mayor con accesibilidad, consultorios de salud preventiva, talleres y asesoría legal gratuita",
+       "meta": "100 % de los centros equipados al 2029",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 54
+      },
+      {
+       "texto": "Reducir las tarifas de los complejos deportivos municipales y crear un carnet vecinal con horarios gratuitos para escolares y adultos mayores",
+       "meta": "40 % menos en las tarifas en 2027",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 59
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de formalización exprés de comerciantes informales y espacios alternativos regulados para reducir el comercio ambulatorio",
+       "meta": "35–40 % de comerciantes formalizados y 50–55 % menos comercio ambulatorio al 2030",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 60
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Auditar los contratos de recojo de residuos y trasladar los ahorros a los arbitrios; plan piloto de contenedores soterrados",
+       "meta": "100 % de contratos auditados en 2027 y hasta 10 % de ahorro en costos",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 62
+      },
+      {
+       "texto": "Cuadrillas de contingencia para el mantenimiento de áreas verdes del Sector 1 y riego tecnificado con agua residual tratada",
+       "meta": "50 operarios en 2027 y 100 % de áreas verdes con mantenimiento y riego tecnificado al 2030",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 63
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plataforma digital única para trámites, pagos y licencias, y alfabetización digital para adultos mayores en los CIAM",
+       "meta": "100 % de trámites digitalizables del TUPA en la plataforma al 2030",
+       "fuente": "plan_partido-unidad-y-paz",
+       "pagina": 69
+      }
+     ]
+    }
+   }
   },
   {
    "id": 498,
    "nombre": "Ruth Candelaria Bisbal Oyague",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Patrullaje sectorizado con rutas asignadas según mapas de calor del delito y un policía en las unidades del serenazgo en cada turno",
+       "meta": "98 % de los patrullajes en zonas críticas bajo modalidad integrada al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Renovar la videovigilancia con cámaras de alta definición e inteligencia artificial para reconocimiento de placas y alertas de vehículos sospechosos",
+       "meta": "100 % de la red de videovigilancia integrada con inteligencia artificial al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Semáforos inteligentes con sincronización adaptativa en tiempo real, priorizando las avenidas Benavides y Primavera",
+       "meta": "Reducir el Índice de Tiempo de Viaje a 1.2 veces al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 18
+      },
+      {
+       "texto": "Educación vial y obras de seguridad en zonas residenciales, comerciales y escolares, con reductores de velocidad y pasos peatonales elevados",
+       "meta": "Reducción del 50 % en el índice de siniestralidad vial al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 20
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Surco Ordenado y Residencial» para proteger la identidad residencial y fiscalizar la zonificación y los usos del suelo",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 95
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Modernizar Surco Salud con equipamiento biomédico, más especialidades preventivas y agendamiento electrónico de citas",
+       "meta": "100 % de los servicios municipales de salud preventiva modernizados y digitalizados al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 31
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ventanilla Única Digital y aprobación automática de licencias para giros de riesgo bajo y medio («Licencia Cero»)",
+       "meta": "Licencias en un máximo de 24 horas",
+       "fuente": "plan_podemos-peru",
+       "pagina": 71
+      },
+      {
+       "texto": "Ruta Turística e Histórica de Surco Pueblo (Iglesia Santiago Apóstol, bodegas vitivinícolas, casonas) articulada con restaurantes tradicionales",
+       "meta": "150,000 visitantes anuales al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 77
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar los servicios veterinarios de Surco Pet, con más equipamiento quirúrgico, horarios de urgencias y campañas itinerantes de vacunación",
+       "meta": "30,000 atenciones veterinarias anuales al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 82
+      },
+      {
+       "texto": "Reemplazar el riego por inundación o cisterna por riego tecnificado por goteo y microaspersión con agua tratada",
+       "meta": "90 % de la infraestructura verde con riego tecnificado y agua tratada al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 91
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Aplicación móvil «Surco 24/7» con trámites, alertas de seguridad, reportes de ornato y pagos, más asistentes virtuales",
+       "meta": "75 % de las interacciones vecinales en plataformas digitales al 2030",
+       "fuente": "plan_podemos-peru",
+       "pagina": 112
+      }
+     ]
+    }
+   }
   },
   {
    "id": 499,
    "nombre": "Óscar Mario Aco Miranda",
    "organizacion": "Progresemos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Red sectorial en la que cada sector cuente con vehículos de serenazgo y policía, motos y comunicación radial y telefónica",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 15
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estudios de circulación, semaforización inteligente en puntos críticos y seguridad vial en zonas escolares y comerciales",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 23
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Actualizar el mapa de riesgos, identificar zonas vulnerables y formar brigadas vecinales con simulacros en colegios y mercados",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 21
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de mantenimiento y rehabilitación de pistas y veredas, priorizando las vías más deterioradas",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 23
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centros Municipales de Bienestar Emocional con atención psicológica preventiva y campañas de salud mental en colegios",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 13
+      },
+      {
+       "texto": "Programa «Deporte Gratuito para Todos» con escuelas deportivas municipales gratuitas y uso intensivo del Estadio Julio Montjoy",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Primer inventario distrital de actividades económicas y comercio ambulatorio, con formalización progresiva del comercio ambulante",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 18
+      },
+      {
+       "texto": "Ventanilla Única Empresarial, licencias digitales y programa «Licencia Rápida Surco» para pequeños negocios de bajo riesgo",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 18
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nuevas veterinarias municipales, más albergues para animales abandonados y campañas gratuitas de vacunación y esterilización",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 20
+      },
+      {
+       "texto": "Riego tecnificado en parques y bermas y uso de aguas residuales tratadas para regar áreas verdes",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 20
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Digitalización de trámites, plataforma virtual de atención y seguimiento en línea de expedientes",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 24
+      }
+     ]
+    }
+   }
   },
   {
    "id": 500,
    "nombre": "Juan Alejandro Palma Aurazo",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "«Serenazgo sin puntos ciegos»: reactivar bases y patrullaje a pie en Monterrico Sur, Prolongación Benavides, La Cruceta e Higuereta",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 64
+      },
+      {
+       "texto": "Auditar y reparar las cámaras inoperativas e integrarlas al Centro de Inteligencia de Seguridad del proyecto Surco Seguro 360°",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 64
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Prolongar la Av. Surco hasta la Av. Jorge Chávez, gestionando el terreno de la FAP",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 71
+      },
+      {
+       "texto": "By-pass paralelo al tren eléctrico en La Bolichera para reducir la congestión",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 71
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Revisar los parámetros urbanísticos frente a la proliferación de edificios que afectan la residencialidad",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 65
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Centro de urgencias abierto las 24 horas y una flota municipal de ambulancias",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 68
+      },
+      {
+       "texto": "Implementar tres centros de salud mental con equipos multidisciplinarios",
+       "meta": "Tres centros de salud mental operativos",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 69
+      },
+      {
+       "texto": "Construir un polideportivo moderno de referencia metropolitana y reacondicionar losas deportivas en los parques",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 70
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Surco Emprende Digital» con Escuela Municipal de Emprendedores, centro de innovación y Marketplace Surcano",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 41
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar la Loma Amarilla como parque ecológico con cobertura vegetal, senderos y educación ambiental",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 67
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Devolver a los vecinos la administración de locales comunales y concertar la ubicación de nuevas Casas del Vecino",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 65
+      }
+     ]
+    }
+   }
   }
  ]
 }

@@ -4,52 +4,631 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_alianza-para-el-progreso": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Alianza para el Progreso (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/ff546d90-3fcf-42a6-b090-07a9f328386e.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/e36392b1-3857-49e2-8eea-bba8fbcf10f8.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/027cbe0d-4c35-495a-ac87-d83d3dad9472.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/9276f3ac-856e-4309-809e-5716aec29cc3.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/2f011758-d25d-4d91-a5f6-9de829748908.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 366,
    "nombre": "Yliana Elisa Castro Gregorio",
    "organizacion": "Alianza para el Progreso",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cámaras de videovigilancia con reconocimiento facial en puntos críticos, conectadas a una central de monitoreo las 24 horas",
+       "meta": "30 cámaras instaladas y 20 % menos denuncias en 2027–2030",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 7
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Oficina Municipal de Transporte Urbano, empadronamiento de mototaxis y formalización de rutas y paraderos",
+       "meta": "100 % de rutas formalizadas al 2030",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 8
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar ante SEDAPAL más presión en la red y mayor almacenamiento para evitar cortes de agua en verano",
+       "meta": "24 horas de continuidad del servicio de agua durante todo el año",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 8
+      },
+      {
+       "texto": "Mapa de riesgos y plan de evacuación ante sismos y tsunamis, con rutas señalizadas, simulacros y brigadas vecinales",
+       "meta": "2 simulacros por año y 500 familias capacitadas al 2030",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 11
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de rehabilitación de pistas y construcción de veredas, priorizando las avenidas de mayor circulación",
+       "meta": "5 km de pistas y veredas rehabilitadas",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 8
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar ante el MINSA la mejora y el equipamiento del Centro Materno Infantil (categoría I-4), con urgencias y sala de partos",
+       "meta": "4 campañas anuales de especialidades médicas complementarias",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 7
+      },
+      {
+       "texto": "Gestionar el reemplazo de las aulas prefabricadas del colegio Víctor Morón Muñoz por aulas de material noble",
+       "meta": "13 aulas nuevas construidas",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 9
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reducir el plazo de las licencias de funcionamiento y crear una ventanilla única empresarial",
+       "meta": "Licencias en un máximo de 7 días hábiles",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 12
+      },
+      {
+       "texto": "Ruta Turística Oficial (playas, Curayacu, Lomas, Mirador Cahuide) y sello de calidad «Sabor San Bartolo» para restaurantes",
+       "meta": "20 % más visitantes y 30 establecimientos con sello al 2030",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 12
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar y crear parques y jardines con riego por goteo, y plantar árboles nativos de la costa",
+       "meta": "4 m² de área verde por habitante al 2030 y al menos 500 árboles",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 10
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Publicación mensual de la información financiera, cabildos abiertos trimestrales y sistema de control interno",
+       "meta": "4 cabildos por año y 100 % de la información financiera publicada cada mes",
+       "fuente": "plan_alianza-para-el-progreso",
+       "pagina": 14
+      }
+     ]
+    }
+   }
   },
   {
    "id": 367,
    "nombre": "Rufino Enciso Ríos",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Bartolo Seguro 24 Horas»: capacitación y equipamiento del serenazgo y patrullaje preventivo con la PNP",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 8
+      },
+      {
+       "texto": "Más cámaras en puntos estratégicos y canal «Alerta San Bartolo» de comunicación rápida entre vecinos y autoridades",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Simulacros, capacitación ciudadana y señalización de rutas de evacuación ante emergencias",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Tu Predio Seguro»: orientación gratuita en saneamiento físico legal y formalización de la propiedad",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Convenios con SISOL y jornadas médicas descentralizadas con campañas de salud preventiva",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 13
+      },
+      {
+       "texto": "Casa de la Juventud con talleres de capacitación, orientación vocacional y programas culturales",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 16
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Bartolo Todo el Año»: calendario turístico anual con festivales gastronómicos, culturales y deportivos",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Apoyo a la pesca artesanal y promoción de los productos marinos locales en la oferta turística",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Playas limpias todo el año» con jornadas permanentes de limpieza y educación ambiental",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 14
+      },
+      {
+       "texto": "Ruta Ecoturística de las Lomas de Cicasos con senderos y miradores, y voluntariado «Guardianes de las Lomas»",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 19
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mesa de partes virtual, consulta de expedientes en línea y atención municipal itinerante en los barrios",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 18
+      }
+     ]
+    }
+   }
   },
   {
    "id": 368,
    "nombre": "Fernando Juan Amador Loayza Garate",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer el serenazgo y modernizar el sistema de videovigilancia",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 10
+      },
+      {
+       "texto": "Patrullaje integrado con la PNP, patrullaje a pie en zonas críticas y sectorización del distrito",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 10
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Estacionamientos regulados y accesibilidad universal",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Escuadrón Municipal de Rescate con ambulancia y equipo para rescates en playas, y simulacros ante sismos y tsunamis",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 10
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Acompañar la formalización y titulación de predios con COFOPRI y SUNARP, y actualizar el catastro",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      },
+      {
+       "texto": "Programa integral de pistas y veredas y mejoramiento de plazas, parques y áreas verdes",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Bartolo Joven» (escuelas deportivas, talleres culturales, liderazgo) y apoyo al Grupo Scout Marino",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Calendario anual de actividades deportivas, culturales y náuticas para atraer turismo todo el año",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 11
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Mar Limpio» con captura de residuos flotantes, mallas de retención y jornadas de limpieza",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 12
+      },
+      {
+       "texto": "Parque Forestal Loma Cicasos (1 380 ha) para conservación y ecoturismo, y protección de las bahías Norte y Sur",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 12
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reingeniería municipal y gobierno digital con trámites en línea y seguimiento de expedientes",
+       "meta": "Reducir sobrecostos y trámites innecesarios en al menos 20 % durante el período",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 13
+      }
+     ]
+    }
+   }
   },
   {
    "id": 369,
    "nombre": "Sin candidato a alcalde",
    "organizacion": "Podemos Perú",
    "cargo_nota": "La organización figura en competencia sin candidato a alcalde consignado.",
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cámaras en todos los puntos críticos conectadas a la central de serenazgo y un aplicativo de seguimiento de la delincuencia",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 7
+      },
+      {
+       "texto": "Ejecutar el plan local de seguridad ciudadana con seguimiento mensual y coordinación con la PNP y el Ministerio Público",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Instalar o ampliar las redes de agua y desagüe en la ampliación urbana",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 11
+      },
+      {
+       "texto": "Gestionar ante el Gobierno central la remodelación de los malecones Sur, Norte y Peñascal y de sus muros de contención frente al oleaje",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir pistas y veredas en los grupos residenciales que aún no las tienen",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 11
+      },
+      {
+       "texto": "Saneamiento físico legal de urbanizaciones de la ampliación urbana (Miguel Grau Seminario, Las Orquídeas, Javier Pérez de Cuéllar)",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 14
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Grupo de serenazgo femenino de apoyo a mujeres afectadas por maltrato y mayor atención a la DEMUNA",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Equipar los colegios (laboratorios, bibliotecas virtuales, internet) y ampliar el área informática del colegio Víctor Morón Muñoz",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Crear un albergue para los adultos mayores más necesitados",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 12
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Priorizar la contratación de mano de obra local, asesorar a microempresas y apoyar la mejora de los mercados de abastos",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar la limpieza pública, el recojo de desmonte y el barrido, extendiéndolos a playas y zonas periféricas",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 7
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": true,
+     "propuestas": []
+    }
+   }
   },
   {
    "id": 370,
    "nombre": "Yolanda Chávez Rubio",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cámaras de vigilancia, patrullaje integrado de serenazgo y PNP y participación de las juntas vecinales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar el acceso a agua potable, luz y alcantarillado en coordinación con el Gobierno central",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 2
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar el Centro de Salud de San Bartolo (MINSA) con más infraestructura, médicos y equipamiento",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 2
+      },
+      {
+       "texto": "Crear un Hospital de la Solidaridad en convenio con el MINSA",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 2
+      },
+      {
+       "texto": "Academias gratuitas, talleres técnicos desde los 12 años y un Centro Superior de Estudios Municipales con carreras técnicas",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 2
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formalizar mypes, con énfasis en mujeres, jóvenes y personas vulnerables",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 2
+      },
+      {
+       "texto": "Impulsar el turismo sostenible: hospedajes, gastronomía, deportes acuáticos y ferias culturales",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 2
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar el vivero municipal y la arborización con la campaña «Adopta un árbol»",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Programas de reciclaje y manejo integral de residuos sólidos",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Trámites en plataformas digitales, portal de rendición de cuentas y auditorías externas",
+       "meta": "Auditorías externas cada año",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Actualizar el catastro en zonas periféricas, incentivos al buen contribuyente y fiscalización con drones y cámaras",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 3
+      }
+     ]
+    }
+   }
   }
  ]
 }
