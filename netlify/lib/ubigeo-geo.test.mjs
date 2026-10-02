@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { resolverGeo, DISTRITOS_LIMA, DEPARTAMENTOS, normalizar } from "./ubigeo-geo.mjs";
+import { resolverGeo, crearIndiceRef, DISTRITOS_LIMA, DEPARTAMENTOS, normalizar } from "./ubigeo-geo.mjs";
 
 const pe = (subdivision, city) => ({ country: { code: "PE", name: "Peru" }, subdivision, city });
 const LMA = { code: "LMA", name: "Lima Province" };
@@ -50,6 +50,47 @@ test("Callao, subdivisión por nombre y otros países", () => {
   assert.deepEqual(resolverGeo({ country: { code: "US" }, city: "Miami" }),
     { pais: "US", departamento: null, provincia: null, distrito: null, ubigeo_geo: null, precision_geo: "pais" });
   assert.equal(resolverGeo(undefined).precision_geo, null);
+});
+
+// Extracto del catálogo INEI con los casos que importan (nombres como vienen de la fuente)
+const REF = crearIndiceRef([
+  { ubigeo: "04", departamento: "Arequipa", provincia: null, distrito: null },
+  { ubigeo: "0401", departamento: "Arequipa", provincia: "Arequipa", distrito: null },
+  { ubigeo: "040101", departamento: "Arequipa", provincia: "Arequipa", distrito: "Arequipa" },
+  { ubigeo: "040103", departamento: "Arequipa", provincia: "Arequipa", distrito: "Cayma" },
+  { ubigeo: "040110", departamento: "Arequipa", provincia: "Arequipa", distrito: "Miraflores" },
+  { ubigeo: "0402", departamento: "Arequipa", provincia: "Camaná", distrito: null },
+  { ubigeo: "040201", departamento: "Arequipa", provincia: "Camaná", distrito: "Camaná" },
+  { ubigeo: "040202", departamento: "Arequipa", provincia: "Camaná", distrito: "José María Quimper" },
+  { ubigeo: "040308", departamento: "Arequipa", provincia: "Caravelí", distrito: "José María Quimper" },
+  { ubigeo: "1506", departamento: "Lima", provincia: "Huaral", distrito: null },
+  { ubigeo: "150605", departamento: "Lima", provincia: "Huaral", distrito: "Chancay" },
+  { ubigeo: "151017", departamento: "Lima", provincia: "Yauyos", distrito: "Miraflores" },
+  { ubigeo: "", departamento: "x", provincia: "y" }, null,
+]);
+const AQP = { code: "ARE", name: "Arequipa" };
+
+test("ref_ubigeo: distrito único en el departamento", () => {
+  assert.deepEqual(resolverGeo(pe(AQP, "Cayma"), REF), {
+    pais: "PE", departamento: "Arequipa", provincia: "Arequipa", distrito: "Cayma", ubigeo_geo: "040103", precision_geo: "distrito",
+  });
+  assert.equal(resolverGeo(pe(AQP, "MIRAFLORES"), REF).ubigeo_geo, "040110");
+  assert.equal(resolverGeo(pe({ code: "LIM", name: "Lima" }, "Chancay"), REF).ubigeo_geo, "150605");
+});
+
+test("ref_ubigeo: nombre de provincia o repetido no baja a distrito", () => {
+  const capital = resolverGeo(pe(AQP, "Arequipa"), REF);
+  assert.equal(capital.precision_geo, "provincia");
+  assert.equal(capital.ubigeo_geo, "0401");
+  assert.equal(resolverGeo(pe(AQP, "Camana"), REF).ubigeo_geo, "0402");
+  assert.equal(resolverGeo(pe(AQP, "José María Quimper"), REF).precision_geo, "departamento");
+  assert.equal(resolverGeo(pe(AQP, "Inventado"), REF).precision_geo, "departamento");
+  assert.equal(resolverGeo(pe({ code: "CUS", name: "Cusco" }, "Cusco"), REF).precision_geo, "departamento");
+  // Región Lima: Miraflores sigue siendo ambiguo aunque el catálogo tenga una sola fila
+  assert.equal(resolverGeo(pe({ code: "LIM", name: "Lima" }, "Miraflores"), REF).precision_geo, "departamento");
+  // Lima Metropolitana no usa el catálogo: manda la tabla fija
+  assert.equal(resolverGeo(pe(LMA, "Chancay"), REF).precision_geo, "provincia");
+  assert.equal(resolverGeo(pe(LMA, "Jesús María"), REF).ubigeo_geo, "150113");
 });
 
 test("normalizar", () => {

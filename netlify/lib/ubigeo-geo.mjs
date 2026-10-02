@@ -77,7 +77,37 @@ const esLimaMetropolitana = (sub) => {
 
 const vacio = { pais: null, departamento: null, provincia: null, distrito: null, ubigeo_geo: null, precision_geo: null };
 
-export function resolverGeo(geo) {
+// Índice de ref_ubigeo (filas de 4 y 6 dígitos) por departamento: nombre normalizado → filas.
+// Se usa fuera de Lima Metropolitana y Callao, donde la tabla fija de arriba no llega.
+export function crearIndiceRef(filas) {
+  const idx = new Map();
+  const empujar = (m, k, v) => { const l = m.get(k); if (l) l.push(v); else m.set(k, [v]); };
+  for (const f of filas ?? []) {
+    const u = String(f?.ubigeo ?? "");
+    if (!/^\d{4}(\d{2})?$/.test(u) || !f.provincia) continue;
+    let d = idx.get(u.slice(0, 2));
+    if (!d) idx.set(u.slice(0, 2), d = { provincias: new Map(), distritos: new Map() });
+    if (u.length === 4) empujar(d.provincias, normalizar(f.provincia), { ubigeo: u, provincia: f.provincia });
+    else if (f.distrito) empujar(d.distritos, normalizar(f.distrito), { ubigeo: u, provincia: f.provincia, distrito: f.distrito });
+  }
+  return idx;
+}
+
+// Misma regla que la tabla fija: solo coincidencias únicas dentro del departamento.
+// Si la ciudad es nombre de provincia, se queda en provincia (la geo-IP suele dar la capital provincial).
+function refinarConRef(r, dep, ciudad, ref) {
+  const d = ref?.get(dep.ubigeo);
+  if (!d || !ciudad) return r;
+  const provs = d.provincias.get(ciudad) ?? [];
+  if (provs.length === 1) return Object.assign(r, { provincia: provs[0].provincia, ubigeo_geo: provs[0].ubigeo, precision_geo: "provincia" });
+  if (provs.length > 1 || (dep.ubigeo === "15" && AMBIGUOS_REGION_LIMA.has(ciudad))) return r;
+  const dists = d.distritos.get(ciudad) ?? [];
+  if (dists.length !== 1) return r;
+  const x = dists[0];
+  return Object.assign(r, { provincia: x.provincia, distrito: x.distrito, ubigeo_geo: x.ubigeo, precision_geo: "distrito" });
+}
+
+export function resolverGeo(geo, ref = null) {
   const pais = String(geo?.country?.code ?? "").toUpperCase();
   if (!/^[A-Z]{2}$/.test(pais)) return { ...vacio };
   const r = { ...vacio, pais, precision_geo: "pais" };
@@ -94,7 +124,7 @@ export function resolverGeo(geo) {
   const fijarProvincia = (p) => Object.assign(r, { provincia: p.nombre, ubigeo_geo: p.ubigeo, precision_geo: "provincia" });
 
   if (dep.ubigeo === "07") { fijarProvincia(PROV_POR_UBIGEO.get("0701")); return r; }  // provincia única
-  if (dep.ubigeo !== "15") return r;
+  if (dep.ubigeo !== "15") return refinarConRef(r, dep, ciudad, ref);
 
   if (metropolitana) fijarProvincia(PROV_POR_UBIGEO.get("1501"));
   if (!ciudad) return r;
@@ -107,5 +137,6 @@ export function resolverGeo(geo) {
   // La ciudad coincide con una provincia de Lima (Huaral, Cañete…, o «Lima»): precisión de provincia
   const provincia = PROV_LIMA_POR_NOMBRE.get(ciudad);
   if (provincia && (metropolitana ? provincia.ubigeo === "1501" : true)) fijarProvincia(provincia);
-  return r;
+  // Región Lima fuera de la capital (Huaral, Cañete…): el catálogo puede dar el distrito
+  return !metropolitana && r.precision_geo === "departamento" ? refinarConRef(r, dep, ciudad, ref) : r;
 }
