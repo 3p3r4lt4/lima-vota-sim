@@ -1,28 +1,44 @@
 #!/usr/bin/env node
-// Genera los secretos del panel /admin. No escribe nada en disco: copia la salida a las variables de Netlify
-// y cierra la terminal (o limpia el historial de la consola) al terminar.
-//   node scripts/admin-setup.mjs
+// Genera (o rota) los secretos del panel /admin y los carga directamente, SIN imprimirlos:
+//   - en Netlify, con `netlify env:set` (contexto production, scope functions, marcados como secretos);
+//   - en el .env local (ignorado por git), reemplazando las líneas anteriores de esas variables.
+// En la terminal solo aparece el QR para la app autenticadora.
+//
+//   node scripts/admin-setup.mjs                 (Netlify + .env)
+//   node scripts/admin-setup.mjs --sin-netlify   (solo .env, p. ej. para netlify dev)
+//   node scripts/admin-setup.mjs --sin-env       (solo Netlify)
+//
+// Requisitos para Netlify: `npm i -g netlify-cli`, `netlify login` y `netlify link` en esta carpeta.
+// Los valores se pasan al CLI como argumentos de un proceso hijo sin shell (sin expansión de «$»);
+// durante ese segundo son visibles para otros procesos del mismo equipo, no fuera de él.
 import { randomBytes } from "node:crypto";
+import { spawnSync, execSync } from "node:child_process";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { hashPassword, base32Encode } from "../netlify/lib/auth-admin.mjs";
 
+const RAIZ = fileURLToPath(new URL("..", import.meta.url));
 const EMISOR = "Lima vota informado";
-const CUENTA = "admin";
+const SECRETAS = ["ADMIN_PASSWORD_HASH", "ADMIN_TOTP_SECRET", "ADMIN_SESSION_SECRET", "ANALYTICS_SALT"];
+const args = new Set(process.argv.slice(2));
+const usarNetlify = !args.has("--sin-netlify");
+const usarEnv = !args.has("--sin-env");
 
-// Lee una línea sin eco cuando hay terminal; si stdin viene de una tubería, la lee tal cual.
-function preguntarOculto(texto) {
+// Lee una línea; con oculto=true no hay eco. Si stdin viene de una tubería, la lee tal cual.
+function preguntar(texto, { oculto = false } = {}) {
   return new Promise((resolver, rechazar) => {
     const { stdin, stdout } = process;
     stdout.write(texto);
-    if (!stdin.isTTY) {
+    if (!stdin.isTTY || !oculto) {
       let datos = "";
       stdin.setEncoding("utf8");
       const alDato = (c) => {
         datos += c;
         const i = datos.indexOf("\n");
-        if (i >= 0) { stdin.off("data", alDato); stdin.pause(); stdout.write("\n"); resolver(datos.slice(0, i).replace(/\r$/, "")); }
+        if (i >= 0) { stdin.off("data", alDato); stdin.pause(); if (oculto) stdout.write("\n"); resolver(datos.slice(0, i).replace(/\r$/, "")); }
       };
       stdin.on("data", alDato);
-      stdin.on("end", () => resolver(datos.replace(/\r?\n$/, "")));
+      stdin.once("end", () => resolver(datos.replace(/\r?\n$/, "")));
       stdin.resume();
       return;
     }
@@ -36,7 +52,7 @@ function preguntarOculto(texto) {
           stdin.setRawMode(false); stdin.pause(); stdin.off("data", alTecla); stdout.write("\n");
           return resolver(valor);
         }
-        if (c === "\u0003") { stdin.setRawMode(false); stdout.write("\n"); return rechazar(new Error("cancelado")); }
+        if (c === "\u0003") { stdin.setRawMode(false); stdout.write("\n"); return rechazar(new Error("Cancelado.")); }
         if (c === "\u007f" || c === "\b") { valor = valor.slice(0, -1); continue; }
         if (c >= " ") valor += c;
       }
@@ -45,33 +61,117 @@ function preguntarOculto(texto) {
   });
 }
 
-try {
-  const password = await preguntarOculto("Contraseña del panel (mín. 12 caracteres): ");
-  if (!process.stdin.isTTY && password === "") {
-    throw new Error("No hay terminal interactiva para escribir la contraseña. Ejecútalo directamente en PowerShell o Git Bash.");
+// ---------- Netlify CLI (se ejecuta su run.js con este mismo node: sin shell ni .cmd) ----------
+
+function rutaCli() {
+  try {
+    const prefijo = execSync("npm prefix -g", { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }).trim();
+    const ruta = `${prefijo}/node_modules/netlify-cli/bin/run.js`;
+    return existsSync(ruta) ? ruta : null;
+  } catch {
+    return null;
   }
+}
+
+function crearNetlify(cli, ocultar) {
+  // Nunca se muestra la salida del CLI tal cual: env:set imprime el valor de las variables no secretas
+  const limpiar = (s) => ocultar().reduce((t, v) => (v ? t.split(v).join("***") : t), String(s ?? "")).trim();
+  return function netlify(...a) {
+    const r = spawnSync(process.execPath, [cli, ...a], {
+      cwd: RAIZ, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], env: { ...process.env, NO_COLOR: "1" },
+    });
+    return { ok: r.status === 0, error: limpiar(r.stderr || r.stdout || r.error?.message) };
+  };
+}
+
+function comprobarNetlify(netlify) {
+  // «status» devuelve 0 aunque no haya sesión; esta llamada a la API falla con 401 si no la hay
+  if (!netlify("api", "getCurrentUser").ok) throw new Error("Netlify CLI sin sesión. Ejecuta `netlify login` y vuelve a intentarlo.");
+  let siteId = null;
+  try { siteId = JSON.parse(readFileSync(`${RAIZ}/.netlify/state.json`, "utf8")).siteId; } catch { /* sin vincular */ }
+  if (!siteId) throw new Error("Esta carpeta no está vinculada a un sitio. Ejecuta `netlify link` y vuelve a intentarlo.");
+}
+
+// ---------- .env local ----------
+
+function actualizarEnv(valores) {
+  const ruta = `${RAIZ}/.env`;
+  const gitignore = existsSync(`${RAIZ}/.gitignore`) ? readFileSync(`${RAIZ}/.gitignore`, "utf8") : "";
+  if (!/^\.env$/m.test(gitignore)) throw new Error(".env no está en .gitignore: no se escribe nada en él.");
+  const claves = new Set(Object.keys(valores));
+  const previas = existsSync(ruta) ? readFileSync(ruta, "utf8").split(/\r?\n/) : [];
+  // Se quitan TODAS las líneas previas de estas variables (también duplicadas)
+  const resto = previas.filter((l) => !claves.has((l.match(/^\s*([A-Z0-9_]+)\s*=/) ?? [])[1]));
+  while (resto.length && resto.at(-1).trim() === "") resto.pop();
+  const bloque = Object.entries(valores).map(([k, v]) => (k === "ADMIN_PASSWORD_HASH" ? `${k}='${v}'` : `${k}=${v}`));
+  writeFileSync(ruta, [...resto, "", `# Panel /admin (rotado el ${new Date().toISOString().slice(0, 10)} con scripts/admin-setup.mjs)`, ...bloque, ""].join("\n"));
+}
+
+// ---------- Principal ----------
+
+try {
+  if (!usarNetlify && !usarEnv) throw new Error("Con --sin-netlify y --sin-env no habría dónde guardar los secretos.");
+  if (!process.stdin.isTTY) {
+    throw new Error("Hace falta una terminal interactiva para escribir la contraseña. Ejecútalo directamente en PowerShell o Git Bash.");
+  }
+
+  let secretos = [];
+  let netlify = null;
+  if (usarNetlify) {
+    const cli = rutaCli();
+    if (!cli) throw new Error("No encuentro netlify-cli. Instálalo con `npm i -g netlify-cli` o usa --sin-netlify.");
+    netlify = crearNetlify(cli, () => secretos);
+    comprobarNetlify(netlify);
+  }
+
+  const usuario = ((await preguntar("Usuario del panel [admin]: ")).trim() || "admin");
+  if (!/^[\w.@-]{1,64}$/.test(usuario)) throw new Error("Usuario inválido: hasta 64 letras, números o . _ @ -");
+  const password = await preguntar("Contraseña nueva (mín. 12 caracteres): ", { oculto: true });
   if (password.length < 12 || password.length > 256) throw new Error("La contraseña debe tener entre 12 y 256 caracteres.");
-  if (process.stdin.isTTY && (await preguntarOculto("Repítela: ")) !== password) throw new Error("Las contraseñas no coinciden.");
+  if ((await preguntar("Repítela: ", { oculto: true })) !== password) throw new Error("Las contraseñas no coinciden.");
 
   const totpSecreto = base32Encode(randomBytes(20));
-  const variables = {
+  const valores = {
+    ADMIN_USER: usuario,
     ADMIN_PASSWORD_HASH: await hashPassword(password),
     ADMIN_TOTP_SECRET: totpSecreto,
     ADMIN_SESSION_SECRET: randomBytes(32).toString("base64url"),
     ANALYTICS_SALT: randomBytes(32).toString("base64url"),
   };
-  const uri = `otpauth://totp/${encodeURIComponent(`${EMISOR}:${CUENTA}`)}?secret=${totpSecreto}`
-    + `&issuer=${encodeURIComponent(EMISOR)}&algorithm=SHA1&digits=6&period=30`;
+  secretos = [password, ...SECRETAS.map((k) => valores[k])];
 
-  console.log("\nVariables para Netlify (Site configuration → Environment variables). Son secretas:");
-  console.log("no las pegues en issues, chats ni commits.\n");
-  for (const [k, v] of Object.entries(variables)) console.log(`${k}=${v}`);
-  console.log("\nSi ANALYTICS_SALT ya existe en Netlify, conserva la actual (cambiarla solo reinicia el conteo de únicos).");
-  console.log("En un archivo .env local, pon ADMIN_PASSWORD_HASH entre comillas simples por los signos $.");
-  console.log("\nAgrega la cuenta en tu app autenticadora (Google Authenticator, Aegis, 1Password…) con esta URI");
-  console.log("o escribiendo a mano el secreto ADMIN_TOTP_SECRET (tipo: basado en tiempo, 6 dígitos, 30 s):\n");
-  console.log(uri);
-  console.log("\nPara convertir la URI en QR sin enviarla a internet, usa un generador local (p. ej. `qrencode -t ansiutf8 '<URI>'`).");
+  if (netlify) {
+    for (const [k, v] of Object.entries(valores)) {
+      // Se borra y se vuelve a crear: el CLI no permite cambiar contexto y scope de una variable existente
+      netlify("env:unset", k, "--force");
+      const extra = SECRETAS.includes(k) ? ["--secret"] : [];
+      const r = netlify("env:set", k, v, "--context", "production", "--scope", "functions", ...extra, "--force");
+      if (!r.ok) throw new Error(`Netlify rechazó ${k}: ${r.error || "sin detalle"}. La rotación quedó a medias: corrige el problema y vuelve a ejecutar el script.`);
+      console.log(`✓ Netlify (production, functions): ${k}`);
+    }
+  }
+  if (usarEnv) {
+    actualizarEnv(valores);
+    console.log(`✓ .env local: ${Object.keys(valores).join(", ")}`);
+  }
+
+  const uri = `otpauth://totp/${encodeURIComponent(`${EMISOR}:${usuario}`)}?secret=${totpSecreto}`
+    + `&issuer=${encodeURIComponent(EMISOR)}&algorithm=SHA1&digits=6&period=30`;
+  const QRCode = (await import("qrcode")).default;
+  console.log("\nEscanea este código con tu app autenticadora (Google Authenticator, Aegis, 1Password…):\n");
+  console.log(await QRCode.toString(uri, { type: "terminal", small: true }));
+
+  const pasos = [
+    "Borra de la app autenticadora la cuenta ANTERIOR de «Lima vota informado».",
+    netlify && "Vuelve a desplegar: Netlify → Deploys → Trigger deploy → Deploy project (sin redeploy no aplican).",
+    "Revoca la ANTHROPIC_API_KEY expuesta en console.anthropic.com → API keys, crea una nueva y cárgala en\n"
+      + "     Netlify como secreta (Site configuration → Environment variables). Luego vuelve a desplegar.",
+    "Entra a /admin con el usuario, la contraseña y el código de la app. Si falla, mira el motivo en\n"
+      + "     Netlify → Logs → Functions → admin-login (líneas «admin-login: rechazo motivo=…»).",
+  ].filter(Boolean);
+  console.log("Pendiente, en este orden:");
+  pasos.forEach((p, i) => console.log(`  ${i + 1}. ${p}`));
+  console.log("\nCierra esta terminal o limpia la pantalla: el QR contiene el secreto del segundo factor.");
 } catch (e) {
   console.error(`\n${e.message}`);
   process.exitCode = 1;

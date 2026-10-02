@@ -128,14 +128,31 @@ Tras 5 fallos bloquea la IP 15 min, y cada intento queda en `admin_login_log`, q
    el reader solo hace SELECT. Para comprobarlo: `\dp visitas_sesion` y `\dp candidatos`.
 3. Catálogo INEI: `node scripts/cargar-ref-ubigeo.mjs --dry-run` lo descarga y valida. Sin `--dry-run` y con
    `DATABASE_URL_ADMIN`, lo carga. La fuente está documentada en la cabecera del script.
-4. Secretos del panel: `node scripts/admin-setup.mjs` pide la contraseña sin eco (en PowerShell o Git Bash, no en una
-   tubería) e imprime `ADMIN_PASSWORD_HASH`, `ADMIN_TOTP_SECRET`, `ADMIN_SESSION_SECRET`, `ANALYTICS_SALT` y la URI
-   `otpauth://` para la app autenticadora. No escribe nada en disco.
-5. Define las variables de la tabla en Netlify y vuelve a desplegar.
+4. Secretos del panel (también para rotarlos): con `netlify login` y `netlify link` hechos en esta carpeta,
+   `node scripts/admin-setup.mjs` pide usuario y contraseña (sin eco), genera `ADMIN_PASSWORD_HASH`,
+   `ADMIN_TOTP_SECRET`, `ADMIN_SESSION_SECRET` y `ANALYTICS_SALT` nuevos y los carga **sin imprimirlos** en Netlify
+   (contexto production, scope functions, como secretos) y en el `.env` local. En la terminal solo muestra el QR
+   para la app autenticadora. `--sin-netlify` solo toca el `.env`; `--sin-env`, solo Netlify.
+5. Define en Netlify el resto de variables de la tabla y vuelve a desplegar: las variables no aplican sin redeploy.
 6. Entra a `/admin`. La función programada `purgar-visitas` borra cada día lo que supere la retención.
 
 Para cerrar todas las sesiones del panel, rota `ADMIN_SESSION_SECRET`. Para cambiar la contraseña o el TOTP,
-vuelve a correr el script y reemplaza las variables.
+vuelve a correr el script.
+
+**Si el login falla**, la respuesta al navegador es siempre la misma, pero el motivo queda en
+Netlify → Logs → Functions → `admin-login` como `admin-login: rechazo motivo=…`, sin valores:
+
+| Motivo | Qué revisar |
+|---|---|
+| `missing_env:<VAR>` | La variable no existe en el contexto production con scope functions, o falta redeploy |
+| `bad_config:<VAR>_quoted` | Se guardó entre comillas (en Netlify van sin comillas; las comillas son solo del `.env` local) |
+| `bad_config:<VAR>_includes_name` | Se pegó la línea entera `NOMBRE=valor` como valor |
+| `bad_config:ADMIN_PASSWORD_HASH_format` | Hash truncado, típico de un shell que expandió los `$`; usa el script |
+| `bad_config:ADMIN_TOTP_SECRET_format` / `ADMIN_SESSION_SECRET_short` | Secreto mal copiado o corto |
+| `bad_user` / `bad_password` | Usuario (`ADMIN_USER`, sin distinguir mayúsculas) o contraseña distintos |
+| `bad_totp` / `bad_totp:clock_skew` / `bad_totp:reused` | Código de otra cuenta de la app, reloj del teléfono desfasado o código ya usado |
+| `rate_limited` | 5 fallos en 15 min desde esa conexión: espera 15 min o borra su fila en `admin_intentos` |
+| `bad_origin` / `bad_body` / `exception:<tipo>` | Petición que no viene del propio panel, cuerpo inválido o error interno |
 
 ## Desarrollo
 
