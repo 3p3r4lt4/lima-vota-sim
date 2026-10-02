@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Genera (o rota) los secretos del panel /admin y los carga directamente, SIN imprimirlos:
-//   - en Netlify, con `netlify env:set` (contexto production, scope functions, marcados como secretos);
+//   - en Netlify, con la API vía `netlify api` (contexto production; las secretas, marcadas como secretas);
 //   - en el .env local (ignorado por git), reemplazando las líneas anteriores de esas variables.
 // En la terminal solo aparece el QR para la app autenticadora.
 //
@@ -9,7 +9,7 @@
 //   node scripts/admin-setup.mjs --sin-env       (solo Netlify)
 //
 // Requisitos para Netlify: `npm i -g netlify-cli`, `netlify login` y `netlify link` en esta carpeta.
-// Los valores se pasan al CLI como argumentos de un proceso hijo sin shell (sin expansión de «$»);
+// Los valores se pasan al CLI dentro del JSON de --data, a un proceso hijo sin shell (sin expansión de «$»);
 // durante ese segundo son visibles para otros procesos del mismo equipo, no fuera de él.
 import { randomBytes } from "node:crypto";
 import { spawnSync, execSync } from "node:child_process";
@@ -73,23 +73,49 @@ function rutaCli() {
   }
 }
 
-function crearNetlify(cli, ocultar) {
-  // Nunca se muestra la salida del CLI tal cual: env:set imprime el valor de las variables no secretas
-  const limpiar = (s) => ocultar().reduce((t, v) => (v ? t.split(v).join("***") : t), String(s ?? "")).trim();
-  return function netlify(...a) {
-    const r = spawnSync(process.execPath, [cli, ...a], {
+// Se usa `netlify api` y no `netlify env:set`: en netlify-cli 27 env:set puede salir con código 0 sin guardar
+// nada (p. ej. cuando el plan Free rechaza el scope). La salida del CLI nunca se muestra tal cual.
+function crearApi(cli, ocultar) {
+  const limpiar = (s) => ocultar().reduce((t, v) => (v ? t.split(v).join("***") : t), String(s ?? ""))
+    .replace(/\x1b\[[0-9;]*m/g, "").trim().split("\n").slice(-2).join(" | ");
+  return function api(metodo, datos) {
+    const r = spawnSync(process.execPath, [cli, "api", metodo, ...(datos ? ["--data", JSON.stringify(datos)] : [])], {
       cwd: RAIZ, encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], env: { ...process.env, NO_COLOR: "1" },
     });
-    return { ok: r.status === 0, error: limpiar(r.stderr || r.stdout || r.error?.message) };
+    let json = null;
+    try { json = JSON.parse(r.stdout); } catch { /* sin JSON */ }
+    return { ok: r.status === 0, json, error: limpiar(r.stderr || r.error?.message) };
   };
 }
 
-function comprobarNetlify(netlify) {
-  // «status» devuelve 0 aunque no haya sesión; esta llamada a la API falla con 401 si no la hay
-  if (!netlify("api", "getCurrentUser").ok) throw new Error("Netlify CLI sin sesión. Ejecuta `netlify login` y vuelve a intentarlo.");
+// Devuelve { account_id, site_id } del sitio vinculado
+function comprobarNetlify(api) {
+  if (!api("getCurrentUser").ok) throw new Error("Netlify CLI sin sesión. Ejecuta `netlify login` y vuelve a intentarlo.");
   let siteId = null;
   try { siteId = JSON.parse(readFileSync(`${RAIZ}/.netlify/state.json`, "utf8")).siteId; } catch { /* sin vincular */ }
   if (!siteId) throw new Error("Esta carpeta no está vinculada a un sitio. Ejecuta `netlify link` y vuelve a intentarlo.");
+  const sitio = api("getSite", { site_id: siteId });
+  if (!sitio.ok) throw new Error(`No se pudo leer el sitio vinculado: ${sitio.error}`);
+  return { account_id: sitio.json.account_id, site_id: siteId };
+}
+
+// Contexto production. Sin scope en las no secretas (el plan Free no permite elegirlo); las secretas no
+// admiten post_processing, así que llevan los demás scopes, igual que hace la interfaz de Netlify.
+function publicarEnNetlify(api, base, valores) {
+  for (const [k, v] of Object.entries(valores)) {
+    api("deleteEnvVar", { ...base, key: k });  // si no existía, falla y no importa
+    const secreta = SECRETAS.includes(k);
+    const r = api("createEnvVars", {
+      ...base,
+      body: [{ key: k, is_secret: secreta, ...(secreta ? { scopes: ["builds", "functions", "runtime"] } : {}), values: [{ context: "production", value: v }] }],
+    });
+    if (!r.ok) throw new Error(`Netlify rechazó ${k}: ${r.error || "sin detalle"}. La rotación quedó a medias: corrige y vuelve a ejecutar.`);
+  }
+  // Verificación real: que cada variable exista con valor en production
+  const lista = api("getEnvVars", base).json ?? [];
+  const faltan = Object.keys(valores).filter((k) => !lista.some((x) => x.key === k && x.values.some((y) => y.context === "production")));
+  if (faltan.length) throw new Error(`Netlify no muestra ${faltan.join(", ")} después de guardarlas. Revisa en la interfaz.`);
+  for (const k of Object.keys(valores)) console.log(`✓ Netlify (production): ${k}${SECRETAS.includes(k) ? " (secreta)" : ""}`);
 }
 
 // ---------- .env local ----------
@@ -117,11 +143,12 @@ try {
 
   let secretos = [];
   let netlify = null;
+  let base = null;
   if (usarNetlify) {
     const cli = rutaCli();
     if (!cli) throw new Error("No encuentro netlify-cli. Instálalo con `npm i -g netlify-cli` o usa --sin-netlify.");
-    netlify = crearNetlify(cli, () => secretos);
-    comprobarNetlify(netlify);
+    netlify = crearApi(cli, () => secretos);
+    base = comprobarNetlify(netlify);
   }
 
   const usuario = ((await preguntar("Usuario del panel [admin]: ")).trim() || "admin");
@@ -140,16 +167,7 @@ try {
   };
   secretos = [password, ...SECRETAS.map((k) => valores[k])];
 
-  if (netlify) {
-    for (const [k, v] of Object.entries(valores)) {
-      // Se borra y se vuelve a crear: el CLI no permite cambiar contexto y scope de una variable existente
-      netlify("env:unset", k, "--force");
-      const extra = SECRETAS.includes(k) ? ["--secret"] : [];
-      const r = netlify("env:set", k, v, "--context", "production", "--scope", "functions", ...extra, "--force");
-      if (!r.ok) throw new Error(`Netlify rechazó ${k}: ${r.error || "sin detalle"}. La rotación quedó a medias: corrige el problema y vuelve a ejecutar el script.`);
-      console.log(`✓ Netlify (production, functions): ${k}`);
-    }
-  }
+  if (netlify) publicarEnNetlify(netlify, base, valores);
   if (usarEnv) {
     actualizarEnv(valores);
     console.log(`✓ .env local: ${Object.keys(valores).join(", ")}`);

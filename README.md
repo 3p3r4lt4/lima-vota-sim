@@ -131,7 +131,8 @@ Tras 5 fallos bloquea la IP 15 min, y cada intento queda en `admin_login_log`, q
 4. Secretos del panel (también para rotarlos): con `netlify login` y `netlify link` hechos en esta carpeta,
    `node scripts/admin-setup.mjs` pide usuario y contraseña (sin eco), genera `ADMIN_PASSWORD_HASH`,
    `ADMIN_TOTP_SECRET`, `ADMIN_SESSION_SECRET` y `ANALYTICS_SALT` nuevos y los carga **sin imprimirlos** en Netlify
-   (contexto production, scope functions, como secretos) y en el `.env` local. En la terminal solo muestra el QR
+   (contexto production, como secretos, vía la API: en el plan Free no se pueden elegir scopes y `netlify env:set`
+   puede fallar en silencio) y en el `.env` local. En la terminal solo muestra el QR
    para la app autenticadora. `--sin-netlify` solo toca el `.env`; `--sin-env`, solo Netlify.
 5. Define en Netlify el resto de variables de la tabla y vuelve a desplegar: las variables no aplican sin redeploy.
 6. Entra a `/admin`. La función programada `purgar-visitas` borra cada día lo que supere la retención.
@@ -144,7 +145,7 @@ Netlify → Logs → Functions → `admin-login` como `admin-login: rechazo moti
 
 | Motivo | Qué revisar |
 |---|---|
-| `missing_env:<VAR>` | La variable no existe en el contexto production con scope functions, o falta redeploy |
+| `missing_env:<VAR>` | La variable no existe en el contexto production o falta redeploy |
 | `bad_config:<VAR>_quoted` | Se guardó entre comillas (en Netlify van sin comillas; las comillas son solo del `.env` local) |
 | `bad_config:<VAR>_includes_name` | Se pegó la línea entera `NOMBRE=valor` como valor |
 | `bad_config:ADMIN_PASSWORD_HASH_format` | Hash truncado, típico de un shell que expandió los `$`; usa el script |
