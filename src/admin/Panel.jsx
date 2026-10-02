@@ -17,7 +17,25 @@ function duracion(seg) {
   return `${Math.floor(m / 60)} h ${m % 60} min`;
 }
 
-const FILTROS_INICIALES = () => ({ desde: sumarDias(hoyLima(), -6), hasta: hoyLima(), departamento: "", ambito: "", dispositivo: "", bots: false, pagina: 1 });
+const VISTAS = { fichas: "Fichas", comparar: "Comparar" };
+const RESULTADOS = { ok: "Correcto", fallo: "Fallido", bloqueado: "Bloqueado" };
+
+const FILTROS_INICIALES = () => ({
+  desde: sumarDias(hoyLima(), -6), hasta: hoyLima(), departamento: "", provincia: "", distrito: "",
+  ambito: "", dispositivo: "", bots: false, pagina: 1,
+});
+
+function Selector({ etiqueta, valor, onChange, opciones }) {
+  return (
+    <label>{etiqueta}
+      <select value={valor} onChange={onChange}>
+        <option value="">Todos</option>
+        {opciones.map(([v, t]) => <option key={v} value={v}>{t}</option>)}
+      </select>
+    </label>
+  );
+}
+const pares = (lista) => (lista ?? []).map((x) => [x, x]);
 
 function consulta(f, extra = {}) {
   const p = new URLSearchParams();
@@ -108,24 +126,11 @@ export default function Panel() {
       <form className="adm-filtros" onSubmit={(e) => e.preventDefault()}>
         <label>Desde<input type="date" value={filtros.desde} max={filtros.hasta} onChange={cambiar("desde")} /></label>
         <label>Hasta<input type="date" value={filtros.hasta} max={hoyLima()} onChange={cambiar("hasta")} /></label>
-        <label>Departamento
-          <select value={filtros.departamento} onChange={cambiar("departamento")}>
-            <option value="">Todos</option>
-            {(datos?.departamentos ?? []).map((d) => <option key={d} value={d}>{d}</option>)}
-          </select>
-        </label>
-        <label>Ámbito consultado
-          <select value={filtros.ambito} onChange={cambiar("ambito")}>
-            <option value="">Todos</option>
-            {[...ambitos].map(([u, n]) => <option key={u} value={u}>{n}</option>)}
-          </select>
-        </label>
-        <label>Dispositivo
-          <select value={filtros.dispositivo} onChange={cambiar("dispositivo")}>
-            <option value="">Todos</option>
-            {Object.entries(DISPOSITIVOS).map(([v, t]) => <option key={v} value={v}>{t}</option>)}
-          </select>
-        </label>
+        <Selector etiqueta="Departamento (IP)" valor={filtros.departamento} onChange={cambiar("departamento")} opciones={pares(datos?.departamentos)} />
+        <Selector etiqueta="Provincia (IP)" valor={filtros.provincia} onChange={cambiar("provincia")} opciones={pares(datos?.provincias)} />
+        <Selector etiqueta="Distrito (IP)" valor={filtros.distrito} onChange={cambiar("distrito")} opciones={pares(datos?.distritos)} />
+        <Selector etiqueta="Ámbito consultado" valor={filtros.ambito} onChange={cambiar("ambito")} opciones={[...ambitos]} />
+        <Selector etiqueta="Dispositivo" valor={filtros.dispositivo} onChange={cambiar("dispositivo")} opciones={Object.entries(DISPOSITIVOS)} />
         <label className="adm-check"><input type="checkbox" checked={filtros.bots} onChange={cambiar("bots")} />Incluir bots</label>
       </form>
 
@@ -135,10 +140,13 @@ export default function Panel() {
       {datos && (
         <>
           <section className="adm-kpis" aria-label="Indicadores">
+            <div><span>Activas ahora</span><strong>{fmt(k.activas)}</strong></div>
             <div><span>Sesiones</span><strong>{fmt(k.sesiones)}</strong></div>
             <div><span>Visitantes únicos aprox.</span><strong>{fmt(k.unicos)}</strong></div>
+            <div><span>Duración media</span><strong>{duracion(k.media_seg)}</strong></div>
             <div><span>Duración mediana</span><strong>{duracion(k.mediana_seg)}</strong></div>
             <div><span>Desde móvil</span><strong>{fmt(k.pct_movil)} %</strong></div>
+            <div><span>Preguntas al buscador</span><strong>{fmt(k.preguntas)}</strong></div>
           </section>
 
           <section className="adm-rejilla">
@@ -147,10 +155,11 @@ export default function Panel() {
           </section>
 
           <section className="adm-rejilla adm-rejilla-3">
-            <Ranking titulo="Departamentos" filas={datos.top.departamento} />
-            <Ranking titulo="Provincias" filas={datos.top.provincia} />
-            <Ranking titulo="Distritos" filas={datos.top.distrito} />
             <Ranking titulo="Ámbitos consultados" filas={datos.top.ambito} nombre={nombreAmbito} />
+            <Ranking titulo="Distritos por IP (aprox.)" filas={datos.top.distrito} />
+            <Ranking titulo="Provincias por IP (aprox.)" filas={datos.top.provincia} />
+            <Ranking titulo="Departamentos por IP (aprox.)" filas={datos.top.departamento} />
+            <Ranking titulo="Vistas abiertas" filas={datos.vistas} nombre={(x) => VISTAS[x] ?? x} />
             <Ranking titulo="Dispositivo" filas={datos.dispositivo} nombre={(x) => DISPOSITIVOS[x] ?? x} />
             <Ranking titulo="Sistema operativo" filas={datos.so} />
             <Ranking titulo="Navegador" filas={datos.navegador} />
@@ -163,15 +172,16 @@ export default function Panel() {
               <table className="adm-tabla">
                 <thead>
                   <tr>
-                    <th>Inicio</th><th>Fin / última señal</th><th>Duración</th><th>Dispositivo</th><th>SO</th><th>Navegador</th>
-                    <th>Departamento</th><th>Provincia</th><th>Distrito</th><th>Ubigeo</th><th>Precisión</th><th>Ámbitos</th>
+                    <th>Conexión</th><th>Desconexión</th><th>Duración</th><th>Dispositivo</th><th>SO</th><th>Navegador</th>
+                    <th>Departamento (IP)</th><th>Provincia (IP)</th><th>Distrito (IP)</th><th>Ubigeo (IP)</th><th>Precisión</th>
+                    <th>Vistas</th><th>Preguntas</th><th>Ámbitos consultados</th>
                   </tr>
                 </thead>
                 <tbody>
                   {ses.filas.map((s, i) => (
                     <tr key={i} className={s.es_bot ? "adm-bot" : ""}>
                       <td>{s.inicio}</td>
-                      <td>{s.desconexion}{s.con_fin ? "" : " *"}</td>
+                      <td>{s.activa ? "En curso" : `${s.desconexion}${s.con_fin ? "" : " *"}`}</td>
                       <td>{duracion(s.duracion_seg)}</td>
                       <td>{DISPOSITIVOS[s.dispositivo_tipo] ?? "—"}{s.es_bot ? " (bot)" : ""}</td>
                       <td>{[s.so, s.so_version].filter(Boolean).join(" ")}</td>
@@ -181,14 +191,19 @@ export default function Panel() {
                       <td>{s.distrito ?? "—"}</td>
                       <td>{s.ubigeo_geo ?? "—"}</td>
                       <td>{PRECISION[s.precision_geo] ?? "—"}</td>
+                      <td>{(s.vistas ?? []).map((v) => VISTAS[v] ?? v).join(", ") || "—"}</td>
+                      <td>{fmt(s.preguntas_count)}</td>
                       <td>{(s.ambitos_visitados ?? []).map((u) => ambitos.get(u) ?? u).join(", ")}</td>
                     </tr>
                   ))}
-                  {ses.filas.length === 0 && <tr><td colSpan={12} className="adm-vacio">Sin sesiones en el rango.</td></tr>}
+                  {ses.filas.length === 0 && <tr><td colSpan={14} className="adm-vacio">Sin sesiones en el rango.</td></tr>}
                 </tbody>
               </table>
             </div>
-            <p className="adm-nota">* Sin evento de cierre: se muestra la última señal como hora de desconexión.</p>
+            <p className="adm-nota">
+              (IP): ubicación aproximada deducida de la conexión. * Sin evento de cierre: la desconexión es el último latido.
+              «En curso»: latido en los últimos 2 minutos.
+            </p>
             <nav className="adm-paginacion" aria-label="Paginación">
               <button className="adm-boton adm-boton-sec" disabled={ses.pagina <= 1}
                 onClick={() => setFiltros((f) => ({ ...f, pagina: f.pagina - 1 }))}>Anterior</button>
@@ -196,6 +211,22 @@ export default function Panel() {
               <button className="adm-boton adm-boton-sec" disabled={ses.pagina >= paginas}
                 onClick={() => setFiltros((f) => ({ ...f, pagina: f.pagina + 1 }))}>Siguiente</button>
             </nav>
+          </section>
+
+          <section className="adm-seccion" aria-labelledby="t-accesos">
+            <h2 id="t-accesos">Accesos al panel (últimos 20)</h2>
+            <div className="adm-tabla-envoltura">
+              <table className="adm-tabla">
+                <thead><tr><th>Fecha</th><th>Huella de IP</th><th>Resultado</th></tr></thead>
+                <tbody>
+                  {(datos.accesos ?? []).map((a, i) => (
+                    <tr key={i}><td>{a.fecha}</td><td><code>{a.huella}</code></td><td>{RESULTADOS[a.resultado] ?? a.resultado}</td></tr>
+                  ))}
+                  {!datos.accesos?.length && <tr><td colSpan={3} className="adm-vacio">Sin registros.</td></tr>}
+                </tbody>
+              </table>
+            </div>
+            <p className="adm-nota">La huella cambia cada día; sirve para ver si varios intentos vienen de la misma conexión.</p>
           </section>
         </>
       )}
