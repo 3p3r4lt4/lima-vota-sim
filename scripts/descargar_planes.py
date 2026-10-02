@@ -174,7 +174,7 @@ def descargar(ubigeo, ambitos, local):
     # (nombre igual, o nuestro nombre como palabras completas dentro del del JNE); si no, una contra una; si no, aviso
     sin_jne = [m for m in manifiesto if not m["candidato_jne"]]
     sin_local = [org for n, org in nuestra if n is None]
-    contiene = lambda corto, largo: re.search(rf"(^|W){re.escape(norm(corto))}(W|$)", norm(largo)) is not None
+    contiene = lambda corto, largo: re.search(rf"(^|\W){re.escape(norm(corto))}(\W|$)", norm(largo)) is not None
     for m in sin_jne:
         opciones = [o for o in sin_local if contiene(o, m["organizacion_jne"])]
         if len(opciones) == 1 and sum(contiene(opciones[0], x["organizacion_jne"]) for x in sin_jne) == 1:
