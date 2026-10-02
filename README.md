@@ -109,25 +109,19 @@ Tras 5 fallos bloquea la IP 15 min, y cada intento queda en `admin_login_log`, q
 
 **Despliegue**
 
-1. Migraciones, con un usuario administrador (ambas idempotentes, en este orden):
-   ```bash
-   psql "$DATABASE_URL_ADMIN" -f db/analytics.sql
-   psql "$DATABASE_URL_ADMIN" -f db/analytics_eventos.sql
-   ```
-2. Roles con permisos mínimos. Ninguno puede leer ni escribir `candidatos`, `documentos` ni `chunks`, y no se reutiliza
-   `DATABASE_URL_READONLY`. Con contraseñas largas y aleatorias:
-   ```sql
-   create role analytics_writer login password '...';
-   create role analytics_reader login password '...';
-   revoke all on all tables in schema public from analytics_writer, analytics_reader;
-   grant usage on schema public to analytics_writer, analytics_reader;
-   ```
-   Luego aplica los `GRANT` comentados al final de `db/analytics.sql`. Vuelve a ejecutar `db/analytics_eventos.sql`,
-   que concede lo de las tablas nuevas cuando los roles ya existen. En resumen: el writer solo hace INSERT/UPDATE en
-   `visitas_sesion`, lee y escribe `admin_intentos` (el bloqueo), hace INSERT en `analytics_eventos` y `admin_login_log`, y SELECT en `ref_ubigeo`;
-   el reader solo hace SELECT. Para comprobarlo: `\dp visitas_sesion` y `\dp candidatos`.
-3. Catálogo INEI: `node scripts/cargar-ref-ubigeo.mjs --dry-run` lo descarga y valida. Sin `--dry-run` y con
-   `DATABASE_URL_ADMIN`, lo carga. La fuente está documentada en la cabecera del script.
+1. Base de datos: un Postgres propio de la analítica (p. ej. un proyecto gratuito de Neon en AWS US East 2, cerca
+   de las funciones). Pega la cadena del dueño, **pooled** y con SSL, en `DATABASE_URL_ADMIN` del `.env` local.
+2. `node scripts/analytics-db-setup.mjs` (con `netlify login` y `netlify link` hechos) hace todo sin imprimir secretos:
+   aplica `db/analytics.sql` y `db/analytics_eventos.sql` (idempotentes), crea o rota `analytics_writer` y
+   `analytics_reader` con contraseñas aleatorias, revoca a PUBLIC el esquema `public`, carga el catálogo INEI en
+   `ref_ubigeo`, escribe `DATABASE_URL_ANALYTICS` y `DATABASE_URL_ANALYTICS_READER` (mismo host pooled,
+   `sslmode=require`) en el `.env` y en Netlify, y comprueba los permisos de cada rol. `--sin-netlify` no toca
+   Netlify; `--verificar` solo repite las comprobaciones. Volver a ejecutarlo rota las contraseñas de los roles.
+   Permisos resultantes: el writer solo hace INSERT/UPDATE en `visitas_sesion`, lee y escribe `admin_intentos`
+   (el bloqueo), hace INSERT en `analytics_eventos` y `admin_login_log`, y SELECT en `ref_ubigeo`; el reader solo
+   hace SELECT. Ninguno toca `candidatos`, `documentos` ni `chunks`, y no se reutiliza `DATABASE_URL_READONLY`.
+   La purga borra mediante `purgar_visitas()` (SECURITY DEFINER), sin dar DELETE al writer.
+3. El catálogo también se puede cargar aparte: `node scripts/cargar-ref-ubigeo.mjs --dry-run` lo descarga y valida.
 4. Secretos del panel (también para rotarlos): con `netlify login` y `netlify link` hechos en esta carpeta,
    `node scripts/admin-setup.mjs` pide usuario y contraseña (sin eco), genera `ADMIN_PASSWORD_HASH`,
    `ADMIN_TOTP_SECRET`, `ADMIN_SESSION_SECRET` y `ANALYTICS_SALT` nuevos y los carga **sin imprimirlos** en Netlify
