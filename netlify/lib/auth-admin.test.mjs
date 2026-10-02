@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {
   hashPassword, verificarPassword, hotp, totp, verificarTotp, base32Encode, base32Decode,
   firmarSesion, verificarSesion, cookieSesion, leerCookie, origenValido, crearBloqueoMemoria, COOKIE,
+  usuarioValido, esAdmin, noAutorizado, evaluarLogin,
 } from "./auth-admin.mjs";
 
 const CLAVE_SHA1 = Buffer.from("12345678901234567890");
@@ -87,4 +88,57 @@ test("bloqueo: 5 fallos → 15 min", async () => {
   assert.equal(await b.bloqueado("ip", 1000 + 15 * 60_000), false);
   await b.fallo("ip", 1000 + 16 * 60_000);
   assert.equal(await b.bloqueado("ip", 1000 + 16 * 60_000), false);  // contador reiniciado
+});
+
+test("usuario: opcional, sin distinguir mayúsculas y con largo acotado", () => {
+  assert.equal(usuarioValido("cualquiera", undefined), true);
+  assert.equal(usuarioValido("", ""), true);
+  assert.equal(usuarioValido("Admin ", "admin"), true);
+  assert.equal(usuarioValido("otro", "admin"), false);
+  assert.equal(usuarioValido(undefined, "admin"), false);
+  assert.equal(usuarioValido("a".repeat(65), "a".repeat(65)), false);
+});
+
+test("API admin: sin cookie o con cookie inválida → 401", () => {
+  const secreto = "k".repeat(40);
+  const antes = process.env.ADMIN_SESSION_SECRET;
+  process.env.ADMIN_SESSION_SECRET = secreto;
+  try {
+    const req = (cookie) => new Request("https://x.test/api/admin/visitas", { headers: cookie ? { cookie } : {} });
+    const valida = firmarSesion(secreto);
+    assert.equal(esAdmin(req(null)), false);
+    assert.equal(esAdmin(req(`${COOKIE}=basura`)), false);
+    assert.equal(esAdmin(req(`${COOKIE}=${firmarSesion("otro-secreto".repeat(4))}`)), false);
+    assert.equal(esAdmin(req(`${COOKIE}=${firmarSesion(secreto, Date.now() - 9 * 3600_000)}`)), false);  // vencida
+    assert.equal(esAdmin(req(`lv_admin=${valida}`)), false);  // otro nombre de cookie
+    assert.equal(esAdmin(req(`${COOKIE}=${valida}`)), true);
+    process.env.ADMIN_SESSION_SECRET = "corto";
+    assert.equal(esAdmin(req(`${COOKIE}=${firmarSesion("corto")}`)), false);  // secreto débil: nadie entra
+    const r = noAutorizado();
+    assert.equal(r.status, 401);
+    assert.equal(r.headers.get("cache-control"), "no-store");
+  } finally {
+    if (antes === undefined) delete process.env.ADMIN_SESSION_SECRET; else process.env.ADMIN_SESSION_SECRET = antes;
+  }
+});
+
+test("login: fallos → bloqueo aunque después las credenciales sean correctas", async () => {
+  const secretoTotp = base32Encode(Buffer.from("12345678901234567890"));
+  const cfg = { usuario: "admin", passwordHash: await hashPassword("contraseña-larga-de-prueba", { N: 2 ** 14 }), totpSecreto: secretoTotp };
+  const ahora = Date.UTC(2026, 9, 1, 12);
+  const codigo = totp(base32Decode(secretoTotp), ahora);
+  const bien = { usuario: "admin", password: "contraseña-larga-de-prueba", codigo };
+  const b = crearBloqueoMemoria();
+
+  const ok = await evaluarLogin(bien, cfg, b, "ip-a", -1, ahora);
+  assert.equal(ok.resultado, "ok");
+  // El mismo código no sirve dos veces
+  assert.equal((await evaluarLogin(bien, cfg, b, "ip-a", ok.contador, ahora)).resultado, "fallo");
+  assert.equal((await evaluarLogin({ ...bien, usuario: "root" }, cfg, b, "ip-b", -1, ahora)).resultado, "fallo");
+
+  for (let i = 0; i < 5; i++) {
+    assert.equal((await evaluarLogin({ ...bien, password: "mala" }, cfg, b, "ip-c", -1, ahora)).resultado, "fallo");
+  }
+  assert.equal((await evaluarLogin(bien, cfg, b, "ip-c", -1, ahora)).resultado, "bloqueado");
+  assert.equal((await evaluarLogin(bien, cfg, b, "ip-d", -1, ahora)).resultado, "ok");
 });

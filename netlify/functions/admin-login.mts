@@ -1,11 +1,12 @@
 import type { Config, Context } from "@netlify/functions";
 import {
-  verificarPassword, verificarTotp, firmarSesion, cookieSesion, origenValido, crearBloqueoMemoria,
+  evaluarLogin, firmarSesion, cookieSesion, origenValido, crearBloqueoMemoria,
   CABECERAS, MAX_FALLOS,
 } from "../lib/auth-admin.mjs";
 import { hashIp } from "../lib/visita.mjs";
 
-// Login del panel: contraseña (scrypt) + código TOTP. Cualquier fallo responde el mismo mensaje.
+// Login del panel: usuario (si ADMIN_USER está definido) + contraseña (scrypt) + código TOTP.
+// Cualquier fallo responde el mismo mensaje. Cada intento queda en admin_login_log (solo ip_hash y resultado).
 // Bloqueo: 5 fallos por ip_hash → 15 min, guardado en admin_intentos (respaldo en memoria si no hay base),
 // más el rateLimit de la plataforma.
 
@@ -56,6 +57,13 @@ const bloqueo = {
   },
 };
 
+// Auditoría: nunca guarda lo que se escribió, solo el resultado. Si la base falla, el login sigue.
+async function registrarIntento(ipHash: string, resultado: "ok" | "fallo" | "bloqueado") {
+  if (!process.env.DATABASE_URL_ANALYTICS) return;
+  try { await (await db()).query("insert into admin_login_log (ip_hash, resultado) values ($1, $2)", [ipHash, resultado]); }
+  catch (e: any) { console.error("admin-login: no se registró el intento", e?.code ?? e?.message); }
+}
+
 const rechazo = (status = 401) =>
   Response.json({ error: "No se pudo iniciar sesión. Revisa los datos o intenta más tarde." }, { status, headers: CABECERAS });
 
@@ -70,20 +78,17 @@ export default async (req: Request, context: Context) => {
   try { body = JSON.parse(texto); } catch { /* cuerpo inválido */ }
   const password = typeof body?.password === "string" ? body.password : "";
   const codigo = typeof body?.codigo === "string" ? body.codigo.replace(/\s/g, "") : "";
+  const usuario = typeof body?.usuario === "string" ? body.usuario : "";
 
   const ipHash = hashIp(context.ip ?? "sin-ip", process.env.ANALYTICS_SALT || ADMIN_SESSION_SECRET);
-  if (await bloqueo.bloqueado(ipHash)) return rechazo();
+  const r = await evaluarLogin(
+    { usuario, password, codigo },
+    { usuario: process.env.ADMIN_USER, passwordHash: ADMIN_PASSWORD_HASH, totpSecreto: ADMIN_TOTP_SECRET },
+    bloqueo, ipHash, ultimoContador);
+  await registrarIntento(ipHash, r.resultado);
+  if (r.resultado !== "ok") return rechazo();
 
-  // Se verifican ambos factores siempre, para no revelar cuál falló por el tiempo de respuesta
-  const okPassword = await verificarPassword(password, ADMIN_PASSWORD_HASH);
-  const contador = verificarTotp(codigo, ADMIN_TOTP_SECRET);
-  if (!okPassword || contador < 0 || contador <= ultimoContador) {
-    await bloqueo.fallo(ipHash);
-    return rechazo();
-  }
-
-  ultimoContador = contador;
-  await bloqueo.limpiar(ipHash);
+  ultimoContador = r.contador;
   return new Response(null, { status: 204, headers: { ...CABECERAS, "set-cookie": cookieSesion(firmarSesion(ADMIN_SESSION_SECRET)) } });
 };
 

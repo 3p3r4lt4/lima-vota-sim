@@ -1,6 +1,6 @@
 // Autenticación del panel /admin: contraseña scrypt, TOTP (RFC 6238) y cookie de sesión firmada con HMAC.
 // Solo node:crypto, sin dependencias. Todas las comparaciones de secretos son de tiempo constante.
-import { scrypt as scryptCb, randomBytes, timingSafeEqual, createHmac } from "node:crypto";
+import { scrypt as scryptCb, randomBytes, timingSafeEqual, createHmac, createHash } from "node:crypto";
 import { promisify } from "node:util";
 
 const scrypt = promisify(scryptCb);
@@ -37,6 +37,13 @@ export async function verificarPassword(password, guardado) {
     return false;
   }
 }
+
+// ---------- Usuario (opcional): sin ADMIN_USER configurado se acepta cualquiera ----------
+
+// Se comparan los SHA-256 para que el tiempo no dependa de la longitud ni del prefijo
+const sha = (s) => createHash("sha256").update(String(s).normalize("NFKC").trim().toLowerCase()).digest();
+export const usuarioValido = (usuario, esperado) =>
+  !esperado || (typeof usuario === "string" && usuario.length <= 64 && iguales(sha(usuario), sha(esperado)));
 
 // ---------- TOTP (RFC 6238, HMAC-SHA1, 30 s, 6 dígitos) ----------
 
@@ -150,6 +157,22 @@ export function origenValido(req) {
   const origen = req.headers.get("origin");
   if (!origen) return false;
   try { return new URL(origen).origin === new URL(req.url).origin; } catch { return false; }
+}
+
+// ---------- Decisión de un intento de login ----------
+// cfg: { usuario?, passwordHash, totpSecreto }. Se verifican todos los factores siempre, para no revelar
+// cuál falló por el tiempo de respuesta. Devuelve { resultado: "ok" | "fallo" | "bloqueado", contador? }.
+export async function evaluarLogin({ usuario, password, codigo }, cfg, bloqueo, clave, ultimoContador = -1, ahoraMs = Date.now()) {
+  if (await bloqueo.bloqueado(clave)) return { resultado: "bloqueado" };
+  const okUsuario = usuarioValido(usuario, cfg.usuario);
+  const okPassword = await verificarPassword(password, cfg.passwordHash);
+  const contador = verificarTotp(codigo, cfg.totpSecreto, ahoraMs);
+  if (!okUsuario || !okPassword || contador < 0 || contador <= ultimoContador) {
+    await bloqueo.fallo(clave);
+    return { resultado: "fallo" };
+  }
+  await bloqueo.limpiar(clave);
+  return { resultado: "ok", contador };
 }
 
 // ---------- Bloqueo por intentos fallidos (versión en memoria; admin-login usa la tabla si hay base) ----------

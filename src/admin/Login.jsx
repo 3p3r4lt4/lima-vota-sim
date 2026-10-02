@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function Login({ onEntrar }) {
+  const [usuario, setUsuario] = useState("");
   const [password, setPassword] = useState("");
   const [codigo, setCodigo] = useState("");
   const [error, setError] = useState("");
@@ -15,7 +16,7 @@ export default function Login({ onEntrar }) {
         method: "POST",
         credentials: "same-origin",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ password, codigo }),
+        body: JSON.stringify({ usuario, password, codigo }),
       });
       if (r.ok) { setPassword(""); setCodigo(""); onEntrar(); return; }
       setError("No se pudo iniciar sesión. Revisa los datos o intenta más tarde.");
@@ -30,6 +31,11 @@ export default function Login({ onEntrar }) {
     <main className="adm-login">
       <form className="adm-tarjeta" onSubmit={enviar}>
         <h1>Panel de visitas</h1>
+        <label>
+          Usuario
+          <input autoComplete="username" maxLength={64} autoCapitalize="none" spellCheck={false}
+            value={usuario} onChange={(e) => setUsuario(e.target.value)} />
+        </label>
         <label>
           Contraseña
           <input type="password" autoComplete="current-password" required maxLength={256}
