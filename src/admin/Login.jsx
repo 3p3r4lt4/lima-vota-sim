@@ -31,6 +31,10 @@ export default function Login({ onEntrar }) {
     <main className="adm-login">
       <form className="adm-tarjeta" onSubmit={enviar}>
         <h1>Panel de visitas</h1>
+        <p className="adm-nota">
+          Acceso privado del responsable de este sitio. Lima vota informado nunca pide contraseñas, códigos ni
+          datos personales a sus visitantes. Si llegaste aquí desde un enlace, ciérralo: no necesitas entrar.
+        </p>
         <label>
           Usuario
           <input autoComplete="username" maxLength={64} autoCapitalize="none" spellCheck={false}
