@@ -115,7 +115,7 @@ Tras 5 fallos bloquea la IP 15 min, y cada intento queda en `admin_login_log`, q
    aplica `db/analytics.sql` y `db/analytics_eventos.sql` (idempotentes), crea o rota `analytics_writer` y
    `analytics_reader` con contraseñas aleatorias, revoca a PUBLIC el esquema `public`, carga el catálogo INEI en
    `ref_ubigeo`, escribe `DATABASE_URL_ANALYTICS` y `DATABASE_URL_ANALYTICS_READER` (mismo host pooled,
-   `sslmode=require`) en el `.env` y en Netlify, y comprueba los permisos de cada rol. `--sin-netlify` no toca
+   `sslmode=verify-full`) en el `.env` y en Netlify, y comprueba los permisos de cada rol. `--sin-netlify` no toca
    Netlify; `--verificar` solo repite las comprobaciones. Volver a ejecutarlo rota las contraseñas de los roles.
    Permisos resultantes: el writer solo hace INSERT/UPDATE en `visitas_sesion`, lee y escribe `admin_intentos`
    (el bloqueo), hace INSERT en `analytics_eventos` y `admin_login_log`, y SELECT en `ref_ubigeo`; el reader solo

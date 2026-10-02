@@ -5,7 +5,7 @@
 //      se revoca a PUBLIC el acceso al esquema public;
 //   3. catálogo INEI en ref_ubigeo (scripts/cargar-ref-ubigeo.mjs);
 //   4. DATABASE_URL_ANALYTICS y DATABASE_URL_ANALYTICS_READER en el .env local y en Netlify (production, secretas),
-//      con el mismo host que DATABASE_URL_ADMIN (usa la URL «pooled» del proveedor) y sslmode=require;
+//      con el mismo host que DATABASE_URL_ADMIN (usa la URL «pooled» del proveedor) y sslmode=verify-full;
 //   5. comprueba con cada rol lo que puede y lo que no puede hacer.
 //
 //   node scripts/analytics-db-setup.mjs                 (todo)
@@ -36,7 +36,8 @@ function urlDeRol(urlAdmin, rol, password) {
   const u = new URL(urlAdmin);
   u.username = rol;
   u.password = password;
-  u.searchParams.set("sslmode", "require");
+  // verify-full explícito: pg 9 tratará «require» como libpq, sin verificar el certificado
+  u.searchParams.set("sslmode", "verify-full");
   return u.toString();
 }
 
