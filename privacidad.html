@@ -22,7 +22,10 @@
       <li>Ubicación aproximada deducida de la conexión: país, departamento, provincia y, a veces, distrito.
         Es una estimación y en redes móviles suele ser imprecisa.</li>
       <li>Los distritos que consultas en el comparador, la hora de entrada y de salida y la duración de la visita.</li>
-      <li>Tamaño de pantalla, idioma del navegador y, si llegaste desde otro sitio, solo su dominio.</li>
+      <li>Qué secciones abres (fichas o comparación) y <strong>cuántas</strong> preguntas haces al buscador: solo el número,
+        nunca el texto de la pregunta.</li>
+      <li>Tamaño de pantalla, idioma del navegador y, si llegaste desde otro sitio, solo su dominio. Si entraste por un
+        enlace de campaña, sus etiquetas <code>utm_source</code>, <code>utm_medium</code> y <code>utm_campaign</code>.</li>
     </ul>
 
     <h2>Para qué</h2>
@@ -36,11 +39,15 @@
         cada día, así que no permite seguirte de un día a otro.</li>
       <li><strong>No hay cookies de rastreo.</strong> La visita se identifica con un número aleatorio guardado en la
         memoria de la pestaña (sessionStorage), que se borra al cerrarla.</li>
-      <li>No se registran tus preguntas en esta estadística ni datos de identificación como nombre o correo.</li>
+      <li>No se guarda el texto de tus preguntas. Se usa solo para responderte: cuando la búsqueda semántica o la
+        redacción con IA están activas, se envía a esos proveedores (Voyage AI y Anthropic) para generar la respuesta y
+        luego se descarta. Tampoco se piden datos de identificación como nombre o correo.</li>
+      <li>No se guarda el <em>user-agent</em> completo de tu navegador, solo el tipo de dispositivo, el sistema y el navegador.</li>
     </ul>
 
     <h2>Cuánto tiempo</h2>
-    <p>Los registros se borran automáticamente a los <strong>90 días</strong>.</p>
+    <p>Los registros se borran automáticamente a los <strong>180 días</strong>. Solo el responsable del proyecto puede
+      consultarlos, desde un panel protegido con contraseña y un segundo factor.</p>
 
     <h2>Cómo excluirte</h2>
     <p>Si tu navegador tiene activado <em>Do Not Track</em> o <em>Global Privacy Control</em>, el sitio no envía
