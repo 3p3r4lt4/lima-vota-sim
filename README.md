@@ -8,8 +8,7 @@ alcaldía antes de votar el domingo 4 de octubre de 2026.
 | Ámbito | Contenido | Fuente |
 |---|---|---|
 | Lima Metropolitana | 26 listas y 96 propuestas en 8 temas, cada una enlazada a su fuente | Debate del JNE (21 y 22/09/2026) según RPP, Infobae, El Comercio y Perú Informa |
-| 41 distritos | Entre 8 y 11 propuestas principales por plan de gobierno, cada una con la página exacta del PDF | Planes inscritos ante el JNE (Voto Informado) |
-| San Martín de Porres | Relación de candidaturas, aún sin propuestas | Base electoral difundida por RPP (28/09/2026) |
+| 42 distritos | Entre 8 y 11 propuestas principales por plan de gobierno, cada una con la página exacta del PDF | Planes inscritos ante el JNE (Voto Informado) |
 
 En total, 518 candidaturas. La cobertura exacta de cada ámbito está en `public/data/ambitos.json`
 (`con_propuestas`).
