@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useDialogo } from "../hooks/useDialogo.js";
 import { nombreTema, resumenCandidatura } from "../lib/temas.js";
 import { etiquetaFuente, textoSinTema } from "../lib/fuente.js";
+import { enlaceReporte } from "../lib/reporte.js";
 import { IconoCerrar } from "./Iconos.jsx";
 
 // Panel lateral (escritorio) u hoja a pantalla completa (móvil) con todas las propuestas por tema.
@@ -50,6 +51,10 @@ export default function DetalleCandidato({ c, datos, tema, elegido, puedeAgregar
             </section>
           );
         })}
+        <p className="nota-reporte">
+          ¿Ves algo que no coincide con la fuente?{" "}
+          <a href={enlaceReporte({ ambito: datos.ambito, candidato: c })}>Repórtalo por correo</a>
+        </p>
       </div>
       <div className="panel-pie">
         <button type="button" className="btn btn-sec" disabled={!elegido && !puedeAgregar} onClick={() => onComparar(c.id)}>

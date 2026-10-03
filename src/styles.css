@@ -179,6 +179,7 @@ dialog::backdrop { background: var(--scrim); }
 .lista-item { display: grid; gap: 2px; padding: var(--s-3) var(--s-4); background: var(--surface); border: 1px solid var(--border); border-radius: var(--r-md); }
 .lista-item span { font-size: var(--fs-sm); color: var(--text-muted); }
 .nota-cargo { font-size: var(--fs-xs); font-style: italic; color: var(--text-muted); }
+.nota-reporte { margin: var(--s-4) 0 0; color: var(--text-muted); font-size: var(--fs-sm); }
 @media (min-width: 768px) { .lista-simple { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 1100px) { .lista-simple { grid-template-columns: repeat(3, 1fr); } }
 

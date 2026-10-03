@@ -1,4 +1,5 @@
 import { JNE } from "../lib/fuente.js";
+import { enlaceReporte } from "../lib/reporte.js";
 
 const LINKEDIN = "https://www.linkedin.com/in/eduardo-peralta-quica%C3%B1o-a53766b8/";
 
@@ -15,6 +16,7 @@ export default function Pie({ datos }) {
       <p>
         Autor: Eduardo Peralta ·{" "}
         <a href={LINKEDIN} target="_blank" rel="noreferrer">LinkedIn</a> ·{" "}
+        <a href={enlaceReporte({ ambito: datos?.ambito })}>Reportar un error</a> ·{" "}
         <a href="/privacidad">Privacidad</a>
       </p>
     </footer>
