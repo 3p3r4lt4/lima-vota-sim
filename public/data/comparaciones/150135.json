@@ -4,136 +4,2045 @@
  "nivel": "distrital",
  "cargo": "Alcaldía distrital",
  "corte": "1 de octubre de 2026",
- "con_propuestas": false,
+ "con_propuestas": true,
+ "tipo_fuente": "plan",
  "fuentes": {
-  "rpp_lista": {
-   "medio": "RPP",
-   "titulo": "Candidatos a alcalde en los distritos de Lima Metropolitana",
-   "fecha": "28/09/2026",
-   "url": "https://rpp.pe/politica/elecciones/elecciones-2026-conoce-a-los-candidatos-a-alcalde-en-los-distritos-de-lima-metropolitana-noticia-1709752"
+  "plan_accion-popular": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Acción Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/367436a1-e1a9-4f31-941d-92d8b753c698.pdf",
+   "pdf": true
+  },
+  "plan_ahora-nacion-an": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Ahora Nación (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/731262b4-539c-4520-9fc8-a5c0ce3e8318.pdf",
+   "pdf": true
+  },
+  "plan_avanza-pais-partido-de-integracion-social": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Avanza País (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/3a1585a6-4b0e-4f76-9a93-ee0cb826694e.pdf",
+   "pdf": true
+  },
+  "plan_cooperacion-verdad-y-honradez": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Cooperación, Verdad y Honradez (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/bb04a803-860f-44c8-a3eb-f14a87c5b686.pdf",
+   "pdf": true
+  },
+  "plan_fe-en-el-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Fe en el Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/bbb33efa-fac0-4746-ab46-8ff2bef8abe5.pdf",
+   "pdf": true
+  },
+  "plan_partido-aprista-peruano": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Aprista Peruano (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/cd47b544-2cfa-4058-843e-d443c80886ab.pdf",
+   "pdf": true
+  },
+  "plan_partido-democrata-verde": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Demócrata Verde (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/bd6bd3ba-743a-4b19-86a4-20bc260cd1c9.pdf",
+   "pdf": true
+  },
+  "plan_partido-democratico-somos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Somos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/05057621-d23b-40d5-8cf4-242efb965912.pdf",
+   "pdf": true
+  },
+  "plan_partido-morado": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido Morado (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/3e20078c-dbb7-446c-b5f7-6df96bb97e4e.pdf",
+   "pdf": true
+  },
+  "plan_partido-pais-para-todos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido País para Todos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/6b658394-b261-4d76-bfea-9bba5f557c82.pdf",
+   "pdf": true
+  },
+  "plan_partido-politico-nacional-peru-libre": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Perú Libre (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/15617439-e6ea-4642-a8c0-82a1d2017299.pdf",
+   "pdf": true
+  },
+  "plan_partido-politico-peru-primero": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Perú Primero (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/121fe6e2-1fb2-4796-825f-00840088843e.pdf",
+   "pdf": true
+  },
+  "plan_partido-popular-cristiano-ppc": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de PPC (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/76015742-0c56-4405-a841-39a26604501d.pdf",
+   "pdf": true
+  },
+  "plan_partido-sicreo": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Partido SíCreo (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/f6c3a98b-9a88-4d9f-90ee-7a979aef69c8.pdf",
+   "pdf": true
+  },
+  "plan_podemos-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Podemos Perú (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/02768174-8d7e-41a0-87aa-84218070525b.pdf",
+   "pdf": true
+  },
+  "plan_progresemos": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Progresemos (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/ff82532d-18ef-43f4-a05d-24a066c93c65.pdf",
+   "pdf": true
+  },
+  "plan_renovacion-popular-peru": {
+   "medio": "Plan de gobierno",
+   "titulo": "Plan de gobierno de Renovación Popular (JNE)",
+   "fecha": "2026",
+   "url": "https://mpesije.jne.gob.pe/docs/b34e29c9-c69f-446c-a0d9-78b9b6e9f006.pdf",
+   "pdf": true
   }
  },
- "temas": [],
- "nota_fuente": "Relación de candidatos según la base electoral difundida por RPP. Puede variar por exclusiones o renuncias: confirma en la plataforma del JNE.",
+ "temas": [
+  "seguridad",
+  "transporte",
+  "agua_riesgos",
+  "urbano",
+  "social",
+  "economia",
+  "ambiente",
+  "gestion"
+ ],
+ "nombres_temas": {
+  "seguridad": "Seguridad ciudadana",
+  "transporte": "Tránsito y transporte",
+  "agua_riesgos": "Agua, saneamiento y desastres",
+  "urbano": "Vivienda, obras y espacio público",
+  "social": "Salud, educación y programas sociales",
+  "economia": "Empleo y comercio",
+  "ambiente": "Limpieza y ambiente",
+  "gestion": "Transparencia y gestión"
+ },
+ "nota_fuente": "Propuestas principales de los planes de gobierno inscritos ante el JNE, con la página exacta de cada una. Resumen con palabras propias: revisa siempre el plan completo.",
  "candidatos": [
   {
    "id": 439,
    "nombre": "Julio Abraham Chávez Chiong",
    "organizacion": "Acción Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Políticas preventivas con patrullaje integrado serenazgo–PNP por zonas, cuadrantes activos, cámaras inteligentes en calles y respuesta del serenazgo en menos de 5 minutos",
+       "meta": "70 % menos delitos y faltas al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 19
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de corto plazo para ordenar, formalizar y fiscalizar el servicio de mototaxis en el distrito",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 27
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de prevención ante desastres con énfasis en quebradas, sismos e inundaciones, con muros de contención y campañas de concientización",
+       "meta": "50 % más inversión en gestión de riesgos",
+       "fuente": "plan_accion-popular",
+       "pagina": 21
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cartera de proyectos de inversión con impacto distrital para cerrar brechas de infraestructura social, vial, ambiental y económica",
+       "meta": "200 inversiones públicas al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 25
+      },
+      {
+       "texto": "Saneamiento físico legal con apoyo de GPS y drones, y asistencia técnica legal gratuita en las zonas con mayor informalidad de la propiedad",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 13
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas de concientización y acciones para cumplir el compromiso del Programa de Incentivos en la lucha contra la anemia infantil",
+       "meta": "70 % menos anemia infantil al 2030",
+       "fuente": "plan_accion-popular",
+       "pagina": 22
+      },
+      {
+       "texto": "Políticas locales de igualdad de oportunidades con enfoque inclusivo, intercultural y de género, incluida la prevención de la violencia contra la mujer",
+       "meta": "3 políticas locales implementadas",
+       "fuente": "plan_accion-popular",
+       "pagina": 23
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Intermediación laboral municipal entre empresas y vecinos que buscan empleo, junto con estrategias para reducir el comercio informal",
+       "meta": "60 % más inserción en el mercado laboral formal",
+       "fuente": "plan_accion-popular",
+       "pagina": 28
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa de mejoramiento de parques y de arborización con creación de nuevas áreas verdes",
+       "meta": "200 parques y 50 % más áreas verdes por habitante",
+       "fuente": "plan_accion-popular",
+       "pagina": 29
+      },
+      {
+       "texto": "Reforzar el programa de segregación en la fuente y la recolección de residuos orgánicos e inorgánicos, con inclusión de recicladores formalizados",
+       "meta": "80 % de mejora en la ejecución del programa",
+       "fuente": "plan_accion-popular",
+       "pagina": 30
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rendición de cuentas semestral en audiencia pública con datos verificables, además de audiencias trimestrales por zonas del distrito",
+       "meta": null,
+       "fuente": "plan_accion-popular",
+       "pagina": 16
+      }
+     ]
+    }
+   }
   },
   {
    "id": 440,
    "nombre": "Aquiles Cirilo Collasos Villanueva",
    "organizacion": "Ahora Nación",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cámaras con inteligencia artificial conectadas a la PNP, nueva central de monitoreo C4 y patrullaje integrado las 24 horas en las 6 zonas del distrito",
+       "meta": "1 500 cámaras con IA",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Empadronar a los mototaxistas, con paraderos fijos iluminados y un código QR visible en cada unidad",
+       "meta": "90 % de mototaxistas formalizados",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mesas de trabajo con SEDAPAL y empresas eléctricas para llevar agua, desagüe y luz a los asentamientos humanos",
+       "meta": "85 % de zonas sin agua con obras iniciadas",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Instalar alumbrado LED e internet gratuito en todas las plazas del distrito",
+       "meta": "100 % de las plazas",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      },
+      {
+       "texto": "Asfaltar las pistas vecinales con maquinaria municipal propia y sincronizar semáforos en los cruces más congestionados",
+       "meta": "100 % de pistas vecinales residenciales asfaltadas",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Recuperar losas deportivas y crear Escuelas Técnicas Municipales gratuitas en herramientas digitales y emprendimiento para jóvenes",
+       "meta": "20 losas y 15 000 jóvenes capacitados",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 5
+      },
+      {
+       "texto": "Clínicas móviles municipales gratuitas, una por zona, con medicina general, pediatría, psicología y control de anemia",
+       "meta": "6 clínicas móviles",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 9
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formalizar a los ambulantes sin violencia, reubicándolos en mercados zonales ordenados, empezando por el eje Caquetá–Zarumilla",
+       "meta": "85 % de ambulantes censados formalizados",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 6
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nueva contrata de limpieza pública con camiones monitoreados por GPS y horarios fijos para eliminar los 55 puntos críticos de basura",
+       "meta": "0 % de botaderos informales",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 8
+      },
+      {
+       "texto": "Arborización masiva y riego tecnificado de parques con agua de pozos subterráneos en lugar de agua potable",
+       "meta": "95 % de parques abandonados recuperados",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 8
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Digitalizar pagos tributarios y licencias de pequeños negocios, con tablero digital de metas y portal de transparencia de contratos y gastos",
+       "meta": "100 % de pagos y licencias en línea",
+       "fuente": "plan_ahora-nacion-an",
+       "pagina": 9
+      }
+     ]
+    }
+   }
   },
   {
    "id": 441,
    "nombre": "Adolfo Israel Mattos Piaggio",
    "organizacion": "Avanza País",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar y modernizar la videovigilancia del distrito con fibra óptica y monitoreo en tiempo real",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 13
+      },
+      {
+       "texto": "Programa «Mi Barrio Seguro»: las juntas vecinales identifican zonas críticas y priorizan intervenciones preventivas",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 13
+      },
+      {
+       "texto": "Mejorar el equipamiento, la movilidad y las comunicaciones del serenazgo y reforzar el comité distrital de seguridad ciudadana (CODISEC)",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 12
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formular un Plan de Articulación Vial Distrital alineado con Lima Metropolitana para mejorar la conectividad y reducir la congestión",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 18
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar con el Ministerio de Vivienda y SEDAPAL la ampliación y el mantenimiento del agua potable y el alcantarillado",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      },
+      {
+       "texto": "Gestionar muros de contención, estabilización de taludes y recuperación de espacios públicos en zonas vulnerables",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 18
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar cerramientos, accesos controlados, rejas e iluminación en urbanizaciones, en coordinación con las organizaciones vecinales",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 23
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas permanentes de salud mental, atención odontológica, oftalmológica y medicina preventiva para la población vulnerable, mediante alianzas",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 21
+      },
+      {
+       "texto": "Programa de actividades comunitarias: concursos, festivales culturales, clases de baile, ferias vecinales e intercambio de colecciones en los sectores del distrito",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 22
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ferias empresariales y ruedas de negocios para emprendedores, y creación de una marca distrital que promueva la economía y el turismo",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 17
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Audiencias públicas periódicas de rendición de cuentas a nivel distrital y por territorios, y transformación digital de los trámites",
+       "meta": null,
+       "fuente": "plan_avanza-pais-partido-de-integracion-social",
+       "pagina": 19
+      }
+     ]
+    }
+   }
   },
   {
    "id": 442,
    "nombre": "César Efraín Sifuentes Chávez",
    "organizacion": "Cooperación, Verdad y Honradez",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «SMP Seguro 2030»: prevención, vigilancia, recuperación de espacios públicos y trabajo conjunto con los vecinos",
+       "meta": "30 % menos percepción de inseguridad",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Parques para Todos»: recuperación de parques, áreas verdes, espacios deportivos y de recreación familiar",
+       "meta": "150 000 m² recuperados",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 2
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ampliar la cobertura de servicios sociales municipales para la población vulnerable",
+       "meta": "50 % más beneficiarios",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 3
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «SMP Emprende»: capacitación, asistencia técnica y formalización de emprendimientos y pequeños negocios",
+       "meta": "10 000 emprendimientos formalizados",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 2
+      },
+      {
+       "texto": "Programas de capacitación y empleabilidad para vecinos",
+       "meta": "15 000 vecinos beneficiados",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 2
+      },
+      {
+       "texto": "Modernizar mercados y espacios económicos del distrito",
+       "meta": "15 mercados modernizados",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 4
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «SMP Verde»: arborización urbana, limpieza pública, reciclaje y valorización de residuos",
+       "meta": "40 % de residuos valorizados",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «SMP Digital»: digitalización de procedimientos municipales y simplificación de trámites",
+       "meta": "80 % de procedimientos digitalizados",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 4
+      },
+      {
+       "texto": "Audiencias públicas periódicas, informes de avance del plan y portal de transparencia sobre obras e inversiones",
+       "meta": "100 % de cumplimiento de transparencia activa",
+       "fuente": "plan_cooperacion-verdad-y-honradez",
+       "pagina": 4
+      }
+     ]
+    }
+   }
   },
   {
    "id": 443,
    "nombre": "César Augusto Vargas Gutiérrez",
    "organizacion": "Fe en el Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fortalecer las juntas vecinales e instalar cámaras de videovigilancia con reconocimiento facial dentro de un plan integral de seguridad ciudadana",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 36
+      },
+      {
+       "texto": "Construir bases integradas de seguridad ciudadana, capacitar al serenazgo con asesoría legal y psicológica y cerrar antros en acuerdo con empresarios",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 36
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reordenar el tránsito de mototaxis en puntos críticos, mejorar vías alternas y pavimentar calles y avenidas deterioradas",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 38
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Postular al FONDES para muros de contención y defensas ribereñas en los ríos Chillón y Rímac, y cercar las márgenes del Rímac",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 40
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar el Parque Lineal Ribereño Chuquitanta, construir el bulevar de Tomás Valle y un circuito turístico de huacas y haciendas",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 38
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Módulos de salud por zonas en convenio con SISOL, ambulancias gratuitas las 24 horas, farmacia municipal y laboratorio clínico",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 34
+      },
+      {
+       "texto": "Reforzamiento escolar con academias y preuniversitarios para 3.º a 5.º de secundaria, capacitación docente con universidades y convenios de becas",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 35
+      },
+      {
+       "texto": "Servicio municipal gratuito de médicos de cabecera para el adulto mayor, con talleres y atención social por línea telefónica",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 42
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear un CITE industrial, organizar expoferias alimentarias, manufactureras y artesanales y dar talleres de gestión empresarial a mypes",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 36
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Unidades motorizadas menores para recoger basura acumulada en la vía pública, segregación de residuos, contenedores y repotenciación del vivero municipal",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 39
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Informar periódicamente en el periódico mural y la web municipal sobre el avance del plan y rendir cuentas de ingresos y egresos mensuales",
+       "meta": null,
+       "fuente": "plan_fe-en-el-peru",
+       "pagina": 42
+      }
+     ]
+    }
+   }
   },
   {
    "id": 444,
    "nombre": "Luis César Navarro Maldonado",
    "organizacion": "Partido Aprista Peruano",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Videovigilancia en todas las zonas críticas y un Centro Integrado de Seguridad",
+       "meta": "100 % de zonas críticas con videovigilancia",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      },
+      {
+       "texto": "Ampliar el patrullaje integrado para reducir los delitos patrimoniales",
+       "meta": "30 % menos delitos patrimoniales y 50 % más patrullaje integrado",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cobertura total de programas para adultos mayores y apertura de nuevas bibliotecas digitales",
+       "meta": "100 % de adultos mayores cubiertos y 10 bibliotecas digitales",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      },
+      {
+       "texto": "Crear Centros Integrales Comunitarios y recuperar espacios deportivos",
+       "meta": "10 centros comunitarios y 50 espacios deportivos",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Generar puestos de trabajo en el distrito y formalizar licencias de funcionamiento de mypes",
+       "meta": "5 000 empleos y 5 000 mypes formalizadas",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      },
+      {
+       "texto": "Promover la innovación empresarial con la apertura de centros de innovación",
+       "meta": "4 centros de innovación empresarial",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cobertura total de limpieza pública y una planta de reciclaje en el distrito",
+       "meta": "100 % de cobertura de limpieza pública",
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      },
+      {
+       "texto": "Aumentar las áreas verdes por habitante e implementar un sistema de riego distrital",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Portal de transparencia en tiempo real y certificación de gestión bajo normas ISO 9001, 14001, 45001 y SA 8000",
+       "meta": null,
+       "fuente": "plan_partido-aprista-peruano",
+       "pagina": 5
+      }
+     ]
+    }
+   }
   },
   {
    "id": 445,
    "nombre": "Carlos Alberto Albujar Corazón",
    "organizacion": "Partido Demócrata Verde",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Central integrada de monitoreo, cámaras inteligentes, drones, serenazgo motorizado, nuevas camionetas y botón de pánico con aplicación móvil",
+       "meta": "500 cámaras inteligentes y 40 % menos delitos",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Ordenamiento de rutas, multas electrónicas y operativos integrados con la PNP contra el desorden vehicular y el comercio informal",
+       "meta": "25 % menos infracciones",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 11
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan integral de pistas y veredas, con muros de contención y escaleras en zonas que lo requieran",
+       "meta": "100 km de pistas y 150 km de veredas",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 3
+      },
+      {
+       "texto": "Programa «100 parques»: recuperación de parques, plazas y losas deportivas con iluminación LED",
+       "meta": "100 parques recuperados",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 3
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Hospital Municipal y programa «Médico en tu Barrio», con salud mental comunitaria",
+       "meta": "100 000 atenciones anuales",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 3
+      },
+      {
+       "texto": "Programa contra la anemia infantil con programas alimentarios bajo control nutricional",
+       "meta": "20 % menos anemia infantil",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 3
+      },
+      {
+       "texto": "Palacio de la Juventud, academia municipal gratuita, becas SMP y alfabetización digital",
+       "meta": "1 000 becas y 10 000 estudiantes beneficiados",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 3
+      },
+      {
+       "texto": "Construir la Casa de la Mujer Sanmartiniana, programa «Mujer Emprende» y descentralizar la red del adulto mayor",
+       "meta": "15 000 mujeres capacitadas",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 4
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Bolsa de trabajo municipal, centro de emprendimiento, ferias productivas y formalización empresarial",
+       "meta": "20 000 empleos promovidos y 5 000 negocios formalizados",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 4
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «SMP Verde» con ecoparques, arborización, gestión de residuos y un parque para mascotas",
+       "meta": "50 000 árboles y 35 % más áreas verdes",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Municipalidad digital y portal «Obras Transparentes», con presupuesto participativo y gobierno abierto",
+       "meta": "90 % de trámites digitalizados y 100 % de obras publicadas",
+       "fuente": "plan_partido-democrata-verde",
+       "pagina": 5
+      }
+     ]
+    }
+   }
   },
   {
    "id": 446,
    "nombre": "Luis Paúl Cárdenas Sánchez",
    "organizacion": "Somos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Instalar cámaras de videovigilancia y alarmas comunitarias en el distrito",
+       "meta": "100 cámaras y 100 alarmas comunitarias",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 10
+      },
+      {
+       "texto": "Convenio con el Ministerio del Interior y la PNP para patrullaje integrado y gestión para rotar al personal policial de comisarías cada seis meses",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir ciclovías en las principales vías del distrito y fiscalizar la circulación de carga pesada en horarios no permitidos",
+       "meta": "3 ciclovías",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Descolmatación anual del cauce del río Chillón y programa «Construyamos juntos» de asesoría técnica para construcciones seguras",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir o reconstruir vías deterioradas y nuevas, gestionando el mantenimiento de avenidas como Perú, Naranjal, Paramonga y José Granda",
+       "meta": "50 % de vías deterioradas y 50 % de vías nuevas",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Crear e implementar la segunda Casa Distrital del Adulto Mayor",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 9
+      },
+      {
+       "texto": "Implementar dos policlínicos municipales, uno itinerante y otro permanente",
+       "meta": "2 policlínicos municipales",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 10
+      },
+      {
+       "texto": "Programa «Luchito» para atender a la población infantil con anemia",
+       "meta": null,
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 11
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Escuela de Emprendimiento, programa «La Ruta Emprendedora», ferias laborales y bolsa de trabajo municipal",
+       "meta": "5 ferias laborales al año",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 15
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Renovar la flota de recolección con compactadores nuevos y un sistema de repaso para evitar residuos acumulados en la vía pública",
+       "meta": "8 vehículos compactadores",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 12
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Certificaciones ISO 9001 de calidad e ISO 37001 antisoborno y reforma tributaria para reducir la morosidad",
+       "meta": "Morosidad tributaria reducida al 50 %",
+       "fuente": "plan_partido-democratico-somos-peru",
+       "pagina": 16
+      }
+     ]
+    }
+   }
   },
   {
    "id": 447,
    "nombre": "Luis Alberto Flores Roldán",
    "organizacion": "Partido Morado",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Serenazgo con patrullaje focalizado y control territorial en zonas críticas, articulado con la PNP, con escuela de formación y ascensos por mérito",
+       "meta": "25 % menos delitos; respuesta en menos de 10 minutos",
+       "fuente": "plan_partido-morado",
+       "pagina": 3
+      },
+      {
+       "texto": "Cámaras en puntos críticos integradas a la central de monitoreo y sistema de inteligencia de incidencias compartido con la PNP",
+       "meta": "150 a 250 cámaras",
+       "fuente": "plan_partido-morado",
+       "pagina": 4
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Seguridad vial: mapa de puntos negros, señalética en cruces críticos, reductores de velocidad y rampas de accesibilidad",
+       "meta": "40 reductores y 10 cruces señalizados el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 11
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestión ante SEDAPAL para priorizar obras en zonas vulnerables, fiscalización de su servicio y cisternas en zonas sin agua",
+       "meta": null,
+       "fuente": "plan_partido-morado",
+       "pagina": 12
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «SMP sin Anemia»: tamizaje de hemoglobina, seguimiento nutricional y educación alimentaria con comedores, Vaso de Leche y colegios",
+       "meta": null,
+       "fuente": "plan_partido-morado",
+       "pagina": 4
+      },
+      {
+       "texto": "Gestionar un hospital municipal de atención preventiva, consulta externa y urgencias básicas: preinversión, saneamiento del terreno y expediente técnico",
+       "meta": "Viabilidad e inicio de la primera etapa al 2030",
+       "fuente": "plan_partido-morado",
+       "pagina": 6
+      },
+      {
+       "texto": "Programa «Jóvenes con Futuro» de capacitación e inserción laboral con empresas e institutos técnicos, y rehabilitación de 50 losas deportivas",
+       "meta": "Tasa de jóvenes que no estudian ni trabajan de 18,5 % a 12 %",
+       "fuente": "plan_partido-morado",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Registro voluntario de comerciantes informales y ventanilla única que reúne RUC, licencia municipal y SIS, con tasas de licencia reducidas por 24 meses",
+       "meta": "1 000 comerciantes registrados el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 9
+      },
+      {
+       "texto": "Centro de Empleo en convenio con el MTPE, con bolsa de trabajo y capacitación certificada, más ferias itinerantes de empleo",
+       "meta": "500 personas con empleo formal el primer año",
+       "fuente": "plan_partido-morado",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fiscalización permanente y campañas para eliminar la quema de residuos, y control del ruido con sonómetros",
+       "meta": "80 % menos quema de residuos",
+       "fuente": "plan_partido-morado",
+       "pagina": 12
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Presupuesto participativo sobre parte de la inversión, audiencias descentralizadas y respuesta obligatoria a reportes ciudadanos en 15 días hábiles",
+       "meta": "Cerca del 10 % de la inversión decidida con la ciudadanía",
+       "fuente": "plan_partido-morado",
+       "pagina": 16
+      }
+     ]
+    }
+   }
   },
   {
    "id": 448,
    "nombre": "Alan Rudy Vásquez Dávila",
    "organizacion": "Partido País para Todos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Seguridad por cuadrantes con jefaturas subzonales, patrullaje integrado con la PNP y duplicación progresiva del número de serenos",
+       "meta": "40 % menos delitos contra el patrimonio",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 4
+      },
+      {
+       "texto": "Cámaras con central de monitoreo con inteligencia artificial conectada al 105, e iluminación LED en el 60 % del distrito",
+       "meta": "500 cámaras nuevas y LED en el 60 % del distrito",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema de alerta temprana con sensores en el río Rímac y laderas, muros de contención y tres almacenes de ayuda humanitaria",
+       "meta": "3 almacenes de avanzada",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Oficina técnica de obras y programa de obras comunales participativas, con recuperación de obras paralizadas",
+       "meta": "Más de 150 obras vecinales",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 5
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Construir el Gran Polideportivo Metropolitano y un anfiteatro municipal mediante fondos concursables u obras por impuestos",
+       "meta": null,
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 5
+      },
+      {
+       "texto": "Policlínico municipal mediante asociación público-privada, con campañas médicas descentralizadas y atención de salud mental",
+       "meta": "Más de 100 000 atenciones médicas al año",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 6
+      },
+      {
+       "texto": "Reducir la anemia infantil con visitas domiciliarias y entrega de hierro mediante la Instancia de Articulación Local",
+       "meta": "20 % menos anemia infantil",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 7
+      },
+      {
+       "texto": "Descentralizar las Casas del Adulto Mayor y la OMAPED, con inclusión laboral de personas con discapacidad y un albergue municipal",
+       "meta": "3 centros descentralizados para adultos mayores",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 8
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mercado Municipal donde comerciantes informales compren sus puestos a largo plazo y licencia de funcionamiento digital automática",
+       "meta": "5 000 emprendimientos formalizados",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 10
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Arborización con vivero municipal hidropónico y riego por goteo desde pozos tubulares, más trimotos para limpieza en zonas de difícil acceso",
+       "meta": "100 000 árboles y 50 % más áreas verdes",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 11
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gobierno digital con mesa de partes virtual y aplicativo para seguir obras en tiempo real enlazado con Infobras",
+       "meta": "100 % de trámites digitalizados y 70 % menos tiempo de atención",
+       "fuente": "plan_partido-pais-para-todos",
+       "pagina": 12
+      }
+     ]
+    }
+   }
   },
   {
    "id": 449,
    "nombre": "Enrique Amador Escalante Carpio",
    "organizacion": "Perú Libre",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gestionar con el Ministerio del Interior cuatro nuevas comisarías y más efectivos policiales asignados al distrito",
+       "meta": "4 nuevas comisarías",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 2
+      },
+      {
+       "texto": "Cámaras inteligentes conectadas a una central de monitoreo permanente, bases descentralizadas de serenazgo y aplicación «Alerta Vecino SMP»",
+       "meta": "2 000 cámaras inteligentes",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 2
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Pistas y veredas, iluminación LED, mejora de accesos en asentamientos humanos y gestión de proyectos de agua y saneamiento",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 6
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Policlínico municipal, clínicas móviles, ambulancias, farmacia social y programa contra la anemia infantil",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 5
+      },
+      {
+       "texto": "Academia preuniversitaria municipal gratuita, becas para estudiantes, bibliotecas digitales y escuelas deportivas gratuitas",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 5
+      },
+      {
+       "texto": "Fortalecer el Centro Integral del Adulto Mayor y la OMAPED, con atención médica domiciliaria y apoyo a comedores populares",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 6
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Empadronar a comerciantes ambulantes y reordenarlos por rubros y zonas autorizadas, con ferias productivas distritales",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 4
+      },
+      {
+       "texto": "Capacitación gratuita en emprendimiento, convenios con entidades financieras para créditos y formalización simplificada",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 4
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Nueva flota de camiones compactadores, rutas inteligentes de recolección, contenedores en zonas comerciales y eliminación de puntos críticos de basura",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 3
+      },
+      {
+       "texto": "Recuperar parques con riego tecnificado, viveros municipales y arborización de bermas y jardines",
+       "meta": "100 parques recuperados",
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 4
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Rendición de cuentas semestral, transmisión en vivo de sesiones de concejo y fiscalización vecinal de obras",
+       "meta": null,
+       "fuente": "plan_partido-politico-nacional-peru-libre",
+       "pagina": 6
+      }
+     ]
+    }
+   }
   },
   {
    "id": 450,
    "nombre": "Víctor Vicente Santander Salvador",
    "organizacion": "Perú Primero",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa preventivo «Alerta 360» con enfoque territorial, que refuerza la videovigilancia con drones operados por serenos con licencia del MTC",
+       "meta": "80 % menos delitos y faltas al 2030",
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 10
+      },
+      {
+       "texto": "Cámaras de videovigilancia con inteligencia artificial: reconocimiento facial, detección de armas y conductas sospechosas y lectura de placas de vehículos robados",
+       "meta": null,
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 10
+      },
+      {
+       "texto": "Creación de dos comisarías: una en la Asociación Los Reyes (Chuquitanta) y otra en la avenida Paramonga con Sol de Naranjal",
+       "meta": null,
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 11
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Obra de accesibilidad y transitabilidad en la zona de Villa Isolina para conectar con las avenidas Canta Callao y Chuquitanta",
+       "meta": null,
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 11
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Limpieza y descolmatación del río Chillón y construcción de diques de contención para prevenir inundaciones y desbordes",
+       "meta": "50 % más inversión en riesgo de desastres",
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 11
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Villa Deportiva en el terreno del antiguo Hospital Portada de Guía (Piñonate), mediante inversión privada bajo la modalidad de Proyecto en Activo",
+       "meta": null,
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 12
+      },
+      {
+       "texto": "Lucha contra la anemia con visitas domiciliarias y suplementación con hierro a niños y gestantes, articulada con el Programa de Incentivos Municipales",
+       "meta": "70 % menos anemia infantil",
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 12
+      },
+      {
+       "texto": "Construir una Casa de la Mujer con guardería para madres trabajadoras y vivienda para mujeres víctimas de violencia",
+       "meta": null,
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Intermediación laboral desde la municipalidad entre empresas y personas que buscan empleo",
+       "meta": "60 % más integración al mercado laboral formal",
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 26
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Política de arborización «San Martín de Porres: distrito verde y saludable» para ampliar áreas verdes y parques",
+       "meta": "50 % más m² de áreas verdes por habitante",
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 15
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Simplificar procedimientos administrativos y agilizar trámites, junto con buenas prácticas de gestión municipal replicables",
+       "meta": "10 procedimientos simplificados",
+       "fuente": "plan_partido-politico-peru-primero",
+       "pagina": 30
+      }
+     ]
+    }
+   }
   },
   {
    "id": 451,
    "nombre": "Yuri Luis Medina Barrios",
    "organizacion": "PPC",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Aplicación de alerta vecinal «Alerta SMP» para reportar incidencias geolocalizadas en tiempo real",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 7
+      },
+      {
+       "texto": "Cámaras con inteligencia artificial y reconocimiento facial en zonas de alto tránsito, y aplicación detectora de placas para Serenazgo y PNP",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 7
+      },
+      {
+       "texto": "Centro de monitoreo con análisis predictivo para despachar patrullas y protocolo de custodia de evidencia digital para la Fiscalía",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 7
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Obras de infraestructura y saneamiento en zonas de expansión urbana mediante Proyectos en Activos con terrenos municipales",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Obras por Impuestos con los principales contribuyentes para pistas, veredas y servicios básicos",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      },
+      {
+       "texto": "Asociación público-privada para renovar el alumbrado con luminarias LED inteligentes que sirvan de soporte a cámaras",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 8
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mercados modelo y centros comerciales descentralizados en zonas de expansión urbana para reubicar comercios y desaglomerar zonas saturadas",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      },
+      {
+       "texto": "Fiscalización con acompañamiento técnico y plazos de gracia para la formalización voluntaria de micro y pequeñas empresas",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      },
+      {
+       "texto": "Incubadora municipal de base tecnológica y programa de digitalización y comercio electrónico para mypes",
+       "meta": null,
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 9
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reducir las gerencias operativas a cinco gerencias estratégicas y reasignar personal CAS a seguridad y fiscalización",
+       "meta": "5 gerencias estratégicas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 10
+      },
+      {
+       "texto": "Licencias de funcionamiento automatizadas para negocios de bajo riesgo, mesa de partes digital y tableros públicos sobre el presupuesto",
+       "meta": "Licencias de bajo riesgo en unas 24 horas",
+       "fuente": "plan_partido-popular-cristiano-ppc",
+       "pagina": 10
+      }
+     ]
+    }
+   }
   },
   {
    "id": 452,
    "nombre": "Jiulliana Paola Herrera Moscoso",
    "organizacion": "Partido SíCreo",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Instalar cámaras con inteligencia artificial, reconocimiento facial y lectura de placas conectadas a la PNP, financiadas mediante Obras por Impuestos",
+       "meta": "500 cámaras con IA al 2030",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 4
+      },
+      {
+       "texto": "Ampliar el serenazgo con equipamiento autorizado por ley (bodycams, chalecos, pistolas eléctricas), curso obligatorio de 200 horas y GPS público de patrulleros",
+       "meta": "1 200 serenos al 2030",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 4
+      },
+      {
+       "texto": "Patrullaje integrado PNP–serenazgo por cuadrantes, convenio de persecución en flagrancia con distritos vecinos y línea anónima contra la extorsión",
+       "meta": "30 % menos homicidios al 2030",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 5
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Descolmatación del río Chillón en convenio con la ANA, sistema de alerta temprana de inundaciones y reubicación gradual de familias en alto riesgo",
+       "meta": "3 km de descolmatación al año",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 20
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Cuatro Centros Integrales del Adulto Mayor con talleres productivos, ferias bimestrales de venta, atención médica y psicológica gratuita",
+       "meta": "4 CIAM operativos al cierre del año 2",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 11
+      },
+      {
+       "texto": "Construir y rehabilitar losas deportivas con escuelas deportivas gratuitas y becas para talentos, junto con prevención del consumo de drogas",
+       "meta": "100 losas en 4 años; 4 000 niños y jóvenes al año",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 15
+      },
+      {
+       "texto": "Crear un Instituto Tecnológico Municipal gratuito con 8 carreras técnicas, becas, bolsa de empleo e incubadora de emprendimientos",
+       "meta": "2 400 estudiantes en formación al 2030",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 17
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Licencia de funcionamiento en 72 horas para giros de bajo riesgo, trámite íntegramente en línea y ordenanza que permite operar 24 horas a ciertos giros",
+       "meta": "Licencia en 72 horas",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 13
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de choque para erradicar los 19 puntos críticos de basura, nueva licitación de limpieza con GPS y segregación en la fuente en la mitad de predios",
+       "meta": "Cero puntos críticos al 2028",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 7
+      },
+      {
+       "texto": "Plan maestro de arborización con especies nativas, 100 nuevas áreas verdes y mantenimiento mensual de los 453 parques",
+       "meta": "40 000 árboles y 4 m² verdes por habitante al 2030",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 9
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Saneamiento fiscal con reforma catastral, auditoría externa y control concurrente, más digitalización total de trámites y pago en línea de tributos",
+       "meta": "100 % de trámites digitalizados al 2028",
+       "fuente": "plan_partido-sicreo",
+       "pagina": 20
+      }
+     ]
+    }
+   }
   },
   {
    "id": 453,
    "nombre": "Diego Armando López Jara",
    "organizacion": "Podemos Perú",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «San Martín de Porres +Seguridad +Vida»: drones y cámaras con lector facial en zonas críticas de alta criminalidad",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 9
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Pedir a Lima Metropolitana la transferencia de funciones para construir dos bypass en la avenida Perú y un corredor de segundo piso junto al río Chillón",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 3
+      },
+      {
+       "texto": "Programa Smart City «+Sanmartiniano»: observatorio de tráfico, semaforización automatizada y movilidad digital para reducir congestión y accidentes",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 15
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Mejorar kilómetros de pistas del distrito financiados mediante obras por impuestos",
+       "meta": "33 km de pistas",
+       "fuente": "plan_podemos-peru",
+       "pagina": 8
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Becas municipales en carreras técnicas de servicios digitales para estudiantes con promedio final mayor a 15",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 12
+      },
+      {
+       "texto": "Construir un hospital de nivel III con cirugía de alta complejidad y tratamiento oncológico, además de un policlínico municipal y la Botica del Pueblo",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 14
+      },
+      {
+       "texto": "Aplicativo «Amara» para prevenir y reportar violencia contra la mujer y «Patrulla ámbar» para vigilar el cumplimiento de órdenes de alejamiento",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 13
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Formalización progresiva de ambulantes, creación de mercados municipales con alquiler de bajo costo y capacitación en finanzas personales",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 15
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Te quiero Verde»: proyecto forestal para plantar árboles y reducir la sensación térmica",
+       "meta": "3 millones de árboles",
+       "fuente": "plan_podemos-peru",
+       "pagina": 10
+      },
+      {
+       "texto": "Empresa social de residuos sólidos en alianza con los recicladores del distrito, con educación ambiental en colegios y empresas",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 10
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Gerencia de Inteligencia Tributaria, catastro georreferenciado con drones e imágenes satelitales y pago y notificación tributaria en línea",
+       "meta": null,
+       "fuente": "plan_podemos-peru",
+       "pagina": 16
+      }
+     ]
+    }
+   }
   },
   {
    "id": 454,
    "nombre": "Anndy Miguel Durán Núñez",
    "organizacion": "Progresemos",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Instalar 600 cámaras de videovigilancia de 360° interconectadas con los puestos de auxilio rápido y monitoreadas por personal capacitado",
+       "meta": "600 cámaras de videovigilancia",
+       "fuente": "plan_progresemos",
+       "pagina": 8
+      },
+      {
+       "texto": "Construir 200 puestos de auxilio rápido en puntos críticos y crear un grupo especializado de serenazgo (GAR) que trabaje con la PNP",
+       "meta": "200 puestos de auxilio rápido",
+       "fuente": "plan_progresemos",
+       "pagina": 8
+      },
+      {
+       "texto": "Botones de pánico en zonas críticas y aplicativo «Alerta S.M.P.» para que los vecinos reporten delitos y emergencias las 24 horas",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 8
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Empadronar y formalizar a las empresas de mototaxis, curso de seguridad vial para sus conductores, paraderos señalizados y campañas de semaforización",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 14
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Evaluar riberas y suelos para actualizar el mapa de riesgos del distrito y crear brigadas de emergencia con hospitales, policía y bomberos",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 14
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": true,
+     "propuestas": []
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Campañas médicas móviles para adultos mayores, programa «Salud para todos» con inmunización y charlas contra la desnutrición, y farmacia municipal a costo social",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 9
+      },
+      {
+       "texto": "Crear una academia municipal y una escuela técnica municipal a costo social con cursos de electricidad, gasfitería, diseño gráfico y computación",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 10
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Aplicativo «Formalízate ya» para tramitar licencias de funcionamiento e ITSE en menos tiempo y simplificar la obtención de licencias",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 12
+      },
+      {
+       "texto": "Formalizar el comercio ambulatorio y organizar ferias semanales en cada sector para la venta de productos de los ambulantes",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 13
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Bonos «Buen Vecino» con descuento en arbitrios por reciclar, contenedores en avenidas y campañas mensuales de eliminación de desmonte",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 15
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Oficina de integridad con canales de denuncia anónima, digitalización de trámites y una comisión de disciplina que denuncie y separe a funcionarios corruptos",
+       "meta": null,
+       "fuente": "plan_progresemos",
+       "pagina": 17
+      }
+     ]
+    }
+   }
   },
   {
    "id": 455,
    "nombre": "Peter Omar Jaime Cori",
    "organizacion": "Renovación Popular",
    "cargo_nota": null,
-   "temas": {}
+   "temas": {
+    "seguridad": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Sistema de reconocimiento facial con inteligencia artificial para la central de videovigilancia, más cámaras y ampliación de la red de fibra óptica",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 17
+      },
+      {
+       "texto": "Convenio con la PNP para instalar una base del escuadrón verde en el distrito y promoción de los comités de seguridad ciudadana",
+       "meta": "70 % menos inseguridad ciudadana",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 17
+      }
+     ]
+    },
+    "transporte": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Fiscalización de vehículos menores informales, revisión de licencias de transporte y plataforma de denuncias para usuarios y transportistas",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 22
+      }
+     ]
+    },
+    "agua_riesgos": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reformular el plan de gestión del riesgo de desastres, equipar almacenes, instalar alarmas de alerta y fortalecer brigadas de Defensa Civil",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 47
+      }
+     ]
+    },
+    "urbano": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Plan de inversiones con pistas y veredas, centro cultural, multideportivos, centro de salud de atención primaria y parques",
+       "meta": "S/ 160 millones de inversión en 4 años",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 52
+      }
+     ]
+    },
+    "social": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Becados» financiado por la municipalidad para cubrir estudios técnicos y universitarios de jóvenes de escasos recursos y con discapacidad",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 29
+      },
+      {
+       "texto": "Programa «Mil Oficios» con el Ministerio de Educación para formación técnica en 4.° y 5.° de secundaria, más complejos deportivos descentralizados y teatro municipal",
+       "meta": "4 centros educativos técnico-industriales al final del mandato",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 29
+      }
+     ]
+    },
+    "economia": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Programa «Formaliza-tú» para micro y pequeñas empresas, ferias itinerantes y plataforma laboral en convenio con el MINTRA",
+       "meta": "30 % del comercio informal formalizado",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 37
+      }
+     ]
+    },
+    "ambiente": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Reciclaje distrital, planta de compostaje municipal, contenedores soterrados en puntos críticos y planta de tratamiento de PET",
+       "meta": "35 % menos residuos sólidos",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 50
+      },
+      {
+       "texto": "Riego tecnificado con red de pozos tubulares, dos viveros municipales y programa de arborización «San Martín Verde» en avenidas principales",
+       "meta": "30 % más áreas verdes",
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 51
+      }
+     ]
+    },
+    "gestion": {
+     "sin_informacion": false,
+     "propuestas": [
+      {
+       "texto": "Convenio con la PCM para instalar un centro MAC, pagos y trámites en línea y wifi gratuito en parques",
+       "meta": null,
+       "fuente": "plan_renovacion-popular-peru",
+       "pagina": 41
+      }
+     ]
+    }
+   }
   }
  ]
 }

@@ -250,6 +250,7 @@ MODULOS_DISTRITOS = [
     "150132_san_juan_de_lurigancho",
     "150133_san_juan_de_miraflores",
     "150134_san_luis",
+    "150135_san_martin_de_porres",
     "150136_san_miguel",
     "150137_santa_anita",
     "150138_santa_maria_del_mar",
