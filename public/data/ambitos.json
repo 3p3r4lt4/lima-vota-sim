@@ -221,21 +221,21 @@
   "ambito": "San Juan de Lurigancho",
   "nivel": "distrital",
   "candidatos": 17,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150133",
   "ambito": "San Juan de Miraflores",
   "nivel": "distrital",
   "candidatos": 17,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150134",
   "ambito": "San Luis",
   "nivel": "distrital",
   "candidatos": 11,
-  "con_propuestas": false
+  "con_propuestas": true
  },
  {
   "ubigeo": "150135",
