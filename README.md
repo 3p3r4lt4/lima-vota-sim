@@ -8,20 +8,28 @@ alcaldía antes de votar el domingo 4 de octubre de 2026.
 | Ámbito | Contenido | Fuente |
 |---|---|---|
 | Lima Metropolitana | 26 listas y 96 propuestas en 8 temas, cada una enlazada a su fuente | Debate del JNE (21 y 22/09/2026) según RPP, Infobae, El Comercio y Perú Informa |
-| La Molina | 12 planes de gobierno completos (PDF) y 122 propuestas principales con su página | Planes inscritos ante el JNE (Voto Informado) |
-| Otros 41 distritos | Relación de candidaturas, incluidas las listas sin candidato a alcalde | Base electoral difundida por RPP (28/09/2026) |
+| 41 distritos | Entre 8 y 11 propuestas principales por plan de gobierno, cada una con la página exacta del PDF | Planes inscritos ante el JNE (Voto Informado) |
+| San Martín de Porres | Relación de candidaturas, aún sin propuestas | Base electoral difundida por RPP (28/09/2026) |
 
-**Verificación de citas.** Cada propuesta de La Molina lleva un fragmento textual del PDF («ancla»).
+En total, 518 candidaturas. La cobertura exacta de cada ámbito está en `public/data/ambitos.json`
+(`con_propuestas`).
+
+**Verificación de citas.** Cada propuesta distrital lleva un fragmento textual del PDF («ancla»).
 `npm run datos` falla si ese fragmento no aparece en la página citada, así que ninguna cita puede apuntar
-a una página equivocada. En La Molina, las preguntas libres buscan en el texto completo de los 12 planes.
+a una página equivocada. En los distritos, las preguntas libres buscan en el texto completo de todos sus planes.
 
 ## Cómo agregar otro distrito
 
-1. Descarga de Voto Informado los planes de **todas** las candidaturas del distrito y guárdalos en
-   `public/planes/<ubigeo>/<organizacion>.pdf`.
-2. `python scripts/extraer_planes.py public/planes/<ubigeo>` (requiere `pdftotext`).
-3. Copia `scripts/la_molina.py` como `scripts/<distrito>.py`, cambia `UBIGEO` y escribe las propuestas con su ancla.
-4. Regístralo en `PLANES_DISTRITALES` dentro de `scripts/datos_reales.py` y ejecuta `npm run datos`.
+1. `python scripts/descargar_planes.py <ubigeo>` descarga de Voto Informado los planes de **todas** las
+   candidaturas a `scripts/.cache/planes/<ubigeo>/` (no se versionan; el sitio enlaza a la URL oficial del JNE)
+   y escribe `scripts/planes/<ubigeo>/manifiesto.json` con candidato, organización, URL y SHA-256 de cada plan.
+2. `python scripts/extraer_planes.py scripts/.cache/planes/<ubigeo>` (requiere Poppler; los PDF escaneados
+   pasan por OCR con Tesseract).
+3. Copia un módulo de `scripts/distritos/` como `scripts/distritos/<ubigeo>_<distrito>.py`, cambia `UBIGEO` y
+   escribe las propuestas con su página y su ancla.
+4. `python scripts/verificar_distrito.py scripts/distritos/<ubigeo>_<distrito>.py --muestra 3` comprueba anclas,
+   temas, extensión y que nombres y organizaciones coincidan con el manifiesto.
+5. Agrégalo a `MODULOS_DISTRITOS` en `scripts/datos_reales.py` y ejecuta `npm run datos`.
    El script exige un plan por cada candidatura de la lista oficial.
 
 ## Funciones
@@ -158,10 +166,9 @@ npm run datos         # regenera public/data desde scripts/
 npm i -g netlify-cli && netlify dev
 ```
 
-## Siguiente paso: planes de gobierno completos
+## Búsqueda semántica (opcional)
 
-`ingest/ingest.py` descarga los PDF oficiales de los planes, los indexa en pgvector y `ingest/precompute.py`
-genera la matriz comparativa. Con eso se pueden añadir los distritos cuando se tengan los planes de todas
-sus candidaturas.
+`ingest/ingest.py` indexa los planes en pgvector e `ingest/precompute.py` genera la matriz comparativa. Sin esa
+base, las preguntas libres usan BM25 sobre `/data/planes`.
 
 Proyecto personal, independiente y sin afiliación política.
